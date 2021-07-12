@@ -17,4 +17,4 @@ DAW Worldは、松本龍太郎による卒業制作作品です。<br />
 * [音楽的同位体 可不(KAFU)](http://kaf-u.kamitsubaki.jp/)
 
 ## 卒業制作過程
-* [graduation-artwork.zotan2021](https://github.com/ryutaro1234/graduation-artwork.zotan2021/wiki)←GitHubWiki
+[graduation-artwork.zotan2021](https://github.com/ryutaro1234/graduation-artwork.zotan2021/wiki)←GitHubWiki
