@@ -14,7 +14,8 @@ DAW Worldは、松本龍太郎による卒業制作作品です。<br />
 皆様の作曲のインプットのお手伝いをします。
 
 ### 製作をする上で、下記のデザインを参考にさせていただきました。
-* [音楽的同位体 可不(KAFU)](http://kaf-u.kamitsubaki.jp/)
+* [音楽的同位体 可不(KAFU)](http://kaf-u.kamitsubaki.jp/)<p style="color:eeeeee;">2021年07月12日</p>
+* [24インチiMac - Apple(日本)](https://www.apple.com/jp/imac-24/)<p style="color:eeeeee;">2021年07月12日</p>
 
 ## 卒業制作過程
-[graduation-artwork.zotan2021](https://github.com/ryutaro1234/graduation-artwork.zotan2021/wiki)←GitHubWiki
+[graduation-artwork.zotan2021](https://github.com/ryutaro1234/graduation-artwork.zotan2021/wiki)<p style="color:eeeeee;">←GitHubWiki</p>
