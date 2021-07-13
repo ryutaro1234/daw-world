@@ -23,48 +23,38 @@
 	z-index: 667;
 }
 
-.basic-c01.show01{
-	animation: basic-01 1s forwards;
-}
-
-.basic-d01.show02{
-	animation: basic-01 1s forwards .5s;
-
-}
-
-.basic-e01.show03{
-	animation: basic-01 1s forwards 1s;
-}
-
-
-.basic-f01.show04{
-	animation: basic-01 1s forwards 1.5s;
-}
-
-.basic-g01.show05{
-	animation: basic-01 1s forwards 2s;
-}
-
-.basic-a01.show06{
-	animation: basic-01 1s forwards 2.5s;
-}
-
-.basic-b01.show07{
-	animation: basic-01 1s forwards 3s;
-}
-
 @keyframes basic-01{
   0%{
     fill: #ffff7f;
   }
-  90% {
+  100% {
     fill: none;
     animation-timing-function: ease-in;
   }
-	100% {
-    fill: none;
-  }
 }
+
+.show01{
+	animation: basic-01 1s forwards;
+}
+.show02{
+	animation: basic-01 1s forwards .5s;
+}
+.show03{
+	animation: basic-01 1s forwards 1s;
+}
+.show04{
+	animation: basic-01 1s forwards 1.5s;
+}
+.show05{
+	animation: basic-01 1s forwards 2s;
+}
+.show06{
+	animation: basic-01 1s forwards 2.5s;
+}
+.show07{
+	animation: basic-01 1s forwards 3s;
+}
+
 
 .contents-table{
 	position: relative;
