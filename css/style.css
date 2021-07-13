@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #333333;
+	text-decoration: none;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1{
+	margin: 2rem;
+	font-size: 30px;
+	letter-spacing: 10px;
+	text-align: left;
+}
+
+.center{
+	text-align: center;
+}
+
+h3{
+	margin-left: 2rem;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+p, blockquote, ul, ol, dl, li, table, pre {
+	margin: 5px 0;
+	font-size: 98%;
+}
+
+p{
+	display: inline-block;
+	text-align: left;
+}
+
+.p-center{
+	margin: 0 auto;
+	max-width: 80%;
+
+}
+
+li {
+	margin-left: 10px;
+	text-align: left;
+}
+
+ul, ol {
+	padding-left: 40px;
+	padding-bottom: 10px;
+	margin-top: 0;
+	text-align: left;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.6rem;
+}
+
+#container {
+	max-width: 1025px;
+	margin: auto;
+}
+
+section{
+	text-align: center;
+}
+
+.main-image{
+	height: 48rem;
+}
+
+.contents-table{
+	width: 70%;
+	margin: auto;
+	padding-top: 10px;
+	background: #dddddd;
+	box-shadow: 4px 4px 3px rgba(0,0,0,.2);
+}
+
+.svg{
+	text-align: center;
+}
+
+footer{
+	background: #333333;
+	padding: .5rem;
+	text-align: center;
+}
+
+footer p{
+	color: #ffffff;
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 1025px) {
+
+}

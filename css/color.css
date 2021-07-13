@@ -1,0 +1,71 @@
+.links-nav{
+
+}
+
+.links-nav :hover{
+
+}
+
+.border-gray{
+  border-bottom: 2px solid #333333;
+}
+
+.svg-size{
+  width: 78%;
+  height: auto;
+  fill: none;
+}
+
+.svg-gray{
+  stroke: #333333;
+  stroke-width: .5px;
+  fill: none;
+}
+
+.fill-gray{
+  fill: #333333;
+}
+
+.color-blue{
+  color: #4c4cff;
+}
+
+.block-blue{
+  background: #4c4cff;
+}
+
+.block-blue p{
+  color: #ffffff;
+  margin: 1rem;
+}
+
+.svg-blue{
+  stroke: #4c4cff;
+}
+
+.fill-blue{
+  fill: #4c4cff;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-delay: .1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+
+@media screen and (min-width: 600px) {
+  .size-svg{
+    width: 28%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .size-svg{
+    width: 58%;
+  }
+}
