@@ -24,9 +24,33 @@
 }
 
 .basic-c01.show01{
-	animation-name: basic-01;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+	animation: basic-01 1s forwards;
+}
+
+.basic-d01.show02{
+	animation: basic-01 1s forwards .5s;
+
+}
+
+.basic-e01.show03{
+	animation: basic-01 1s forwards 1s;
+}
+
+
+.basic-f01.show04{
+	animation: basic-01 1s forwards 1.5s;
+}
+
+.basic-g01.show05{
+	animation: basic-01 1s forwards 2s;
+}
+
+.basic-a01.show06{
+	animation: basic-01 1s forwards 2.5s;
+}
+
+.basic-b01.show07{
+	animation: basic-01 1s forwards 3s;
 }
 
 @keyframes basic-01{
@@ -37,53 +61,10 @@
     fill: none;
     animation-timing-function: ease-in;
   }
+	100% {
+    fill: none;
+  }
 }
-
-.basic-d01.show02{
-	animation-name: basic-01;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-	animation-delay: .5s;
-}
-
-.basic-e01.show03{
-	animation-name: basic-01;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-	animation-delay: 1s;
-}
-
-
-.basic-f01.show04{
-	animation-name: basic-01;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-	animation-delay: 1.5s;
-}
-
-.basic-g01.show05{
-	animation-name: basic-01;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-	animation-delay: 2s;
-}
-
-.basic-a01.show06{
-	animation-name: basic-01;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-	animation-delay: 2.5s;
-}
-
-.basic-b01.show07{
-	animation-name: basic-01;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-	animation-delay: 3s;
-}
-
-
-
 
 .contents-table{
 	position: relative;
