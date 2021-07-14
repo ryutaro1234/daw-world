@@ -1,13 +1,19 @@
 #basic001{
-
+	position: relative;
+	top: -3rem;
+	left: 1rem;
 }
 
 #basic002{
-
+	position: relative;
+	top: -10rem;
+	left: 20rem;
 }
 
 #basic003{
 	text-align: right;
+	position: relative;
+	top: -15rem
 }
 
 #basic004{
@@ -15,12 +21,12 @@
 	padding: .5rem 0 .5rem 0;
 	width: 70%;
 	position: relative;
-	top: -4rem;
+	top: -20rem;
 }
 
 #basic005{
 	position: relative;
-	z-index: 667;
+	top: -10rem;
 }
 
 @keyframes basic-01{
@@ -29,7 +35,7 @@
   }
   100% {
     fill: none;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
   }
 }
 

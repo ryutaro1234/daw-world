@@ -72,12 +72,16 @@ section{
 	height: 48rem;
 }
 
-.contents-table{
+.contents-table01{
 	width: 70%;
 	margin: auto;
 	padding-top: 10px;
 	background: #dddddd;
 	box-shadow: 4px 4px 3px rgba(0,0,0,.2);
+}
+
+.contents-table02{
+	margin: auto;
 }
 
 .svg{
