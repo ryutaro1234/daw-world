@@ -89,14 +89,14 @@
 
 .fill-blue{
   fill: #4c4cff;
-  animation-name: fade-in;
+  animation-name: fade-fill;
   animation-duration: 1s;
   animation-delay: .1;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
 
-@keyframes fade-in {
+@keyframes fade-fill {
   0% {opacity: 0}
   100% {opacity: 1}
 }

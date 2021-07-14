@@ -1,6 +1,6 @@
 $(function(){
     load_effect();
-    $(window).scrosll(function (){
+    $(window).scroll(function (){
         scroll_effect();
     });
 });

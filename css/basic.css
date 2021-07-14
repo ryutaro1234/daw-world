@@ -29,16 +29,6 @@
 	top: -10rem;
 }
 
-@keyframes basic-01{
-  0%{
-    fill: #ffff7f;
-  }
-  100% {
-    fill: none;
-    animation-timing-function: ease-out;
-  }
-}
-
 .show01{
 	animation: basic-01 1s forwards;
 }
@@ -61,6 +51,17 @@
 	animation: basic-01 1s forwards 3s;
 }
 
+@keyframes basic-01 {
+  0%{
+    fill: #ffff7f;
+  }
+	30%{
+		fill: #ffff7f;
+	}
+  100%{
+    fill: none;
+  }
+}
 
 .contents-table{
 	position: relative;
