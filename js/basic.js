@@ -17,4 +17,5 @@ audio.onpause=function(){
   document.getElementById("basic-g01").classList.remove("show05")
   document.getElementById("basic-a01").classList.remove("show06")
   document.getElementById("basic-b01").classList.remove("show07")
+  audio.currentTime = 0;
 };
