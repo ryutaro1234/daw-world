@@ -1,4 +1,4 @@
-$("#basic01").on("playing", function() {
+$("#audio01").on("playing", function() {
   $(".basic-c01").addClass("show01");
   $(".basic-d01").addClass("show02");
   $(".basic-e01").addClass("show03");
@@ -8,7 +8,7 @@ $("#basic01").on("playing", function() {
   $(".basic-b01").addClass("show07");
 });
 
-$("#basic01").on("pause", function() {
+$("#audio01").on("pause", function() {
   $(".basic-c01").removeClass("show01");
   $(".basic-d01").removeClass("show02");
   $(".basic-e01").removeClass("show03");
