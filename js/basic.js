@@ -1,5 +1,5 @@
-var audio = document.getElementById("audio01");
-audio.onplay=function(){
+var audio01 = document.getElementById("audio01");
+audio01.onplay=function(){
   document.getElementById("basic-c01").classList.add("show01")
   document.getElementById("basic-d01").classList.add("show02")
   document.getElementById("basic-e01").classList.add("show03")
@@ -9,7 +9,7 @@ audio.onplay=function(){
   document.getElementById("basic-b01").classList.add("show07")
 };
 
-audio.onpause=function(){
+audio01.onpause=function(){
   document.getElementById("basic-c01").classList.remove("show01")
   document.getElementById("basic-d01").classList.remove("show02")
   document.getElementById("basic-e01").classList.remove("show03")

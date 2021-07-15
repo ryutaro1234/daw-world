@@ -26,6 +26,7 @@ h1{
 }
 
 h3{
+	margin-top: 2rem;
 	margin-left: 2rem;
 	letter-spacing: 2px;
 	text-align: left;
@@ -90,12 +91,16 @@ section{
 	box-shadow: 4px 4px 3px rgba(0,0,0,.2);
 }
 
-.contents-table02{
-	margin: auto;
-}
-
 .svg{
 	text-align: center;
+}
+
+audio{
+	margin: 1rem;
+}
+
+table{
+	
 }
 
 footer{
