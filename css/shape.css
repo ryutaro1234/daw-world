@@ -89,6 +89,10 @@
 
 .fill-blue{
   fill: #4c4cff;
+}
+
+.fill-anim-blue{
+  fill: #4c4cff;
   animation-name: fade-fill;
   animation-duration: 1s;
   animation-delay: .1;

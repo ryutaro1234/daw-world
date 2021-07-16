@@ -41,8 +41,15 @@ p, blockquote, ul, ol, dl, li, table, pre {
 }
 
 p{
-	display: inline-block;
 	text-align: left;
+}
+
+.alfa{
+	letter-spacing: 3px;
+}
+
+.p-small{
+	letter-spacing: none;
 }
 
 li {
@@ -90,6 +97,11 @@ section{
 
 .svg{
 	text-align: center;
+	margin-bottom: 1rem;
+}
+
+table{
+	margin: 1rem;
 }
 
 audio{
@@ -113,14 +125,50 @@ th,td{
 footer{
 	background: #333333;
 	padding: .5rem;
-	text-align: center;
+	font-size: 75%;
+	position: relative;
 }
 
 footer p{
+	text-align: center;
 	color: #ffffff;
 }
 
+.logo{
+  text-align: center;
+  padding: 5px;
+  border-bottom: .5px solid #000000;
+}
+
+.logo b{
+	font-size: 128%;
+	color: #ffffff;
+}
+
+footer ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a{
+  display: block;
+  padding: 0 10px;
+  color: #ffffff;
+}
+
 @media screen and (min-width: 600px) {
+
+	#footer01 .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  #footer01 .nav a:hover {
+    color: #eeeeee;
+  }
+}
 
 }
 
