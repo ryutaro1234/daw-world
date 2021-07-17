@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="DAW World" />
 	<link rel="icon" type="image/x-icon" href="https://ryutaro1234.github.io/daw-world/images/favicon.png" />
-	<title>DAW World</title>
+	<title>DAW World - result</title>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE3HV30P1Z"></script>
@@ -36,9 +36,9 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="https://ryutaro1234.github.io/daw-world/images/logo01.png" />
 
 	<meta property="og:url" content="https://ryutaro1234.github.io/daw-world/index.html" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="DAW World" />
-	<meta property="og:description" content="DAW World" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="DAW World - result" />
+	<meta property="og:description" content="検索結果" />
 	<meta property="og:image" content="https://ryutaro1234.github.io/daw-world/images/logo01.png" />
 
 	<meta name="twitter:card" content="summary" />
@@ -94,7 +94,7 @@
 						dataType : 'html',
 						success　: function(data){
 
-							if( $(data).find("article").text().indexOf(v) !== -1){
+							if( $(data).find("main").text().indexOf(v) !== -1){
 
 								$('<li><a href="' + urlLists[i] + '">' +$(data).find(".h1-style").text() + '</a></li>').appendTo('#result');
 							}
