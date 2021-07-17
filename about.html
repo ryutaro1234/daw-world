@@ -10,14 +10,14 @@
 	<title>DAW World - About</title>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE3HV30P1Z"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE3HV30P1Z"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-  gtag('config', 'G-ZE3HV30P1Z');
-</script>
+	  gtag('config', 'G-ZE3HV30P1Z');
+	</script>
 
 	<link rel="stylesheet" href="css/sanitize.css" />
 	<link rel="stylesheet" href="css/style.css" />
@@ -71,16 +71,32 @@
 		<main>
 
 			<section class="parallax-window main-image" data-parallax="scroll" data-image-src="images/main-image.png">
-
 				<h1 class="load-up h1-style">準備中</h1>
-
-
 			</section>
-			</main>
+		</main>
 
 
-		<footer>
-			<p>&copy; 2021 Ryutaro Matsumoto</p>
+		<footer class="footer outer-block">
+			<div class="logo">
+				<p><b>DAW World</b></p>
+			</div>
+
+			<ul>
+				<li class="nav_menu_li"><a href="index.html">Home</a></li>
+				<li class="nav_menu_li"><a href="composition.html">作曲</a></li>
+				<li class="nav_menu_li"><a href="arrangement.html">編曲</a></li>
+				<li class="nav_menu_li"><a href="about.html">About</a></li>
+			</ul>
+
+			<a href="//twitter.com/share" class="twitter-share-button" data-text="DAW World - 検索" data-url="https://ryutaro1234.github.io/daw-world/search.html" data-lang="Tweet"></a>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+			<form action="https://ryutaro1234.github.io/daw-world/result.html" autocomplete="on" method="get">
+				<input type="text" name="search-key" />
+				<button type="submit"><img src="https://ryutaro1234.github.io/daw-world/images/search.png" /></button>
+			</form>
+
+			<p class="copy">&copy; 2021 Ryutaro Matsumoto</p>
 		</footer>
 	</div>
 </body>
