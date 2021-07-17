@@ -94,7 +94,7 @@
 						dataType : 'html',
 						success　: function(data){
 
-							if( $(data).find("#article").text().indexOf(v) !== -1){
+							if( $(data).find("article").text().indexOf(v) !== -1){
 
 								$('<li><a href="' + urlLists[i] + '">' +$(data).find(".h1-style").text() + '</a></li>').appendTo('#result');
 							}
