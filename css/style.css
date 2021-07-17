@@ -130,31 +130,24 @@ footer{
 }
 
 form{
-  padding: 80px 0;
   width: 80%;
-  margin: 0 auto;
-  text-align: center;
   border-radius: 3px;
+	padding: 1rem;
 }
 
 input{
   border: solid 1px #ccc;
+	background: #ddd;
   border-radius: 3px;
-  padding: 10px;
+  padding: 8px;
 }
 
 button{
   appearance: none;
   border: 0;
-  position: relative;
-  top: -1px;
-  background: #000;
+  background: #111;
   border-radius: 3px;
   padding: 10px;
-}
-
-#search-buttom01{
-  background: #333;
 }
 
 footer p{
@@ -183,6 +176,10 @@ footer a{
   display: block;
   padding: 0 10px;
   color: #ffffff;
+}
+
+.twitter-share-button{
+	margin-left: 1rem;
 }
 
 @media screen and (min-width: 600px) {
