@@ -122,6 +122,56 @@ th,td{
 	margin: .5rem;
 }
 
+.next{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0;
+}
+
+.arrow-next{
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+.arrow-next:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px #333;
+  border-right: solid 2px #333;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -4px;
+  transform: rotate(45deg);
+}
+
+
+.arrow-back {
+  position: relative;
+  display: inline-block;
+  padding-left: 10px;
+  color: #333;
+  text-decoration: none;
+}
+.arrow-back:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px #333;
+  border-left: solid 2px #333;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -4px;
+  transform: rotate(-45deg);
+}
+
+
 footer{
 	background: #333333;
 	padding: .5rem;
@@ -129,36 +179,10 @@ footer{
 	position: relative;
 }
 
-form{
-  width: 80%;
-  border-radius: 3px;
-	padding: 1rem;
-}
-
-input{
-  border: solid 1px #ccc;
-	background: #ddd;
-  border-radius: 3px;
-  padding: 8px;
-}
-
-button{
-  appearance: none;
-  border: 0;
-  background: #111;
-  border-radius: 3px;
-  padding: 10px;
-}
-
-footer p{
-	text-align: center;
-	color: #ffffff;
-}
-
 .logo{
   text-align: center;
   padding: 5px;
-  border-bottom: .5px solid #000000;
+  border-bottom: .5px solid #000;
 }
 
 .logo b{
@@ -180,6 +204,36 @@ footer a{
 
 .twitter-share-button{
 	margin-left: 1rem;
+}
+
+form{
+  width: 80%;
+	padding: 1rem;
+}
+
+input{
+  border: solid 1px #ccc;
+	background: #ddd;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+button{
+  appearance: none;
+  border: 0;
+  background: #111;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.copy{
+	border-top: 1px solid #000;
+}
+
+footer p{
+	padding-top: 1rem;
+	text-align: center;
+	color: #ffffff;
 }
 
 @media screen and (min-width: 600px) {

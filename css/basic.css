@@ -50,16 +50,24 @@
 .show07{
 	animation: basic-01 1s forwards 3s;
 }
+.show08{
+	animation: basic-01 1s forwards 3.5s;
+}
 
 @keyframes basic-01 {
   0%{
     fill: #ffff7f;
+		background: #ffff7f;
+		animation-timing-function: ease-in;
   }
-	30%{
+	50%{
 		fill: #ffff7f;
+		background: #ffff7f;
+		animation-timing-function: ease-out;
 	}
   100%{
-    fill: none;
+		fill: #fff;
+		background: #fff;
   }
 }
 
