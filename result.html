@@ -70,7 +70,8 @@
 
 	<div id="container">
 
-		<main>
+		<main id="pagetop">
+
 			<section class="result_contents">
 				<h2 class="result_title">検索結果</h2>
 				<ul id="result">
@@ -86,7 +87,7 @@
 					"https://ryutaro1234.github.io/daw-world/arrangement.html",
 					"https://ryutaro1234.github.io/daw-world/composition.html",
 					"https://ryutaro1234.github.io/daw-world/contents/basic/notes-name.html",
-					"https://ryutaro1234.github.io/daw-world/index.html",
+					"https://ryutaro1234.github.io/daw-world/contents/basic/maj-scale.html",
 				];
 
 				$.each(urlLists, function(i){
@@ -97,7 +98,7 @@
 
 							if( $(data).find("main").text().indexOf(v) !== -1){
 
-								$('<li><a href="' + urlLists[i] + '">' +$(data).find(".h1-style").text() + '</a></li>').appendTo('#result');
+								$('<li><a href="' + urlLists[i] + '">' +$(data).find(".search-style").text() + '</a></li>').appendTo('#result');
 							}
 						},
 
@@ -112,11 +113,33 @@
 
 	<footer class="footer outer-block">
 		<div class="logo">
-			<p><b>DAW World</b></p>
+			<p><b><a href="https://ryutaro1234.github.io/daw-world/">DAW World</a></b></p>
 		</div>
 
+		<ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<a itemprop="item" href="https://ryutaro1234.github.io/daw-world/">
+						<span itemprop="name">Home</span>
+				</a>
+				<meta itemprop="position" content="1" />
+			</li>
+
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<a itemprop="item" href="https://ryutaro1234.github.io/daw-world/search.html">
+						<span itemprop="name">Search</span>
+				</a>
+				<meta itemprop="position" content="2" />
+			</li>
+
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<a itemprop="item" href="https://ryutaro1234.github.io/daw-world/result.html">
+						<span itemprop="name">Result</span>
+				</a>
+				<meta itemprop="position" content="3" />
+			</li>
+		</ol>
+
 		<ul>
-			<li class="nav_menu_li"><a href="https://ryutaro1234.github.io/daw-world/index.html">Home</a></li>
 			<li class="nav_menu_li"><a href="https://ryutaro1234.github.io/daw-world/composition.html">作曲</a></li>
 			<li class="nav_menu_li"><a href="https://ryutaro1234.github.io/daw-world/arrangement.html">編曲</a></li>
 			<li class="nav_menu_li"><a href="https://ryutaro1234.github.io/daw-world/about.html">About</a></li>

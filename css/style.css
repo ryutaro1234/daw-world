@@ -188,13 +188,40 @@ footer{
 
 .logo{
   text-align: center;
-  padding: 5px;
-  border-bottom: .5px solid #000;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
 }
 
 .logo b{
 	font-size: 128%;
-	color: #ffffff;
+	color: #fff;
+}
+
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+	border-bottom: 1px solid #000;
+}
+
+.breadcrumb li {
+  display: inline-flex;
+  list-style: none;
+}
+
+.breadcrumb li:after {
+  content: '>';
+  color: #fff;
+	margin: 0 -5px;
+}
+
+.breadcrumb li:last-child:after {
+  content: '';
+}
+
+.breadcrumb li a span{
+  text-decoration: none;
+  color: #fff;
 }
 
 footer ul{
@@ -206,7 +233,7 @@ footer ul{
 footer a{
   display: block;
   padding: 0 10px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .twitter-share-button{
@@ -231,6 +258,8 @@ button{
   background: #111;
   border-radius: 3px;
   padding: 10px;
+	position: relative;
+	top: -1px;
 }
 
 .copy{
