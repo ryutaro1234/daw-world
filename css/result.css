@@ -1,14 +1,7 @@
-#result{
-  padding: 0 20px;
-}
-
 #result li{
-  list-style-type: none;
   padding-top: 10px;
-  border-bottom: 1px solid #333;
 }
 
 #result a{
-  font-size: 128%;
   font-weight: bold;
 }
