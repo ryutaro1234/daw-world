@@ -14,11 +14,18 @@ body {
 	overflow: hidden;
 }
 
+.h1-style{
+	display: none;
+}
+
 h1{
 	margin: 2rem;
-	font-size: 30px;
 	letter-spacing: 10px;
-	text-align: left;
+	text-align: center;
+}
+
+#pagetop{
+	margin-top: 6rem;
 }
 
 h3{
