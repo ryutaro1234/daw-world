@@ -12,6 +12,8 @@ html{
 
 body {
 	overflow: hidden;
+	font-family: sans-serif;
+	line-height: 1.6rem;
 }
 
 .search-style{
@@ -24,8 +26,8 @@ h1{
 	text-align: center;
 }
 
-#pagetop{
-	margin-top: 6rem;
+header{
+	padding: 4rem;
 }
 
 h3{
@@ -69,11 +71,6 @@ ul, ol {
 	padding-bottom: 10px;
 	margin-top: 0;
 	text-align: left;
-}
-
-body {
-	font-family: sans-serif;
-	line-height: 1.6rem;
 }
 
 #container {
