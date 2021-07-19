@@ -154,6 +154,66 @@
   border-bottom: 2px solid #333333;
 }
 
+.square01-orange{
+  width: 100px;
+  height: 100px;
+  border: .25px solid #ffbc7a;
+}
+.square02-orange{
+  width: 100px;
+  height: 100px;
+  border: .25px solid #ffbc7a;
+  position: relative;
+  top: -40px;
+  left: 60px;
+}
+
+.circle01-orange{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: .25px solid #ffbc7a;
+  position: relative;
+  left: 60px;
+  top: 40px
+}
+.circle02-orange{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: .25px solid #ffbc7a;
+}
+
+.square01-l-green{
+  width: 100px;
+  height: 100px;
+  border: .25px solid #bcff7a;
+}
+.square02-l-green{
+  width: 100px;
+  height: 100px;
+  border: .25px solid #bcff7a;
+  position: relative;
+  top: -40px;
+  left: 60px;
+}
+
+.circle01-l-green{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: .25px solid #bcff7a;
+  position: relative;
+  left: 60px;
+  top: 40px
+}
+.circle02-l-green{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: .25px solid #bcff7a;
+}
+
 .svg-size{
   width: 78%;
   height: auto;
