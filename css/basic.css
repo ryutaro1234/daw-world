@@ -1,36 +1,51 @@
+.square-line{
+  width: 100px;
+  height: 100px;
+	border-radius: 10px;
+  background: #4c4cff;
+}
+.square-back{
+  width: 100px;
+  height: 100px;
+	border-radius: 10px;
+  border: .25px solid #4c4cff;
+}
+
+.circlec-line{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: .25px solid #4c4cff;
+}
+.circle-back{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: #4c4cff;
+}
+
 #basic001{
-	position: relative;
-	top: -3rem;
-	left: 1rem;
+	text-align: right;
 }
 
 #basic002{
-	position: relative;
-	top: -10rem;
-	left: 15rem;
-}
-
-#basic003{
-	text-align: right;
-	position: relative;
-	top: -15rem
-}
-
-#basic004{
 	margin-left: 1rem;
 	padding: .5rem 0 .5rem 0;
 	width: 70%;
+	border-radius: 10px;
+	box-shadow: 4px 4px 3px rgba(0,0,0,.2);
+	animation: fade 2s forwards;
 	position: relative;
-	top: -20rem;
+	top: -50px;
+}
+
+@keyframes fade {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
 }
 
 #basic04 p{
 	color: #fff;
-}
-
-#basic005{
-	position: relative;
-	top: -10rem;
 }
 
 .show01{

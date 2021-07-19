@@ -27,11 +27,15 @@ h1{
 }
 
 header{
-	padding: 4rem;
+	padding: 1.8rem;
+}
+
+.tytle{
+	padding: 20px 0;
 }
 
 h3{
-	margin-top: 3rem;
+	margin-top: 1rem;
 	margin-bottom: .5rem;
 	margin-left: 2rem;
 	letter-spacing: 2px;
@@ -78,6 +82,10 @@ ul, ol {
 	margin: auto;
 }
 
+article{
+	margin: 0 auto;
+}
+
 section{
 	text-align: center;
 }
@@ -91,6 +99,19 @@ section{
 	margin: auto;
 	padding-top: 10px;
 	background: rgba( 255, 255, 255, 0.35 );
+	box-shadow: 0 8px 32px 0 rgba( 30, 40, 135, .4 );
+	backdrop-filter: blur( 5px );
+	-webkit-backdrop-filter: blur( 5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.2 );
+	box-shadow: 4px 4px 3px rgba(0,0,0,.2);
+}
+
+.glass{
+	width: 90%;
+	margin: 3rem auto;
+	padding-bottom: 1rem;
+  background: rgba( 255, 255, 255, 0.35 );
 	box-shadow: 0 8px 32px 0 rgba( 30, 40, 135, .4 );
 	backdrop-filter: blur( 5px );
 	-webkit-backdrop-filter: blur( 5px );
