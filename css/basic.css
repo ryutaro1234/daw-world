@@ -1,17 +1,3 @@
-.square-blue{
-  width: 100px;
-  height: 100px;
-	border-radius: 10px;
-  background: #4c4cff;
-}
-
-.circlec-blue{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  border: .25px solid #4c4cff;
-}
-
 .color-blue{
   color: #4c4cff;
 }
@@ -19,10 +5,14 @@
   color: #4c4cff;
 }
 
-.block-blue{
+.border-blue{
+  border: 1px solid #4c4cff;
+}
+
+.back-blue{
   background: #4c4cff;
 }
-.block-blue p{
+.back-blue p{
   color: #ffffff;
   margin: 1rem;
 }
@@ -58,17 +48,8 @@
 	width: 70%;
 	border-radius: 10px;
 	box-shadow: 4px 4px 3px rgba(0,0,0,.2);
-	animation: fade 2s forwards;
 	position: relative;
 	top: -50px;
-}
-@keyframes fade {
-	0%{opacity: 0;}
-	100%{opacity: 1;}
-}
-
-#basic04 p{
-	color: #fff;
 }
 
 .show01{
@@ -111,6 +92,66 @@
 		fill: #fff;
 		background: #fff;
   }
+}
+
+#shape01{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+  left: 10%;
+  top: 30px;
+  z-index: 3;
+}
+
+#shape02{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  right: -20%;
+  top: 300px;
+  z-index: -1;
+}
+
+#shape03{
+  width: 130px;
+  height: 130px;
+  border-radius: 13px;
+  position: absolute;
+  top: 15px;
+  left: 20%;
+  z-index: -3;
+}
+
+#shape04{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+  left: 5%;
+  z-index: -1;
+}
+
+#shape05{
+  width: 90px;
+  height: 90px;
+  border-radius: 9px;
+  position: absolute;
+  top: -10px;
+  right: -10%;
+  z-index: -1;
+}
+
+#shape06{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  top: 100px;
+  right: 30%;
+  z-index: 3;
 }
 
 @media screen and (min-width: 600px) {

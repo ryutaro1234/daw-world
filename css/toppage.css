@@ -107,9 +107,9 @@ p{
 .square-lgreen{
   width: 100px;
   height: 100px;
-  border-radius: 10px;
-  border: 1px solid #bcff7a;
   transform: rotate(45deg);
+  border-radius: 10px;
+  background: #bcff7a;
 }
 
 #shape01{
@@ -137,5 +137,5 @@ p{
   position: absolute;
   right: 10px;
   bottom: -20px;
-  z-index: 1;
+  z-index: -1;
 }

@@ -20,6 +20,11 @@ body {
 	display: none;
 }
 
+h1, h2, h3, h4, h5, h6, p, b, li, a, table, th, td, audio{
+	position: relative;
+	z-index: 1;
+}
+
 h1{
 	margin: 2rem;
 	letter-spacing: 10px;
@@ -119,11 +124,12 @@ article{
 
 section{
 	text-align: center;
-	position: relative;
 }
 
 .shapes{
 	height: 0;
+	width: 80%;
+	position: relative;
 }
 
 .main-image{
@@ -131,6 +137,11 @@ section{
 }
 
 .contents-table01{
+	position: relative;
+	z-index: -3;
+}
+
+.contents-table02{
 	width: 70%;
 	margin: auto;
 	padding-top: 10px;
