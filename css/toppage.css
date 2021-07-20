@@ -2,23 +2,20 @@ article{
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 500px;
+  height: 500px;
 }
-
-
 
 h1{
   letter-spacing: 0;
 }
 
-.hello01{
+.hello01 h1{
   text-align: center;
   opacity:0;
   margin: 2rem 0;
   animation: hello 1s forwards;
   font-size: 24px;
 }
-
 @keyframes hello {
   0%{
     opacity:0;
@@ -28,6 +25,22 @@ h1{
     opacity:1;
     transform: translateY(0%);
   }
+}
+
+.hello01 h1 p b{
+  position: relative;
+  z-index: 996;
+}
+
+#main-image{
+  width: 200%;
+  height: auto;
+  z-index: -1;
+  animation: main 2s forwards;
+}
+@keyframes main {
+  0%{opacity: 0;}
+  100%{opacity: .9;}
 }
 
 .details{
@@ -59,6 +72,17 @@ p{
   text-align: center;
 }
 
+#piano01{
+  width: 200%;
+  height: auto;
+  margin-top: 2rem;
+  stroke: #4c4cff;
+}
+
+#piano01 .piano-fill{
+  fill: #4c4cff;
+}
+
 .square-blue{
   width: 100px;
   height: 100px;
@@ -67,9 +91,9 @@ p{
 }
 
 .square-back-blue{
-  width: 40px;
-  height: 40px;
-	border-radius: 4px;
+  width: 80px;
+  height: 80px;
+	border-radius: 8px;
   background: #4c4cff;
 }
 
@@ -80,23 +104,38 @@ p{
   border: .5px solid #ffbc7a;
 }
 
+.square-lgreen{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid #bcff7a;
+  transform: rotate(45deg);
+}
+
 #shape01{
   position: absolute;
-  left: -50px;
+  right: 30%;
+  top: 70px;
   z-index: -1;
 }
 
 #shape02{
   position: absolute;
-  right: 50%;
-  bottom: 10px;
+  left: -50px;
+  top: 50px;
   z-index: -1;
 }
 
 #shape03{
-
+  position: absolute;
+  right: 50%;
+  bottom: -40px;
+  z-index: 1;
 }
 
 #shape04{
-  
+  position: absolute;
+  right: 10px;
+  bottom: -20px;
+  z-index: 1;
 }
