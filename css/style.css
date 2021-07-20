@@ -65,10 +65,6 @@ header{
 	padding: 1.8rem;
 }
 
-.title{
-	padding: 20px 0;
-}
-
 h3{
 	margin-top: 1rem;
 	margin-bottom: .5rem;
@@ -119,7 +115,6 @@ ul, ol {
 
 article{
 	margin: 0 auto;
-	overflow: hidden;
 }
 
 section{
@@ -157,6 +152,7 @@ section{
 
 .glass{
 	width: 90%;
+	overflow: hidden;
 	margin: 3rem auto;
 	padding-bottom: 1rem;
   background: rgba( 255, 255, 255, 0.35 );
