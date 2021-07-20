@@ -38,98 +38,38 @@
   50% {transform: translateX(-20px);}
 }
 
-.square01-gray{
+.square-gray{
   width: 100px;
   height: 100px;
   border: .25px solid #333333;
 }
-.square02-gray{
-  width: 100px;
-  height: 100px;
-  border: .25px solid #333333;
-  position: relative;
-  top: -40px;
-  left: 60px;
-}
 
-.circle01-gtay{
+.circle-gtay{
   width: 100px;
   height: 100px;
   border-radius: 50px;
-  border: .25px solid #333333;
-  position: relative;
-  left: 60px;
-  top: 40px
+  border: .5px solid #333333;
 }
-.circle02-gtay{
+
+.square-blue{
+  width: 100px;
+  height: 100px;
+	border-radius: 10px;
+  border: .5px solid #4c4cff;
+}
+
+.circle-orange{
   width: 100px;
   height: 100px;
   border-radius: 50px;
-  border: .25px solid #333333;
-}
-
-.border-gray{
-  border-bottom: 2px solid #333333;
-}
-
-.square01-orange{
-  width: 100px;
-  height: 100px;
-  border: .25px solid #ffbc7a;
-}
-.square02-orange{
-  width: 100px;
-  height: 100px;
-  border: .25px solid #ffbc7a;
-  position: relative;
-  top: -40px;
-  left: 60px;
-}
-
-.circle01-orange{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  border: .25px solid #ffbc7a;
-  position: relative;
-  left: 60px;
-  top: 40px
-}
-.circle02-orange{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  border: .25px solid #ffbc7a;
+  border: .5px solid #ffbc7a;
 }
 
 .square01-l-green{
   width: 100px;
   height: 100px;
-  border: .25px solid #bcff7a;
-}
-.square02-l-green{
-  width: 100px;
-  height: 100px;
-  border: .25px solid #bcff7a;
-  position: relative;
-  top: -40px;
-  left: 60px;
-}
-
-.circle01-l-green{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  border: .25px solid #bcff7a;
-  position: relative;
-  left: 60px;
-  top: 40px
-}
-.circle02-l-green{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  border: .25px solid #bcff7a;
+  border: .5px solid #bcff7a;
+  transform: rotate(45deg);
 }
 
 .svg-size{
@@ -146,41 +86,6 @@
 
 .fill-gray{
   fill: #333333;
-}
-
-.color-blue{
-  color: #4c4cff;
-}
-
-.block-blue{
-  background: #4c4cff;
-}
-
-.block-blue p{
-  color: #ffffff;
-  margin: 1rem;
-}
-
-.svg-blue{
-  stroke: #4c4cff;
-}
-
-.fill-blue{
-  fill: #4c4cff;
-}
-
-.fill-anim-blue{
-  fill: #4c4cff;
-  animation-name: fade-fill;
-  animation-duration: 1s;
-  animation-delay: .1;
-  animation-timing-function: ease-in;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fade-fill {
-  0% {opacity: 0}
-  100% {opacity: 1}
 }
 
 

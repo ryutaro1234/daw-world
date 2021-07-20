@@ -88,6 +88,11 @@ article{
 
 section{
 	text-align: center;
+	position: relative;
+}
+
+.shapes{
+	height: 0;
 }
 
 .main-image{
