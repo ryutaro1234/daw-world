@@ -67,14 +67,10 @@ p{
   height: auto;
   margin-top: 2rem;
   stroke: #d7c447;
-  position: absolute;
-  bottom: 10%;
-  right: -15%;
+  position: relative;
+  right: 90%;
 }
 #trumpet01 g{
-  width: 200%;
-  height: auto;
-  margin-top: 2rem;
   fill: #d7c447;
 }
 
