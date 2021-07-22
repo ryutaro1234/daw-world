@@ -92,6 +92,14 @@ p{
 	letter-spacing: 3px;
 }
 
+.alfa-h3{
+	 letter-spacing: 4px;
+}
+
+.letter-small{
+	letter-spacing: -1px;
+}
+
 .p-small{
 	letter-spacing: none;
 }
