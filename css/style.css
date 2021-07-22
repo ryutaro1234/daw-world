@@ -98,6 +98,7 @@ p{
 
 .letter-small{
 	letter-spacing: -1px;
+	padding-right: 3px;
 }
 
 .p-small{
