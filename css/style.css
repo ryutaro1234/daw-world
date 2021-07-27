@@ -382,7 +382,15 @@ footer p{
 	}
 
 	.pc-width-svg{
-		max-width: 80%;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	table{
+		margin: 0 auto;
+	}
+
+	audio{
 		margin: 0 auto;
 	}
 
@@ -411,9 +419,10 @@ footer p{
 		font-size: 95%;
 		letter-spacing: 4px;
 	}
-
+ 
 	p{
 		padding-left: 5%;
+		left: 10%;
 	}
 
 	.contents-table02{
@@ -424,6 +433,14 @@ footer p{
 	.pc-width-svg{
 		width: 50%;
 		margin-left: 45%;
+	}
+
+	table{
+		margin: 1rem auto;
+	}
+
+	audio{
+		margin: 1rem auto;
 	}
 
 	#container{
