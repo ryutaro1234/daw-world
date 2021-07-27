@@ -385,18 +385,41 @@ footer p{
 }
 
 @media screen and (min-width: 1025px) {
-
+	
 	h1{
-		margin: 2rem;
-		font-size: 32px;
-		letter-spacing: 12px;
-		text-align: center;
+		font-size: 38px;
+		letter-spacing: 10px;
+		text-align: left;
+		padding-left: 20%;
+	}
+
+	h3{
+		font-size: 24px;
+		letter-spacing: 5px;
+		padding-left: 10%;
+	}
+	.alfa-h3{
+		letter-spacing: 5px;
 	}
 
 	p, blockquote, ul, ol, dl, li, table, pre {
 		margin: 5px 0;
 		font-size: 95%;
 		letter-spacing: 4px;
+	}
+
+	p{
+		padding-left: 5%;
+	}
+
+	.contents-table02{
+		max-width: 960px;
+		top: -100px;
+	}
+
+	.pc-width-svg{
+		width: 50%;
+		margin-left: 45%;
 	}
 
 	#container{
