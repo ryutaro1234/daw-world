@@ -160,24 +160,32 @@
 
 @media screen and (min-width: 1025px) {
 
+  .p-center-pc{
+    position: relative;
+  }
+
   .type01{
    position: absolute;
-   top: 15%;
+   left: -60%;
+   top: 10%;
  }
 
  .type02{
    position: absolute;
+   left: -60%;
    top: 35%;
  }
 
  .type03{
    position: absolute;
-   top: 15%;
+   left: -60%;
+   top: 10%;
  }
 
  .type04{
    width: 35%;
    position: absolute;
+   left: -60%;
    top: 35%;
  }
 

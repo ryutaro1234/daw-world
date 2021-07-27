@@ -424,11 +424,6 @@ footer p{
 		letter-spacing: 4px;
 	}
 
-	p{
-		padding-left: 5%;
-		left: 10%;
-	}
-
 	.contents-table02{
 		max-width: 960px;
 		top: -100px;
@@ -437,6 +432,7 @@ footer p{
 	.pc-width-svg{
 		width: 50%;
 		margin-left: 45%;
+		position: relative;
 	}
 
 	table{
