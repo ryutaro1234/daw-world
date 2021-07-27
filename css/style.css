@@ -387,11 +387,11 @@ footer p{
 	}
 
 	table{
-		margin: 0 auto;
+		margin: 1rem auto;
 	}
 
 	audio{
-		margin: 0 auto;
+		margin: 1rem auto;
 	}
 
 }
@@ -419,7 +419,7 @@ footer p{
 		font-size: 95%;
 		letter-spacing: 4px;
 	}
- 
+
 	p{
 		padding-left: 5%;
 		left: 10%;
