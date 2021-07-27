@@ -361,11 +361,6 @@ footer p{
 
 @media screen and (min-width: 600px) {
 
-	.pc-width-svg{
-		max-width: 80%;
-		margin: 0 auto;
-	}
-
 	h1{
 		margin: 2rem;
 		font-size: 24px;
@@ -384,6 +379,11 @@ footer p{
 		margin: 5px 0;
 		font-size: 93%;
 		letter-spacing: 3px;
+	}
+
+	.pc-width-svg{
+		max-width: 80%;
+		margin: 0 auto;
 	}
 
 }
