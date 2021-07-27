@@ -220,6 +220,7 @@ th,td{
 	display: flex;
 	justify-content: space-around;
 	padding: 20px 0;
+	margin: 0 auto;
 	max-width: 600px;
 }
 
@@ -265,7 +266,6 @@ th,td{
   margin-top: -4px;
   transform: rotate(-45deg);
 }
-
 
 footer{
 	background: #333333;
@@ -398,6 +398,10 @@ footer p{
 
 @media screen and (min-width: 1025px) {
 
+	#container{
+		max-width: 1920px;
+	}
+
 	h1{
 		font-size: 38px;
 		letter-spacing: 10px;
@@ -441,9 +445,5 @@ footer p{
 
 	audio{
 		margin: 1rem auto;
-	}
-
-	#container{
-		max-width: 1920px
 	}
 }
