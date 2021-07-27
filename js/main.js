@@ -1,40 +1,12 @@
 $(function(){
-    load_effect();
-    $(window).scroll(function (){
-        scroll_effect();
-    });
-});
-
-function load_effect(){
-    var tt = $(window).scrollTop();
-    var hh = $(window).height();
-    $('.load-fade').each(function(){
-        var yy = $(this).offset().top;
-        if (tt > yy - hh){
-            $(this).addClass('done');
-        }
-    });
-    $('.load-up').each(function(){
-        var yy = $(this).offset().top;
-        if (tt > yy - hh){
-            $(this).addClass('done');
-        }
-    });
-}
-
-function scroll_effect(){
-    var tt = $(window).scrollTop();
-    var hh = $(window).height();
-    $('.scroll-fade').each(function(){
-        var yy = $(this).offset().top+100;
-        if (tt > yy - hh){
-            $(this).addClass('done');
-        }
-    });
+  $(window).on('load scroll',function (){
     $('.scroll-up').each(function(){
-        var yy = $(this).offset().top+100;
-        if (tt > yy - hh){
-            $(this).addClass('done');
-        }
+      var target = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var height = $(window).height();
+      if (scroll > target - height){
+        $(this).addClass('active');
+      }
     });
-}
+  });
+});
