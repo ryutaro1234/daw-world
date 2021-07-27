@@ -62,7 +62,7 @@ h1{
 }
 
 header{
-	padding: 1.8rem;
+	height: 3.5rem;
 }
 
 h3{
@@ -220,6 +220,7 @@ th,td{
 	display: flex;
 	justify-content: space-around;
 	padding: 20px 0;
+	max-width: 600px;
 }
 
 .arrow-next{
@@ -270,7 +271,6 @@ footer{
 	background: #333333;
 	padding: .5rem;
 	font-size: 75%;
-	position: relative;
 }
 
 .logo{
@@ -359,25 +359,48 @@ footer p{
 	color: #ffffff;
 }
 
+
 @media screen and (min-width: 600px) {
 
-	#footer01 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
-  }
-  #footer01 .nav a:hover {
-    color: #eeeeee;
-  }
-}
+	h1{
+		margin: 2rem;
+		font-size: 24px;
+		letter-spacing: 8px;
+		text-align: center;
+	}
+
+	h3{
+		margin: 2rem 0 1rem;
+		font-size: 23px;
+		letter-spacing: 3px;
+		text-align: left;
+	}
+
+	p, blockquote, ul, ol, dl, li, table, pre {
+		margin: 5px 0;
+		font-size: 93%;
+		letter-spacing: 3px;
+	}
 
 }
 
 @media screen and (min-width: 1025px) {
 
+	h1{
+		margin: 2rem;
+		font-size: 32px;
+		letter-spacing: 12px;
+		text-align: center;
+	}
+
+	p, blockquote, ul, ol, dl, li, table, pre {
+		margin: 5px 0;
+		font-size: 95%;
+		letter-spacing: 4px;
+	}
+
 	#container{
-		max-width: 1080px
+		max-width: 1920px
 	}
 
 }
