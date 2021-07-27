@@ -102,21 +102,6 @@ p{
 	letter-spacing: none;
 }
 
-.types{
-	mix-blend-mode: multiply;
-	position: absolute;
-	z-index: 996;
-}
-.types h1{
-	position: relative;
-	top: 350px;
-  right: -190px;
-  color: #4c4cff;
-	transform:rotate(90deg);
-	opacity: .6;
-	font-size: 70px;
-}
-
 li {
 	margin-left: 10px;
 	text-align: left;
