@@ -346,23 +346,43 @@ footer p{
 
 @media screen and (min-width: 600px) {
 
-	#footer01 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
+	.pc-width-svg{
+    max-width: 80%;
+		margin: 0 auto;
   }
-  #footer01 .nav a:hover {
-    color: #eeeeee;
-  }
-}
 
 }
 
 @media screen and (min-width: 1025px) {
 
-	#container{
-		max-width: 1080px
+	h1{
+		font-size: 38px;
+		letter-spacing: 10px;
+		text-align: left;
+		padding-left: 20%;
+	}
+
+	h3{
+		font-size: 24px;
+		letter-spacing: 5px;
+		padding-left: 10%;
+	}
+	.alfa-h3{
+		letter-spacing: 5px;
+	}
+
+	p{
+		padding-left: 5%;
+	}
+
+	.contents-table02{
+		max-width: 960px;
+		top: -100px;
+	}
+
+	.pc-width-svg{
+		width: 50%;
+		margin-left: 45%;
 	}
 
 }

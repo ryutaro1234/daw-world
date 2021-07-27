@@ -160,4 +160,24 @@
 
 @media screen and (min-width: 1025px) {
 
+  .type01{
+    position: absolute;
+    top: 15%;
+  }
+
+  .type02{
+    position: absolute;
+    top: 35%;
+  }
+
+  .type03{
+    position: absolute;
+    top: 15%;
+  }
+
+  .type04{
+    position: absolute;
+    top: 35%;
+  }
+
 }
