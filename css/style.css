@@ -20,17 +20,6 @@ body {
 	display: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, b, li, a, table, th, td, audio{
-	position: relative;
-	z-index: 1;
-}
-
-h1{
-	margin: 2rem;
-	letter-spacing: 10px;
-	text-align: center;
-}
-
 .load-up{
 	animation: load-up 1s forwards;
 }
@@ -67,11 +56,18 @@ h1{
 	transform: translateX(100px);
 	}
 
+.scroll-right-down{
+	opacity : 0;
+	visibility: hidden;
+	transition: 1s;
+	animation-timing-function: ease-out;
+	transform: translateX(100px) translateY(100px);
+}
+
 .active{
 	opacity: 1;
 	visibility: visible;
-	transform: translateY(0);
-	transform: translateX(0);
+	transform: translateY(0) translateX(0);
 }
 
 header{
@@ -84,7 +80,7 @@ header{
 	right: 0;
 	width: 3.5rem;
 	height: 3.5rem;
-	background: #333333;
+	background: #333;
 	mix-blend-mode: multiply;
 	border-bottom-left-radius: 1.2rem;
 	z-index: 999;
@@ -105,7 +101,7 @@ header{
 	display: block;
 	width: 100%;
 	height: 2px;
-	background-color: #ffffff;
+	background-color: #fff;
 	position: absolute;
 	transition: transform .5s, opacity .5s;
 }
@@ -140,7 +136,7 @@ nav {
 	opacity: 0;
 	visibility: hidden;
 	transition: opacity .5s, visibility .5s;
-	background: #333333;
+	background: #333;
 	z-index: 998;
 }
 
@@ -157,14 +153,33 @@ nav ul li{
 	margin-top: 2px;
 	display: flex;
 	flex-direction: column;
-	border-bottom: .5px solid #ffffff;
+	border-bottom: .5px solid #ddd;
 }
 
 nav ul li a{
 	font-weight: bold;
 	font-size: 110%;
 	letter-spacing:3px;
-	color: #ffffff;
+	color: #fff;
+}
+
+article{
+	margin: 0 1rem;
+}
+
+section{
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, b, li, a, table, th, td, audio{
+	position: relative;
+	z-index: 1;
+}
+
+h1{
+	margin: 2rem;
+	letter-spacing: 10px;
+	text-align: center;
 }
 
 h3{
@@ -224,14 +239,6 @@ ul, ol {
 	margin: auto;
 }
 
-article{
-	margin: 0 auto;
-}
-
-section{
-	text-align: center;
-}
-
 .shapes{
 	height: 0;
 	width: 80%;
@@ -263,7 +270,7 @@ section{
 .glass{
 	width: 90%;
 	overflow: hidden;
-	margin: 3rem auto;
+	margin: 2rem auto;
 	padding-bottom: 1rem;
 	background: rgba( 255, 255, 255, 0.35 );
 	box-shadow: 4px 4px 18px rgba(0,0,0,.2);
@@ -482,6 +489,14 @@ footer p{
 
 	audio{
 		margin: 1rem auto;
+	}
+
+	.mobile-shapes{
+		display: none;
+	}
+	.pc-shapes{
+		display: flex;
+		flex-direction: column;
 	}
 
 }

@@ -12,20 +12,8 @@ h1{
 .hello01 h1{
 	text-align: center;
 	font-size: 24px;
-	opacity:0;
 	margin: 2rem 0;
 	padding: 0;
-	animation: hello 1s forwards;
-}
-@keyframes hello {
-	0%{
-		opacity:0;
-		transform: translateY(50px);
-	}
-	100%{
-		opacity:1;
-		transform: translateY(0%);
-	}
 }
 
 .hello01 h1 p b{
@@ -34,20 +22,9 @@ h1{
 }
 
 #main-image{
-	width: 200%;
+	width: 150%;
 	height: auto;
 	z-index: -1;
-	animation: main 2s ease-out forwards;
-}
-@keyframes main {
-	0%{
-		opacity: 0;
-		transform: translateX(250px);
-	}
-	100%{
-		opacity: 1;
-		transform: translateX(0px);
-	}
 }
 
 h2{
@@ -64,7 +41,6 @@ p{
 	margin-top: 2rem;
 	stroke: #4c4cff;
 }
-
 #piano01 g{
 	fill: #4c4cff;
 }
@@ -79,6 +55,36 @@ p{
 }
 #trumpet01 g{
 	fill: #d7c447;
+}
+
+.glay-ribbon{
+	border-left: 80px solid #333;
+	border-bottom: 80px solid transparent;
+	opacity: .9;
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.blue-ribbon{
+	border-left: 80px solid #4c4cff;
+	border-bottom: 80px solid transparent;
+	opacity: .9;
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.gold-ribbon{
+	border-left: 80px solid #d7c447;
+	border-bottom: 80px solid transparent;
+	opacity: .9;
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .square-back-blue{
@@ -170,4 +176,59 @@ p{
 	border-radius: 10px;
 	bottom: 200px;
 	opacity: .7;
+}
+
+.pc-shapes{
+	display: none;
+}
+
+@media screen and (min-width: 600px) {
+
+	.pc-top01{
+		height: 700px;
+	}
+
+	#main-image{
+			width: 200%;
+			height: auto;
+	}
+
+	.pc-top02{
+		width: 90%;
+		margin: 3rem auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	.pc-top02 article{
+		margin: 0;
+		width: 45%;
+		height: 400px;
+	}
+
+}
+@media screen and (min-width: 1025px) {
+
+	h1{
+		font-size: 32px;
+		letter-spacing: 2px;
+		margin-bottom: 1rem;
+	}
+
+	h2{
+		font-size: 26px;
+		letter-spacing: 3px;
+	}
+
+	p{
+		margin: -8px 0 8px ;
+	}
+
+	#main-image{
+		width: 120%;
+		height: auto;
+	}
+
+	.pc-top02 article{
+		height: 600px;
+	}
 }
