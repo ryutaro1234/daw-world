@@ -1,43 +1,43 @@
 article{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  min-height: 500px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 500px;
 }
 
 h1{
-  letter-spacing: normal;
-  text-align: center;
-  opacity:0;
-  margin: 2rem 0;
-  animation: whats 1s forwards;
-  font-size: 24px;
+	letter-spacing: normal;
+	text-align: center;
+	opacity:0;
+	margin: 2rem 0;
+	animation: whats 1s forwards;
+	font-size: 24px;
 }
 @keyframes whats {
-  0%{
-    opacity:0;
-    transform: translateY(50px);
-  }
-  100%{
-    opacity:1;
-    transform: translateY(0%);
-  }
+	0%{
+		opacity:0;
+		transform: translateY(50px);
+	}
+	100%{
+		opacity:1;
+		transform: translateY(0%);
+	}
 }
 
 p{
-  text-align: center;
+	text-align: center;
 }
 
 h2{
-  margin: 2rem;
+	margin: 2rem;
 }
 
 .svg-blue{
-  padding-top: 1rem;
-  stroke: #4c4cff;
+	padding-top: 1rem;
+	stroke: #4c4cff;
 }
 .fill-blue{
-  fill: #4c4cff;
+	fill: #4c4cff;
 }
 
 .show01{
@@ -66,20 +66,20 @@ h2{
 }
 
 @keyframes basic-01 {
-  0%{
-    fill: #ffff7f;
+	0%{
+		fill: #ffff7f;
 		background: #ffff7f;
 		animation-timing-function: ease-in;
-  }
+	}
 	50%{
 		fill: #ffff7f;
 		background: #ffff7f;
 		animation-timing-function: ease-out;
 	}
-  100%{
+	100%{
 		fill: #fff;
 		background: #fff;
-  }
+	}
 }
 
 @media screen and (min-width: 600px) {

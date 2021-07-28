@@ -1,41 +1,41 @@
 .color-blue{
-  color: #4c4cff;
+	color: #4c4cff;
 }
 .color-blue b{
-  color: #4c4cff;
+	color: #4c4cff;
 }
 
 .border-blue{
-  border: 1px solid #4c4cff;
+	border: 1px solid #4c4cff;
 }
 
 .back-blue{
-  background: #4c4cff;
+	background: #4c4cff;
 }
 .back-blue p{
-  color: #ffffff;
-  margin: 1rem;
+	color: #ffffff;
+	margin: 1rem;
 }
 
 .svg-blue{
-  stroke: #4c4cff;
+	stroke: #4c4cff;
 }
 
 .fill-blue{
-  fill: #4c4cff;
+	fill: #4c4cff;
 }
 
 .fill-anim-blue{
-  fill: #4c4cff;
-  animation-name: fade-fill;
-  animation-duration: 1s;
-  animation-delay: .1;
-  animation-timing-function: ease-in;
-  animation-fill-mode: forwards;
+	fill: #4c4cff;
+	animation-name: fade-fill;
+	animation-duration: 1s;
+	animation-delay: .1;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 @keyframes fade-fill {
-  0% {opacity: 0}
-  100% {opacity: 1}
+	0% {opacity: 0}
+	100% {opacity: 1}
 }
 
 #basic001{
@@ -78,80 +78,80 @@
 }
 
 @keyframes basic-01 {
-  0%{
-    fill: #ffff7f;
+	0%{
+		fill: #ffff7f;
 		background: #ffff7f;
 		animation-timing-function: ease-in;
-  }
+	}
 	50%{
 		fill: #ffff7f;
 		background: #ffff7f;
 		animation-timing-function: ease-out;
 	}
-  100%{
+	100%{
 		fill: #fff;
 		background: #fff;
-  }
+	}
 }
 
 #shape01{
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
-  position: absolute;
-  left: 10%;
-  top: 30px;
-  z-index: -1;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	position: absolute;
+	left: 10%;
+	top: 30px;
+	z-index: -1;
 }
 
 #shape02{
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  position: absolute;
-  right: -20%;
-  top: 300px;
-  z-index: 3;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	position: absolute;
+	right: -20%;
+	top: 300px;
+	z-index: 3;
 }
 
 #shape03{
-  width: 130px;
-  height: 130px;
-  border-radius: 13px;
-  position: absolute;
-  top: 15px;
-  left: 20%;
-  z-index: -3;
+	width: 130px;
+	height: 130px;
+	border-radius: 13px;
+	position: absolute;
+	top: 15px;
+	left: 20%;
+	z-index: -3;
 }
 
 #shape04{
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
-  position: absolute;
-  top: -10px;
-  left: 5%;
-  z-index: -1;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	position: absolute;
+	top: -10px;
+	left: 5%;
+	z-index: -1;
 }
 
 #shape05{
-  width: 90px;
-  height: 90px;
-  border-radius: 9px;
-  position: absolute;
-  top: -10px;
-  right: -10%;
-  z-index: -1;
+	width: 90px;
+	height: 90px;
+	border-radius: 9px;
+	position: absolute;
+	top: -10px;
+	right: -10%;
+	z-index: -1;
 }
 
 #shape06{
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  position: absolute;
-  top: 100px;
-  right: 30%;
-  z-index: 3;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	position: absolute;
+	top: 100px;
+	right: 30%;
+	z-index: 3;
 }
 
 @media screen and (min-width: 600px) {
@@ -160,33 +160,33 @@
 
 @media screen and (min-width: 1025px) {
 
-  .p-center-pc{
-    position: relative;
-  }
+	.p-center-pc{
+		position: relative;
+	}
 
-  .type01{
-   position: absolute;
-   left: -60%;
-   top: 10%;
+	.type01{
+	 position: absolute;
+	 left: -60%;
+	 top: 10%;
  }
 
  .type02{
-   position: absolute;
-   left: -60%;
-   top: 35%;
+	 position: absolute;
+	 left: -60%;
+	 top: 35%;
  }
 
  .type03{
-   position: absolute;
-   left: -60%;
-   top: 10%;
+	 position: absolute;
+	 left: -60%;
+	 top: 10%;
  }
 
  .type04{
-   width: 35%;
-   position: absolute;
-   left: -60%;
-   top: 35%;
+	 width: 35%;
+	 position: absolute;
+	 left: -60%;
+	 top: 35%;
  }
 
 }

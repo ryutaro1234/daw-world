@@ -1,173 +1,173 @@
 article{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 500px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 500px;
 }
 
 h1{
-  letter-spacing: 0;
+	letter-spacing: 0;
 }
 
 .hello01 h1{
-  text-align: center;
-  font-size: 24px;
-  opacity:0;
-  margin: 2rem 0;
-  padding: 0;
-  animation: hello 1s forwards;
+	text-align: center;
+	font-size: 24px;
+	opacity:0;
+	margin: 2rem 0;
+	padding: 0;
+	animation: hello 1s forwards;
 }
 @keyframes hello {
-  0%{
-    opacity:0;
-    transform: translateY(50px);
-  }
-  100%{
-    opacity:1;
-    transform: translateY(0%);
-  }
+	0%{
+		opacity:0;
+		transform: translateY(50px);
+	}
+	100%{
+		opacity:1;
+		transform: translateY(0%);
+	}
 }
 
 .hello01 h1 p b{
-  position: relative;
-  z-index: 996;
+	position: relative;
+	z-index: 996;
 }
 
 #main-image{
-  width: 200%;
-  height: auto;
-  z-index: -1;
-  animation: main 2s ease-out forwards;
+	width: 200%;
+	height: auto;
+	z-index: -1;
+	animation: main 2s ease-out forwards;
 }
 @keyframes main {
-  0%{
-    opacity: 0;
-    transform: translateX(250px);
-  }
-  100%{
-    opacity: 1;
-    transform: translateX(0px);
-  }
+	0%{
+		opacity: 0;
+		transform: translateX(250px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
 }
 
 h2{
-  padding: 30px 0;
+	padding: 30px 0;
 }
 
 p{
-  text-align: center;
+	text-align: center;
 }
 
 #piano01{
-  width: 200%;
-  height: auto;
-  margin-top: 2rem;
-  stroke: #4c4cff;
+	width: 200%;
+	height: auto;
+	margin-top: 2rem;
+	stroke: #4c4cff;
 }
 
 #piano01 g{
-  fill: #4c4cff;
+	fill: #4c4cff;
 }
 
 #trumpet01{
-  width: 200%;
-  height: auto;
-  margin-top: 2rem;
-  stroke: #d7c447;
-  position: relative;
-  right: 90%;
+	width: 200%;
+	height: auto;
+	margin-top: 2rem;
+	stroke: #d7c447;
+	position: relative;
+	right: 90%;
 }
 #trumpet01 g{
-  fill: #d7c447;
+	fill: #d7c447;
 }
 
 .square-back-blue{
-  width: 80px;
-  height: 80px;
+	width: 80px;
+	height: 80px;
 	border-radius: 8px;
-  background: #4c4cff;
-  mix-blend-mode: multiply;
+	background: #4c4cff;
+	mix-blend-mode: multiply;
 }
 
 .circle-orange{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  background: #ffbc7a;
-  mix-blend-mode: multiply;
-  opacity: .8;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: #ffbc7a;
+	mix-blend-mode: multiply;
+	opacity: .8;
 }
 
 .square-lgreen{
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  background: #bcff7a;
-  mix-blend-mode: multiply;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	background: #bcff7a;
+	mix-blend-mode: multiply;
 }
 
 .circle-glay{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  background: #333;
-  mix-blend-mode: multiply;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: #333;
+	mix-blend-mode: multiply;
 }
 
 .circle-gold{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  background: #d7c447;
-  mix-blend-mode: multiply;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: #d7c447;
+	mix-blend-mode: multiply;
 }
 
 #shape01{
-  position: absolute;
-  left: 10%;
-  top: 70px;
-  z-index: -1;
+	position: absolute;
+	left: 10%;
+	top: 70px;
+	z-index: -1;
 }
 
 #shape02{
-  position: absolute;
-  right: -40%;
-  top: 30px;
-  z-index: 3;
+	position: absolute;
+	right: -40%;
+	top: 30px;
+	z-index: 3;
 }
 
 #shape03{
-  position: absolute;
-  right: 50%;
-  bottom: -40px;
-  z-index: 1;
+	position: absolute;
+	right: 50%;
+	bottom: -40px;
+	z-index: 1;
 }
 
 #shape04{
-  position: absolute;
-  right: 70%;
-  bottom: -200px;
-  z-index: -1;
+	position: absolute;
+	right: 70%;
+	bottom: -200px;
+	z-index: -1;
 }
 
 #shape05{
-  position: absolute;
-  left: -10%;
-  bottom: -50px;
-  z-index: -1;
+	position: absolute;
+	left: -10%;
+	bottom: -50px;
+	z-index: -1;
 }
 
 #shape06{
-  position: absolute;
-  right: 10%;
-  bottom: -100px;
-  z-index: -4;
+	position: absolute;
+	right: 10%;
+	bottom: -100px;
+	z-index: -4;
 }
 
 #shape07{
-  position: absolute;
-  right: -30%;
-  border-radius: 10px;
-  bottom: 200px;
-  opacity: .7;
+	position: absolute;
+	right: -30%;
+	border-radius: 10px;
+	bottom: 200px;
+	opacity: .7;
 }
