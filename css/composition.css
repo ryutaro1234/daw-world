@@ -1,0 +1,29 @@
+h2{
+	margin: 2rem 0 1rem 0;
+}
+
+p{
+	text-align: center;
+}
+
+.basic-ribbon{
+	border-left: 80px solid #4c4cff;
+  border-bottom: 80px solid transparent;
+	opacity: .9;
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.basic h2 a{
+	color: #4c4cff;
+}
+
+#piano01{
+	padding-top: 2rem;
+	stroke: #4c4cff;
+}
+#piano01 g{
+	fill: #4c4cff;
+}
