@@ -1,3 +1,8 @@
+.glass{
+	width: 340px;
+	height: 365px;
+}
+
 h2{
 	margin: 2rem 0 1rem 0;
 }
@@ -26,4 +31,15 @@ p{
 }
 #piano01 g{
 	fill: #4c4cff;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 1025px) {
+
+	main{
+		display: flex;
+		justify-content: space-around;
+	}
 }
