@@ -11,7 +11,7 @@ $(function(){
 			var target = $(this).offset().top;
 			var scroll = $(window).scrollTop();
 			var height = $(window).height();
-			if (scroll > target - height + 200){
+			if (scroll > target - height + 100){
 				$(this).addClass('active');
 			}
 		});
@@ -24,7 +24,7 @@ $(function(){
 			var target = $(this).offset().top;
 			var scroll = $(window).scrollTop();
 			var height = $(window).height();
-			if (scroll > target - height + 200){
+			if (scroll > target - height + 100){
 				$(this).addClass('active');
 			}
 		});
@@ -37,7 +37,7 @@ $(function(){
 			var target = $(this).offset().top;
 			var scroll = $(window).scrollTop();
 			var height = $(window).height();
-			if (scroll > target - height + 200){
+			if (scroll > target - height + 100){
 				$(this).addClass('active');
 			}
 		});
@@ -50,7 +50,7 @@ $(function(){
 			var target = $(this).offset().top;
 			var scroll = $(window).scrollTop();
 			var height = $(window).height();
-			if (scroll > target - height + 200){
+			if (scroll > target - height + 100){
 				$(this).addClass('active');
 			}
 		});
@@ -63,7 +63,7 @@ $(function(){
 			var target = $(this).offset().top;
 			var scroll = $(window).scrollTop();
 			var height = $(window).height();
-			if (scroll > target - height + 200){
+			if (scroll > target - height + 100){
 				$(this).addClass('active');
 			}
 		});
