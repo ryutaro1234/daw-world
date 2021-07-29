@@ -1,10 +1,5 @@
-article{
-	position: relative;
-}
-
 .glass{
-	width: 340px;
-	height: 365px;
+	height: 400px;
 }
 
 h2{
@@ -38,11 +33,32 @@ p{
 }
 
 @media screen and (min-width: 600px) {
-	main{
+
+	#container{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
+
+	.glass{
+		width: 46%;
+	}
+	#container:after {
+		content: "";
+		display: block;
+		width: 46%;
+		height: 0;
+	}
+
 }
 
 @media screen and (min-width: 1025px) {
+
+	.glass{
+		width: 32%;
+		height: 400px;
+	}
+	#container:after {
+		width: 32%;
+	}
+
 }

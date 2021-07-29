@@ -157,6 +157,7 @@ h2{
 
 	.about02{
 		display: flex;
+		justify-content: space-between;
 		width: 90%;
 		margin: 0 auto;
 	}
@@ -164,6 +165,12 @@ h2{
 	.about02 article{
 		width: 48%;
 		margin: 1rem 0;
+	}
+	.about02:after {
+		content: "";
+		display: block;
+		width: 46%;
+		height: 0;
 	}
 
 	.about-final{
@@ -196,8 +203,11 @@ h2{
 	}
 
 	.about02 article{
-		width: 33%;
+		width: 32%;
 		height: 550px;
+	}
+	.about02:after {
+		width: 32%;
 	}
 
 	.request iframe{
