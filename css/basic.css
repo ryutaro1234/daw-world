@@ -179,12 +179,30 @@
 	}
 
 	h3{
-		padding-left: 15%;
+		padding-left: 3rem;
 	}
 
 }
 
 @media screen and (min-width: 1025px) {
+
+	section{
+		width: 90%;
+	}
+
+	h3{
+		padding-left: 2rem;
+	}
+
+	.flex{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.width50{
+		width: 46%;
+	}
 
 	#basic001{
 		width: 60%;
@@ -197,34 +215,5 @@
 		left: 70px;
 		margin: 0 0 250px 4rem;
 	}
-
-	.p-center-pc{
-		position: relative;
-	}
-
-	.type01{
-	 position: absolute;
-	 left: -60%;
-	 top: 10%;
- }
-
- .type02{
-	 position: absolute;
-	 left: -60%;
-	 top: 35%;
- }
-
- .type03{
-	 position: absolute;
-	 left: -60%;
-	 top: 10%;
- }
-
- .type04{
-	 width: 35%;
-	 position: absolute;
-	 left: -60%;
-	 top: 35%;
- }
 
 }

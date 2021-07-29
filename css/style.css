@@ -292,16 +292,16 @@ ul, ol {
 
 svg{
 	width: 80%;
-	margin: 0 auto 1rem auto;
+	margin: .5rem auto;
 	fill: none;
 }
 
 table{
-	margin: 1rem;
+	margin: .5rem auto;
 }
 
 audio{
-	margin: 1rem;
+	margin: .5rem auto;
 }
 
 table, th, td{
@@ -533,12 +533,6 @@ footer p{
 	.contents-table02{
 		max-width: 960px;
 		top: -100px;
-	}
-
-	.pc-width-svg{
-		width: 50%;
-		margin-left: 45%;
-		position: relative;
 	}
 
 	table{
