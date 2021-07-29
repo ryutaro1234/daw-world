@@ -25,7 +25,7 @@ body {
 	visibility: hidden;
 	transition: 1s;
 	transform: translateY(100px);
-	}
+}
 
 .scroll-up-l{
 	opacity : 0;
@@ -40,7 +40,7 @@ body {
 	visibility: hidden;
 	transition: 1s;
 	transform: translateY(-100px);
-	}
+}
 
 .scroll-down-r{
 	opacity : 0;
