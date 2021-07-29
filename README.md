@@ -1,5 +1,5 @@
 # Hello DAW World
-現在準備中です。
+順次更新中です。
 [DAW World](https://ryutaro1234.github.io/daw-world/)
 
 ## DAW Worldとは
