@@ -43,29 +43,27 @@
 </head>
 
 <body>
-
-	<div id="nav">
-		<span class="nav_toggle">
-			<i></i>
-			<i></i>
-			<i></i>
-		</span>
-	</div>
-
-	<nav class="nav">
-		<ul class="nav_menu_ul">
-			<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/index.html">Home</a></li>
-			<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/composition.html">作曲</a></li>
-			<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/arrangement.html">編曲</a></li>
-			<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/about.html">About</a></li>
-			<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/search.html">Search</a></li>
-		</ul>
-	</nav>
-
 	<div id="container">
-
 		<main>
-			<header></header>
+			<header>
+				<div id="nav">
+					<span class="nav_toggle">
+						<i></i>
+						<i></i>
+						<i></i>
+					</span>
+				</div>
+
+				<nav class="nav">
+					<ul class="nav_menu_ul">
+						<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/index.html">Home</a></li>
+						<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/composition.html">作曲</a></li>
+						<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/arrangement.html">編曲</a></li>
+						<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/about.html">About</a></li>
+						<li class="nav_menu_li"><a class="links-nav border-gray" href="https://ryutaro1234.github.io/daw-world/search.html">Search</a></li>
+					</ul>
+				</nav>
+			</header>
 
 			<section class="result_contents">
 				<h2 class="result_title">検索結果</h2>
@@ -79,17 +77,17 @@
 				v = v.get('search-key');
 				const urlLists = [
 					"https://ryutaro1234.github.io/daw-world/about.html",
-					"https://ryutaro1234.github.io/daw-world/arrangement.html",
 					"https://ryutaro1234.github.io/daw-world/composition.html",
+					"https://ryutaro1234.github.io/daw-world/arrangement.html",
 					"https://ryutaro1234.github.io/daw-world/contents/basic/notes-name.html",
 					"https://ryutaro1234.github.io/daw-world/contents/basic/maj-scale.html",
 				];
 
 				$.each(urlLists, function(i){
 					$.ajax({
-						url　: urlLists[i],
+						url : urlLists[i],
 						dataType : 'html',
-						success　: function(data){
+						success : function(data){
 
 							if( $(data).find("main").text().indexOf(v) !== -1){
 
