@@ -277,6 +277,7 @@ ul, ol {
 
 svg{
 	width: 80%;
+	height: auto;
 	margin: .5rem auto;
 	fill: none;
 }
