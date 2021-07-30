@@ -131,10 +131,7 @@ h2{
 #profile{
 	width: 120%;
 	height: auto;
-	opacity: .2;
-	position: relative;
-	z-index: -1;
-	top: -100px;
+	opacity: .7;
 }
 
 .myname-ribbon{
