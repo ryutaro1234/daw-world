@@ -491,6 +491,14 @@ footer p{
 	audio{
 		margin: 1rem auto;
 	}
+	
+	.twitter-share-button{
+		margin-left: 0;
+	}
+
+	form{
+		margin-left: 0;
+	}
 
 }
 
