@@ -162,7 +162,7 @@ p{
 
 #shape04{
 	position: absolute;
-	right: 70%;
+	right: 0;
 	bottom: -200px;
 	z-index: -1;
 }
@@ -231,7 +231,6 @@ p{
 	}
 
 	#shape04{
-		right: 0;
 		bottom: 30px;
 		z-index: 1;
 	}
