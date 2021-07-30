@@ -9,6 +9,7 @@
 
 @media screen and (min-width: 600px) {
 	#result{
+		margin: 0 auto;
 		width: 60%;
 	}
 
