@@ -33,6 +33,19 @@ $(function(){
 
 $(function(){
 	$(window).on('load scroll',function (){
+		$('.scroll-up-r').each(function(){
+			var target = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var height = $(window).height();
+			if (scroll > target - height + 100){
+				$(this).addClass('active');
+			}
+		});
+	});
+});
+
+$(function(){
+	$(window).on('load scroll',function (){
 		$('.scroll-down').each(function(){
 			var target = $(this).offset().top;
 			var scroll = $(window).scrollTop();

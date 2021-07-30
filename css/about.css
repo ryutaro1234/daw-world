@@ -58,7 +58,7 @@ h2{
 	z-index: -1;
 }
 
-.basic-ribbon{
+.ribbon-blue{
 	border-left: 80px solid #4c4cff;
 	border-bottom: 80px solid transparent;
 	opacity: .9;
@@ -68,11 +68,21 @@ h2{
 	left: 0;
 }
 
-.svg-blue{
+.ribbon-gold{
+	border-left: 80px solid #d7c447;
+	border-bottom: 80px solid transparent;
+	opacity: .9;
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#piano01{
 	padding-top: 1rem;
 	stroke: #4c4cff;
 }
-.fill-blue{
+#piano01 g{
 	fill: #4c4cff;
 }
 
@@ -100,7 +110,6 @@ h2{
 .show08{
 	animation: basic-01 1s forwards 3.5s;
 }
-
 @keyframes basic-01 {
 	0%{
 		fill: #ffff7f;
@@ -118,14 +127,15 @@ h2{
 	}
 }
 
-#mail{
-	text-align: center;
-	list-style-image: url(https://ryutaro1234.github.io/daw-world/images/list-style/mail.png);
+#trumpet01{
+	width: 200%;
+	padding-top: 1rem;
+	stroke: #d7c447;
+	position: absolute;
+	right: -50px;
 }
-
-#twitter{
-	text-align: center;
-	list-style-image: url(https://ryutaro1234.github.io/daw-world/images/list-style/twitter.png);
+#trumpet01 g{
+	fill: #d7c447;
 }
 
 #profile{
@@ -182,12 +192,6 @@ h2{
 		width: 48%;
 		margin: 1rem 0;
 	}
-	.about02:after {
-		content: "";
-		display: block;
-		width: 46%;
-		height: 0;
-	}
 
 	.about-final{
 		display: flex;
@@ -219,11 +223,7 @@ h2{
 	}
 
 	.about02 article{
-		width: 32%;
-		height: 550px;
-	}
-	.about02:after {
-		width: 32%;
+		height: 450px;
 	}
 
 	.request iframe{
