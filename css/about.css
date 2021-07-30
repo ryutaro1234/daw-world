@@ -127,6 +127,10 @@ h2{
 	}
 }
 
+audio{
+	margin: 0;
+}
+
 #trumpet01{
 	width: 200%;
 	padding-top: 1rem;
