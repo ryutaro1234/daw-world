@@ -121,11 +121,13 @@ h2{
 #mail{
 	text-align: center;
 	background-image: url(https://ryutaro1234.github.io/daw-world/images/list-style/mail.png);
+	background-position: center;
 }
 
 #twitter{
 	text-align: center;
 	background-image: url(https://ryutaro1234.github.io/daw-world/images/list-style/twitter.png);
+	background-position: center;
 }
 
 #profile{
