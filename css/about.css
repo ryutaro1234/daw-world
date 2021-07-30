@@ -118,6 +118,25 @@ h2{
 	}
 }
 
+#mail{
+	text-align: center;
+	list-style-image: url(https://ryutaro1234.github.io/daw-world/images/list-style/mail.png);
+}
+
+#twitter{
+	text-align: center;
+	list-style-image: url(https://ryutaro1234.github.io/daw-world/images/list-style/twitter.png);
+}
+
+#profile{
+	width: 120%;
+	height: auto;
+	opacity: .2;
+	position: relative;
+	z-index: -1;
+	top: -100px;
+}
+
 .myname-ribbon{
 	border-left: 80px solid #ffbc7a;
 	border-bottom: 80px solid transparent;
