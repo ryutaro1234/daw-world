@@ -4,4 +4,18 @@
 
 #result a{
 	font-weight: bold;
+	letter-spacing: 3px;
 }
+
+@media screen and (min-width: 600px) {
+	#result{
+		width: 60%;
+	}
+
+
+@media screen and (min-width: 1025px) {
+	#result{
+		width: 50%;
+	}
+}
+	
