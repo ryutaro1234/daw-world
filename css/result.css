@@ -1,4 +1,6 @@
 #result li{
+	text-aline: center;
+	list-style-type: none;
 	padding-top: 10px;
 }
 
@@ -6,17 +8,3 @@
 	font-weight: bold;
 	letter-spacing: 3px;
 }
-
-@media screen and (min-width: 600px) {
-	#result{
-		margin: 0 auto;
-		width: 60%;
-	}
-
-
-@media screen and (min-width: 1025px) {
-	#result{
-		width: 50%;
-	}
-}
-	
