@@ -106,15 +106,6 @@ p{
 	mix-blend-mode: multiply;
 }
 
-.circle-orange{
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-	background: #ffbc7a;
-	mix-blend-mode: multiply;
-	opacity: .8;
-}
-
 .square-lgreen{
 	width: 100px;
 	height: 100px;
