@@ -227,6 +227,7 @@ p{
 		position: absolute;
 		left: 10%;
 		top: -400px;
+		z-index: -1;
 	}
 
 	#shape04{
