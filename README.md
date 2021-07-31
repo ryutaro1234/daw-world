@@ -24,7 +24,7 @@ https://ryutaro1234.github.io/graduation-artwork.zotan2021/
 
 ***
 
-# JP
+# JP ver.
 ## Hello DAW World
 https://ryutaro1234.github.io/daw-world/
 
