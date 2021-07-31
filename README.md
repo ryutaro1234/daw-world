@@ -14,7 +14,7 @@ Currently the mainstream teaching materials are images or videos.<br />
 However, it is difficult to understand with images. For videos, the amount of data traffic is large.<br />
 In DAW World, all animations works JavaScript or jQuery. That's why it's small.
 
-## Process
+### Process
 https://ryutaro1234.github.io/graduation-artwork.zotan2021/
 * JP ONLY
 
@@ -37,5 +37,5 @@ DAW Worldは、松本龍太郎による卒業制作作品です。<br />
 作編曲の裾の尾を広げたい。そうすることで、将来的には音楽業界の発展につながる。<br />
 皆様の作曲のインプットのお手伝いをします。
 
-## 卒業制作過程
+### 卒業制作過程
 https://ryutaro1234.github.io/graduation-artwork.zotan2021/
