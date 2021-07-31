@@ -36,4 +36,4 @@ DAW Worldは、松本龍太郎による卒業制作作品です。<br />
 皆様の作曲のインプットのお手伝いをします。
 
 ## 卒業制作過程
-[graduation-artwork.zotan2021](https://github.com/ryutaro1234/graduation-artwork.zotan2021/wiki)
+https://ryutaro1234.github.io/graduation-artwork.zotan2021/
