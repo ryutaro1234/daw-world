@@ -17,7 +17,6 @@ $(function(){
 		});
 	});
 });
-
 $(function(){
 	$(window).on('load scroll',function (){
 		$('.scroll-up-l').each(function(){
@@ -30,7 +29,6 @@ $(function(){
 		});
 	});
 });
-
 $(function(){
 	$(window).on('load scroll',function (){
 		$('.scroll-up-r').each(function(){
@@ -56,7 +54,18 @@ $(function(){
 		});
 	});
 });
-
+$(function(){
+	$(window).on('load scroll',function (){
+		$('.scroll-down-l').each(function(){
+			var target = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var height = $(window).height();
+			if (scroll > target - height + 100){
+				$(this).addClass('active');
+			}
+		});
+	});
+});
 $(function(){
 	$(window).on('load scroll',function (){
 		$('.scroll-down-r').each(function(){
@@ -73,6 +82,18 @@ $(function(){
 $(function(){
 	$(window).on('load scroll',function (){
 		$('.scroll-slide-l').each(function(){
+			var target = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var height = $(window).height();
+			if (scroll > target - height + 100){
+				$(this).addClass('active');
+			}
+		});
+	});
+});
+$(function(){
+	$(window).on('load scroll',function (){
+		$('.scroll-slide-r').each(function(){
 			var target = $(this).offset().top;
 			var scroll = $(window).scrollTop();
 			var height = $(window).height();
