@@ -1,9 +1,29 @@
-# Hello DAW World
-順次更新中です。
+## Hello DAW World
+https://ryutaro1234.github.io/daw-world/
+
+## What's DAW World
+It's omposition teaching site.
+The concept is visually easy to understand.
+
+## Physics
+I am sorry... It's too difficult for me to translate it to English. 
+
+## About graduation work
+It's graduation work by Ryutaro Matsumoto.
+Currently the mainstream teaching materials are images or videos.
+However, it is difficult to understand with images. For videos, the amount of data traffic is large.
+In DAW World, all animations works JavaScript or jQuery.
+
+## Process
+https://ryutaro1234.github.io/graduation-artwork.zotan2021/
+* JP ONLY
+
+# JP
+## Hello DAW World
 https://ryutaro1234.github.io/daw-world/
 
 ## DAW Worldとは
-初心者にも、わかりやすく、プロじゃない人にもわかりやすく、をコンセプトにした作曲支援サイト。
+初心者にも、わかりやすく、プロじゃない人にもわかりやすく、をコンセプトにした作曲教材サイト。
 
 ## 音楽と物理学
 ### 予定
@@ -16,4 +36,4 @@ DAW Worldは、松本龍太郎による卒業制作作品です。<br />
 皆様の作曲のインプットのお手伝いをします。
 
 ## 卒業制作過程
-[graduation-artwork.zotan2021](https://github.com/ryutaro1234/graduation-artwork.zotan2021/wiki) ←GitHubWiki
+[graduation-artwork.zotan2021](https://github.com/ryutaro1234/graduation-artwork.zotan2021/wiki)
