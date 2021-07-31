@@ -4,6 +4,9 @@
 .color-blue b{
 	color: #4c4cff;
 }
+.color-blue a{
+	color: #4c4cff;
+}
 
 .border-blue{
 	border: 1px solid #4c4cff;
@@ -17,25 +20,11 @@
 	margin: 1rem;
 }
 
-.svg-blue{
+svg{
 	stroke: #4c4cff;
 }
-
-.fill-blue{
+svg g{
 	fill: #4c4cff;
-}
-
-.fill-anim-blue{
-	fill: #4c4cff;
-	animation: fade-fill 1.5s ease-out forwards;
-}
-@keyframes fade-fill {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
 }
 
 #basic001{
@@ -92,12 +81,6 @@
 		fill: #fff;
 		background: #fff;
 	}
-}
-
-.title02{
-	margin: 4rem 0;
-	position: relative;
-	z-index: -1;
 }
 
 #shape01{
