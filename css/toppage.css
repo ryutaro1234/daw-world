@@ -145,6 +145,8 @@ p{
 }
 
 #shape03{
+	mix-blend-mode: multiply;
+	opacity: .7;
 	position: absolute;
 	right: 50%;
 	bottom: -40px;
