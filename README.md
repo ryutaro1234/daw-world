@@ -12,7 +12,7 @@ I am sorry... It's too difficult for me to translate it to English.
 It's graduation work by Ryutaro Matsumoto.<br />
 Currently the mainstream teaching materials are images or videos.<br />
 However, it is difficult to understand with images. For videos, the amount of data traffic is large.<br />
-In DAW World, all animations works JavaScript or jQuery.That's why it's small.
+In DAW World, all animations works JavaScript or jQuery. That's why it's small.
 
 ## Process
 https://ryutaro1234.github.io/graduation-artwork.zotan2021/
