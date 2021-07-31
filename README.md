@@ -6,6 +6,7 @@ It's omposition teaching site.<br />
 The concept is visually easy to understand.
 
 ## Physics
+### Future plan
 Sound is physics in origin. Bringing physics into an intangible event, such as sound, makes it easier to think about.<br />
 I wondered why this had not been done before, although it is just converting something intangible into a mathematical formula. <br />
 I aldo provide content created by this perspective. 
