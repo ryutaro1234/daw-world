@@ -78,8 +78,8 @@ svg g{
 		animation-timing-function: ease-out;
 	}
 	100%{
-		fill: #fff;
-		background: #fff;
+		fill: none;
+		background: none;
 	}
 }
 
