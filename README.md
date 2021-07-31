@@ -9,10 +9,10 @@ The concept is visually easy to understand.
 I am sorry... It's too difficult for me to translate it to English. 
 
 ## About graduation work
-It's graduation work by Ryutaro Matsumoto.
-Currently the mainstream teaching materials are images or videos.
-However, it is difficult to understand with images. For videos, the amount of data traffic is large.
-In DAW World, all animations works JavaScript or jQuery.
+It's graduation work by Ryutaro Matsumoto.<br />
+Currently the mainstream teaching materials are images or videos.<br />
+However, it is difficult to understand with images. For videos, the amount of data traffic is large.<br />
+In DAW World, all animations works JavaScript or jQuery.That's why it's small.
 
 ## Process
 https://ryutaro1234.github.io/graduation-artwork.zotan2021/
