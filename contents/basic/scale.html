@@ -116,7 +116,7 @@
 							<li><a href="notes-name.html">音名表記</a></li>
 							<li class="color-blue"><b>スケール</b></li>
 							<ul>
-								<li class="color-blue"><b><a href="#">全音と半音</a></b></li>
+								<li class="color-blue"><b><a href="#whole-semi">全音と半音</a></b></li>
 								<li class="color-blue"><b><a href="#">メジャースケール</a></b></li>
 								<li class="color-blue"><b><a href="#">マイナースケール</a></b></li>
 								<li class="color-blue"><b><a href="#">平行調と同主調</a></b></li>
@@ -132,14 +132,18 @@
 				<div class="back-blue rellax-slow01" id="shape04"></div>
 			</section>
 
-			<article id="seminote">
+			<article id="whole-semi">
 				<section class="flex glass">
 					<div class="width50">
 						<h3 class="scroll-up">全音と半音</h3>
 
 						<div class="p-center">
 							<p>
-								準備中
+								<span class="whole-tone">CとD</span>、<span class="semi-tone">EとF</span>
+								この2つを見比べてみましょう。<br />
+								<span class="whole-tone">CとD</span>は間にひとつ鍵盤が挟まっているのに対し、<span class="semi-tone">EとF</span>は完全に隣あっていますね。<br />
+								一見隣り合っている2音でも、<span class="whole-tone">遠い2音</span>と<span class="semi-tone">近い2音</span>があります。<br />
+								この<span class="whole-tone">遠い2音のことを全音</span>、<span class="semi-tone">近い2音のことを半音</span>と言います。
 							</p>
 						</div>
 
@@ -156,10 +160,15 @@
 								<path d="M235.5,80h-17c-1.7,0-3-1.3-3-3V0h23v77C238.5,78.7,237.2,80,235.5,80z"/>
 								<path d="M197.4,80h-17c-1.7,0-3-1.3-3-3V0h23v77C200.4,78.7,199,80,197.4,80z"/>
 								<path d="M159.6,80h-17c-1.7,0-3-1.3-3-3V0h23v77C162.6,78.7,161.3,80,159.6,80z"/>
-								<path d="M83.5,80h-17c-1.7,0-3-1.3-3-3V0h23v77C86.5,78.7,85.2,80,83.5,80z"/>
-								<path d="M45.7,80h-17c-1.7,0-3-1.3-3-3V0h23v77C48.7,78.7,47.4,80,45.7,80z"/>
+								<path id="basic-db01" d="M83.5,80h-17c-1.7,0-3-1.3-3-3V0h23v77C86.5,78.7,85.2,80,83.5,80z"/>
+								<path id="basic-cb01" d="M45.7,80h-17c-1.7,0-3-1.3-3-3V0h23v77C48.7,78.7,47.4,80,45.7,80z"/>
 							</g>
 						</svg>
+					</div>
+
+					<div class="whole-semi">
+						<p class="whole-tone" id="whole" onclick="whole()">全音</p>
+						<p class="semi-tone" id="semi" onclick="semi()">半音</p>
 					</div>
 				</section>
 			</article>
