@@ -102,9 +102,9 @@ audio02.onpause = function(){
 
 var whole = document.getElementById("whole");
 function whole(){
-	document.getElementById("whole").classList.add("whole-click");
-	document.getElementById("basic-c01").classList.add("whole-fill");
-	document.getElementById("basic-d01").classList.add("whole-fill");
-	document.getElementById("basic-cb01").classList.add("whole-fill02");
-	document.getElementById("basic-db01").classList.add("whole-fill02");
+	document.getElementById("whole").classList.toggle("whole-click");
+	document.getElementById("basic-c01").classList.toggle("whole-fill");
+	document.getElementById("basic-d01").classList.toggle("whole-fill");
+	document.getElementById("basic-cb01").classList.toggle("whole-fill02");
+	document.getElementById("basic-db01").classList.toggle("whole-fill02");
 };
