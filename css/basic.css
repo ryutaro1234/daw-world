@@ -269,6 +269,10 @@ svg g{
 		justify-content: space-around;
 		align-items: center;
 	}
+	
+	#basic001{
+		margin-right: 15%;
+	}
 
 	.width50{
 		width: 46%;
