@@ -484,8 +484,18 @@ footer a{
 	color: #333;
 }
 
+#sns{
+	display: flex;
+}
+
 .twitter-share-button{
-	margin-left: 1rem;
+	margin: 0 1rem;
+}
+.line-it-button{
+	margin-right: 1rem;
+}
+.facebook{
+	margin-right: 1rem;
 }
 
 form{
@@ -561,7 +571,13 @@ footer p{
 	}
 
 	.twitter-share-button{
-		margin-left: .5rem;
+		margin: 0 .5rem;
+	}
+	.line-it-button{
+		margin-right: .5rem;
+	}
+	.facebook{
+		margin-right: .5rem;
 	}
 
 	form{
