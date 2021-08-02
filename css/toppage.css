@@ -42,7 +42,7 @@ h1{
 }
 
 #main-image{
-	width: 150%;
+	width: 50%;
 	height: auto;
 	position: relative;
 	z-index: -1;
@@ -195,7 +195,7 @@ p{
 	}
 
 	#main-image{
-			width: 200%;
+			width: 100%;
 			height: auto;
 	}
 
@@ -272,7 +272,7 @@ p{
 	}
 
 	#main-image{
-		width: 120%;
+		width: 70%;
 		height: auto;
 	}
 
