@@ -202,7 +202,7 @@ svg g{
 	position: absolute;
 	top: 100px;
 	right: 30%;
-	z-index: 3;
+	z-index: -1;
 }
 
 @media screen and (min-width: 600px) {
@@ -230,10 +230,6 @@ svg g{
 	#shape05{
 		z-index: 3;
 		mix-blend-mode: multiply;
-	}
-
-	#shape06{
-		z-index: -1;
 	}
 
 }
