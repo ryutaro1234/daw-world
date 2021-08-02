@@ -100,11 +100,15 @@ audio02.onpause = function(){
 	audio02.currentTime = 0;
 };
 
-var whole = document.getElementById("whole");
 function whole(){
 	document.getElementById("whole").classList.toggle("whole-click");
 	document.getElementById("basic-c01").classList.toggle("whole-fill");
 	document.getElementById("basic-d01").classList.toggle("whole-fill");
-	document.getElementById("basic-cb01").classList.toggle("whole-fill02");
 	document.getElementById("basic-db01").classList.toggle("whole-fill02");
+};
+
+function semi(){
+	document.getElementById("semi").classList.toggle("semi-click");
+	document.getElementById("basic-e01").classList.toggle("semi-fill");
+	document.getElementById("basic-f01").classList.toggle("semi-fill");
 };

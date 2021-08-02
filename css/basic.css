@@ -82,13 +82,48 @@ svg g{
 	}
 }
 
+#svg02-fill{
+	fill: transparent;
+	transition: 1s ease-out;
+}
+
 .whole-tone{
 	color: #bc7aff;
 	font-weight: bold;
+	transition: 1s ease-out;
 }
+.whole-click{
+	background: rgba(188,122,255,.8);
+	color: #fff;
+	font-weight: bold;
+	transition: 1s ease-in;
+}
+.whole-fill{
+	stroke: rgba(33, 33, 33, .3);
+	fill: rgba(188,122,255,.8);
+	transition: 1s ease-in;
+}
+.whole-fill02{
+	stroke: rgba(33, 33, 33, .3);
+	fill: #444;
+	transition: 1s ease-in;
+}
+
 .semi-tone{
 	color: #7abcff;
 	font-weight: bold;
+	transition: 1s ease-out;
+}
+.semi-click{
+	background: #7abcff;
+	color: #fff;
+	font-weight: bold;
+	transition: 1s ease-in;
+}
+.semi-fill{
+	stroke: rgba(33, 33, 33, .3);
+	fill: #7abcff;
+	transition: 1s ease-in;
 }
 
 .whole-semi{
@@ -104,58 +139,7 @@ svg g{
 	border: 1px solid #999;
 	border-radius: 6px;
 	font-weight: normal;
-}
-
-.whole-click{
-	animation: 1s whole forwards;
-}
-.whole-fill{
-	animation: 1s whole forwards;
-}
-@keyframes whole {
-	0%{
-		fill: rgba(0, 0, 0, 0);
-		animation-timing-function: ease-out;
-	}
-	95%{
-		stroke: rgba(33, 33, 33, .3);
-		fill: rgba(188,122,255,.8);
-		background: rgba(188,122,255,.8);
-		color: #fff;
-		font-weight: bold;
-	}
-	100%{
-		stroke: rgba(33, 33, 33, .3);
-		fill: rgba(188,122,255,.8);
-		background: rgba(188,122,255,.8);
-		color: #fff;
-		font-weight: bold;
-	}
-}
-
-.whole-fill02{
-	animation: 1s whole02 forwards;
-}
-@keyframes whole02 {
-	0%{
-		fill: rgba(0, 0, 0, 0);
-		animation-timing-function: ease-out;
-	}
-	95%{
-		stroke: rgba(33, 33, 33, .3);
-		fill: #333;
-	}
-	100%{
-		stroke: rgba(33, 33, 33, .3);
-		fill: #333;
-	}
-}
-
-
-.semi-click{
-	background: #7abcff;
-	color: #fff;
-	font-weight: bold;
+	transition: 1s ease-out;
 }
 
 #shape01{
@@ -269,7 +253,7 @@ svg g{
 		justify-content: space-around;
 		align-items: center;
 	}
-	
+
 	#basic001{
 		margin-right: 15%;
 	}
