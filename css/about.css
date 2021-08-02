@@ -53,7 +53,8 @@ h2{
 }
 
 #main-image{
-	width: 50%;
+	display: block;
+	width: 200%;
 	height: auto;
 	z-index: -1;
 }
@@ -181,7 +182,7 @@ audio{
 @media screen and (min-width: 600px) {
 
 	#main-image{
-			width: 100%;
+			width: 150%;
 			height: auto;
 	}
 
@@ -221,7 +222,7 @@ audio{
 	}
 
 	#main-image{
-		width: 70%;
+		width: 120%;
 		height: auto;
 	}
 
