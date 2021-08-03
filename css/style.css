@@ -100,7 +100,7 @@ header h1{
 	right: 0;
 	width: 3.5rem;
 	height: 3.5rem;
-	background: rgba(255, 255, 255, .5);
+	background: rgba(255, 255, 255, .1);
 	backdrop-filter: blur( 5px );
 	-webkit-backdrop-filter: blur( 5px );
 	box-shadow: 4px 4px 18px rgba(0,0,0,.2);
@@ -327,10 +327,6 @@ audio{
 	margin: .5rem auto;
 }
 
-table, th, td{
-	border: 1px solid #333333;
-}
-
 table{
 	width: 80%;
 	margin: 0 auto;
@@ -339,6 +335,7 @@ table{
 th,td{
 	width: 10%;
 	margin: .5rem;
+	border: 1px solid #888;
 }
 
 .next{
@@ -656,13 +653,14 @@ footer p{
 	}
 
 	.flex{
+		margin: 4rem auto;
 		display: flex;
-		justify-content: space-around;
+		flex-wrap: wrap;
+		justify-content: space-between;
 		align-items: center;
 	}
-
 	.width-pc{
-		width: 46%;
+		width: 50%;
 		padding: 2rem;
 	}
 }

@@ -102,13 +102,74 @@ audio02.onpause = function(){
 
 function whole(){
 	document.getElementById("whole").classList.toggle("whole-click");
-	document.getElementById("basic-c01").classList.toggle("whole-fill");
-	document.getElementById("basic-d01").classList.toggle("whole-fill");
-	document.getElementById("basic-db01").classList.toggle("whole-fill02");
+
+	let whole01 = document.getElementsByClassName("whole01");
+	Array.prototype.forEach.call(whole01, function (whole01click) {
+		whole01click.classList.toggle("whole-fill");
+	});
+	document.getElementById("basic-db05").classList.toggle("whole-fill02");
 };
 
 function semi(){
 	document.getElementById("semi").classList.toggle("semi-click");
-	document.getElementById("basic-e01").classList.toggle("semi-fill");
-	document.getElementById("basic-f01").classList.toggle("semi-fill");
+
+	let semi01 = document.getElementsByClassName("semi01");
+	Array.prototype.forEach.call(semi01, function (semi01click) {
+		semi01click.classList.toggle("semi-fill");
+	});
+};
+
+function whole02(){
+	let whole02 = document.getElementsByClassName("whole02");
+	Array.prototype.forEach.call(whole02, function (whole02click) {
+		whole02click.classList.toggle("whole-click");
+	});
+
+	let whole02fill = document.getElementsByClassName("whole02-fill");
+	Array.prototype.forEach.call(whole02fill, function (whole02fillclick) {
+		whole02fillclick.classList.toggle("whole-fill");
+	});
+
+	let whole02fill02 = document.getElementsByClassName("whole02-fill02");
+	Array.prototype.forEach.call(whole02fill02, function (whole02fill02click) {
+		whole02fill02click.classList.toggle("whole-fill02");
+	});
+
+	let semi02 = document.getElementsByClassName("semi02");
+	Array.prototype.forEach.call(semi02, function (semi02click) {
+		semi02click.classList.remove("semi-click");
+	});
+
+	let semi02fill = document.getElementsByClassName("semi02-fill");
+	Array.prototype.forEach.call(semi02fill, function (semi02fillclick) {
+		semi02fillclick.classList.remove("semi-fill");
+	});
+
+};
+
+function semi02(){
+	let semi02 = document.getElementsByClassName("semi02");
+	Array.prototype.forEach.call(semi02, function (semi02click) {
+		semi02click.classList.toggle("semi-click");
+	});
+
+	let semi02fill = document.getElementsByClassName("semi02-fill");
+	Array.prototype.forEach.call(semi02fill, function (semi02fillclick) {
+		semi02fillclick.classList.toggle("semi-fill");
+	});
+
+	let whole02 = document.getElementsByClassName("whole02");
+	Array.prototype.forEach.call(whole02, function (whole02click) {
+		whole02click.classList.remove("whole-click");
+	});
+
+	let whole02fill = document.getElementsByClassName("whole02-fill");
+	Array.prototype.forEach.call(whole02fill, function (whole02fillclick) {
+		whole02fillclick.classList.remove("whole-fill");
+	});
+
+	let whole02fill02 = document.getElementsByClassName("whole02-fill02");
+	Array.prototype.forEach.call(whole02fill02, function (whole02fill02click) {
+		whole02fill02click.classList.remove("whole-fill02");
+	});
 };
