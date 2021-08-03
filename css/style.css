@@ -84,6 +84,14 @@ body {
 
 header{
 	height: 3.5rem;
+	display: flex;
+	align-items: center;
+}
+header h1{
+	font-size: 120%;
+	letter-spacing: 2px;
+	text-align: left;
+	margin-top: 3rem;
 }
 
 #nav{
@@ -536,6 +544,13 @@ footer p{
 
 @media screen and (min-width: 600px) {
 
+	header h1{
+		font-size: 120%;
+		letter-spacing: 2px;
+		text-align: left;
+		margin-top: 3rem;
+	}
+
 	nav{
 		width: 30%;
 		left: 70%;
@@ -591,6 +606,14 @@ footer p{
 }
 
 @media screen and (min-width: 1025px) {
+
+	header h1{
+		font-size: 120%;
+		letter-spacing: 2px;
+		text-align: left;
+		padding: 0;
+		margin-top: 3rem;
+	}
 
 	#container{
 		max-width: 1920px;
