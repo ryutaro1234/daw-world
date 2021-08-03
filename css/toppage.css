@@ -204,12 +204,19 @@ p{
 		width: 90%;
 		margin: 3rem auto;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 	}
 	.pc-top02 article{
 		margin: 0;
 		width: 45%;
 		height: 400px;
+	}
+	.pc-top02:after {
+		content: "";
+		display: block;
+		width: 45%;
+		height: 0;
 	}
 
 	#shape01{
