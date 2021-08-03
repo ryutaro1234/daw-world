@@ -317,6 +317,16 @@ svg{
 	height: auto;
 	margin: .5rem auto;
 	fill: none;
+	transition: all 1s ease-out;
+}
+svg g{
+	transition: all 1s ease-out;
+}
+svg path{
+	transition: all 1s ease-out;
+}
+svg rext{
+	transition: all 1s ease-out;
 }
 
 table{
