@@ -316,36 +316,39 @@ svg{
 	width: 80%;
 	height: auto;
 	margin: .5rem auto;
-	fill: none;
+	fill: transparent;
 	transition: all 1s ease-out;
 }
 svg g{
+	fill: transparent;
 	transition: all 1s ease-out;
 }
 svg path{
+	fill: transparent;
 	transition: all 1s ease-out;
 }
-svg rext{
+svg rect{
+	fill: transparent;
 	transition: all 1s ease-out;
 }
 
 table{
+	background: transparent;
+	width: 80%;
 	margin: .5rem auto;
+	transition: all 1s ease-out;
+}
+
+th,td{
+	background: transparent;
+	width: 10%;
+	margin: .5rem;
+	border: 1px solid #888;
+	transition: all 1s ease-out;
 }
 
 audio{
 	margin: .5rem auto;
-}
-
-table{
-	width: 80%;
-	margin: 0 auto;
-}
-
-th,td{
-	width: 10%;
-	margin: .5rem;
-	border: 1px solid #888;
 }
 
 .next{

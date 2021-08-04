@@ -23,8 +23,12 @@
 svg{
 	stroke: #4c4cff;
 }
-svg g{
+svg g path{
 	fill: #4c4cff;
+}
+
+#piano01{
+
 }
 
 #basic001{
