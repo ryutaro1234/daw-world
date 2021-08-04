@@ -1,5 +1,5 @@
 ## Hello DAW World
-https://ryutaro1234.github.io/daw-world/
+https://www.daw-world.net
 
 ## What's DAW World
 It's omposition teaching site.<br />
@@ -26,7 +26,7 @@ https://ryutaro1234.github.io/graduation-artwork.zotan2021/
 
 # JP ver.
 ## Hello DAW World
-https://ryutaro1234.github.io/daw-world/
+https://www.daw-world.net
 
 ## DAW Worldとは
 視覚的にわかりやすく、をコンセプトにした作曲教材サイト。
