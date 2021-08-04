@@ -316,10 +316,10 @@ svg{
 	width: 80%;
 	height: auto;
 	margin: .5rem auto;
+	fill: transparent;
 	transition: all 1s ease-out;
 }
-svg path, rect{
-	fill: transparent;
+path, rect{
 	transition: all 1s ease-out;
 }
 
@@ -412,7 +412,7 @@ footer{
 }
 
 #gentle-wave{
-	fill: none;
+	transition: none;
 }
 .parallax use {
 	animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
