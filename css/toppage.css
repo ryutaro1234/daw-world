@@ -75,7 +75,7 @@ p{
 	position: relative;
 	right: 90%;
 }
-#trumpet01 g{
+#trumpet01 g path, rect{
 	fill: #d7c447;
 }
 

@@ -64,7 +64,7 @@ h2{
 	padding-top: 1rem;
 	stroke: #4c4cff;
 }
-#piano01 g{
+#piano01 g path{
 	fill: #4c4cff;
 }
 
@@ -120,7 +120,7 @@ audio{
 	position: absolute;
 	right: -50px;
 }
-#trumpet01 g{
+#trumpet01 g path, rect{
 	fill: #d7c447;
 }
 
