@@ -1,3 +1,35 @@
+var rellax = new Rellax('#basic001', {
+		speed: 1,
+});
+
+var rellax = new Rellax('#basic002', {
+		speed: 2,
+});
+
+var rellax = new Rellax('#shape01', {
+		speed: -2,
+});
+
+var rellax = new Rellax('#shape02', {
+		speed: 8,
+});
+
+var rellax = new Rellax('#shape03', {
+		speed: -3,
+});
+
+var rellax = new Rellax('#shape04', {
+		speed: -1,
+});
+
+var rellax = new Rellax('#shape05', {
+		speed: -2,
+});
+
+var rellax = new Rellax('#shape06', {
+		speed: 4,
+});
+
 var audio01 = document.getElementById("audio01");
 audio01.onplay = function(){
 	document.getElementById("basic-c01").classList.add("show01");

@@ -8,16 +8,19 @@
 	color: #4c4cff;
 }
 
-.border-blue{
-	border: 1px solid #4c4cff;
+.glass{
+	padding-top: 2rem;
+	margin: 2rem auto;
 }
 
-.back-blue{
-	background: #4c4cff;
-}
-.back-blue p{
-	color: #ffffff;
-	margin: 1rem;
+.ribbon-basic{
+	border-left: 80px solid #4c4cff;
+	border-bottom: 80px solid transparent;
+	opacity: .9;
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 svg{
@@ -36,6 +39,7 @@ svg g path{
 }
 
 #basic002{
+	background: #4c4cff;
 	margin-left: 1rem;
 	padding: .5rem 0 .5rem 0;
 	width: 70%;
@@ -43,6 +47,10 @@ svg g path{
 	box-shadow: 4px 4px 20px rgba(0,0,0,.2);
 	position: relative;
 	top: -50px;
+}
+#basic002 p{
+	color: #ffffff;
+	margin: 1rem;
 }
 
 .show01{
@@ -145,6 +153,7 @@ svg g path{
 }
 
 #shape01{
+	background: #4c4cff;
 	width: 50px;
 	height: 50px;
 	border-radius: 5px;
@@ -155,6 +164,7 @@ svg g path{
 }
 
 #shape02{
+	border: 1px solid #4c4cff;
 	width: 100px;
 	height: 100px;
 	border-radius: 10px;
@@ -165,6 +175,7 @@ svg g path{
 }
 
 #shape03{
+	border: 1px solid #4c4cff;
 	width: 130px;
 	height: 130px;
 	border-radius: 13px;
@@ -177,17 +188,19 @@ svg g path{
 }
 
 #shape04{
+	background: #4c4cff;
 	width: 50px;
 	height: 50px;
 	border-radius: 5px;
 	opacity: .7;
 	position: absolute;
 	top: -10px;
-	left: 5%;
+	left: 60%;
 	z-index: -1;
 }
 
 #shape05{
+	background: #4c4cff;
 	width: 90px;
 	height: 90px;
 	border-radius: 9px;
@@ -198,6 +211,7 @@ svg g path{
 }
 
 #shape06{
+	border: 1px solid #4c4cff;
 	width: 100px;
 	height: 100px;
 	border-radius: 10px;
@@ -211,6 +225,10 @@ svg g path{
 
 	h1{
 		font-size: 34px;
+	}
+
+	.glass{
+		margin: 4rem auto;
 	}
 
 	#basic001{
