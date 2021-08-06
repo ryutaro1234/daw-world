@@ -9,18 +9,7 @@
 }
 
 .glass{
-	padding-top: 2rem;
 	margin: 2rem auto;
-}
-
-.ribbon-basic{
-	border-left: 80px solid #4c4cff;
-	border-bottom: 80px solid transparent;
-	opacity: .9;
-	mix-blend-mode: multiply;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 svg{
