@@ -271,7 +271,13 @@ ul, ol {
 }
 
 .shapes{
+	mix-blend-mode: multiply;
 	position: relative;
+
+}
+
+.none{
+	display: none;
 }
 
 .main-image{
