@@ -309,12 +309,6 @@ svg g path{
 	h3{
 		padding-left: 3rem;
 	}
-
-	#shape05{
-		z-index: 3;
-		mix-blend-mode: multiply;
-	}
-
 }
 
 @media screen and (min-width: 1025px) {
@@ -329,9 +323,6 @@ svg g path{
 
 	#basic001{
 		margin-right: 15%;
-	}
-
-	#basic001{
 		width: 60%;
 	}
 
