@@ -1,0 +1,68 @@
+.error-01 h1, p{
+	text-align: center;
+}
+
+.error-01 h1{
+	padding: 0;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+.error-02 article{
+	height: 250px;
+}
+
+h3{
+	padding: 1rem 0 0 2rem;
+}
+
+ul{
+	padding: 1rem 0 2rem 5rem;
+}
+
+#search404 section{
+	margin: 3rem 0 0 5rem;
+}
+
+.ribbon404{
+	border-left: 80px solid #ff7abc;
+	border-bottom: 80px solid transparent;
+	opacity: .9;
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (min-width: 600px) {
+
+	.error-02 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.error-02 article{
+		width: 48%;
+	}
+
+	h3{
+		padding: .5rem 0 0 3rem;
+	}
+
+}
+
+@media screen and (min-width: 1025px) {
+
+	.error-02 {
+		justify-content: space-around;
+	}
+
+	.error-02 article{
+		width: 38%;
+	}
+
+	#search404 section{
+		margin: 3rem 0 0 7rem;
+	}
+
+}
