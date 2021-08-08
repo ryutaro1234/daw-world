@@ -137,7 +137,7 @@ function semi(){
 };
 
 function whole02(){
-	document.getElementById("whole02").classList.toggle("semi-bottom");
+	document.getElementById("whole02").classList.toggle("whole-bottom");
 
 	let whole02 = document.getElementsByClassName("whole02");
 	Array.prototype.forEach.call(whole02, function (whole02click) {
@@ -154,7 +154,7 @@ function whole02(){
 		whole02fill02click.classList.toggle("whole-fill02");
 	});
 
-	document.getElementById("semi02").classList.remove("whole-bottom");
+	document.getElementById("semi02").classList.remove("semi-bottom");
 
 	let semi02 = document.getElementsByClassName("semi02");
 	Array.prototype.forEach.call(semi02, function (semi02click) {
