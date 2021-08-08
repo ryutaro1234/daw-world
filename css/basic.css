@@ -79,10 +79,17 @@ svg g path{
 	}
 }
 
-.whole-tone{
-	transition: all 1s ease-out;
-	color: #bc7aff;
+#whole.whole-bottom{
+	color: #fff;
 	font-weight: bold;
+	background-color: #bc7aff;
+	border-bottom: 2px solid #9762cc;
+}
+#whole02.whole-bottom{
+	color: #fff;
+	font-weight: bold;
+	background-color: #bc7aff;
+	border-bottom: 2px solid #9762cc;
 }
 .whole-click{
 	transition: all 1s ease-in;
@@ -101,10 +108,17 @@ svg g path{
 	fill: #444;
 }
 
-.semi-tone{
-	transition: all 1s ease-out;
-	color: #7abcff;
+#semi.semi-bottom{
+	color: #fff;
 	font-weight: bold;
+	background-color: #7abcff;
+	border-bottom: 2px solid #6eaae6;
+}
+#semi02.semi-bottom{
+	color: #fff;
+	font-weight: bold;
+	background-color: #7abcff;
+	border-bottom: 2px solid #6eaae6;
 }
 .semi-click{
 	transition: all 1s ease-in;
@@ -127,9 +141,10 @@ svg g path{
 .whole-semi p{
 	font-size: 85%;
 	padding: 3px 15px;
-	border: 1px solid #999;
 	border-radius: 6px;
 	font-weight: normal;
+	background-color: #eee;
+	border-bottom: 5px solid #ccc;
 	transition: 1s ease-out;
 }
 

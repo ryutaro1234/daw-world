@@ -118,7 +118,7 @@ audio02.onpause = function(){
 };
 
 function whole(){
-	document.getElementById("whole").classList.toggle("whole-click");
+	document.getElementById("whole").classList.toggle("whole-bottom");
 
 	let whole01 = document.getElementsByClassName("whole01");
 	Array.prototype.forEach.call(whole01, function (whole01click) {
@@ -128,7 +128,7 @@ function whole(){
 };
 
 function semi(){
-	document.getElementById("semi").classList.toggle("semi-click");
+	document.getElementById("semi").classList.toggle("semi-bottom");
 
 	let semi01 = document.getElementsByClassName("semi01");
 	Array.prototype.forEach.call(semi01, function (semi01click) {
@@ -137,6 +137,8 @@ function semi(){
 };
 
 function whole02(){
+	document.getElementById("whole02").classList.toggle("whole-bottom");
+
 	let whole02 = document.getElementsByClassName("whole02");
 	Array.prototype.forEach.call(whole02, function (whole02click) {
 		whole02click.classList.toggle("whole-click");
@@ -152,6 +154,8 @@ function whole02(){
 		whole02fill02click.classList.toggle("whole-fill02");
 	});
 
+	document.getElementById("semi02").classList.remove("whole-bottom");
+
 	let semi02 = document.getElementsByClassName("semi02");
 	Array.prototype.forEach.call(semi02, function (semi02click) {
 		semi02click.classList.remove("semi-click");
@@ -161,10 +165,11 @@ function whole02(){
 	Array.prototype.forEach.call(semi02fill, function (semi02fillclick) {
 		semi02fillclick.classList.remove("semi-fill");
 	});
-
 };
 
 function semi02(){
+	document.getElementById("semi02").classList.toggle("whole-bottom");
+
 	let semi02 = document.getElementsByClassName("semi02");
 	Array.prototype.forEach.call(semi02, function (semi02click) {
 		semi02click.classList.toggle("semi-click");
@@ -174,6 +179,8 @@ function semi02(){
 	Array.prototype.forEach.call(semi02fill, function (semi02fillclick) {
 		semi02fillclick.classList.toggle("semi-fill");
 	});
+
+	document.getElementById("whole02").classList.remove("whole-bottom");
 
 	let whole02 = document.getElementsByClassName("whole02");
 	Array.prototype.forEach.call(whole02, function (whole02click) {
