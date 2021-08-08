@@ -14,7 +14,7 @@ body {
 	overflow: hidden;
 	font-family: sans-serif;
 	line-height: 1.6rem;
-	background: #eee;
+	background: #fff;
 }
 
 .search-style{
@@ -527,7 +527,7 @@ form{
 
 input{
 	border: solid 1px #ccc;
-	background: #eee;
+	background: #fff;
 	border-radius: 3px;
 	padding: 8px;
 }
