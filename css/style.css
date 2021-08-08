@@ -296,8 +296,8 @@ ul, ol {
 	padding-top: 10px;
 	background: rgba( 255, 255, 255, .35 );
 	box-shadow: 4px 4px 18px rgba(0,0,0,.2);
-	backdrop-filter: blur( 5px );
-	-webkit-backdrop-filter: blur( 5px );
+	backdrop-filter: blur( 10px );
+	-webkit-backdrop-filter: blur( 10px );
 	border-radius: 10px;
 	border: 1px solid rgba( 255, 255, 255, .2 );
 }
@@ -310,8 +310,8 @@ ul, ol {
 	margin: 4rem auto;
 	padding-bottom: 1rem;
 	background: rgba( 255, 255, 255, .35 );
-	backdrop-filter: blur( 5px );
-	-webkit-backdrop-filter: blur( 5px );
+	backdrop-filter: blur( 10px );
+	-webkit-backdrop-filter: blur( 10px );
 	border-radius: 10px;
 	border: 1px solid rgba( 255, 255, 255, .2 );
 	position: relative;
