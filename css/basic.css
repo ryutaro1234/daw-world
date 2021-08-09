@@ -34,8 +34,10 @@ svg g path{
 	top: -50px;
 }
 #basic002 p{
-	color: #ffffff;
 	margin: 1rem;
+}
+#basic002 span{
+	color: #fff;
 }
 
 .show01{
