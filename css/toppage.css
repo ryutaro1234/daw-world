@@ -143,6 +143,8 @@ article{
 }
 
 #main-image{
+  width: 120%;
+  height: auto;
   opacity: 0;
   transform: translate(100px, 100px);
   transition: all .8s;
@@ -152,7 +154,6 @@ article{
   opacity: 1;
   transform: translate(0, 0);
   width: 200%;
-  height: auto;
   position: relative;
   z-index: -1;
 }
@@ -376,7 +377,7 @@ p{
   }
 
   #main-image{
-      width: 150%;
+      width: 120%;
       height: auto;
   }
 

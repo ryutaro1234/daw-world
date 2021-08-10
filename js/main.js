@@ -16,6 +16,19 @@ window.addEventListener("scroll", () => {
     }
   }
 });
+
+let scrollup = document.getElementsByClassName('scroll-up');
+window.addEventListener("scroll", () => {
+  for (let i = 0; i < scrollup.length; i++){
+    const rect = scrollup[i].getBoundingClientRect().top;
+    const scroll = window.pageYOffset || document.documentElement.scrollTop;
+    const offset = rect + scroll;
+    const windowHeight = window.innerHeight;
+    if (scroll > offset - windowHeight + 150) {
+      scrollup[i].classList.add('active');
+    }
+  }
+});
 window.addEventListener("load", () => {
   for (let i = 0; i < scrollup.length; i++){
     const rect = scrollup[i].getBoundingClientRect().top;
