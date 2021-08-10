@@ -26,10 +26,6 @@ window.addEventListener("load", () => {
   document.getElementById("bg04").classList.add("-visible");
 });
 
-window.addEventListener("load", () => {
-  document.getElementById("type02").classList.add("active");
-});
-
 
 $(function(){
 
