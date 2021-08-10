@@ -20,6 +20,11 @@ window.addEventListener("load", () => {
   document.getElementById("title01").classList.add("-visible");
 });
 
+let mainimage = document.getElementById("main-image");
+window.addEventListener("load", () => {
+  mainimage.classList.add("active");
+});
+
 window.addEventListener("load", () => {
   document.getElementById("bg03").classList.add("-visible");
 });

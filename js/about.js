@@ -18,7 +18,6 @@ audio01.onplay=function(){
 	document.getElementById("table01-b01").classList.add("show07")
 	document.getElementById("table01-c02").classList.add("show08")
 };
-
 audio01.onpause=function(){
 	audio01.currentTime = 0;
 	document.getElementById("basic-c01").classList.remove("show01")
