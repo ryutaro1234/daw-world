@@ -1,27 +1,39 @@
-var rellax = new Rellax('#shape01', {
-		speed: 3,
-	});
+window.addEventListener("load", () => {
+  document.getElementById("type01").classList.add("active");
+});
 
-var rellax = new Rellax('#shape02', {
-		speed: -2,
-	});
+window.addEventListener("load", () => {
+  document.getElementById("bg01").classList.add("-visible");
+});
+var rellax = new Rellax('#bg01', {
+  speed: -6,
+});
 
-var rellax = new Rellax('#shape03', {
-		speed: -1,
-	});
+window.addEventListener("load", () => {
+  document.getElementById("bg02").classList.add("-visible");
+});
+var rellax = new Rellax('#bg02', {
+  speed: -3,
+});
 
-var rellax = new Rellax('#shape04', {
-		speed: 2,
-	});
+window.addEventListener("load", () => {
+  document.getElementById("title01").classList.add("-visible");
+});
 
-var rellax = new Rellax('#shape05', {
-		speed: -2,
-	});
+window.addEventListener("load", () => {
+  document.getElementById("bg03").classList.add("-visible");
+});
+var rellax = new Rellax('#bg03', {
+  speed: 5,
+});
 
-var rellax = new Rellax('#shape06', {
-		speed: 3,
-	});
+window.addEventListener("load", () => {
+  document.getElementById("bg04").classList.add("-visible");
+});
+var rellax = new Rellax('#bg04', {
+  speed: 2,
+});
 
-var rellax = new Rellax('#shape07', {
-		speed: -1,
-	});
+window.addEventListener("load", () => {
+  document.getElementById("type02").classList.add("active");
+});
