@@ -36,7 +36,6 @@ article{
   overflow: hidden;
   width: 200px;
   height: 200px;
-  color: #fff;
   position: absolute;
   top: 0;
   right: 0;
@@ -62,7 +61,6 @@ article{
   overflow: hidden;
   width: 200px;
   height: 200px;
-  color: #fff;
   position: absolute;
   top: 50px;
   right: 10%;
@@ -162,7 +160,6 @@ article{
   overflow: hidden;
   width: 200px;
   height: 200px;
-  color: #fff;
   mix-blend-mode: multiply;
   opacity: .6;
   position: absolute;
@@ -191,7 +188,6 @@ article{
   overflow: hidden;
   width: 200px;
   height: 200px;
-  color: #fff;
   mix-blend-mode: multiply;
   opacity: .6;
   position: absolute;
