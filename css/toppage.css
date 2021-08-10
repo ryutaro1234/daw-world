@@ -64,7 +64,7 @@ article{
   position: absolute;
   top: 50px;
   right: 10%;
-  z-index: -10;
+  z-index: -5;
 }
 #bg02.-visible:before {
   transition-delay: .5s;
@@ -193,7 +193,7 @@ article{
   position: absolute;
   left: 20%;
   bottom: -50px;
-  z-index: 11;
+  z-index: 15;
 }
 #bg04.-visible:before {
   transition-delay: .7s;
