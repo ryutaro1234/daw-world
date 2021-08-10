@@ -16,7 +16,7 @@ article{
   font-size: 70px;
   line-height: 64px;
   color: #6ee66e;
-  opacity: .1;
+  opacity: 0;
   mix-blend-mode: multiply;
   writing-mode: vertical-rl;
   position: absolute;
