@@ -146,9 +146,6 @@ article{
   opacity: 0;
   transform: translate(100px, 100px);
   transition: all .8s;
-  position: relative;
-  z-index: -1;
-
 }
 #main-image.active{
   display: block;
@@ -425,7 +422,7 @@ p{
 
   #type01{
     font-size: 150px;
-    line-height: 120px;
+    line-height: 130px;
     left: -10%;
   }
 
