@@ -3,135 +3,135 @@
 
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website">
 
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="検索" />
-	<link rel="icon" type="image/x-icon" href="https://www.daw-world.net/images/favicon.png" />
-	<title>Search - DAW World</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="検索" />
+  <link rel="icon" type="image/x-icon" href="https://www.daw-world.net/images/favicon.png" />
+  <title>Search - DAW World</title>
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE3HV30P1Z"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE3HV30P1Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-		gtag('config', 'G-ZE3HV30P1Z');
-	</script>
+    gtag('config', 'G-ZE3HV30P1Z');
+  </script>
 
-	<link rel="stylesheet" href="css/sanitize.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/search.css" />
+  <link rel="stylesheet" href="css/sanitize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/search.css" />
 
-	<script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
-	<script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
+  <script src="js/main.js"></script>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="https://www.daw-world.net/images/logo01.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.daw-world.net/images/logo01.png" />
 
-	<meta property="og:url" content="https://www.daw-world.net" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Search - DAW World" />
-	<meta property="og:description" content="検索" />
-	<meta property="og:image" content="https://www.daw-world.net/images/logo01.png" />
+  <meta property="og:url" content="https://www.daw-world.net" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Search - DAW World" />
+  <meta property="og:description" content="検索" />
+  <meta property="og:image" content="https://www.daw-world.net/images/logo01.png" />
 
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@ryutarodayo1234" />
-	<meta name="twitter:creator" content="@ryutarodayo1234" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ryutarodayo1234" />
+  <meta name="twitter:creator" content="@ryutarodayo1234" />
 
 </head>
 
 <body>
-	<header>
-		<h1><a href="https://www.daw-world.net">DAW World</a></h1>
+  <header>
+    <h1><a href="https://www.daw-world.net">DAW World</a></h1>
 
-		<div id="nav">
-			<span id="nav_toggle" onclick="nav_toggle()">
-				<i></i>
-				<i></i>
-				<i></i>
-			</span>
-		</div>
+    <div id="nav">
+      <span id="nav_toggle" onclick="nav_toggle()">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
 
-		<nav id="navigation">
-			<ul class="nav_menu_ul">
-				<li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net">Home</a></li>
-				<li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/composition.html">作曲</a></li>
-				<li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/arrangement.html">編曲</a></li>
-				<li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/about.html">About</a></li>
-				<li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/search.html">Search</a></li>
-			</ul>
-		</nav>
-	</header>
+    <nav id="navigation">
+      <ul class="nav_menu_ul">
+        <li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net">Home</a></li>
+        <li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/composition.html">作曲</a></li>
+        <li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/arrangement.html">編曲</a></li>
+        <li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/about.html">About</a></li>
+        <li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/search.html">Search</a></li>
+      </ul>
+    </nav>
+  </header>
 
-	<div id="container">
-		<main>
-			<form id="search" action="https://www.daw-world.net/result.html" autocomplete="on" method="get">
-				<input id="search-input" type="text" name="search-key" />
-				<button id="search-buttom01" type="submit"><img src="https://www.daw-world.net/images/search.png" /></button>
-			</form>
-		</main>
-	</div>
+  <div id="container">
+    <main>
+      <form id="search" action="https://www.daw-world.net/result.html" autocomplete="on" method="get">
+        <input id="search-input" type="text" name="search-key" />
+        <button id="search-buttom01" type="submit"><img src="https://www.daw-world.net/images/search.png" /></button>
+      </form>
+    </main>
+  </div>
 
-	<footer>
-		<div>
-			<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-				<defs>
-					<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-				</defs>
-				<g class="parallax">
-					<use xlink:href="#gentle-wave" x="48" y="0" />
-					<use xlink:href="#gentle-wave" x="48" y="3" />
-					<use xlink:href="#gentle-wave" x="48" y="5" />
-					<use xlink:href="#gentle-wave" x="48" y="7" />
-				</g>
-			</svg>
-		</div>
+  <footer>
+    <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
 
-		<div class="logo">
-			<p><b><a href="https://www.daw-world.net">DAW World</a></b></p>
-		</div>
+    <div class="logo">
+      <p><b><a href="https://www.daw-world.net">DAW World</a></b></p>
+    </div>
 
-		<ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-				<a itemprop="item" href="https://www.daw-world.net">
-						<span itemprop="name">Home</span>
-				</a>
-				<meta itemprop="position" content="1" />
-			</li>
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="https://www.daw-world.net">
+            <span itemprop="name">Home</span>
+        </a>
+        <meta itemprop="position" content="1" />
+      </li>
 
-			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-				<a itemprop="item" href="https://www.daw-world.net/search.html">
-						<span itemprop="name">Search</span>
-				</a>
-				<meta itemprop="position" content="2" />
-			</li>
-		</ol>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="https://www.daw-world.net/search.html">
+            <span itemprop="name">Search</span>
+        </a>
+        <meta itemprop="position" content="2" />
+      </li>
+    </ol>
 
-		<ul>
-			<li class="nav_menu_li"><a href="https://www.daw-world.net/composition.html">作曲</a></li>
-			<li class="nav_menu_li"><a href="https://www.daw-world.net/arrangement.html">編曲</a></li>
-			<li class="nav_menu_li"><a href="https://www.daw-world.net/about.html">About</a></li>
-		</ul>
+    <ul>
+      <li class="nav_menu_li"><a href="https://www.daw-world.net/composition.html">作曲</a></li>
+      <li class="nav_menu_li"><a href="https://www.daw-world.net/arrangement.html">編曲</a></li>
+      <li class="nav_menu_li"><a href="https://www.daw-world.net/about.html">About</a></li>
+    </ul>
 
-		<div id="sns">
-			<a href="//twitter.com/share" class="twitter-share-button" data-text="検索 - DAW World" data-url="https://www.daw-world.net/search.html" data-lang="Tweet"></a>
-			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div id="sns">
+      <a href="//twitter.com/share" class="twitter-share-button" data-text="検索 - DAW World" data-url="https://www.daw-world.net/search.html" data-lang="Tweet"></a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-			<div class="line-it-button" data-lang="ja" data-type="share-a" data-ver="3" data-url="https://www.daw-world.net/search.html" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
-			<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+      <div class="line-it-button" data-lang="ja" data-type="share-a" data-ver="3" data-url="https://www.daw-world.net/search.html" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
+      <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
 
-			<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fryutaro1234.github.io%2Fdaw-world%2Fsearch.html&layout=button&size=small&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-		</div>
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fryutaro1234.github.io%2Fdaw-world%2Fsearch.html&layout=button&size=small&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
 
 
-		<form action="https://www.daw-world.net/result.html" autocomplete="on" method="get">
-			<input type="text" name="search-key" />
-			<button type="submit"><img src="https://www.daw-world.net/images/search.png" /></button>
-		</form>
+    <form action="https://www.daw-world.net/result.html" autocomplete="on" method="get">
+      <input type="text" name="search-key" />
+      <button type="submit"><img src="https://www.daw-world.net/images/search.png" /></button>
+    </form>
 
-		<p class="copy">&copy; 2021 Ryutaro Matsumoto</p>
-	</footer>
-	</div>
+    <p class="copy">&copy; 2021 Ryutaro Matsumoto</p>
+  </footer>
+  </div>
 </body>
 </html>
