@@ -399,8 +399,10 @@ audio{
 
 footer{
   padding: .5rem;
-  background: #fff;
   font-size: 75%;
+  background: rgba(255, 255, 255, .6);
+  backdrop-filter: blur( 25px );
+  -webkit-backdrop-filter: blur( 25px );
   position: relative;
 }
 
