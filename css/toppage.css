@@ -234,27 +234,6 @@ article{
   left: 0;
 }
 
-#type02{
-  overflow: hidden;
-  font-size: 70px;
-  line-height: 64px;
-  color: #6ee66e;
-  opacity: .1;
-  mix-blend-mode: multiply;
-  writing-mode: vertical-rl;
-  transition: 1s;
-  transform: translateY(100%);
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 10;
-}
-#type02.active{
-  transition-delay: .2s;
-  transform: translateY(0);
-  opacity: .8;
-}
-
 .scrolldown1{
   height: 50px;
   position: absolute;
@@ -307,9 +286,31 @@ p{
   text-align: center;
 }
 
+.pc-top02 article{
+  overflow: hidden;
+  background: #fff;
+}
+
 #composition{
   margin-top: 4rem;
-  background: #fff;
+}
+
+#type02{
+  white-space: nowrap;
+  font-size: 50px;
+  line-height: 55px;
+  color: #4c4cff;
+  opacity: 0;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: -10px;
+  left: -5%;
+  transition: 1s;
+  transform: translateY(100%);
+}
+#type02.active{
+  transform: translateY(0) rotate(-10deg);
+  opacity: .4;
 }
 
 #piano01{
@@ -322,10 +323,6 @@ p{
   fill: #4c4cff;
 }
 
-#arrangement{
-  background: #fff;
-}
-
 #trumpet01{
   width: 200%;
   height: auto;
@@ -336,6 +333,24 @@ p{
 }
 #trumpet01 g path, rect{
   fill: #d7c447;
+}
+
+#type03{
+  white-space: nowrap;
+  font-size: 50px;
+  line-height: 55px;
+  color: #d7c447;
+  opacity: 0;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: -10px;
+  left: 10%;
+  transition: 1s;
+  transform: translateY(100%);
+}
+#type03.active{
+  transform: translateY(0) rotate(-10deg);
+  opacity: .4;
 }
 
 .blue-ribbon{
@@ -374,26 +389,6 @@ p{
   #title01{
     transform: translate(-24%, 0);
   }
-  #title01 span:nth-child(5) {
-    color: #333;
-    transition-delay: 0.24s;
-  }
-  #title01 span:nth-child(6) {
-    color: #333;
-    transition-delay: 0.30s;
-  }
-  #title01 span:nth-child(7) {
-    color: #333;
-    transition-delay: 0.36s;
-  }
-  #title01 span:nth-child(8) {
-    color: #333;
-    transition-delay: 0.42s;
-  }
-  #title01 span:nth-child(9) {
-    color: #333;
-    transition-delay: 0.48s;
-  }
 
   #bg03{
     left: 40%;
@@ -412,17 +407,14 @@ p{
   }
 
   .pc-top02{
-    width: 96%;
-    margin: 3rem auto;
-    background: #fff;
+    margin: 3rem auto 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   .pc-top02 article{
-    overflow: hidden;
     margin: 0;
-    width: 45%;
+    width: 50%;
     height: 400px;
   }
   .pc-top02:after {
@@ -477,6 +469,9 @@ p{
     height: auto;
   }
 
+  .pc-top02{
+    width: 96%;
+  }
   .pc-top02 article{
     height: 600px;
   }

@@ -14,7 +14,7 @@ body {
   overflow: hidden;
   font-family: sans-serif;
   line-height: 1.6rem;
-  background: #fff;
+  background: none;
 }
 
 .search-style{
