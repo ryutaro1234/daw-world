@@ -2,8 +2,8 @@ window.addEventListener("load", () => {
   document.getElementById("type01").classList.add("active");
 });
 
-window.addEventListener("load", () => {
-  document.getElementById("bg01").classList.add("-visible");
+$(window).on('load',function (){
+  $('.bg01').addClass('-visible');
 });
 
 window.addEventListener("load", () => {
@@ -18,12 +18,25 @@ window.addEventListener("load", () => {
   document.getElementById("main-image").classList.add("active");
 });
 
-window.addEventListener("load", () => {
-  document.getElementById("bg03").classList.add("-visible");
+$(window).on('load',function (){
+  $('.bg03').addClass('-visible');
 });
 
 window.addEventListener("load", () => {
   document.getElementById("bg04").classList.add("-visible");
+});
+
+$(function(){
+  $(window).on('scroll',function (){
+    $('.bg05').each(function(){
+      var target = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var height = $(window).height();
+      if (scroll > target - height){
+        $(this).addClass('-visible');
+      }
+    });
+  });
 });
 
 
@@ -33,6 +46,7 @@ $(function(){
       bg02 = $('#bg02').offset(),
       bg03 = $('#bg03').offset(),
       bg04 = $('#bg04').offset();
+      type01 = $('#type01').offset();
 
   $(window).on('scroll',function(){
     var scrollY = $(this).scrollTop();
@@ -40,22 +54,21 @@ $(function(){
 
     $('#bg01').css({
       'top': + scrollY / 8,
-      'left': bg01.left + scrollY / 10
+      'left': bg01.left + scrollY / 10,
     });
 
     $('#bg02').css({
-      'top': 50 + scrollY / 2,
-      'left': bg02.left + scrollY / 8
+      'top': + scrollY / 2,
+      'left': bg02.left + scrollY / 8,
     });
 
     $('#bg03').css({
-      'top': bg03.bottom + scrollY / 5,
-      'left': bg03.left + scrollY / 2
+      'bottom': scrollY / 8,
+      'left': bg03.left + scrollY / 2,
     });
 
     $('#bg04').css({
-      'top': bg04.bottom + scrollY / 1,
-      'left': bg04.left + scrollY / -5
+      'left': bg04.left + scrollY / -5,
     });
   });
 });

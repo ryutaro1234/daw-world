@@ -41,7 +41,6 @@ body {
   animation-timing-function: ease-out;
   transform: translateX(-100px) translateY(100px);
 }
-
 .scroll-down{
   opacity: 0;
   visibility: hidden;
@@ -62,7 +61,6 @@ body {
   animation-timing-function: ease-out;
   transform: translateX(-100px) translateY(-100px);
 }
-
 .scroll-slide-l{
   opacity: 0;
   visibility: hidden;
@@ -75,7 +73,6 @@ body {
   transition: 1s;
   transform: translateX(-100px);
 }
-
 .active{
   opacity: 1;
   visibility: visible;
@@ -402,6 +399,7 @@ audio{
 
 footer{
   padding: .5rem;
+  background: #fff;
   font-size: 75%;
   position: relative;
 }
