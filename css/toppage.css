@@ -344,7 +344,7 @@ p{
   mix-blend-mode: multiply;
   position: absolute;
   top: -10px;
-  left: 10%;
+  left: -5%;
   transition: 1s;
   transform: translateY(100%);
 }
