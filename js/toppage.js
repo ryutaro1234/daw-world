@@ -28,19 +28,12 @@ window.addEventListener("load", () => {
 
 $(function(){
   $(window).on('scroll',function (){
-    scrollY = $(this).scrollTop()
-
     $('#type02').each(function(){
-      var target = $(this).offset().top,
-      scroll = $(window).scrollTop(),
-      height = $(window).height(),
-      type02 = $(this).offset();
-
+      var target = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var height = $(window).height();
       if (scroll > target - height){
         $(this).addClass('active');
-        $(this).css({
-          'fontSize': + scrollY / 5,
-        });
       }
     });
   });
@@ -48,19 +41,12 @@ $(function(){
 
 $(function(){
   $(window).on('scroll',function (){
-    scrollY = $(this).scrollTop()
-
     $('#type03').each(function(){
-      var target = $(this).offset().top,
-      scroll = $(window).scrollTop(),
-      height = $(window).height(),
-      type03 = $(this).offset();
-
+      var target = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var height = $(window).height();
       if (scroll > target - height){
         $(this).addClass('active');
-        $(this).css({
-          'fontSize': + scrollY / 10,
-        });
       }
     });
   });

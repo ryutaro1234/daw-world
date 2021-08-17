@@ -6,6 +6,10 @@ article{
   position: relative;
 }
 
+.hello01{
+  padding-top: 5rem;
+}
+
 .hello01 h1 p b{
   position: relative;
   z-index: 996;
@@ -19,8 +23,8 @@ article{
   opacity: 0;
   mix-blend-mode: multiply;
   position: absolute;
-  top: -120px;
-  left: -10%;
+  top: -80px;
+  left: -5%;
   z-index: 10;
   transition: 1s;
   transform: translateY(100%);
@@ -106,13 +110,14 @@ article{
   font-size: 32px;
   line-height: 35px;
   letter-spacing: 8px;
-  transform: translate(-50%, 0);
-  position: relative;
-  top: 7px;
+  position: absolute;
+  top: 0;
   left: 50%;
+  transform: translateX(-60%);
   z-index: 5;
 }
 #title01 span {
+  font-weight: bolder;
   display: block;
   transform: translate(0, 105%);
   transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
@@ -386,10 +391,6 @@ p{
     left: -5%;
   }
 
-  #title01{
-    transform: translate(-24%, 0);
-  }
-
   #bg03{
     left: 40%;
   }
@@ -461,7 +462,7 @@ p{
   }
 
   #title01{
-    transform: translate(-34%, 0);
+    transform: translateX(-83%);
   }
 
   #main-image{
@@ -469,9 +470,6 @@ p{
     height: auto;
   }
 
-  .pc-top02{
-    width: 96%;
-  }
   .pc-top02 article{
     height: 600px;
   }

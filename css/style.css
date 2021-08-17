@@ -2,7 +2,13 @@
   margin: 0;
   padding: 0;
   color: #333;
+  font-weight: lighter;
   text-decoration: none;
+}
+
+::selection{
+  background-color: rgba(127,191,255,.4);
+  color: #222;
 }
 
 html{
@@ -83,9 +89,13 @@ header{
   height: 3.5rem;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 header h1{
   font-size: 120%;
+  font-weight: lighter;
   letter-spacing: 2px;
   text-align: left;
   margin-top: 3rem;
@@ -190,6 +200,10 @@ nav ul li a{
   color: #333;
 }
 
+main{
+  padding-top: 3.5rem;
+}
+
 article{
   margin: 0 auto;
   position: relative;
@@ -202,6 +216,14 @@ section{
 h1, h2, h3, h4, h5, h6, p, b, li, a, table, th, td, audio{
   position: relative;
   z-index: 1;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bolder;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+  font-weight: bolder;
 }
 
 h1{
@@ -268,16 +290,6 @@ ul, ol {
 #container {
   max-width: 100%;
   margin: auto;
-}
-
-.shapes{
-  mix-blend-mode: multiply;
-  position: relative;
-
-}
-
-.none{
-  display: none;
 }
 
 .main-image{
@@ -367,8 +379,8 @@ audio{
   width: 6px;
   height: 6px;
   border: 0;
-  border-top: solid 2px #333;
-  border-right: solid 2px #333;
+  border-top: solid 1px #333;
+  border-right: solid 1px #333;
   position: absolute;
   top: 50%;
   right: 0;
@@ -388,8 +400,8 @@ audio{
   width: 6px;
   height: 6px;
   border: 0;
-  border-top: solid 2px #333;
-  border-left: solid 2px #333;
+  border-top: solid 1px #333;
+  border-left: solid 1px #333;
   position: absolute;
   top: 50%;
   left: 0;
