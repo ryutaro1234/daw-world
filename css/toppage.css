@@ -117,7 +117,7 @@ article{
   z-index: 5;
 }
 #title01 span {
-  font-weight: bolder;
+  font-weight: normal;
   display: block;
   transform: translate(0, 105%);
   transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
