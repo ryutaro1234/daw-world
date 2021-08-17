@@ -2,7 +2,7 @@
 https://www.daw-world.net
 
 ## 🤔 What's DAW World
-It's omposition teaching site.<br />
+It's composition teaching site.<br />
 The concept is visually easy to understand.
 
 ## 📚 Physics
