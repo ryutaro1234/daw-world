@@ -300,24 +300,6 @@ p{
   margin-top: 4rem;
 }
 
-#type02{
-  white-space: nowrap;
-  font-size: 50px;
-  line-height: 55px;
-  color: #4c4cff;
-  opacity: 0;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: -10px;
-  left: -5%;
-  transition: 1s;
-  transform: translateY(100%);
-}
-#type02.active{
-  transform: translateY(0) rotate(-10deg);
-  opacity: .4;
-}
-
 #piano01{
   width: 200%;
   height: auto;
@@ -338,24 +320,6 @@ p{
 }
 #trumpet01 g path, rect{
   fill: #d7c447;
-}
-
-#type03{
-  white-space: nowrap;
-  font-size: 50px;
-  line-height: 55px;
-  color: #d7c447;
-  opacity: 0;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: -10px;
-  left: -5%;
-  transition: 1s;
-  transform: translateY(100%);
-}
-#type03.active{
-  transform: translateY(0) rotate(-10deg);
-  opacity: .4;
 }
 
 .blue-ribbon{
