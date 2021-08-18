@@ -42,69 +42,6 @@ svg g path{
   color: #fff;
 }
 
-#type01{
-  overflow: hidden;
-  white-space: nowrap;
-  font-size: 70px;
-  line-height: 64px;
-  color: #4c4cff;
-  opacity: 0;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 5px;
-  left: -5%;
-  z-index: 10;
-  transition: 1s;
-  transform: translateY(100%);
-}
-#type01.active{
-  transition-delay: .2s;
-  transform: translateY(0) rotate(-5deg);
-  opacity: .3;
-}
-
-#type02{
-  overflow: hidden;
-  white-space: nowrap;
-  font-size: 70px;
-  line-height: 64px;
-  color: #4c4cff;
-  opacity: 0;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 5px;
-  left: -5%;
-  z-index: 10;
-  transition: 1s;
-  transform: translateY(100%);
-}
-#type02.active{
-  transition-delay: .2s;
-  transform: translateY(0) rotate(-5deg);
-  opacity: .3;
-}
-
-#type03{
-  overflow: hidden;
-  white-space: nowrap;
-  font-size: 70px;
-  line-height: 64px;
-  color: #4c4cff;
-  opacity: 0;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 5px;
-  left: -5%;
-  z-index: 10;
-  transition: 1s;
-  transform: translateY(100%);
-}
-#type03.active{
-  transition-delay: .2s;
-  transform: translateY(0) rotate(-5deg);
-  opacity: .3;
-}
-
 .show01{
   animation: basic-01 1s forwards;
 }
