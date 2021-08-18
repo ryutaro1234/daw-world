@@ -28,32 +28,6 @@ window.addEventListener("load", () => {
 
 $(function(){
   $(window).on('scroll',function (){
-    $('#type02').each(function(){
-      var target = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var height = $(window).height();
-      if (scroll > target - height){
-        $(this).addClass('active');
-      }
-    });
-  });
-});
-
-$(function(){
-  $(window).on('scroll',function (){
-    $('#type03').each(function(){
-      var target = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var height = $(window).height();
-      if (scroll > target - height){
-        $(this).addClass('active');
-      }
-    });
-  });
-});
-
-$(function(){
-  $(window).on('scroll',function (){
     $('.bg05').each(function(){
       var target = $(this).offset().top;
       var scroll = $(window).scrollTop();
