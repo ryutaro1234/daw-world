@@ -5,6 +5,17 @@ function nav_toggle(){
 };
 
 $(function(){
+  $('a[href^="#"]').click(function(){
+    let speed = 500;
+    let href= $(this).attr("href");
+    let target = $(href == "#" || href == "" ? 'html' : href);
+    let position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
+});
+
+$(function(){
   $(window).on('load scroll',function (){
     $('.scroll-up').each(function(){
       var target = $(this).offset().top;
@@ -100,16 +111,5 @@ $(function(){
         $(this).addClass('active');
       }
     });
-  });
-});
-
-$(function(){
-  $('a[href^="#"]').click(function(){
-    let speed = 500;
-    let href= $(this).attr("href");
-    let target = $(href == "#" || href == "" ? 'html' : href);
-    let position = target.offset().top;
-    $("html, body").animate({scrollTop:position}, speed, "swing");
-    return false;
   });
 });

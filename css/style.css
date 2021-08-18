@@ -294,8 +294,9 @@ ul, ol {
   margin: auto;
 }
 
-.main-image{
-  height: 48rem;
+.shapes{
+  mix-blend-mode: multiply;
+  position: relative;
 }
 
 .contents-table01{
@@ -308,7 +309,7 @@ ul, ol {
   width: 70%;
   margin: 0 auto;
   padding-top: 10px;
-  background: rgba( 255, 255, 255, .35 );
+  background: rgba( 255, 255, 255, .7 );
   box-shadow: 4px 4px 18px rgba(0,0,0,.2);
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
@@ -323,7 +324,7 @@ ul, ol {
   overflow: hidden;
   margin: 4rem auto;
   padding-bottom: 1rem;
-  background: rgba( 255, 255, 255, .35 );
+  background: rgba( 255, 255, 255, .7 );
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
   border-radius: 10px;
@@ -686,11 +687,11 @@ footer p{
     margin: 4rem auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   .width-pc{
-    width: 50%;
+    width: 42%;
     padding: 2rem;
   }
 }
