@@ -183,7 +183,7 @@ nav {
 }
 
 #navigation form{
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 
 nav ul {
@@ -602,6 +602,10 @@ footer p{
   nav{
     width: 30%;
     left: 70%;
+  }
+
+  #navigation form{
+    padding: 2rem 0;
   }
 
   h1{
