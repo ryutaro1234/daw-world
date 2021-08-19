@@ -395,6 +395,10 @@ p{
 }
 @media screen and (min-width: 1025px) {
 
+  .hello01{
+    padding-top: 8rem;
+  }
+
   h1{
     font-size: 32px;
     letter-spacing: 2px;
@@ -422,11 +426,12 @@ p{
     font-size: 150px;
     line-height: 130px;
     top: -50px;
-    left: -25%;
+    left: 5%;
   }
 
   #title01{
     transform: translateX(-83%);
+    left:54%;
   }
 
   #main-image{
