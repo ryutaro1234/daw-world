@@ -87,8 +87,6 @@ body {
 
 header{
   height: 3.5rem;
-  display: flex;
-  align-items: center;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -98,7 +96,7 @@ header h1{
   font-weight: lighter;
   letter-spacing: 2px;
   text-align: left;
-  margin-top: 3rem;
+  margin: 1.5rem 2rem;
 }
 
 #nav{
@@ -311,15 +309,9 @@ ul, ol {
   position: relative;
 }
 
-.contents-table01{
-  position: relative;
-  top: -40px;
-  z-index: -3;
-}
-
-.contents-table02{
+.contents-table{
   width: 70%;
-  margin: 0 2rem;
+  margin: 0 auto;
   padding-top: 10px;
   background: rgba( 255, 255, 255, .7 );
   box-shadow: 4px 4px 18px rgba(0,0,0,.2);
@@ -328,8 +320,11 @@ ul, ol {
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, .2 );
 }
-.contents-table02 div{
-  margin: 1rem;
+.contents-table div{
+  margin: 2rem;
+}
+.contents-table h1{
+  margin: 2rem;
 }
 
 .glass{
@@ -593,10 +588,7 @@ footer p{
 @media screen and (min-width: 600px) {
 
   header h1{
-    font-size: 120%;
-    letter-spacing: 2px;
-    text-align: left;
-    margin-top: 3rem;
+    margin-top: 2rem 3rem;
   }
 
   nav{
@@ -660,11 +652,8 @@ footer p{
 @media screen and (min-width: 1025px) {
 
   header h1{
-    font-size: 120%;
-    letter-spacing: 2px;
-    text-align: left;
-    padding: 0;
-    margin-top: 3rem;
+    width: 9rem;
+    margin: 2rem 1rem;
   }
 
   #container{
@@ -672,10 +661,11 @@ footer p{
   }
 
   h1{
+    margin: 4rem 0 -2rem;
     font-size: 38px;
     letter-spacing: 10px;
     text-align: left;
-    padding-left: 20%;
+    padding-left: 10%;
   }
 
   h3{
@@ -693,9 +683,8 @@ footer p{
     letter-spacing: 4px;
   }
 
-  .contents-table02{
+  .contents-table{
     max-width: 960px;
-    top: -100px;
   }
 
   table{
@@ -711,10 +700,19 @@ footer p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
   }
   .width-pc{
     width: 42%;
+    margin-top: auto;
     padding: 2rem;
+  }
+  .flex-margin{
+    margin: 0;
+  }
+  .flex:after {
+    content: "";
+    display: block;
+    width: 42%;
+    height: 0;
   }
 }
