@@ -368,7 +368,7 @@ p{
       height: auto;
   }
   #main-image.active{
-    width: 250%;
+    width: 150%;
   }
 
   .pc-top02{
@@ -432,6 +432,9 @@ p{
   #main-image{
     width: 120%;
     height: auto;
+  }
+  #main-image.active{
+    width: 130%;
   }
 
   .pc-top02 article{
