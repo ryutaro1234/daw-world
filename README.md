@@ -11,7 +11,7 @@ Sound is physics in origin. Bringing physics into an intangible event, such as s
 I wondered why this had not been done before, although it is just converting something intangible into a mathematical formula. <br />
 I aldo provide content created by this perspective. 
 
-## 🎓 About graduation work
+## 🎓 About graduation art work
 It's graduation work by Ryutaro Matsumoto.<br />
 Currently the mainstream teaching materials are images or videos.<br />
 However, it is difficult to understand with images. For videos, the amount of data traffic is large.<br />
