@@ -257,6 +257,14 @@ p{
   text-align: left;
 }
 
+b{
+  font-weight: normal;
+}
+
+b a{
+  font-weight: normal;
+}
+
 span{
   display: inline-block;
 }
@@ -323,8 +331,10 @@ ul, ol {
 .glass{
   overflow: hidden;
   margin: 4rem auto;
+  width: 96%;
   padding-bottom: 1rem;
   background: rgba( 255, 255, 255, .7 );
+  box-shadow: 4px 4px 18px rgba(0,0,0,.2);
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
   border-radius: 10px;
@@ -410,6 +420,11 @@ audio{
   left: 0;
   margin-top: -4px;
   transform: rotate(-45deg);
+}
+
+#arrow-next-final{
+  content: '';
+  width: 4rem;
 }
 
 footer{
@@ -607,7 +622,6 @@ footer p{
   .glass{
     width: 90%;
     margin: 4rem auto;
-    box-shadow: 4px 4px 18px rgba(0,0,0,.2);
   }
 
   table{
