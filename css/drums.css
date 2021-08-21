@@ -15,7 +15,7 @@ article{
 }
 
 .contents-table{
-  margin-top: 200px;
+  margin: 50px auto 100px;
 }
 
 #top001{
@@ -166,12 +166,28 @@ article{
     height: auto;
   }
 
+  h1{
+    font-size: 34px;
+  }
+
+  h3{
+    padding-left: 3rem;
+  }
+
 }
 @media screen and (min-width: 1025px) {
 
   .drums{
     width: 76%;
     height: auto;
+  }
+
+  section{
+    width: 90%;
+  }
+
+  h3{
+    padding-left: 2rem;
   }
 
 }
