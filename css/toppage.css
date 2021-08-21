@@ -273,6 +273,49 @@ article{
   top: 0;
   left: 0;
 }
+.scrolldown1{
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  z-index: 997;
+}
+.scrolldown1 span{
+  width: 100px;
+  color: #eee;
+  font-size: .7rem;
+  letter-spacing: .05em;
+  position: absolute;
+  left: -48px;
+  top: -25px;
+}
+.scrolldown1::after{
+  content: "";
+  width: 1px;
+  height: 30px;
+  background: #eee;
+  opacity: 0;
+  animation: pathmove 2.4s ease-in-out infinite;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+@keyframes pathmove{
+  0%{
+    height: 0;
+    top: 0;
+    opacity: 0;
+  }
+  30%{
+    height:30px;
+    opacity: 1;
+  }
+  100%{
+    height: 0;
+    top: 50px;
+    opacity: 0;
+  }
+}
 
 .pc-top02 article{
   overflow: hidden;
