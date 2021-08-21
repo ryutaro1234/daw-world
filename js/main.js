@@ -4,6 +4,11 @@ function nav_toggle(){
   document.getElementById("nav").classList.toggle("nav");
 };
 
+window.onload = function() {
+  const spinner = document.getElementById('loading');
+  spinner.classList.add('loaded');
+}
+
 $(function(){
   $('a[href^="#"]').click(function(){
     let speed = 500;
