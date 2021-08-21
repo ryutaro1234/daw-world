@@ -1,48 +1,33 @@
-article{
-  margin: 0;
-  padding: 0;
-  position: relative;
+.glass{
+  height: 400px;
+  text-align: center;
 }
 
-.color-style{
+h2{
+  margin: 2rem 0 1rem 0;
+}
+
+p{
+  text-align: center;
+}
+
+.red-ribbon{
+  border-left: 80px solid #ff5656;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.red h2 a{
   color: #ff5656;
 }
-.color-style b{
-  color: #ff5656;
-}
-.color-style a{
-  color: #ff5656;
-}
 
-.contents-table{
-  margin-top: 200px;
-}
-
-#top001{
-  text-align: right;
-  position: relative;
-  right: -10%;
-}
-
-#top002{
-  background: #ff5656;
-  margin-left: 1rem;
-  padding: .5rem 0 .5rem 0;
-  width: 70%;
-  border-radius: 10px;
-  box-shadow: 4px 4px 20px rgba(0,0,0,.2);
-  position: relative;
-  top: -50px;
-}
-#top002 p{
-  margin: 1rem;
-}
-#top002 span{
-  color: #fff;
-}
 
 .drums{
-  width: 96%;
+  width: 140%;
   height: auto;
   stroke: #333;
   stroke-miterlimit:10;
@@ -70,10 +55,10 @@ article{
 .drums-back .st1{
   fill: #333;
 }
-
 .hat .st3, .clash .st3, .ride{
   fill: #ffff33;
 }
+
 #clash01-l{
   animation: clash01-l 5s 2;
 }
@@ -158,20 +143,41 @@ article{
   }
 }
 
-
 @media screen and (min-width: 600px) {
 
-  .drums{
-    width: 80%;
-    height: auto;
+  main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .glass{
+    width: 45%;
+    height: 300px;
+    margin: 4rem 0;
+  }
+  main:after {
+    content: "";
+    display: block;
+    width: 45%;
+    height: 0;
   }
 
 }
+
 @media screen and (min-width: 1025px) {
 
-  .drums{
-    width: 76%;
-    height: auto;
+  .glass{
+    width: 32%;
+    height: 450px;
+  }
+  main:after {
+    content: "";
+    display: block;
+    width: 32%;
+    height: 0;
   }
 
 }
