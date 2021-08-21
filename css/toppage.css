@@ -6,6 +6,10 @@ article{
   position: relative;
 }
 
+.pc-top01{
+  overflow: hidden;
+}
+
 .hello01{
   padding-top: 5rem;
 }
