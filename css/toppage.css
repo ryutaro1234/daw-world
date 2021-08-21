@@ -363,8 +363,8 @@ p{
   fill: #ffff33;
 }
 
-#clash01-l{
-  animation: clash01-l 5s 2;
+#clash01-l.active{
+  animation: clash01-l 5s infinite;
 }
 @keyframes clash01-l {
   0%{
@@ -375,8 +375,8 @@ p{
   }
 }
 
-#clash01-r{
-  animation: clash01-r 10s 1;
+#clash01-r.active{
+  animation: clash01-r 10s infinite;
 }
 @keyframes clash01-r {
   0%{
@@ -388,7 +388,7 @@ p{
 }
 
 #bass01{
-  animation: bass01 .5s 10;
+  animation: bass01 .5s infinite;
 }
 @keyframes bass01 {
   0%{
@@ -400,7 +400,7 @@ p{
 }
 
 #snare01{
-  animation: snare01 1s 5;
+  animation: snare01 1s infinite;
 }
 @keyframes snare01 {
   0%{
@@ -412,7 +412,7 @@ p{
 }
 
 #hi01-tam{
-  animation: hi01-tam 5s 2;
+  animation: hi01-tam 5s infinite;
 }
 @keyframes hi01-tam {
   0%{
@@ -424,7 +424,7 @@ p{
 }
 
 #mid01-tam{
-  animation: mid01-tam 10s 1;
+  animation: mid01-tam 10s infinite;
 }
 @keyframes mid01-tam {
   0%{
@@ -436,7 +436,7 @@ p{
 }
 
 #low01-tam{
-  animation: low01-tam 5s 2;
+  animation: low01-tam 5s infinite;
 }
 @keyframes low01-tam {
   0%{
@@ -448,7 +448,7 @@ p{
 }
 
 #ride01{
-  animation: ride01 .5s 10;
+  animation: ride01 .5s infinite;
 }
 @keyframes ride01 {
   0%{
@@ -460,7 +460,7 @@ p{
 }
 
 #hat01-top{
-  animation: hat01-top .5s 25;
+  animation: hat01-top .5s infinite;
 }
 @keyframes hat01-top {
   0%{
