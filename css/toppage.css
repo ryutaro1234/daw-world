@@ -392,7 +392,7 @@ p{
 }
 @keyframes bass01 {
   0%{
-    transform: scale(1.1) translate(-5%, -5%);
+    transform: scale(1.1) translate(-5.3%, -5.3%);
   }
   100%{
     transform: scale(1) translate(0);
@@ -569,26 +569,6 @@ p{
 
 .profile-ribbon{
   border-left: 80px solid #ffbc7a;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.request section{
-  width: 90%;
-  margin: 1rem auto 1rem;
-}
-
-.request iframe{
-  width: 90%;
-  height: 400px;
-}
-
-.request-ribbon{
-  border-left: 80px solid #333;
   border-bottom: 80px solid transparent;
   opacity: .9;
   mix-blend-mode: multiply;
