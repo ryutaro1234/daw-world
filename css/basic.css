@@ -78,8 +78,8 @@ svg g path{
     animation-timing-function: ease-out;
   }
   100%{
-    fill: none;
-    background: none;
+    fill: transparent;
+    background: transparent;
   }
 }
 
