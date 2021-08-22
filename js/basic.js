@@ -262,7 +262,7 @@ $(function(){
     var scrollY = $(this).scrollTop();
 
     $('#position01').css({
-      'top': bg01.top + scrollY / 8,
+      'top': bg01.top + scrollY / -8,
       'left': bg01.left + scrollY / -10,
     });
 
