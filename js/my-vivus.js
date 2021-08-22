@@ -29,3 +29,19 @@ new Vivus('svg04', {
   pathTimingFunction: Vivus.EASE_IN,
   forceRender: false,
 });
+
+new Vivus('svg05', {
+  type: 'delayed',
+  duration: 100,
+  start: 'inViewport',
+  pathTimingFunction: Vivus.EASE_IN,
+  forceRender: false,
+});
+
+new Vivus('svg06', {
+  type: 'delayed',
+  duration: 100,
+  start: 'inViewport',
+  pathTimingFunction: Vivus.EASE_IN,
+  forceRender: false,
+});

@@ -35,6 +35,7 @@ body {
   z-index: 9999;
 }
 .loaded {
+  opacity: 0;
   visibility: hidden;
   transform: translateX(100%);
 }
@@ -764,18 +765,17 @@ footer p{
     flex-wrap: wrap;
     justify-content: center;
   }
-  .width-pc{
-    width: 42%;
-    margin-top: auto;
-    padding: 2rem;
-  }
-  .flex-margin{
-    margin: 0;
-  }
   .flex:after {
     content: "";
     display: block;
     width: 42%;
     height: 0;
+  }
+  .width-pc{
+    width: 42%;
+    padding: 2rem;
+  }
+  .flex-margin{
+    margin: auto;
   }
 }
