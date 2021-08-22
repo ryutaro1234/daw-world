@@ -374,10 +374,7 @@ ul, ol {
   border: 1px solid rgba( 255, 255, 255, .2 );
 }
 .contents-table div{
-  margin: 2rem;
-}
-.contents-table h1{
-  margin: 2rem;
+  margin: .5rem;
 }
 
 .glass{
@@ -657,6 +654,13 @@ footer p{
 
   #navigation form{
     padding: 2rem 0;
+  }
+
+  .contents-table div{
+    margin: 2rem;
+  }
+  .contents-table h1{
+    margin: 2rem;
   }
 
   h1{
