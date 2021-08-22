@@ -88,6 +88,7 @@ article{
   margin: 0 5px;
 }
 .bg01.-visible:before, .bg01.-visible:after {
+  transition-delay: 2s;
   transform: translate(0, 0);
 }
 .bg01:before, .bg01:after {
@@ -223,7 +224,7 @@ article{
   margin: 0 5px;
 }
 .bg03.-visible:before, .bg03.-visible:after {
-  transition-delay: .7s;
+  transition-delay: 1.5s;
   transform: translate(0, 0);
 }
 .bg03:before, .bg03:after {
