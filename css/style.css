@@ -384,7 +384,7 @@ ul, ol {
   margin: 4rem auto;
   width: 96%;
   padding-bottom: 1rem;
-  background: rgba( 255, 255, 255, .7 );
+  background: rgba( 255, 255, 255, .5 );
   box-shadow: 4px 4px 18px rgba(0,0,0,.2);
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );

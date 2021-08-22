@@ -253,10 +253,43 @@ audio05.onpause = function(){
   audio05.currentTime = 0;
 };
 
+function maj01(){
+  document.getElementById("maj01").classList.toggle("active");
+
+  let maj = document.getElementsByClassName("maj");
+  Array.prototype.forEach.call(maj, function (majclick) {
+    majclick.classList.toggle("active");
+  });
+
+  document.getElementById("min01").classList.remove("active");
+  let min = document.getElementsByClassName("min");
+  Array.prototype.forEach.call(min, function (minclick) {
+    minclick.classList.remove("active02");
+  });
+};
+
+function min01(){
+  document.getElementById("min01").classList.toggle("active");
+
+  let min = document.getElementsByClassName("min");
+  Array.prototype.forEach.call(min, function (minclick) {
+    minclick.classList.toggle("active02");
+  });
+
+  document.getElementById("maj01").classList.remove("active");
+  let maj = document.getElementsByClassName("maj");
+  Array.prototype.forEach.call(maj, function (majclick) {
+    majclick.classList.remove("active");
+  });
+};
+
 $(function(){
 
   var bg01 = $('#position01').offset();
   var bg02 = $('#position02').offset();
+  var bg03 = $('#position03').offset();
+  var bg04 = $('#position04').offset();
+  var bg05 = $('#position05').offset();
 
   $(window).on('scroll',function(){
     var scrollY = $(this).scrollTop();
@@ -269,6 +302,18 @@ $(function(){
     $('#position02').css({
       'top': bg02.top + scrollY / 8,
       'left': bg02.left + scrollY / -10,
+    });
+
+    $('#position03').css({
+      'top': bg03.top + scrollY / -15,
+    });
+
+    $('#position04').css({
+      'top': bg04.top + scrollY / 10,
+    });
+
+    $('#position05').css({
+      'top': bg05.top + scrollY / -10,
     });
   });
 });
