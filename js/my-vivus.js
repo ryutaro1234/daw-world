@@ -45,3 +45,19 @@ new Vivus('svg06', {
   pathTimingFunction: Vivus.EASE_IN,
   forceRender: false,
 });
+
+new Vivus('svg07', {
+  type: 'delayed',
+  duration: 100,
+  start: 'inViewport',
+  pathTimingFunction: Vivus.EASE_IN,
+  forceRender: false,
+});
+
+new Vivus('svg08', {
+  type: 'delayed',
+  duration: 100,
+  start: 'inViewport',
+  pathTimingFunction: Vivus.EASE_IN,
+  forceRender: false,
+});
