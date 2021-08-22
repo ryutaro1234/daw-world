@@ -268,7 +268,7 @@ $(function(){
 
     $('#position02').css({
       'top': bg02.top + scrollY / 8,
-      'left': bg02.left + scrollY / 10,
+      'left': bg02.left + scrollY / -10,
     });
   });
 });

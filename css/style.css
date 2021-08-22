@@ -259,6 +259,7 @@ nav ul li a{
 }
 
 main{
+  overflow: hidden;
   padding-top: 3.5rem;
 }
 
@@ -475,6 +476,10 @@ audio{
 #arrow-next-final{
   content: '';
   width: 4rem;
+}
+
+#position{
+  overflow: hidden;
 }
 
 footer{
