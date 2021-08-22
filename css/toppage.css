@@ -320,6 +320,7 @@ article{
 .pc-top02 article{
   overflow: hidden;
   margin-top: 2rem;
+  text-align: center;
 }
 
 h2{
@@ -328,6 +329,51 @@ h2{
 
 p{
   text-align: center;
+}
+
+#piano01{
+  width: 150%;
+  stroke: #4c4cff;
+}
+#piano01 g path{
+  fill: #4c4cff;
+}
+.show01{
+  animation: basic-01 1s forwards;
+}
+.show02{
+  animation: basic-01 1s forwards .5s;
+}
+.show03{
+  animation: basic-01 1s forwards 1s;
+}
+.show04{
+  animation: basic-01 1s forwards 1.5s;
+}
+.show05{
+  animation: basic-01 1s forwards 2s;
+}
+.show06{
+  animation: basic-01 1s forwards 2.5s;
+}
+.show07{
+  animation: basic-01 1s forwards 3s;
+}
+.show08{
+  animation: basic-01 1s forwards 3.5s;
+}
+@keyframes basic-01 {
+  0%{
+    fill: #ffff7f;
+    animation-timing-function: ease-in;
+  }
+  50%{
+    fill: #ffff7f;
+    animation-timing-function: ease-out;
+  }
+  100%{
+    fill: #fff;
+  }
 }
 
 .drums{
@@ -472,61 +518,6 @@ p{
   100%{
     transform: scaleY(1) translateY(0);
   }
-}
-
-#piano01{
-  margin-top: 2rem;
-  stroke: #4c4cff;
-}
-#piano01 g path{
-  fill: #4c4cff;
-}
-.show01{
-  animation: basic-01 1s forwards;
-}
-.show02{
-  animation: basic-01 1s forwards .5s;
-}
-.show03{
-  animation: basic-01 1s forwards 1s;
-}
-.show04{
-  animation: basic-01 1s forwards 1.5s;
-}
-.show05{
-  animation: basic-01 1s forwards 2s;
-}
-.show06{
-  animation: basic-01 1s forwards 2.5s;
-}
-.show07{
-  animation: basic-01 1s forwards 3s;
-}
-.show08{
-  animation: basic-01 1s forwards 3.5s;
-}
-@keyframes basic-01 {
-  0%{
-    fill: #ffff7f;
-    animation-timing-function: ease-in;
-  }
-  50%{
-    fill: #ffff7f;
-    animation-timing-function: ease-out;
-  }
-  100%{
-    fill: #fff;
-  }
-}
-
-#piano02{
-  width: 200%;
-  height: auto;
-  margin-top: 2rem;
-  stroke: #4c4cff;
-}
-#piano02 g path{
-  fill: #4c4cff;
 }
 
 #trumpet01{
