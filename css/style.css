@@ -37,7 +37,7 @@ body {
 .loaded {
   opacity: 0;
   visibility: hidden;
-  transform: translateX(100%);
+  transform: translate(-100%, -100%);
 }
 #loading h1{
   white-space: nowrap;
@@ -63,7 +63,7 @@ body {
 }
 .bg2 {
   animation-direction:alternate-reverse;
-  animation-duration:4s;
+  animation-duration:3s;
 }
 .bg3 {
   animation-duration:5s;
