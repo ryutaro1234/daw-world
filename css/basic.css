@@ -238,6 +238,31 @@ svg g path{
 #g-06{animation-delay: 3s}
 #a-06{animation-delay: 3.5s}
 
+
+.square01{
+  stroke: #4c4cff;
+  opacity: .6;
+}
+
+.plus01{
+  stroke: #4c4cff;
+  opacity: .6;
+}
+
+#position01{
+  position: absolute;
+  top: 500px;
+  left: 0;
+  z-index: -999;
+}
+
+#position02{
+  position: absolute;
+  top: 1300px;
+  left: 0;
+  z-index: -999;
+}
+
 @media screen and (min-width: 600px) {
 
   h1{

@@ -252,3 +252,23 @@ audio05.onpause = function(){
   document.getElementById("a-06").classList.remove("show02-01");
   audio05.currentTime = 0;
 };
+
+$(function(){
+
+  var bg01 = $('#position01').offset();
+  var bg02 = $('#position02').offset();
+
+  $(window).on('scroll',function(){
+    var scrollY = $(this).scrollTop();
+
+    $('#position01').css({
+      'top': bg01.top + scrollY / 8,
+      'left': bg01.left + scrollY / -10,
+    });
+
+    $('#position02').css({
+      'top': bg02.top + scrollY / 8,
+      'left': bg02.left + scrollY / 10,
+    });
+  });
+});
