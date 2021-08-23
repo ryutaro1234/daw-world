@@ -168,7 +168,7 @@ article{
   justify-content: space-around;
 }
 #bottom01 p{
-  width: 3rem;
+  width: 5rem;
   text-align: center;
   font-size: 85%;
   padding: 3px 15px;
@@ -189,10 +189,11 @@ article{
 #hi02-shell.jazz01{fill: #ffaf1a;}
 #snare02-shell.jazz01{fill: #ffaf1a;}
 
-#low02-shell.metal01{fill: #ff5656;}
 #mid02-shell.metal01{fill: #ff5656;}
-#hi02-shell.metal01{fill: #ff5656;}
-#snare02-shell.metal01{fill: #ff5656;}
+#low02-shell.metal01{fill:#dc143c;}
+#mid02-shell.metal01{fill:#dc143c;}
+#hi02-shell.metal01{fill:#dc143c;}
+#snare02-shell.metal01{fill:#dc143c;}
 
 
 #audio01, #audio02, #audio03{
@@ -217,7 +218,7 @@ article{
   font-weight: bold;
   color: #fff;
   border: none;
-  background: #ff5656;
+  background: #dc143c;
 }
 
 #snare02.audio01{

@@ -77,6 +77,10 @@ audio01.onplay = function(){
 
 audio01.onpause = function(){
   document.getElementById("pop01").classList.remove("click");
+  document.getElementById("low02-shell").classList.remove("pop01");
+  document.getElementById("mid02-shell").classList.remove("pop01");
+  document.getElementById("hi02-shell").classList.remove("pop01");
+  document.getElementById("snare02-shell").classList.remove("pop01");
   document.getElementById("snare02-shell").classList.remove("audio01");
   document.getElementById("snare02").classList.remove("audio01");
   document.getElementById("bass02-shell").classList.remove("audio01");
@@ -95,6 +99,10 @@ audio02.onplay = function(){
 }
 audio02.onpause = function(){
   document.getElementById("jazz01").classList.remove("click");
+  document.getElementById("low02-shell").classList.remove("jazz01");
+  document.getElementById("mid02-shell").classList.remove("jazz01");
+  document.getElementById("hi02-shell").classList.remove("jazz01");
+  document.getElementById("snare02-shell").classList.remove("jazz01");
   document.querySelector("#bass02").classList.remove("audio02");
   document.querySelector("#bass02-shell").classList.remove("audio02");
   document.querySelector("#snare02").classList.remove("audio02");
@@ -105,5 +113,9 @@ audio02.onpause = function(){
 var audio03 = document.querySelector("#audio03");
 audio03.onpause = function(){
   document.querySelector("#metal01").classList.remove("click");
+  document.getElementById("low02-shell").classList.remove("metal01");
+  document.getElementById("mid02-shell").classList.remove("metal01");
+  document.getElementById("hi02-shell").classList.remove("metal01");
+  document.getElementById("snare02-shell").classList.remove("metal01");
   audio03.currentTime = 0;
 };
