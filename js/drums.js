@@ -6,6 +6,8 @@ function pop01(){
   document.getElementById("snare02-shell").classList.add("pop01");
   document.querySelector("#audio01").play();
 
+  document.querySelector("#audio02").pause();
+  document.querySelector("#audio03").pause();
   document.getElementById("jazz01").classList.remove("click");
   document.getElementById("audio02").classList.remove("click");
   document.getElementById("metal01").classList.remove("click");
@@ -29,6 +31,8 @@ function jazz01(){
   document.getElementById("snare02-shell").classList.add("jazz01");
   document.querySelector("#audio02").play();
 
+  document.querySelector("#audio01").pause();
+  document.querySelector("#audio03").pause();
   document.getElementById("pop01").classList.remove("click");
   document.getElementById("audio01").classList.remove("click")
   document.getElementById("metal01").classList.remove("click");
@@ -51,6 +55,8 @@ function metal01(){
   document.getElementById("snare02-shell").classList.add("metal01");
   document.querySelector("#audio03").play();
 
+  document.querySelector("#audio01").pause();
+  document.querySelector("#audio02").pause();
   document.getElementById("pop01").classList.remove("click");
   document.getElementById("audio01").classList.remove("click")
   document.getElementById("jazz01").classList.remove("click");
