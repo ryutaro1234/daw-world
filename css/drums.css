@@ -158,6 +158,117 @@ article{
   }
 }
 
+#drums02{
+  margin: 0 auto;
+}
+
+#bottom01{
+  display: flex;
+  justify-content: space-around;
+}
+#bottom01 p{
+  width: 3rem;
+  text-align: center;
+  font-size: 85%;
+  padding: 3px 15px;
+  border-radius: 6px;
+  font-weight: normal;
+  background-color: #eee;
+  border-bottom: 5px solid #ccc;
+  transition: 1s ease-out;
+}
+
+#low02-shell.pop01{
+  fill: #7abcff;
+}
+#mid02-shell.pop01{
+  fill: #7abcff;
+}
+#hi02-shell.pop01{
+  fill: #7abcff;
+}
+#snare02-shell.pop01{
+  fill: #7abcff;
+}
+
+#low02-shell.jazz01{
+  fill: #ffaf1a;
+}
+#mid02-shell.jazz01{
+  fill: #ffaf1a;
+}
+#hi02-shell.jazz01{
+  fill: #ffaf1a;
+}
+#snare02-shell.jazz01{
+  fill: #ffaf1a;
+}
+
+#low02-shell.metal01{
+  fill: #ff5656;
+}
+#mid02-shell.metal01{
+  fill: #ff5656;
+}
+#hi02-shell.metal01{
+  fill: #ff5656;
+}
+#snare02-shell.metal01{
+  fill: #ff5656;
+}
+
+#audio01, #audio02, #audio03{
+  display: none;
+}
+#audio01.click, #audio02.click, #audio03.click{
+  display: block;
+}
+
+#pop01.click{
+  background: #7abcff;
+  border: none;
+}
+
+#jazz01.click{
+  background: #ffaf1a;
+  border: none;
+}
+
+#metal01.click{
+  background: #ff5656;
+  border: none;
+}
+
+#snare02-shell.audio01{
+  animation: snare02audio01 15s forwards;
+}
+@keyframes snare02audio01 {
+
+  0%{
+    fill: #7abcff;
+  }
+  5.5%{
+    fill: #7abcff;
+  }
+  6%{
+    fill: #ffff7f;
+  }
+  7.5%{
+    fill: #ffff7f;
+  }
+  8%{
+    fill: #7abcff;
+  }
+  40%{
+    fill: #ffff7f;
+  }
+  45%{
+    fill: #ffff7f;
+  }
+  50%{
+    fill: #7abcff;
+  }
+}
 
 @media screen and (min-width: 600px) {
 
