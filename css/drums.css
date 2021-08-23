@@ -160,6 +160,7 @@ article{
 
 #drums02{
   margin: 0 auto;
+  width: 100%;
 }
 
 #bottom01{
@@ -178,44 +179,21 @@ article{
   transition: 1s ease-out;
 }
 
-#low02-shell.pop01{
-  fill: #7abcff;
-}
-#mid02-shell.pop01{
-  fill: #7abcff;
-}
-#hi02-shell.pop01{
-  fill: #7abcff;
-}
-#snare02-shell.pop01{
-  fill: #7abcff;
-}
+#low02-shell.pop01{fill: #7abcff;}
+#mid02-shell.pop01{fill: #7abcff;}
+#hi02-shell.pop01{fill: #7abcff;}
+#snare02-shell.pop01{fill: #7abcff;}
 
-#low02-shell.jazz01{
-  fill: #ffaf1a;
-}
-#mid02-shell.jazz01{
-  fill: #ffaf1a;
-}
-#hi02-shell.jazz01{
-  fill: #ffaf1a;
-}
-#snare02-shell.jazz01{
-  fill: #ffaf1a;
-}
+#low02-shell.jazz01{fill: #ffaf1a;}
+#mid02-shell.jazz01{fill: #ffaf1a;}
+#hi02-shell.jazz01{fill: #ffaf1a;}
+#snare02-shell.jazz01{fill: #ffaf1a;}
 
-#low02-shell.metal01{
-  fill: #ff5656;
-}
-#mid02-shell.metal01{
-  fill: #ff5656;
-}
-#hi02-shell.metal01{
-  fill: #ff5656;
-}
-#snare02-shell.metal01{
-  fill: #ff5656;
-}
+#low02-shell.metal01{fill: #ff5656;}
+#mid02-shell.metal01{fill: #ff5656;}
+#hi02-shell.metal01{fill: #ff5656;}
+#snare02-shell.metal01{fill: #ff5656;}
+
 
 #audio01, #audio02, #audio03{
   display: none;
@@ -223,20 +201,23 @@ article{
 #audio01.click, #audio02.click, #audio03.click{
   display: block;
 }
-
 #pop01.click{
+  font-weight: bold;
+  color: #fff;
+  border: none;
   background: #7abcff;
-  border: none;
 }
-
 #jazz01.click{
+  font-weight: bold;
+  color: #fff;
+  border: none;
   background: #ffaf1a;
-  border: none;
 }
-
 #metal01.click{
-  background: #ff5656;
+  font-weight: bold;
+  color: #fff;
   border: none;
+  background: #ff5656;
 }
 
 #snare02.audio01{
