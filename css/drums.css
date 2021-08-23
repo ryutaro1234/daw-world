@@ -411,6 +411,20 @@ article{
   }
 }
 
+#hat02-top.audio01{
+  animation: hat02-topaudio01 8s forwards;
+}
+@keyframes hat02-topaudio01 {
+  0%{
+    fill: #ffffe6;
+    transform: translateX(-.5%);
+  }
+  5%{transform: translateX(0)}
+  80%{fill: #ffffe6;}
+  100%{fill: #ffff33;}
+}
+
+
 @media screen and (min-width: 600px) {
 
   .drums{
