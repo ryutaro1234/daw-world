@@ -69,10 +69,14 @@ var audio01 = document.getElementById("audio01");
 audio01.onplay = function(){
   document.getElementById("snare02-shell").classList.add("audio01");
   document.getElementById("snare02").classList.add("audio01");
+  document.getElementById("bass02-shell").classList.add("audio01");
+  document.getElementById("bass02").classList.add("audio01");
 };
 
 audio01.onpause = function(){
   document.getElementById("snare02-shell").classList.remove("audio01");
   document.getElementById("snare02").classList.remove("audio01");
+  document.getElementById("bass02-shell").classList.remove("audio01");
+  document.getElementById("bass02").classList.remove("audio01");
   audio01.currentTime = 0;
 };

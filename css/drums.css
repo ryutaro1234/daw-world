@@ -268,37 +268,120 @@ article{
   0%{fill: #7abcff;}
 
   4%{fill: #7abcff;}
-  4.5%{fill: #ffff7f;}
+  4.5%{fill: #ffffe6;}
   5%{fill: #7abcff;}
 
   10.5%{fill: #7abcff;}
-  11%{fill: #ffff7f;}
+  11%{fill: #ffffe6;}
   12%{fill: #7abcff;}
 
   17%{fill: #7abcff;}
-  17.5%{fill: #ffff7f;}
+  17.5%{fill: #ffffe6;}
   18.5%{fill: #7abcff;}
 
   23.8%{fill: #7abcff;}
-  24.3%{fill: #ffff7f;}
+  24.3%{fill: #ffffe6;}
   25.3%{fill: #7abcff;}
 
   30.3%{fill: #7abcff;}
-  30.8%{fill: #ffff7f;}
+  30.8%{fill: #ffffe6;}
   31.8%{fill: #7abcff;}
 
   37.1%{fill: #7abcff;}
-  37.6%{fill: #ffff7f;}
+  37.6%{fill: #ffffe6;}
   38.6%{fill: #7abcff;}
 
   43.6%{fill: #7abcff;}
-  44.1%{fill: #ffff7f;}
+  44.1%{fill: #ffffe6;}
   44.6%{fill: #7abcff;}
 
   49.8%{fill: #7abcff;}
-  50.3%{fill: #ffff7f;}
-  53.3%{fill: #ffff7f;}
+  50.3%{fill: #ffffe6;}
+  53.3%{fill: #ffffe6;}
   53.8%{fill: #7abcff;}
+}
+
+#bass02.audio01{
+  animation: bass02audio01 12s forwards;
+}
+@keyframes bass02audio01 {
+  0%{transform: scale(1.1) translate(-5%, -5%);}
+  2%{transform: scale(1) translate(0,0);}
+
+  5.8%{transform: scale(1) translate(0,0);}
+  6.3%{transform: scale(1.1) translate(-5%, -5%);}
+  8.3%{transform: scale(1) translate(0,0);}
+
+  13.5%{transform: scale(1) translate(0,0);}
+  14%{transform: scale(1.1) translate(-5%, -5%);}
+  15%{transform: scale(1) translate(0,0);}
+
+  20%{transform: scale(1) translate(0,0);}
+  20.5%{transform: scale(1.1) translate(-5%, -5%);}
+  21.5%{transform: scale(1) translate(0,0);}
+
+  25%{transform: scale(1) translate(0,0);}
+  25.5%{transform: scale(1.1) translate(-5%, -5%);}
+  26.5%{transform: scale(1) translate(0,0);}
+  27%{transform: scale(1.1) translate(-5%, -5%);}
+  28%{transform: scale(1) translate(0,0);}
+
+  34%{transform: scale(1) translate(0,0);}
+  34.5%{transform: scale(1.1) translate(-5%, -5%);}
+  35.5%{transform: scale(1) translate(0,0);}
+
+  40.5%{transform: scale(1) translate(0,0);}
+  41%{transform: scale(1.1) translate(-5%, -5%);}
+  42%{transform: scale(1) translate(0,0);}
+
+  47%{transform: scale(1) translate(0,0);}
+  47.5%{transform: scale(1.1) translate(-5%, -5%);}
+  48.5%{transform: scale(1) translate(0,0);}
+  49%{transform: scale(1) translate(0,0);}
+  49.5%{transform: scale(1.1) translate(-5%, -5%);}
+  50.5%{transform: scale(1) translate(0,0);}
+}
+
+
+#bass02-shell.audio01{
+  animation:bass02-shellaudio01 12s forwards;
+}
+@keyframes bass02-shellaudio01 {
+  0%{fill: #ffffe6;}
+  2%{fill: #222;}
+
+  5.8%{fill: #222;}
+  6.3%{fill: #ffffe6;}
+  8.3%{fill: #222;}
+
+  13.5%{fill: #222;}
+  14%{fill: #ffffe6;}
+  15%{fill: #222;}
+
+  20%{fill: #222;}
+  20.5%{fill: #ffffe6;}
+  21.5%{fill: #222;}
+
+  25%{fill: #222;}
+  25.5%{fill: #ffffe6;}
+  26.5%{fill: #222;}
+  27%{fill: #ffffe6;}
+  28%{fill: #222;}
+
+  34%{fill: #222;}
+  34.5%{fill: #ffffe6;}
+  35.5%{fill: #222;}
+
+  40.5%{fill: #222;}
+  41%{fill: #ffffe6;}
+  42%{fill: #222;}
+
+  47%{fill: #222;}
+  47.5%{fill: #ffffe6;}
+  48.5%{fill: #222;}
+  49%{fill: #222;}
+  49.5%{fill: #ffffe6;}
+  50.5%{fill: #222;}
 }
 
 @media screen and (min-width: 600px) {
