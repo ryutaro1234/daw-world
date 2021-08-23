@@ -104,6 +104,6 @@ audio02.onpause = function(){
 
 var audio03 = document.querySelector("#audio03");
 audio03.onpause = function(){
-  document.getElementById("metal01").classList.remove("click");
+  document.querySelector("#metal01").classList.remove("click");
   audio03.currentTime = 0;
 };
