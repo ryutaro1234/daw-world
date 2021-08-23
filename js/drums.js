@@ -89,9 +89,20 @@ audio01.onpause = function(){
 };
 
 var audio02 = document.querySelector("#audio02");
+audio02.onplay = function(){
+  document.querySelector("#bass02").classList.add("audio02");
+    document.querySelector("#bass02-shell").classList.add("audio02");
+      document.querySelector("#snare02").classList.add("audio02");
+        document.querySelector("#snare02-shell").classList.add("audio02");
+}
 audio02.onpause = function(){
+  document.querySelector("#bass02").classList.remove("audio02");
+    document.querySelector("#bass02-shell").classList.remove("audio02");
+    document.querySelector("#snare02").classList.remove("audio02");
+    document.querySelector("#snare02-shell").classList.remove("audio02");
   audio02.currentTime = 0;
 };
+
 var audio03 = document.querySelector("#audio03");
 audio03.onpause = function(){
   audio03.currentTime = 0;

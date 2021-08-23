@@ -415,14 +415,104 @@ article{
   animation: hat02-topaudio01 8s forwards;
 }
 @keyframes hat02-topaudio01 {
-  0%{
-    fill: #ffffe6;
-    transform: translateX(-.5%);
-  }
-  5%{transform: translateX(0)}
-  80%{fill: #ffffe6;}
-  100%{fill: #ffff33;}
+  0%{transform: scale(1.1) translate(-5%, -5%);}
+  2%{transform: scale(1) translate(0,0);}
 }
+
+#bass02.audio02{
+  animation: bass02audio02 7s forwards;
+}
+@keyframes bass02audio02 {
+  0%{transform: scale(1.1) translate(-5%, -5%);}
+  2%{transform: scale(1) translate(0,0);}
+
+  3.5%{transform: scale(1) translate(0,0);}
+  4%{transform: scale(1.1) translate(-5%, -5%);}
+  6%{transform: scale(1) translate(0,0);}
+
+  12.5%{transform: scale(1) translate(0,0);}
+  13%{transform: scale(1.1) translate(-5%, -5%);}
+  14%{transform: scale(1) translate(0,0);}
+
+  17.5%{transform: scale(1) translate(0,0);}
+  18%{transform: scale(1.1) translate(-5%, -5%);}
+  20%{transform: scale(1) translate(0,0);}
+
+  30.5%{transform: scale(1) translate(0,0);}
+  31%{transform: scale(1.1) translate(-5%, -5%);}
+  32%{transform: scale(1) translate(0,0);}
+
+  35.5%{transform: scale(1) translate(0,0);}
+  36%{transform: scale(1.1) translate(-5%, -5%);}
+  38%{transform: scale(1) translate(0,0);}
+
+  45.5%{transform: scale(1) translate(0,0);}
+  46%{transform: scale(1.1) translate(-5%, -5%);}
+  48%{transform: scale(1) translate(0,0);}
+
+  50.5%{transform: scale(1) translate(0,0);}
+  51%{transform: scale(1.1) translate(-5%, -5%);}
+  53%{transform: scale(1) translate(0,0);}
+
+  62.5%{transform: scale(1) translate(0,0);}
+  63%{transform: scale(1.1) translate(-5%, -5%);}
+  65%{transform: scale(1) translate(0,0);}
+}
+
+#bass02-shell.audio02{
+  animation: bass02-shellaudio02 7s forwards;
+}
+@keyframes bass02-shellaudio02 {
+  0%{fill: #ffffe6;}
+  2%{fill: #222;}
+
+  3.5%{fill: #222;}
+  4%{fill: #ffffe6;}
+  6%{fill: #222;}
+
+  12.5%{fill: #222;}
+  13%{fill: #ffffe6;}
+  14%{fill: #222;}
+
+  17.5%{fill: #222;}
+  18%{fill: #ffffe6;}
+  20%{fill: #222;}
+
+  30.5%{fill: #222;}
+  31%{fill: #ffffe6;}
+  32%{fill: #222;}
+
+  35.5%{fill: #222;}
+  36%{fill: #ffffe6;}
+  38%{fill: #222;}
+
+  45.5%{fill: #222;}
+  46%{fill: #ffffe6;}
+  48%{fill: #222;}
+
+  50.5%{fill: #222;}
+  51%{fill: #ffffe6;}
+  53%{fill: #222;}
+
+  62.5%{fill: #222;}
+  63%{fill: #ffffe6;}
+  65%{fill: #222;}
+}
+
+#snare02.audio02{
+  animation: snare02.audio02 7s forwards;
+}
+@keyframes snare02.audio02 {
+
+}
+
+#snare02-shell.audio02{
+  animation: snare02-shell.audio02 7s forwards;
+}
+@keyframes snare02-shell.audio02 {
+
+}
+
 
 
 @media screen and (min-width: 600px) {
