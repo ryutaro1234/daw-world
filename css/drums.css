@@ -409,19 +409,6 @@ article{
     fill: #ffff33;
     transform: scaleY(1);
   }
-
-  87.5%{
-    fill: #ffff33;
-    transform: scaleY(1);
-  }
-  88%{
-    fill: #ffffe6;
-    transform: scaleY(1.4);
-  }
-  100%{
-    fill: #ffff33;
-    transform: scaleY(1);
-  }
 }
 
 @media screen and (min-width: 600px) {
