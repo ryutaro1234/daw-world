@@ -239,35 +239,90 @@ article{
   border: none;
 }
 
-#snare02-shell.audio01{
-  animation: snare02audio01 15s forwards;
+#snare02.audio01{
+  animation: snare02audio01 12s forwards;
 }
 @keyframes snare02audio01 {
+  0%{transform: scaleY(1) translateY(0);}
 
-  0%{
-    fill: #7abcff;
-  }
-  5.5%{
-    fill: #7abcff;
-  }
-  6%{
-    fill: #ffff7f;
-  }
-  7.5%{
-    fill: #ffff7f;
-  }
-  8%{
-    fill: #7abcff;
-  }
-  40%{
-    fill: #ffff7f;
-  }
-  45%{
-    fill: #ffff7f;
-  }
-  50%{
-    fill: #7abcff;
-  }
+  4%{transform: scaleY(1) translateY(0);}
+  4.5%{transform: scaleY(.9) translateY(10%);}
+  5%{transform: scaleY(1) translateY(0);}
+
+  10.5%{transform: scaleY(1) translateY(0);}
+  11%{transform: scaleY(.9) translateY(10%);}
+  12%{transform: scaleY(1) translateY(0);}
+
+  17%{transform: scaleY(1) translateY(0);}
+  17.5%{transform: scaleY(.9) translateY(10%);}
+  18.5%{transform: scaleY(1) translateY(0);}
+
+  23.5%{transform: scaleY(1) translateY(0);}
+  24%{transform: scaleY(.9) translateY(10%);}
+  25%{transform: scaleY(1) translateY(0);}
+
+  30%{transform: scaleY(1) translateY(0);}
+  30.5%{transform: scaleY(.9) translateY(10%);}
+  31.5%{transform: scaleY(1) translateY(0);}
+
+  36.5%{transform: scaleY(1) translateY(0);}
+  37%{transform: scaleY(.9) translateY(10%);}
+  38%{transform: scaleY(1) translateY(0);}
+
+  43%{transform: scaleY(1) translateY(0);}
+  43.5%{transform: scaleY(.9) translateY(10%);}
+  44%{transform: scaleY(1) translateY(0);}
+
+  49.5%{transform: scaleY(1) translateY(0);}
+  50%{transform: scaleY(.9) translateY(10%);}
+  53%{transform: scaleY(.9) translateY(10%);}
+  53.5%{transform: scaleY(1) translateY(0);}
+}
+
+#snare02-shell.audio01{
+  animation: snare02-shellaudio01 12s forwards;
+}
+@keyframes snare02-shellaudio01 {
+
+  0%{fill: #7abcff;}
+
+  4%{fill: #7abcff;}
+  4.5%{fill: #ffff7f;}
+  5%{fill: #7abcff;}
+
+  10.5%{fill: #7abcff;}
+  11%{fill: #ffff7f;}
+  12%{fill: #7abcff;}
+
+  17%{fill: #7abcff;}
+  17.5%{fill: #ffff7f;}
+  18.5%{fill: #7abcff;}
+
+  23.5%{fill: #7abcff;}
+  24%{fill: #ffff7f;}
+  25%{fill: #7abcff;}
+
+  30%{fill: #7abcff;}
+  30.5%{fill: #ffff7f;}
+  31.5%{fill: #7abcff;}
+
+  36.5%{fill: #7abcff;}
+  37%{fill: #ffff7f;}
+  38%{fill: #7abcff;}
+
+  43%{fill: #7abcff;}
+  43.5%{fill: #ffff7f;}
+  44%{fill: #7abcff;}
+
+  49.5%{fill: #7abcff;}
+  50%{fill: #ffff7f;}
+  50.5%{fill: #ffffcc;}
+  51%{fill: #ffff7f;}
+  51.5%{fill: #ffffcc;}
+  52%{fill: #ffff7f;}
+  52.5%{fill: #ffffcc;}
+  53%{fill: #ffff7f;}
+  53.5%{fill: #7abcff;}
 }
 
 @media screen and (min-width: 600px) {
