@@ -85,3 +85,12 @@ audio01.onpause = function(){
   document.getElementById("clash02-l").classList.remove("audio01")
   audio01.currentTime = 0;
 };
+
+var audio02 = document.querySelector("#audio02");
+audio02.onpause = function(){
+  audio02.currentTime = 0;
+};
+var audio03 = document.querySelector("#audio03");
+audio03.onpause = function(){
+  audio03.currentTime = 0;
+};
