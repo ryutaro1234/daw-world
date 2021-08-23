@@ -12,6 +12,10 @@
   height: 250px;
 }
 
+.error-02 section{
+  margin: 2rem
+}
+
 h3{
   padding: 1rem 0 0 2rem;
 }
@@ -21,17 +25,7 @@ ul{
 }
 
 #search404 section{
-  margin: 3rem 0 0 5rem;
-}
-
-.ribbon404{
-  border-left: 80px solid #ff7abc;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
+  margin: 2rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -45,13 +39,14 @@ ul{
     width: 48%;
   }
 
-  h3{
-    padding: .5rem 0 0 3rem;
-  }
 
 }
 
 @media screen and (min-width: 1025px) {
+
+  p{
+    padding-top: 3rem;
+  }
 
   .error-02 {
     justify-content: space-around;
@@ -59,10 +54,6 @@ ul{
 
   .error-02 article{
     width: 38%;
-  }
-
-  #search404 section{
-    margin: 3rem 0 0 7rem;
   }
 
 }
