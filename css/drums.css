@@ -158,16 +158,20 @@ article{
   }
 }
 
+#audio01,#audio02,#audio03{
+  display: none;
+}
+
 #drums02{
   margin: 0 auto;
   width: 100%;
 }
 
-#bottom01{
+.bottom{
   display: flex;
   justify-content: space-around;
 }
-#bottom01 p{
+.bottom p{
   width: 5rem;
   text-align: center;
   font-size: 85%;
@@ -194,13 +198,6 @@ article{
 #hi02-shell.metal01{fill:#dc143c;}
 #snare02-shell.metal01{fill:#dc143c;}
 
-
-#audio01, #audio02, #audio03{
-  display: none;
-}
-#audio01.click, #audio02.click, #audio03.click{
-  display: block;
-}
 #pop01.click{
   font-weight: bold;
   color: #fff;
@@ -514,6 +511,31 @@ article{
 
 }
 
+#drums03 .st0{fill:none;stroke:#000000;stroke-width:0.5;}
+#drums03 .st1{fill:none;stroke:#000000;stroke-width:0.5;}
+#drums03 .st2{fill:#FF5B5B;stroke:#000000;stroke-width:0.5;}
+#drums03 .st3{fill:#CCCCCC;stroke:#000000;stroke-width:0.5;}
+#drums03 .st4{fill:#EEEEEE;stroke:#000000;stroke-width:0.5;}
+#drums03 .st5{fill:#4D4D4D;stroke:#000000;stroke-width:0.5;}
+#drums03 .st6{fill:#333333;stroke:#000000;stroke-width:0.5;}
+#drums03 .st7{fill:#CCCCCC;stroke:#000000;stroke-width:0.5;}
+#drums03 .st8{fill:#FFFF33;stroke:#000000;stroke-width:0.5;}
+#drums03 .st9{fill:#222222;stroke:#000000;stroke-width:0.5;}
+#drums03 .st10{fill:none;stroke:#000000;stroke-width:0.5;}
+#notes01 path,#notes01 polygon {fill: #333333;}
+#drums-notes{opacity: 0;transition: 1s;}
+
+#score01.click{
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background: #FF5B5B;
+}
+
+#drums-notes.click{
+  transition: 1s;
+  opacity: .8;
+}
 
 
 @media screen and (min-width: 600px) {

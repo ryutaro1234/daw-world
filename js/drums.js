@@ -119,3 +119,8 @@ audio03.onpause = function(){
   document.getElementById("snare02-shell").classList.remove("metal01");
   audio03.currentTime = 0;
 };
+
+function score01(){
+  document.querySelector("#score01").classList.toggle("click");
+  document.querySelector("#drums-notes").classList.toggle("click");
+};
