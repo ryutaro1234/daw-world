@@ -362,12 +362,18 @@ svg g path{
     margin: 0 0 250px 4rem;
   }
 
-  #position01,#position03{
+  #position01,#position04,#position05{
     width: 50%;
     height: auto;
   }
 
   #position02{
+    width: 30%;
+    height: auto;
+    left: 40%;
+  }
+
+  #position03{
     width: 30%;
     height: auto;
   }
