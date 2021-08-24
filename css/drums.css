@@ -639,7 +639,7 @@ article{
 }
 
 #stick01.double{
-  animation: stick01double 1s forwards;
+  animation: stick01double 1s backwards;
 }
 @keyframes stick01double {
   0%{transform: scaleY(1.1)}
