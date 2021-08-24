@@ -132,3 +132,16 @@ function score01(){
   document.querySelector("#score01").classList.toggle("click");
   document.querySelector("#drums-notes").classList.toggle("click");
 };
+
+function doublestroke01(){
+  document.querySelector("#doublestroke01").classList.add("click");
+  document.querySelector("#stick01").classList.add("double");
+  document.querySelector("#audio04").play();
+}
+
+var audio04 = document.querySelector("#audio04");
+audio04.onpause = function(){
+  document.querySelector("#doublestroke01").classList.remove("click");
+  document.querySelector("#stick01").classList.remove("double");
+  audio04.currentTime = 0;
+};

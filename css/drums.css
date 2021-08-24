@@ -601,7 +601,7 @@ article{
 
 #drums03 .st0{fill:none;stroke:#000000;stroke-width:0.5;}
 #drums03 .st1{fill:none;stroke:#000000;stroke-width:0.5;}
-#drums03 .st2{fill:#FF5B5B;stroke:#000000;stroke-width:0.5;}
+#drums03 .st2{fill:#FF5656;stroke:#000000;stroke-width:0.5;}
 #drums03 .st3{fill:#CCCCCC;stroke:#000000;stroke-width:0.5;}
 #drums03 .st4{fill:#EEEEEE;stroke:#000000;stroke-width:0.5;}
 #drums03 .st5{fill:#4D4D4D;stroke:#000000;stroke-width:0.5;}
@@ -617,7 +617,7 @@ article{
   font-weight: bold;
   color: #fff;
   border: none;
-  background: #FF5B5B;
+  background: #FF5656;
 }
 
 #drums-notes.click{
@@ -625,6 +625,38 @@ article{
   opacity: .8;
 }
 
+#double-stroke01 .st0{fill:#FF5656;stroke:#000000;stroke-miterlimit:10;}
+#double-stroke01 .st1{fill:#CCCCCC;stroke:#000000;stroke-miterlimit:10;}
+#double-stroke01 .st2{fill:#EEEEEE;stroke:#000000;stroke-miterlimit:10;}
+#double-stroke01 .st3{fill:#FFD79F;stroke:#000000;stroke-miterlimit:10;}
+
+#doublestroke01{width: 9rem;}
+#doublestroke01.click{
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background: #FF5656;
+}
+
+#stick01.double{
+  animation: stick01double 1s forwards;
+}
+@keyframes stick01double {
+  0%{transform: scaleY(1.1)}
+  10%{transform: scaleY(1.05)}
+  20%{transform: scaleY(1.1)}
+  30%{transform: scaleY(1.07)}
+  40%{transform: scaleY(1.1)}
+  50%{transform: scaleY(1.09)}
+  60%{transform: scaleY(1.1)}
+  70%{transform: scaleY(1.09)}
+  80%{transform: scaleY(1.1)}
+  100%{transform: scaleY(1.1)}
+}
+
+#audio04{
+  display: none;
+}
 
 @media screen and (min-width: 600px) {
 
