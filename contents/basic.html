@@ -117,14 +117,14 @@
             <h1 class="scroll-up color-blue">もくじ</h1>
 
             <div>
-              <li><b> <a href="#notes">音名表記</a></b></li>
-              <ul>
+              <li class="scroll-slide-l"><b> <a href="#notes">音名表記</a></b></li>
+              <ul class="scroll-slide-l">
                 <li><b><a href="#notes-name">音名とは</a></b></li>
                 <li class="alfa"><b><a href="#cdefgabc">CDEFGABC</a></b></li>
               </ul>
 
-              <li><b><a href="#scale">スケール</a></b></li>
-              <ul>
+              <li class="scroll-slide-l"><b><a href="#scale">スケール</a></b></li>
+              <ul class="scroll-slide-l">
                 <li><b><a href="#whole-semi">全音と半音</a></b></li>
                 <li><b><a href="#next-tone">隣り合う音</a></b></li>
                 <li><b><a href="#maj-scale">メジャースケール</a></b></li>
@@ -144,7 +144,7 @@
           <div class="width-pc">
             <h3 class="scroll-up">音名とは</h3>
 
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>音名とは、</span><span>音の名前です。</span><br />
                 <span>これを聞いてみましょう。</span>
@@ -169,7 +169,7 @@
               </g>
             </svg>
 
-            <table>
+            <table class="scroll-down">
               <tr>
                 <td id="table01-c01">ド</td>
                 <td id="table01-d01">レ</td>
@@ -182,10 +182,10 @@
               </tr>
             </table>
 
-            <audio id="audio01" controls src="../musics/grand-piano/cmaj-scale.mp3"></audio>
+            <audio class="scroll-up" id="audio01" controls src="../musics/grand-piano/cmaj-scale.mp3"></audio>
           </div>
 
-          <div class="width-pc p-center" id="pc01">
+          <div class="width-pc p-center scroll-slide-l" id="pc01">
             <p>
               <span><b>ドレミ<span class="letter-small">ファ</span>ソラシド</b>です。</span><br />
               <span>良く聞きますよね。</span><br />
@@ -201,7 +201,7 @@
           <div class="width-pc">
             <h3 class="alfa-h3 scroll-up">CDEFGABC</h3>
 
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span><b class="alfa">CDEFGABC</b></span><span>初耳ですか？</span><br />
                 <span>まずは聞いてみましょう。</span>
@@ -226,7 +226,7 @@
               </g>
             </svg>
 
-              <table>
+              <table class="scroll-down">
                 <tr>
                   <th id="table03-c03">C</th>
                   <th id="table03-d03">D</th>
@@ -250,10 +250,10 @@
                 </tr>
               </table>
 
-              <audio id="audio02" controls src="../musics/grand-piano/cmaj-scale.mp3"></audio>
+              <audio class="scroll-up" id="audio02" controls src="../musics/grand-piano/cmaj-scale.mp3"></audio>
           </div>
 
-          <div class="width-pc p-center" id="pc02">
+          <div class="width-pc p-center scroll-slide-l" id="pc02">
             <p>
               <span>もうわかりましたね。</span><br />
               <span>この2つは同じ音を表します。</span><br />
@@ -263,7 +263,7 @@
         </section>
       </article>
 
-      <article class="next">
+      <article class="next scroll-down">
         <p class="arrow-back"><a href="#notes">もどる</a></p>
         <p><a href="#">ページトップへ</a></p>
         <p class="arrow-next"><a href="#whole-semi">つぎへ</a></p>
@@ -279,7 +279,7 @@
           <div class="width-pc">
             <h3 class="scroll-up">全音と半音</h3>
 
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span class="whole-tone">CとD</span>、<span class="semi-tone">EとF</span>
                 <span>この2つを見比べてみましょう。</span><br />
@@ -312,7 +312,7 @@
               </svg>
             </div>
 
-            <div class="whole-semi">
+            <div class="whole-semi scroll-up">
               <p id="whole" onclick="whole()">全音</p>
               <p id="semi" onclick="semi()">半音</p>
             </div>
@@ -325,7 +325,7 @@
 
           <div class="width-pc">
             <h3 class="scroll-up">隣り合う音</h3>
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>ここで、</span><span>それぞれの隣り合った音が、</span><span>全音と半音の</span><span>どちらかをみていきましょう。</span>
               </p>
@@ -351,7 +351,7 @@
               </svg>
             </div>
 
-            <table id="tone-table">
+            <table id="tone-table" class="scroll-down">
               <tr>
                 <td class="whole02">CD</td>
                 <td class="whole02">DE</td>
@@ -373,21 +373,20 @@
               </tr>
             </table>
 
-            <div class="whole-semi">
+            <div class="whole-semi scroll-up">
               <p id="whole02" onclick="whole02()">全音</p>
               <p id="semi02" onclick="semi02()">半音</p>
             </div>
           </div>
 
           <div class="width-pc" id="pc04">
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>全・全・半・全・全・全・半</span><br />
                 <span>という並びになっていますよね。</span><br />
                 <span>このような音の並びを</span><span>インターバルと言います。</span>
               </p>
             </div>
-          </div>
           </div>
 
         </section>
@@ -398,7 +397,7 @@
 
           <div class="width-pc">
             <h3 class="scroll-up">メジャースケール</h3>
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>ではこの</span><span>全・全・半・全・全・全・半</span><span>という音の並びを、</span><span>C以外から始めると</span><span>どうなるでしょう。</span>
               </p>
@@ -406,7 +405,7 @@
           </div>
 
           <div class="width-pc">
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>まずは試しに</span><span>Fからやってみましょう。</span>
               </p>
@@ -446,11 +445,11 @@
                 </g>
               </svg>
             </div>
-            <audio id="audio03" controls src="../musics/grand-piano/fmaj-scale.mp3"></audio>
+            <audio class="scroll-up" id="audio03" controls src="../musics/grand-piano/fmaj-scale.mp3"></audio>
           </div>
 
           <div class="width-pc">
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>次はD♭から始めてみましょう。</span>
               </p>
@@ -491,11 +490,11 @@
               </svg>
             </div>
 
-            <audio id="audio04" controls src="../musics/grand-piano/dbmaj-scale.mp3"></audio>
+            <audio class="scroll-up" id="audio04" controls src="../musics/grand-piano/dbmaj-scale.mp3"></audio>
           </div>
 
           <div class="width-pc">
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>どれも同じような雰囲気に</span><span>なっていますよね。</span><br />
                 <span>同じインターバルを使用して</span><span>見つかる音の組み合わせを</span><span>スケールと言います。</span><br />
@@ -517,7 +516,7 @@
 
           <div class="width-pc">
             <h3 class="scroll-up">マイナースケール</h3>
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>マイナースケールの中でも、</span><span>ナチュラルマイナースケールを</span><span>簡単に見てみましょう。</span><br />
                 <span>これは</span><span>Aナチュラルマイナースケールです。</span>
@@ -558,11 +557,11 @@
                 </g>
               </svg>
             </div>
-            <audio id="audio05" controls src="../musics/grand-piano/amin-scale.mp3"></audio>
+            <audio class="scroll-up" id="audio05" controls src="../musics/grand-piano/amin-scale.mp3"></audio>
           </div>
 
           <div class="width-pc" id="pc05">
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>ナチュラルマイナースケールの</span><span>インターバルは、</span><span>全、半、全、全、半、全、全、</span><span>となります。</span>
               </p>
@@ -570,7 +569,7 @@
           </div>
 
           <div class="width-pc">
-            <div class="p-center">
+            <div class="p-center scroll-slide-l">
               <p>
                 <span>ここで、</span><span>ナチュラルマイナースケールの</span><span>インターバルを</span><span>よくみてみましょう。</span><br />
                 <span>ナチュラルマイナースケールを</span><span>並べ替えると、</span><span>メジャースケールの</span><span>インターバルが</span><span>現れます。</span>
@@ -579,7 +578,7 @@
           </div>
 
           <div class="width-pc">
-            <table>
+            <table class="scroll-down">
               <tr>
                 <td class="min">全</td>
                 <td class="min">半</td>
@@ -600,7 +599,7 @@
               </tr>
             </table>
 
-            <div class="maj-min">
+            <div class="maj-min scroll-up">
               <p id="maj01" onclick="maj01()">Major</p>
               <p id="min01" onclick="min01()">Minor</p>
             </div>
