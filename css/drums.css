@@ -498,23 +498,23 @@ article{
 }
 
 #snare02.audio02{
-  animation: snare02.audio02 7s forwards;
+  animation: snare02audio02 7s forwards;
 }
-@keyframes snare02.audio02 {
+@keyframes snare02audio02 {
   11.5%{transform: scale(1) translate(0,0);}
-  12%{transform: scale(1.1) translate(-5%, -5%);}
+  12%{transform: scaleY(.9) translateY(10%);}
   14%{transform: scale(1) translate(0,0);}
 
   26.5%{transform: scale(1) translate(0,0);}
-  27%{transform: scale(1.1) translate(-5%, -5%);}
+  27%{transform: scaleY(.9) translateY(10%);}
   29%{transform: scale(1) translate(0,0);}
 
   43.5%{transform: scale(1) translate(0,0);}
-  44%{transform: scale(1.1) translate(-5%, -5%);}
+  44%{transform: scaleY(.9) translateY(10%);}
   46%{transform: scale(1) translate(0,0);}
 
   58.5%{transform: scale(1) translate(0,0);}
-  59%{transform: scale(1.1) translate(-5%, -5%);}
+  59%{transform: scaleY(.9) translateY(10%);}
   61%{transform: scale(1) translate(0,0);}
 }
 
