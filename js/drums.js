@@ -102,6 +102,7 @@ audio02.onplay = function(){
   document.querySelector("#bass02-shell").classList.add("audio02");
   document.querySelector("#snare02").classList.add("audio02");
   document.querySelector("#snare02-shell").classList.add("audio02");
+  document.querySelector("#ride02").classList.add("audio02");
 }
 audio02.onpause = function(){
   document.getElementById("jazz01").classList.remove("click");
@@ -113,6 +114,7 @@ audio02.onpause = function(){
   document.querySelector("#bass02-shell").classList.remove("audio02");
   document.querySelector("#snare02").classList.remove("audio02");
   document.querySelector("#snare02-shell").classList.remove("audio02");
+  document.querySelector("#ride02").classList.remove("audio02");
   audio02.currentTime = 0;
 };
 

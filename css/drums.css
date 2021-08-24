@@ -501,14 +501,102 @@ article{
   animation: snare02.audio02 7s forwards;
 }
 @keyframes snare02.audio02 {
+  11.5%{transform: scale(1) translate(0,0);}
+  12%{transform: scale(1.1) translate(-5%, -5%);}
+  14%{transform: scale(1) translate(0,0);}
 
+  26.5%{transform: scale(1) translate(0,0);}
+  27%{transform: scale(1.1) translate(-5%, -5%);}
+  29%{transform: scale(1) translate(0,0);}
+
+  43.5%{transform: scale(1) translate(0,0);}
+  44%{transform: scale(1.1) translate(-5%, -5%);}
+  46%{transform: scale(1) translate(0,0);}
+
+  58.5%{transform: scale(1) translate(0,0);}
+  59%{transform: scale(1.1) translate(-5%, -5%);}
+  61%{transform: scale(1) translate(0,0);}
 }
 
 #snare02-shell.audio02{
-  animation: snare02-shell.audio02 7s forwards;
+  animation: snare02-shellaudio02 7s forwards;
 }
-@keyframes snare02-shell.audio02 {
+@keyframes snare02-shellaudio02 {
+  11.5%{fill: #ffaf1a;}
+  12%{fill: #ffffe6;}
+  14%{fill: #ffaf1a;}
 
+  26.5%{fill: #ffaf1a;}
+  27%{fill: #ffffe6;}
+  29%{fill: #ffaf1a;}
+
+  43.5%{fill: #ffaf1a;}
+  44%{fill: #ffffe6;}
+  46%{fill: #ffaf1a;}
+
+  58.5%{fill: #ffaf1a;}
+  59%{fill: #ffffe6;}
+  61%{fill: #ffaf1a;}
+}
+
+#ride02.audio02{
+  animation: ride02audio02 7s forwards;
+}
+@keyframes ride02audio02 {
+  0%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  2%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  3.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  4%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  6%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  6.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  7%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  10%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  12%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  12.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  13%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  15%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  14.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  15%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  17%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  17.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  18%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  24%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  30%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  30.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  31%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  32%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  31.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  32%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  34%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  34.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  35%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  41%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  45%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  45.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  46%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  48%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  48.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  49%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  51%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  51.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  52%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  58%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  62%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+
+  62.5%{fill: #ffff33;transform: scaleY(1) translateX(0);}
+  63%{fill: #ffffe6;transform: scaleY(1.05) translateX(-.5%);}
+  65%{fill: #ffff33;transform: scaleY(1) translateX(0);}
 }
 
 #drums03 .st0{fill:none;stroke:#000000;stroke-width:0.5;}
