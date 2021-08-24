@@ -26,7 +26,7 @@ $(function(){
       var target = $(this).offset().top;
       var scroll = $(window).scrollTop();
       var height = $(window).height();
-      if (scroll + 50 > target - height){
+      if (scroll > target - height){
         $(this).addClass('active');
       }
     });
@@ -38,7 +38,7 @@ $(function(){
       var target = $(this).offset().top;
       var scroll = $(window).scrollTop();
       var height = $(window).height();
-      if (scroll + 50 > target - height){
+      if (scroll > target - height){
         $(this).addClass('active');
       }
     });
@@ -50,7 +50,7 @@ $(function(){
       var target = $(this).offset().top;
       var scroll = $(window).scrollTop();
       var height = $(window).height();
-      if (scroll + 50 > target - height){
+      if (scroll > target - height){
         $(this).addClass('active');
       }
     });
