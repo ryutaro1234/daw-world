@@ -37,7 +37,7 @@ body {
 .loaded {
   opacity: 0;
   visibility: hidden;
-  transform: translateX(100%);
+  transform: translateY(-100%);
 }
 #loading h1{
   white-space: nowrap;
