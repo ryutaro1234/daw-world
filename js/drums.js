@@ -47,30 +47,6 @@ function jazz01(){
   document.getElementById("snare02-shell").classList.remove("metal01");
 };
 
-function metal01(){
-  document.getElementById("metal01").classList.add("click");
-  document.getElementById("low02-shell").classList.add("metal01");
-  document.getElementById("mid02-shell").classList.add("metal01");
-  document.getElementById("hi02-shell").classList.add("metal01");
-  document.getElementById("snare02-shell").classList.add("metal01");
-  document.querySelector("#audio03").play();
-
-  document.querySelector("#audio01").pause();
-  document.querySelector("#audio02").pause();
-  document.getElementById("pop01").classList.remove("click");
-  document.getElementById("audio01").classList.remove("click")
-  document.getElementById("jazz01").classList.remove("click");
-  document.getElementById("audio02").classList.remove("click");
-  document.getElementById("low02-shell").classList.remove("pop01");
-  document.getElementById("mid02-shell").classList.remove("pop01");
-  document.getElementById("hi02-shell").classList.remove("pop01");
-  document.getElementById("snare02-shell").classList.remove("pop01");
-  document.getElementById("low02-shell").classList.remove("jazz01");
-  document.getElementById("mid02-shell").classList.remove("jazz01");
-  document.getElementById("hi02-shell").classList.remove("jazz01");
-  document.getElementById("snare02-shell").classList.remove("jazz01");
-};
-
 var audio01 = document.getElementById("audio01");
 audio01.onplay = function(){
   document.getElementById("snare02-shell").classList.add("audio01");
@@ -116,16 +92,6 @@ audio02.onpause = function(){
   document.querySelector("#snare02-shell").classList.remove("audio02");
   document.querySelector("#ride02").classList.remove("audio02");
   audio02.currentTime = 0;
-};
-
-var audio03 = document.querySelector("#audio03");
-audio03.onpause = function(){
-  document.querySelector("#metal01").classList.remove("click");
-  document.getElementById("low02-shell").classList.remove("metal01");
-  document.getElementById("mid02-shell").classList.remove("metal01");
-  document.getElementById("hi02-shell").classList.remove("metal01");
-  document.getElementById("snare02-shell").classList.remove("metal01");
-  audio03.currentTime = 0;
 };
 
 function score01(){
