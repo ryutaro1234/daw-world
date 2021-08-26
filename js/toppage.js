@@ -85,8 +85,7 @@ $(function(){
 
   var bg01 = $('#bg01').offset(),
       bg02 = $('#bg02').offset(),
-      bg03 = $('#bg03').offset(),
-      bg04 = $('#bg04').offset();
+      bg03 = $('#bg03').offset();
 
   $(window).on('scroll',function(){
     var scrollY = $(this).scrollTop();
@@ -102,9 +101,6 @@ $(function(){
     $('#bg03').css({
       'bottom': scrollY / 8,
       'left': bg03.left + scrollY / 2,
-    });
-    $('#bg04').css({
-      'left': bg04.left + scrollY / -5,
     });
   });
 });
