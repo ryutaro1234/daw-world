@@ -263,7 +263,10 @@ nav {
     font-family: inherit;
     color: var(--greyDark);
 
-    &::placeholder { color: var(--greyDark); }
+    &::placeholder {
+      font-size: 13px;
+      color: var(--greyDark);
+    }
     &:focus {
       outline: none;
       box-shadow: $shadow;
