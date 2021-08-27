@@ -92,6 +92,14 @@ height: auto;
 
 @media screen and (min-width: 600px) {
 
+  #search404{
+    form{
+      margin-left: 4rem;
+    }
+    width: 70%;
+    margin: 0 auto;
+  }
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -125,6 +133,15 @@ height: auto;
     padding: 0;
     text-align: center;
     display: block;
+  }
+
+  #search404{
+    form{
+      width: 20rem;
+      margin-left: 32%;
+    }
+    width: 100%;
+    margin: 0 auto;
   }
 
 }
