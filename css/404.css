@@ -15,6 +15,10 @@ h2{
   letter-spacing: 2px;
 }
 
+header h1{
+  line-height: 1.6rem;
+}
+
 form{
   margin: 0 auto;
 }
