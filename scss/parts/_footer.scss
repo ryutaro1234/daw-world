@@ -1,4 +1,64 @@
 footer{
+  padding: .5rem;
+  font-size: 75%;
+  background: rgba(255, 255, 255, .6);
+  backdrop-filter: blur( 25px );
+  -webkit-backdrop-filter: blur( 25px );
+  position: relative;
+
+
+  .waves {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    min-height: 100px;
+    max-height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  #gentle-wave{
+    transition: none;
+  }
+  .parallax use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  }
+  .parallax use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+    fill: rgba(188,255,122,.3);
+    stroke: none;
+  }
+  .parallax use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+    fill: rgba(255,122,122,.5);
+    stroke: none;
+  }
+  .parallax use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+    fill: rgba(255,188,122,.7);
+    stroke: none;
+  }
+  .parallax use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+    fill: rgba(255,255,255,.9);
+    stroke: none;
+  }
+  @keyframes move-forever {
+    0% {
+     transform: translate3d(-90px,0,0);
+    }
+    100% {
+      transform: translate3d(85px,0,0);
+    }
+  }
+
   .logo{
     text-align: center;
     padding: .7rem 0;
@@ -66,12 +126,6 @@ footer{
   form{
     width: 80%;
     padding: 1rem;
-  }
-
-  input{
-    border: solid 1px #ccc;
-    border-radius: 3px;
-    padding: 4px;
   }
 
   button{
