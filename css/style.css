@@ -41,7 +41,7 @@ body {
 }
 #loading h1{
   white-space: nowrap;
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 18px;
   letter-spacing: 10px;
   color: #fff;
