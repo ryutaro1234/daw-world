@@ -70,9 +70,13 @@
         <li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/composition.html">作曲</a></li>
         <li class="nav_menu_li"><a class="links-nav border-gray" href="https://www.daw-world.net/arrangement.html">編曲</a></li>
 
-        <form class="nav_menu_li" action="https://www.daw-world.net/result.html" autocomplete="on" method="get">
-          <input type="text" name="search-key" />
-          <button type="submit"><img src="https://www.daw-world.net/images/search.png" /></button>
+        <form action="https://www.daw-world.net/result.html" autocomplete="on" method="get">
+          <div class="search nav_menu_li">
+            <input type="text" class="search__input" placeholder="Search...">
+            <div class="search__icon">
+              <ion-icon name="search"><img src="https://www.daw-world.net/images/search.png" /></ion-icon>
+            </div>
+          </div>
         </form>
       </ul>
     </nav>
@@ -750,8 +754,12 @@
 
 
       <form action="https://www.daw-world.net/result.html" autocomplete="on" method="get">
-        <input type="text" name="search-key" />
-        <button type="submit"><img src="https://www.daw-world.net/images/search.png" /></button>
+        <div class="search nav_menu_li">
+          <input type="text" class="search__input" placeholder="Search...">
+          <div class="search__icon">
+            <ion-icon name="search"><img src="https://www.daw-world.net/images/search.png" /></ion-icon>
+          </div>
+        </div>
       </form>
 
       <p class="copy">&copy; 2021 Ryutaro Matsumoto</p>
