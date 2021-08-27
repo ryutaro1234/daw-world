@@ -95,7 +95,7 @@ audio02.onpause = function(){
 };
 
 function score01(){
-  document.querySelector("#score01").classList.toggle("click");
+  document.querySelector("#score02").classList.toggle("click");
   document.querySelector("#drums-notes").classList.toggle("click");
 };
 

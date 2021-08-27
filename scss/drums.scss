@@ -614,11 +614,15 @@ article{
 #notes01 path,#notes01 polygon {fill: #333333;}
 #drums-notes{opacity: 0;transition: 1s;}
 
-#score01.click{
-  font-weight: bold;
-  color: #fff;
-  border: none;
-  background: #FF5656;
+#score02{
+  width: 7rem;
+
+  &.click{
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    background: #FF5656;
+  }
 }
 
 #drums-notes.click{
