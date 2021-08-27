@@ -681,6 +681,10 @@ article{
   100%{fill:#000;}
 }
 
+#drums04{
+  margin: 0 auto;
+}
+
 #bass04{
   &.play{
     animation: play02 7s backwards;
@@ -815,6 +819,11 @@ article{
 }
 @media screen and (min-width: 1025px) {
 
+  #top002{
+    width: 45%;
+    margin: 0 0 250px 4rem;
+  }
+
   .drums{
     width: 76%;
     height: auto;
@@ -836,7 +845,7 @@ article{
     width: 11rem;
   }
 
-  #drums05{
+  #drums04{
     width: 100%;
     height: auto;
   }
