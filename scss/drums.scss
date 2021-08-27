@@ -1,3 +1,11 @@
+$red: #ff5656;
+$yellow: #ffff33;
+$flash: #ffffe6;
+
+@mixin color{
+  color: #ff5656;
+}
+
 article{
   margin: 0;
   padding: 0;
@@ -5,18 +13,14 @@ article{
 }
 
 .color-style{
-  color: #ff5656;
+  @include color;
 }
 .color-style b{
-  color: #ff5656;
+  @include color;
 }
 .color-style a{
-  color: #ff5656;
+  @include color;
 }
-
-$red: #ff5656;
-$yellow: #ffff33;
-$flash: #ffffe6;
 
 .contents-table{
   margin: 50px auto 100px;
@@ -670,61 +674,110 @@ $flash: #ffffe6;
   47%{fill:$flash;}
   52%{fill:#000;}
 
-  71%{fill:#000;}
-  72%{fill:$flash;}
-  75%{fill:#000;}
+  70%{fill:#000;}
+  71%{fill:$flash;}
+  74%{fill:#000;}
 
   100%{fill:#000;}
 }
 
-#bass04.play{
-  animation: play02 7s backwards;
-  transform-origin: center;
-  transform-box: fill-box;
+#bass04{
+  &.play{
+    animation: play02 7s backwards;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  @keyframes play02 {
+    0%{transform: scale(1.1)}
+    5%{transform: scale(1)}
+
+    9%{transform: scale(1)}
+    10%{transform: scale(1.1)}
+    11%{transform: scale(1)}
+    12%{transform: scale(1.1)}
+    17%{transform: scale(1)}
+
+    22%{transform: scale(1)}
+    23%{transform: scale(1.1)}
+    28%{transform: scale(1)}
+
+    32%{transform: scale(1)}
+    33%{transform: scale(1.1)}
+    34%{transform: scale(1)}
+    35%{transform: scale(1.1)}
+    40%{transform: scale(1)}
+
+    46%{transform: scale(1)}
+    47%{transform: scale(1.1)}
+    52%{transform: scale(1)}
+
+    56%{transform: scale(1)}
+    57%{transform: scale(1.1)}
+    58%{transform: scale(1)}
+    59%{transform: scale(1.1)}
+    64%{transform: scale(1)}
+
+    70%{transform: scale(1)}
+    71%{transform: scale(1.1)}
+    74%{transform: scale(1)}
+
+    81%{transform: scale(1)}
+    82%{transform: scale(1.1)}
+    83%{transform: scale(1)}
+    84%{transform: scale(1.1)}
+    89%{transform: scale(1)}
+
+    100%{transform: scale(1)}
+  }
 }
-@keyframes play02 {
-  0%{transform: scale(1.1)}
-  5%{transform: scale(1)}
 
-  9%{transform: scale(1)}
-  10%{transform: scale(1.1)}
-  11%{transform: scale(1)}
-  12%{transform: scale(1.1)}
-  17%{transform: scale(1)}
+#bass04-shell{
+  &.play{
+    animation: play03 7s backwards;
+  }
+  @keyframes play03 {
+    0%{fill:$flash;}
+    5%{fill: #222;}
 
-  22%{transform: scale(1)}
-  23%{transform: scale(1.1)}
-  28%{transform: scale(1)}
+    9%{fill: #222;}
+    10%{fill:$flash;}
+    11%{fill: #222;}
+    12%{fill:$flash;}
+    17%{fill: #222;}
 
-  32%{transform: scale(1)}
-  33%{transform: scale(1.1)}
-  34%{transform: scale(1)}
-  35%{transform: scale(1.1)}
-  40%{transform: scale(1)}
+    22%{fill: #222;}
+    23%{fill:$flash;}
+    28%{fill: #222;}
 
-  46%{transform: scale(1)}
-  47%{transform: scale(1.1)}
-  52%{transform: scale(1)}
+    32%{fill: #222;}
+    33%{fill:$flash;}
+    34%{fill: #222;}
+    35%{fill:$flash;}
+    40%{fill: #222;}
 
-  56%{transform: scale(1)}
-  57%{transform: scale(1.1)}
-  58%{transform: scale(1)}
-  59%{transform: scale(1.1)}
-  64%{transform: scale(1)}
+    46%{fill: #222;}
+    47%{fill:$flash;}
+    52%{fill: #222;}
 
-  71%{transform: scale(1)}
-  72%{transform: scale(1.1)}
-  75%{transform: scale(1)}
+    56%{fill: #222;}
+    57%{fill:$flash;}
+    58%{fill: #222;}
+    59%{fill:$flash;}
+    64%{fill: #222;}
 
-  81%{transform: scale(1)}
-  82%{transform: scale(1.1)}
-  83%{transform: scale(1)}
-  84%{transform: scale(1.1)}
-  89%{transform: scale(1)}
+    70%{fill: #222;}
+    71%{fill:$flash;}
+    74%{fill: #222;}
 
-  100%{transform: scale(1)}
+    81%{fill: #222;}
+    82%{fill:$flash;}
+    83%{fill: #222;}
+    84%{fill:$flash;}
+    89%{fill: #222;}
+
+    100%{fill: #222;}
+  }
 }
-
 
 #score01{
     .st0{fill:none;stroke:#000;stroke-width:0.5;}

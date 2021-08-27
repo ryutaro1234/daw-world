@@ -124,6 +124,7 @@ audio05.onplay = function(){
     document.querySelector("#chi03").classList.add("play01");
     document.querySelector("#chi04").classList.add("play01");
     document.querySelector("#bass04").classList.add("play");
+    document.querySelector("#bass04-shell").classList.add("play");
 }
 audio05.onpause = function(){
     audio05.currentTime = 0;
@@ -137,4 +138,5 @@ audio05.onpause = function(){
     document.querySelector("#chi03").classList.remove("play01");
     document.querySelector("#chi04").classList.remove("play01");
     document.querySelector("#bass04").classList.remove("play");
+    document.querySelector("#bass04-shell").classList.remove("play");
 }
