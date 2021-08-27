@@ -289,42 +289,44 @@ article{
 
 #bass02.audio01{
   animation: bass02audio01 12s forwards;
+  transform-origin: center;
+  transform-box: fill-box;
 }
 @keyframes bass02audio01 {
-  0%{transform: scale(1.1) translate(-5%, -5%);}
+  0%{transform: scale(1.1)}
   2%{transform: scale(1) translate(0,0);}
 
   5.8%{transform: scale(1) translate(0,0);}
-  6.3%{transform: scale(1.1) translate(-5%, -5%);}
+  6.3%{transform: scale(1.1)}
   8.3%{transform: scale(1) translate(0,0);}
 
   13.5%{transform: scale(1) translate(0,0);}
-  14%{transform: scale(1.1) translate(-5%, -5%);}
+  14%{transform: scale(1.1)}
   15%{transform: scale(1) translate(0,0);}
 
   20%{transform: scale(1) translate(0,0);}
-  20.5%{transform: scale(1.1) translate(-5%, -5%);}
+  20.5%{transform: scale(1.1)}
   21.5%{transform: scale(1) translate(0,0);}
 
   25%{transform: scale(1) translate(0,0);}
-  25.5%{transform: scale(1.1) translate(-5%, -5%);}
+  25.5%{transform: scale(1.1)}
   26.5%{transform: scale(1) translate(0,0);}
-  27%{transform: scale(1.1) translate(-5%, -5%);}
+  27%{transform: scale(1.1)}
   28%{transform: scale(1) translate(0,0);}
 
   34%{transform: scale(1) translate(0,0);}
-  34.5%{transform: scale(1.1) translate(-5%, -5%);}
+  34.5%{transform: scale(1.1)}
   35.5%{transform: scale(1) translate(0,0);}
 
   40.5%{transform: scale(1) translate(0,0);}
-  41%{transform: scale(1.1) translate(-5%, -5%);}
+  41%{transform: scale(1.1)}
   42%{transform: scale(1) translate(0,0);}
 
   47%{transform: scale(1) translate(0,0);}
-  47.5%{transform: scale(1.1) translate(-5%, -5%);}
+  47.5%{transform: scale(1.1)}
   48.5%{transform: scale(1) translate(0,0);}
   49%{transform: scale(1) translate(0,0);}
-  49.5%{transform: scale(1.1) translate(-5%, -5%);}
+  49.5%{transform: scale(1.1)}
   50.5%{transform: scale(1) translate(0,0);}
 }
 
@@ -408,41 +410,43 @@ article{
 
 #bass02.audio02{
   animation: bass02audio02 7s forwards;
+  transform-origin: center;
+  transform-box: fill-box;
 }
 @keyframes bass02audio02 {
-  0%{transform: scale(1.1) translate(-5%, -5%);}
+  0%{transform: scale(1.1)}
   2%{transform: scale(1) translate(0,0);}
 
   3.5%{transform: scale(1) translate(0,0);}
-  4%{transform: scale(1.1) translate(-5%, -5%);}
+  4%{transform: scale(1.1)}
   6%{transform: scale(1) translate(0,0);}
 
   12.5%{transform: scale(1) translate(0,0);}
-  13%{transform: scale(1.1) translate(-5%, -5%);}
+  13%{transform: scale(1.1)}
   14%{transform: scale(1) translate(0,0);}
 
   17.5%{transform: scale(1) translate(0,0);}
-  18%{transform: scale(1.1) translate(-5%, -5%);}
+  18%{transform: scale(1.1)}
   20%{transform: scale(1) translate(0,0);}
 
   30.5%{transform: scale(1) translate(0,0);}
-  31%{transform: scale(1.1) translate(-5%, -5%);}
+  31%{transform: scale(1.1)}
   32%{transform: scale(1) translate(0,0);}
 
   35.5%{transform: scale(1) translate(0,0);}
-  36%{transform: scale(1.1) translate(-5%, -5%);}
+  36%{transform: scale(1.1)}
   38%{transform: scale(1) translate(0,0);}
 
   45.5%{transform: scale(1) translate(0,0);}
-  46%{transform: scale(1.1) translate(-5%, -5%);}
+  46%{transform: scale(1.1)}
   48%{transform: scale(1) translate(0,0);}
 
   50.5%{transform: scale(1) translate(0,0);}
-  51%{transform: scale(1.1) translate(-5%, -5%);}
+  51%{transform: scale(1.1)}
   53%{transform: scale(1) translate(0,0);}
 
   62.5%{transform: scale(1) translate(0,0);}
-  63%{transform: scale(1.1) translate(-5%, -5%);}
+  63%{transform: scale(1.1)}
   65%{transform: scale(1) translate(0,0);}
 }
 
