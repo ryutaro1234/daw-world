@@ -111,3 +111,30 @@ audio04.onpause = function(){
   document.querySelector("#stick01").classList.remove("double");
   audio04.currentTime = 0;
 };
+
+var audio05 = document.querySelector("#audio05");
+audio05.onplay = function(){
+    document.querySelector("#do01").classList.add("play01");
+    document.querySelector("#do02").classList.add("play01");
+    document.querySelector("#do03").classList.add("play01");
+    document.querySelector("#ta01").classList.add("play01");
+    document.querySelector("#ta02").classList.add("play01");
+    document.querySelector("#chi01").classList.add("play01");
+    document.querySelector("#chi02").classList.add("play01");
+    document.querySelector("#chi03").classList.add("play01");
+    document.querySelector("#chi04").classList.add("play01");
+    document.querySelector("#bass04").classList.add("play");
+}
+audio05.onpause = function(){
+    audio05.currentTime = 0;
+    document.querySelector("#do01").classList.remove("play01");
+    document.querySelector("#do02").classList.remove("play01");
+    document.querySelector("#do03").classList.remove("play01");
+    document.querySelector("#ta01").classList.remove("play01");
+    document.querySelector("#ta02").classList.remove("play01");
+    document.querySelector("#chi01").classList.remove("play01");
+    document.querySelector("#chi02").classList.remove("play01");
+    document.querySelector("#chi03").classList.remove("play01");
+    document.querySelector("#chi04").classList.remove("play01");
+    document.querySelector("#bass04").classList.remove("play");
+}
