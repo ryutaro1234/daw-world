@@ -92,8 +92,12 @@
 
           <section id="search404" class="scroll-slide-l">
             <form action="https://www.daw-world.net/result.html" autocomplete="on" method="get">
-              <input type="text" name="search-key" />
-              <button type="submit"><img src="https://www.daw-world.net/images/search.png" /></button>
+              <div class="search">
+                <input type="text" class="search__input" placeholder="Search...">
+                <div class="search__icon">
+                  <ion-icon name="search"><img src="https://www.daw-world.net/images/search.png" /></ion-icon>
+                </div>
+              </div>
             </form>
           </section>
         </div>
@@ -405,7 +409,7 @@
       </div>
 
       <form action="https://www.daw-world.net/result.html" autocomplete="on" method="get">
-        <div class="search nav_menu_li">
+        <div class="search">
           <input type="text" class="search__input" placeholder="Search...">
           <div class="search__icon">
             <ion-icon name="search"><img src="https://www.daw-world.net/images/search.png" /></ion-icon>
