@@ -26,7 +26,7 @@ $(function(){
       var target = $(this).offset().top;
       var scroll = $(window).scrollTop();
       var height = $(window).height();
-      if (scroll > target - height){
+      if (scroll + 100 > target - height){
         $(this).addClass('active');
       }
     });
