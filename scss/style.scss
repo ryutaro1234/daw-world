@@ -368,6 +368,18 @@ audio{
   width: 4rem;
 }
 
+#trumpet01{
+  animation: trumpet01 5s alternate infinite;
+}
+@keyframes trumpet01 {
+  from{
+    transform: rotate(5deg);
+  }
+  to{
+    transform: rotate(-5deg);
+  }
+}
+
 #profile{
   animation: profile 5s alternate infinite;
 }
