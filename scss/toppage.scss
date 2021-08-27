@@ -438,13 +438,15 @@ p{
 
 #bass01{
   animation: bass01 .5s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
 }
 @keyframes bass01 {
   0%{
-    transform: scale(1.1) translate(-5.3%, -5.3%);
+    transform: scale(1.1);
   }
   100%{
-    transform: scale(1) translate(0);
+    transform: scale(1);
   }
 }
 
@@ -452,42 +454,6 @@ p{
   animation: snare01 1s infinite;
 }
 @keyframes snare01 {
-  0%{
-    transform: scaleY(.9) translateY(10%);
-  }
-  25%{
-    transform: scaleY(1) translateY(0);
-  }
-}
-
-#hi01-tam{
-  animation: hi01-tam 5s infinite;
-}
-@keyframes hi01-tam {
-  0%{
-    transform: scaleY(.9) translateY(5%);
-  }
-  25%{
-    transform: scaleY(1) translateY(0);
-  }
-}
-
-#mid01-tam{
-  animation: mid01-tam 10s infinite;
-}
-@keyframes mid01-tam {
-  0%{
-    transform: scaleY(.9) translateY(5%);
-  }
-  12.5%{
-    transform: scaleY(1) translateY(0);
-  }
-}
-
-#low01-tam{
-  animation: low01-tam 5s infinite;
-}
-@keyframes low01-tam {
   0%{
     transform: scaleY(.9) translateY(10%);
   }
@@ -508,21 +474,6 @@ p{
   }
 }
 
-#hat01-top{
-  animation: hat01-top .5s infinite;
-}
-@keyframes hat01-top {
-  0%{
-    transform: scaleY(1.05) translateX(1%) translateY(0);
-  }
-  5%{
-    transform: translateX(-.5%) translateY(0);
-  }
-  100%{
-    transform: scaleY(1) translateY(0);
-  }
-}
-
 #trumpet01{
   width: 200%;
   height: auto;
@@ -530,6 +481,15 @@ p{
   stroke: #d7c447;
   position: relative;
   right: 90%;
+  animation: trumpet01 5s alternate infinite;
+}
+@keyframes trumpet01 {
+  from{
+    transform: rotate(5deg);
+  }
+  to{
+    transform: rotate(-5deg);
+  }
 }
 #trumpet01 g path, #trumpet01 g rect{
   fill: #d7c447;
@@ -559,6 +519,15 @@ p{
   width: 120%;
   height: auto;
   opacity: .7;
+  animation: profile 5s alternate infinite;
+}
+@keyframes profile {
+  from{
+    transform: rotate(-10deg);
+  }
+  to{
+    transform: rotate(10deg);
+  }
 }
 
 .profile-ribbon{
