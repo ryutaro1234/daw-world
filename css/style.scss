@@ -238,6 +238,22 @@ nav {
   padding: 2rem .5rem;
 }
 
+:root {
+  --primary-light: #f6f6f6;
+  --primary: #f6f6f6;
+  --primary-dark: #f6f6f6;
+
+  --white: #FFFFFF;
+  --greyLight-1: #f6f6f6;
+  --greyLight-2: #f6f6f6;
+  --greyLight-3: #333;
+  --greyDark: #333;
+}
+$shadow: .3rem .3rem .6rem var(--greyLight-2),
+-.2rem -.2rem .5rem var(--white);
+$inner-shadow: inset .2rem .2rem .5rem var(--greyLight-2),
+inset -.2rem -.2rem .5rem var(--white);
+
 .search {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
