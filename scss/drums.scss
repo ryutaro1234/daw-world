@@ -175,22 +175,6 @@ article{
   width: 100%;
 }
 
-.bottom{
-  display: flex;
-  justify-content: space-around;
-}
-.bottom p{
-  width: 5rem;
-  text-align: center;
-  font-size: 85%;
-  padding: 3px 15px;
-  border-radius: 6px;
-  font-weight: normal;
-  background-color: #eee;
-  border-bottom: 5px solid #ccc;
-  transition: 1s ease-out;
-}
-
 #low02-shell.pop01{fill: #7abcff;}
 #mid02-shell.pop01{fill: #7abcff;}
 #hi02-shell.pop01{fill: #7abcff;}
@@ -642,6 +626,9 @@ article{
 #double-stroke01 .st2{fill:#EEEEEE;stroke:#000000;stroke-miterlimit:10;}
 #double-stroke01 .st3{fill:#FFD79F;stroke:#000000;stroke-miterlimit:10;}
 
+#audio04{
+  display: none;
+}
 #doublestroke01{width: 10rem;}
 #doublestroke01.click{
   font-weight: bold;
@@ -666,8 +653,20 @@ article{
   100%{transform: scaleY(1)}
 }
 
-#audio04{
+
+#audio05{
   display: none;
+}
+
+#beat801buttom,#beat802buttom{width: 8rem;}
+#beat801buttom.click{display: none;}
+#beat802buttom{display: none;}
+#beat802buttom.click{
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background: $red;
 }
 
 .play01{

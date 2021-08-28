@@ -10,8 +10,6 @@ function pop01(){
   document.querySelector("#audio02").pause();
   document.getElementById("jazz01").classList.remove("click");
   document.getElementById("audio02").classList.remove("click");
-  document.getElementById("metal01").classList.remove("click");
-  document.getElementById("audio03").classList.remove("click");
   document.getElementById("low02-shell").classList.remove("jazz01");
   document.getElementById("mid02-shell").classList.remove("jazz01");
   document.getElementById("hi02-shell").classList.remove("jazz01");
@@ -34,8 +32,6 @@ function jazz01(){
   document.querySelector("#audio01").pause();
   document.getElementById("pop01").classList.remove("click");
   document.getElementById("audio01").classList.remove("click")
-  document.getElementById("metal01").classList.remove("click");
-  document.getElementById("audio03").classList.remove("click");
   document.getElementById("low02-shell").classList.remove("pop01");
   document.getElementById("mid02-shell").classList.remove("pop01");
   document.getElementById("hi02-shell").classList.remove("pop01");
@@ -115,8 +111,17 @@ audio04.onpause = function(){
   audio04.currentTime = 0;
 };
 
+function beat801buttom(){
+  document.querySelector("#beat802buttom").classList.add("click");
+  document.querySelector("#audio05").play();
+}
+function beat802buttom(){
+  document.querySelector("#audio05").pause();
+}
+
 var audio05 = document.querySelector("#audio05");
 audio05.onplay = function(){
+    document.querySelector("#beat801buttom").classList.add("click");
     document.querySelector("#do01").classList.add("play01");
     document.querySelector("#do02").classList.add("play01");
     document.querySelector("#do03").classList.add("play01");
@@ -131,6 +136,8 @@ audio05.onplay = function(){
 }
 audio05.onpause = function(){
     audio05.currentTime = 0;
+    document.querySelector("#beat802buttom").classList.remove("click");
+    document.querySelector("#beat801buttom").classList.remove("click");
     document.querySelector("#do01").classList.remove("play01");
     document.querySelector("#do02").classList.remove("play01");
     document.querySelector("#do03").classList.remove("play01");
