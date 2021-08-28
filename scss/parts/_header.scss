@@ -120,15 +120,14 @@ nav {
     padding-left: 3.8rem;
     background: none;
     font-family: inherit;
-    color: var(--greyDark);
 
     &::placeholder {
       font-size: 13px;
-      color: var(--greyDark);
+      color: #555;
     }
     &:focus {
       outline: none;
-      box-shadow: $shadow;
+      box-shadow: .3rem .3rem .6rem #fff, -.2rem -.2rem .5rem #fff;
     }
   }
 

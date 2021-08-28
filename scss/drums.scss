@@ -6,6 +6,8 @@ $flash: #ffffe6;
   color: #ff5656;
 }
 
+@import 'parts/mixins';
+
 article{
   margin: 0;
   padding: 0;
@@ -191,8 +193,8 @@ article{
   display: block;
   font-weight: bold;
   color: #fff;
-  border: none;
   background: #7abcff;
+  @include button-shadow-click;
 }
 
 #jazz01.click{display: none;}
@@ -201,8 +203,8 @@ article{
   display: block;
   font-weight: bold;
   color: #fff;
-  border: none;
   background: #ffaf1a;
+  @include button-shadow-click;
 }
 
 #snare02.audio01{
@@ -615,8 +617,8 @@ article{
   &.click{
     font-weight: bold;
     color: #fff;
-    border: none;
     background: #FF5656;
+    @include button-shadow-click;
   }
 }
 
@@ -637,7 +639,7 @@ article{
 #doublestroke01.click{
   font-weight: bold;
   color: #fff;
-  border: none;
+  @include button-shadow-click;
   background: $red;
 }
 
@@ -669,7 +671,7 @@ article{
   display: block;
   font-weight: bold;
   color: #fff;
-  border: none;
+  @include button-shadow-click;
   background: $red;
 }
 

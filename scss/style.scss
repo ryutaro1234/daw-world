@@ -8,12 +8,7 @@
   text-decoration: none;
 }
 
-:root {
-  --primary: #f6f6f6;
-  --white: #FFFFFF;
-  --greyDark: #333;
-}
-$shadow: .3rem .3rem .6rem var(--primary), -.2rem -.2rem .5rem var(--white);
+@import 'parts/mixins';
 
 ::selection{
   background-color: rgba(127,191,255,.4);
@@ -259,7 +254,7 @@ ul, ol {
   margin: 0 auto;
   padding-top: 10px;
   background: rgba( 255, 255, 255, .7 );
-  box-shadow: 4px 4px 18px rgba(0,0,0,.2);
+  @include button-shadow;
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
   border-radius: 10px;
@@ -275,7 +270,7 @@ ul, ol {
   width: 96%;
   padding-bottom: 1rem;
   background: rgba( 255, 255, 255, .7);
-  box-shadow: 4px 4px 18px rgba(0,0,0,.2);
+  @include button-shadow;
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
   border-radius: 10px;
@@ -325,7 +320,7 @@ audio{
     border-radius: 6px;
     font-weight: normal;
     background-color: #eee;
-    border-bottom: 5px solid #ccc;
+    @include button-shadow;
     transition: 1s ease-out;
   }
 }
