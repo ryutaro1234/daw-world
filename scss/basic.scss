@@ -1,3 +1,5 @@
+@import 'parts/colors';
+
 .color-blue{
   color: #4c4cff;
 }
@@ -91,7 +93,7 @@ svg g path{
   color: #fff;
   font-weight: bold;
   background-color: #bc7aff;
-  border-bottom: none;
+  @include button-shadow-click;
 }
 .whole-click{
   transition: all 1s ease-in;
@@ -118,7 +120,7 @@ svg g path{
   color: #fff;
   font-weight: bold;
   background-color: #7abcff;
-  border-bottom: none;
+  @include button-shadow-click;
 }
 .semi-click{
   transition: all 1s ease-in;
@@ -144,7 +146,7 @@ svg g path{
   border-radius: 6px;
   font-weight: normal;
   background-color: #eee;
-  border-bottom: 5px solid #ccc;
+  @include button-shadow;
   transition: 1s ease-out;
 }
 
@@ -238,7 +240,7 @@ svg g path{
   border-radius: 6px;
   font-weight: normal;
   background-color: #eee;
-  border-bottom: 5px solid #ccc;
+  @include button-shadow;
   transition: 1s ease-out;
 }
 
@@ -246,14 +248,14 @@ svg g path{
   font-weight: bold;
   color: #fff;
   background: #4c4cff;
-  border-bottom: none;
+  @include button-shadow-click;
 }
 
 #min01.active{
   font-weight: bold;
   color: #fff;
   background: #7abcff;
-  border-bottom: none;
+  @include button-shadow-click;
 }
 
 .maj.active{
