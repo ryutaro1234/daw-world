@@ -207,6 +207,8 @@ article{
 
 #snare02.audio01{
   animation: snare02audio01 12s forwards;
+  transform-origin: bottom;
+  transform-box: fill-box;
 }
 @keyframes snare02audio01 {
   0%{transform: scaleY(1) translateY(0);}
@@ -491,6 +493,8 @@ article{
 
 #snare02.audio02{
   animation: snare02audio02 7s forwards;
+  transform-origin: bottom;
+  transform-box: fill-box;
 }
 @keyframes snare02audio02 {
   11.5%{transform: scale(1) translate(0,0);}
