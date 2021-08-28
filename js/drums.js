@@ -1,5 +1,6 @@
 function pop01(){
   document.getElementById("pop01").classList.add("click");
+  document.querySelector("#pop02").classList.add("click");
   document.getElementById("low02-shell").classList.add("pop01");
   document.getElementById("mid02-shell").classList.add("pop01");
   document.getElementById("hi02-shell").classList.add("pop01");
@@ -7,7 +8,6 @@ function pop01(){
   document.querySelector("#audio01").play();
 
   document.querySelector("#audio02").pause();
-  document.querySelector("#audio03").pause();
   document.getElementById("jazz01").classList.remove("click");
   document.getElementById("audio02").classList.remove("click");
   document.getElementById("metal01").classList.remove("click");
@@ -16,15 +16,15 @@ function pop01(){
   document.getElementById("mid02-shell").classList.remove("jazz01");
   document.getElementById("hi02-shell").classList.remove("jazz01");
   document.getElementById("snare02-shell").classList.remove("jazz01");
-  document.getElementById("low02-shell").classList.remove("metal01");
-  document.getElementById("mid02-shell").classList.remove("metal01");
-  document.getElementById("hi02-shell").classList.remove("metal01");
-  document.getElementById("snare02-shell").classList.remove("metal01");
-
 };
+function pop02(){
+  document.querySelector("#pop02").classList.remove("click");
+  document.querySelector("#audio01").pause();
+}
 
 function jazz01(){
   document.getElementById("jazz01").classList.add("click");
+  document.querySelector("#jazz02").classList.add("click");
   document.getElementById("low02-shell").classList.add("jazz01");
   document.getElementById("mid02-shell").classList.add("jazz01");
   document.getElementById("hi02-shell").classList.add("jazz01");
@@ -32,7 +32,6 @@ function jazz01(){
   document.querySelector("#audio02").play();
 
   document.querySelector("#audio01").pause();
-  document.querySelector("#audio03").pause();
   document.getElementById("pop01").classList.remove("click");
   document.getElementById("audio01").classList.remove("click")
   document.getElementById("metal01").classList.remove("click");
@@ -41,11 +40,11 @@ function jazz01(){
   document.getElementById("mid02-shell").classList.remove("pop01");
   document.getElementById("hi02-shell").classList.remove("pop01");
   document.getElementById("snare02-shell").classList.remove("pop01");
-  document.getElementById("low02-shell").classList.remove("metal01");
-  document.getElementById("mid02-shell").classList.remove("metal01");
-  document.getElementById("hi02-shell").classList.remove("metal01");
-  document.getElementById("snare02-shell").classList.remove("metal01");
 };
+function jazz02(){
+  document.querySelector("#jazz02").classList.remove("click");
+  document.querySelector("#audio02").pause();
+}
 
 var audio01 = document.getElementById("audio01");
 audio01.onplay = function(){
@@ -58,6 +57,7 @@ audio01.onplay = function(){
 };
 
 audio01.onpause = function(){
+  document.querySelector("#pop02").classList.remove("click");
   document.getElementById("pop01").classList.remove("click");
   document.getElementById("low02-shell").classList.remove("pop01");
   document.getElementById("mid02-shell").classList.remove("pop01");
@@ -74,6 +74,7 @@ audio01.onpause = function(){
 
 var audio02 = document.querySelector("#audio02");
 audio02.onplay = function(){
+  document.querySelector("#jazz01").innerHTML = '■ Jazz';
   document.querySelector("#bass02").classList.add("audio02");
   document.querySelector("#bass02-shell").classList.add("audio02");
   document.querySelector("#snare02").classList.add("audio02");
@@ -81,6 +82,8 @@ audio02.onplay = function(){
   document.querySelector("#ride02").classList.add("audio02");
 }
 audio02.onpause = function(){
+  document.querySelector("#jazz02").classList.remove("click");
+  document.querySelector("#jazz01").innerHTML = '▶︎ Jazz';
   document.getElementById("jazz01").classList.remove("click");
   document.getElementById("low02-shell").classList.remove("jazz01");
   document.getElementById("mid02-shell").classList.remove("jazz01");

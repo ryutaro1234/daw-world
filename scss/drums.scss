@@ -201,13 +201,20 @@ article{
 #hi02-shell.jazz01{fill: #ffaf1a;}
 #snare02-shell.jazz01{fill: #ffaf1a;}
 
-#pop01.click{
+#pop01.click{display: none;}
+#pop02{display: none;}
+#pop02.click{
+  display: block;
   font-weight: bold;
   color: #fff;
   border: none;
   background: #7abcff;
 }
-#jazz01.click{
+
+#jazz01.click{display: none;}
+#jazz02{display: none;}
+#jazz02.click{
+  display: block;
   font-weight: bold;
   color: #fff;
   border: none;
