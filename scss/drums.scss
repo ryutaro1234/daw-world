@@ -5,6 +5,15 @@
 
 @import 'parts/colors';
 
+#background{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(150deg, #eee 80%, $red 80%);
+  position: fixed;
+  top: 0;
+  z-index: -9999;
+}
+
 article{
   margin: 0;
   padding: 0;

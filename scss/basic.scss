@@ -1,5 +1,14 @@
 @import 'parts/colors';
 
+#background{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(150deg, #eee 80%, $blue 80%);
+  position: fixed;
+  top: 0;
+  z-index: -9999;
+}
+
 .color-blue{
   color: #4c4cff;
 }
@@ -280,6 +289,7 @@ svg g path{
 }
 
 #position01{
+  stroke: #4c4cff;
   position: absolute;
   top: 500px;
   left: 0;
@@ -287,6 +297,7 @@ svg g path{
 }
 
 #position02{
+  stroke: #4c4cff;
   position: absolute;
   top: 1300px;
   left: 0;
@@ -294,6 +305,7 @@ svg g path{
 }
 
 #position03{
+  stroke: #4c4cff;
   position: absolute;
   top: 2000px;
   left: 0;
@@ -301,6 +313,7 @@ svg g path{
 }
 
 #position04{
+  stroke: #4c4cff;
   position: absolute;
   top: 3000px;
   left: 0;

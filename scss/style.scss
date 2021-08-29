@@ -253,8 +253,8 @@ ul, ol {
   width: 70%;
   margin: 0 auto;
   padding-top: 10px;
-  background: rgba( 255, 255, 255, .7 );
-  @include button-shadow;
+  background: rgba( 255, 255, 255, .8);
+  box-shadow: 4px 4px 5px 3px rgba(150,150,150,.2), -6px -6px 5px 3px rgba(200,200,200,.1);
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
   border-radius: 10px;
@@ -269,8 +269,8 @@ ul, ol {
   margin: 4rem auto;
   width: 96%;
   padding-bottom: 1rem;
-  background: rgba( 255, 255, 255, .7);
-  @include button-shadow;
+  background: rgba( 255, 255, 255, .8);
+  box-shadow: 4px 4px 5px 3px rgba(150,150,150,.2), -6px -6px 5px 3px rgba(200,200,200,.1);
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
   border-radius: 10px;
