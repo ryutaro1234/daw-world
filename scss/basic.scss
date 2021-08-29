@@ -3,10 +3,10 @@
 #background{
   width: 100%;
   height: 100vh;
-  background: linear-gradient(150deg, #eee 80%, $blue 80%);
+  background: linear-gradient(150deg, transparent 80%, $blue 80%);
   position: fixed;
   top: 0;
-  z-index: -9999;
+  z-index: -999;
 }
 
 .color-blue{
@@ -293,7 +293,7 @@ svg g path{
   position: absolute;
   top: 500px;
   left: 0;
-  z-index: -999;
+  z-index: -900;
 }
 
 #position02{
@@ -301,7 +301,7 @@ svg g path{
   position: absolute;
   top: 1300px;
   left: 0;
-  z-index: -999;
+  z-index: -900;
 }
 
 #position03{
@@ -309,7 +309,7 @@ svg g path{
   position: absolute;
   top: 2000px;
   left: 0;
-  z-index: -999;
+  z-index: -900;
 }
 
 #position04{
@@ -317,14 +317,14 @@ svg g path{
   position: absolute;
   top: 3000px;
   left: 0;
-  z-index: -999;
+  z-index: -900;
 }
 
 #position05{
   position: absolute;
   top: 5000px;
   right: 0;
-  z-index: -999;
+  z-index: -900;
 }
 
 @media screen and (min-width: 600px) {
