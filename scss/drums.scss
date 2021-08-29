@@ -943,6 +943,45 @@ animation: snare04playshell 10s forwards;
     #chi04{animation-delay: 1.2s;}
 }
 
+#drums05{margin: 0 auto;}
+#audio06{display: none;}
+
+#beat1601buttom,#beat1602buttom{width: 9rem;}
+#beat1601buttom.click{display: none;}
+#beat1602buttom{display: none;}
+#beat1602buttom.click{
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  @include button-shadow-click;
+  background: $red;
+}
+
+#snare05.play{
+  animation: snare05play 10s forwards;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#snare05-shell.play{
+  animation: snare05-shellplay 10s forwards;
+}
+#bass05.play{
+  animation: bass05play 10s forwards;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#bass05-shell.play{
+  animation: bass05-shellplay 10s forwards;
+}
+#hat05-top.play{
+  animation: hat05-topplay 10s forwards;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+
+#drums06{margin: 0 auto;}
+
 @media screen and (min-width: 600px) {
 
   .drums{
