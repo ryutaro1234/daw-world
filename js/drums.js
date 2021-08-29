@@ -133,6 +133,9 @@ audio05.onplay = function(){
     document.querySelector("#chi04").classList.add("play01");
     document.querySelector("#bass04").classList.add("play");
     document.querySelector("#bass04-shell").classList.add("play");
+    document.querySelector("#snare04").classList.add("play");
+    document.querySelector("#snare04-shell").classList.add("play");
+    document.querySelector("#hat04-top").classList.add("play");
 }
 audio05.onpause = function(){
     audio05.currentTime = 0;
@@ -149,4 +152,7 @@ audio05.onpause = function(){
     document.querySelector("#chi04").classList.remove("play01");
     document.querySelector("#bass04").classList.remove("play");
     document.querySelector("#bass04-shell").classList.remove("play");
+    document.querySelector("#snare04").classList.remove("play");
+    document.querySelector("#snare04-shell").classList.remove("play");
+    document.querySelector("#hat04-top").classList.remove("play");
 }

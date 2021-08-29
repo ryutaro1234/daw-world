@@ -1,6 +1,3 @@
-$red: #ff5656;
-$yellow: #ffff33;
-$flash: #ffffe6;
 
 @mixin color{
   color: #ff5656;
@@ -797,6 +794,131 @@ article{
 
     100%{fill: #222;}
   }
+}
+
+#snare04.play{
+animation: snare04play 10s forwards;
+transform-origin: center;
+transform-box: fill-box;
+}
+@keyframes snare04play {
+  4.5%{transform: scale(1) translateY(0);}
+  5%{transform: scaleY(.9) translateY(10%);}
+  6%{transform: scale(1) translateY(0);}
+  12.5%{transform: scale(1) translateY(0);}
+  13%{transform: scaleY(.9) translateY(10%);}
+  14%{transform: scale(1) translateY(0);}
+
+  20.5%{transform: scale(1) translateY(0);}
+  21%{transform: scaleY(.9) translateY(10%);}
+  22%{transform: scale(1) translateY(0);}
+  28.5%{transform: scale(1) translateY(0);}
+  29%{transform: scaleY(.9) translateY(10%);}
+  30%{transform: scale(1) translateY(0);}
+
+  36.5%{transform: scale(1) translateY(0);}
+  37%{transform: scaleY(.9) translateY(10%);}
+  38%{transform: scale(1) translateY(0);}
+  44.5%{transform: scale(1) translateY(0);}
+  45%{transform: scaleY(.9) translateY(10%);}
+  46%{transform: scale(1) translateY(0);}
+
+  52.5%{transform: scale(1) translateY(0);}
+  53%{transform: scaleY(.9) translateY(10%);}
+  54%{transform: scale(1) translateY(0);}
+  60.5%{transform: scale(1) translateY(0);}
+  61%{transform: scaleY(.9) translateY(10%);}
+  62%{transform: scale(1) translateY(0);}
+}
+
+#snare04-shell.play{
+animation: snare04playshell 10s forwards;
+}
+@keyframes snare04playshell {
+  4.5%{fill:$red;}
+  5%{fill:$flash;}
+  6%{fill:$red;}
+  12.5%{fill:$red;}
+  13%{fill:$flash;}
+  14%{fill:$red;}
+
+  20.5%{fill:$red;}
+  21%{fill:$flash;}
+  22%{fill:$red;}
+  28.5%{fill:$red;}
+  29%{fill:$flash;}
+  30%{fill:$red;}
+
+  36.5%{fill:$red;}
+  37%{fill:$flash;}
+  38%{fill:$red;}
+  44.5%{fill:$red;}
+  45%{fill:$flash;}
+  46%{fill:$red;}
+
+  52.5%{fill:$red;}
+  53%{fill:$flash;}
+  54%{fill:$red;}
+  60.5%{fill:$red;}
+  61%{fill:$flash;}
+  62%{fill:$red;}
+}
+
+#hat04-top.play{
+  animation: hat04-topplay 10s forwards;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes hat04-topplay {
+  0%{fill:$yellow; transform: translateY(0);}
+  1%{fill:$flash; transform: translateY(-10%);}
+  2%{fill:$yellow; transform: translateY(0);}
+  4.5%{fill:$yellow; transform: translateY(0);}
+  5%{fill:$flash; transform: translateY(-10%);}
+  6%{fill:$yellow; transform: translateY(0);}
+  8.5%{fill:$yellow; transform: translateY(0);}
+  9%{fill:$flash; transform: translateY(-10%);}
+  12.5%{fill:$yellow; transform: translateY(0);}
+  13%{fill:$flash; transform: translateY(-10%);}
+  14%{fill:$yellow; transform: translateY(0);}
+  16.5%{fill:$yellow; transform: translateY(0);}
+  17%{fill:$flash; transform: translateY(-10%);}
+  18%{fill:$yellow; transform: translateY(0);}
+
+  20.5%{fill:$yellow; transform: translateY(0);}
+  21%{fill:$flash; transform: translateY(-10%);}
+  22%{fill:$yellow; transform: translateY(0);}
+  24.5%{fill:$yellow; transform: translateY(0);}
+  25%{fill:$flash; transform: translateY(-10%);}
+  28.5%{fill:$yellow; transform: translateY(0);}
+  29%{fill:$flash; transform: translateY(-10%);}
+  30%{fill:$yellow; transform: translateY(0);}
+  34%{fill:$flash; transform: translateY(-10%);}
+  35%{fill:$yellow; transform: translateY(0);}
+  36%{fill:$yellow; transform: translateY(0);}
+
+  36.5%{fill:$yellow; transform: translateY(0);}
+  37%{fill:$flash; transform: translateY(-10%);}
+  38%{fill:$yellow; transform: translateY(0);}
+  40.5%{fill:$yellow; transform: translateY(0);}
+  41%{fill:$flash; transform: translateY(-10%);}
+  42%{fill:$yellow; transform: translateY(0);}
+  44.5%{fill:$yellow; transform: translateY(0);}
+  45%{fill:$flash; transform: translateY(-10%);}
+  46%{fill:$yellow; transform: translateY(0);}
+  48.5%{fill:$yellow; transform: translateY(0);}
+  49%{fill:$flash; transform: translateY(-10%);}
+  50%{fill:$yellow; transform: translateY(0);}
+
+  52.5%{fill:$yellow; transform: translateY(0);}
+  53%{fill:$flash; transform: translateY(-10%);}
+  54%{fill:$yellow; transform: translateY(0);}
+  56.5%{fill:$yellow; transform: translateY(0);}
+  57%{fill:$flash; transform: translateY(-10%);}
+  60.5%{fill:$yellow; transform: translateY(0);}
+  61%{fill:$flash; transform: translateY(-10%);}
+  62%{fill:$yellow; transform: translateY(0);}
+
 }
 
 #score01{
