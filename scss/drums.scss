@@ -412,8 +412,8 @@ article{
   animation: hat02-topaudio01 8s forwards;
 }
 @keyframes hat02-topaudio01 {
-  0%{fill: #ffffe6; transform: scale(1.1) translate(-5%, -5%);}
-  2%{fill: #ffffe6; transform: scale(1) translate(0,0);}
+  0%{fill: #ffffe6;}
+  2%{fill: #ffffe6;}
   80%{fill: #ffffe6;}
 }
 
@@ -962,21 +962,141 @@ animation: snare04playshell 10s forwards;
   transform-origin: center;
   transform-box: fill-box;
 }
+@keyframes snare05play {
+  5.5%{transform: scale(1) translateY(0);}
+  6%{transform: scaleY(.9) translateY(10%);}
+  7%{transform: scale(1) translateY(0);}
+
+  17.5%{transform: scale(1) translateY(0);}
+  18%{transform: scaleY(.9) translateY(10%);}
+  19%{transform: scale(1) translateY(0);}
+
+  29.5%{transform: scale(1) translateY(0);}
+  30%{transform: scaleY(.9) translateY(10%);}
+  31%{transform: scale(1) translateY(0);}
+
+  41.5%{transform: scale(1) translateY(0);}
+  42%{transform: scaleY(.9) translateY(10%);}
+  43%{transform: scale(1) translateY(0);}
+}
+
 #snare05-shell.play{
   animation: snare05-shellplay 10s forwards;
+}
+
+@keyframes snare05-shellplay {
+  5.5%{fill: $red;}
+  6%{fill: $flash;}
+  7%{fill: $red;}
+
+  17.5%{fill: $red;}
+  18%{fill: $flash;}
+  19%{fill: $red;}
+
+  29.5%{fill: $red;}
+  30%{fill: $flash;}
+  31%{fill: $red;}
+
+  41.5%{fill: $red;}
+  42%{fill: $flash;}
+  43%{fill: $red;}
 }
 #bass05.play{
   animation: bass05play 10s forwards;
   transform-origin: center;
   transform-box: fill-box;
 }
+@keyframes bass05play {
+  0%{transform: scale(1.1)}
+  1%{transform: scale(1)}
+
+  3.5%{transform: scale(1)}
+  4%{transform: scale(1.1)}
+  5%{transform: scale(1)}
+
+  9.5%{transform: scale(1)}
+  10%{transform: scale(1.1)}
+  11%{transform: scale(1)}
+
+  15.5%{transform: scale(1)}
+  16%{transform: scale(1.1)}
+  17%{transform: scale(1)}
+
+  24.5%{transform: scale(1)}
+  25%{transform: scale(1.1)}
+  26%{transform: scale(1)}
+
+  27.5%{transform: scale(1)}
+  28%{transform: scale(1.1)}
+  29%{transform: scale(1)}
+
+  33.5%{transform: scale(1)}
+  34%{transform: scale(1.1)}
+  35%{transform: scale(1)}
+
+  39.5%{transform: scale(1)}
+  40%{transform: scale(1.1)}
+  41%{transform: scale(1)}
+}
 #bass05-shell.play{
   animation: bass05-shellplay 10s forwards;
 }
+@keyframes bass05-shellplay {
+  0%{fill: $flash;}
+  1%{fill: #222;}
+
+  3.5%{fill: #222;}
+  4%{fill: $flash;}
+  5%{fill: #222;}
+
+  9.5%{fill: #222;}
+  10%{fill: $flash;}
+  11%{fill: #222;}
+
+  15.5%{fill: #222;}
+  16%{fill: $flash;}
+  17%{fill: #222;}
+
+  24.5%{fill: #222;}
+  25%{fill: $flash;}
+  26%{fill: #222;}
+
+  27.5%{fill: #222;}
+  28%{fill: $flash;}
+  29%{fill: #222;}
+
+  33.5%{fill: #222;}
+  34%{fill: $flash;}
+  35%{fill: #222;}
+
+  39.5%{fill: #222;}
+  40%{fill: $flash;}
+  41%{fill: #222;}
+}
+
 #hat05-top.play{
   animation: hat05-topplay 10s forwards;
   transform-origin: center;
   transform-box: fill-box;
+}
+@keyframes hat05-topplay {
+  0%{fill: $flash;}
+  4.5%{fill: $flash;}
+  5%{fill: $yellow;}
+  6%{fill: $flash;}
+
+  17.5%{fill: $flash;}
+  18%{fill: $yellow;}
+  19%{fill: $flash;}
+
+  29.5%{fill: $flash}
+  30%{fill: $yellow;}
+  31%{fill: $flash;}
+
+  41.5%{fill: $flash;}
+  42%{fill: $yellow;}
+  43%{fill: $flash;}
+  60%{fill: $flash;}
 }
 
 
