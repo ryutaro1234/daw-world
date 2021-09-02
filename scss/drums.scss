@@ -1118,13 +1118,34 @@ animation: snare04playshell 10s forwards;
 #do13{animation-delay: .4s}
 #do12{animation-delay: .8s}
 #do11{animation-delay: 1.4s}
+#ta11{animation-delay: 1.8s}
+#ta12{animation-delay: .6s}
+#chi12{animation-delay: .1s}
+#chi13{animation-delay: .25s}
+#chi14{animation-delay: .45s}
+#chi15{animation-delay: .7s}
+#chi16{animation-delay: .85s}
+#chi24{animation-delay: .95s}
+
+#chi17{animation-delay: 1.25s}
+#chi18{animation-delay: 1.4s}
+#chi19{animation-delay: 1.45s}
+#chi20{animation-delay: 1.55s}
+
+#chi21{animation-delay: 1.95s}
+#chi22{animation-delay: 2.05s}
+#chi23{animation-delay: 2.15s}
 
 .flash01{
-  animation: flash01 .5s forwards;
+  animation: flash01 10s forwards;
 }
 @keyframes flash01 {
-  from{fill:$flash;}
-  to{fill:#000;}
+  0%{fill:$flash;}
+  3%{fill:#000;}
+
+  24.5%{fill:#000;}
+  25%{fill:$flash;}
+  28%{fill:#000;}
 }
 
 @media screen and (min-width: 600px) {

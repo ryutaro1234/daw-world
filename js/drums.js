@@ -177,6 +177,22 @@ audio06.onplay = function(){
   document.querySelector("#do12").classList.add("flash01");
   document.querySelector("#do13").classList.add("flash01");
   document.querySelector("#do14").classList.add("flash01");
+  document.querySelector("#ta11").classList.add("flash01");
+  document.querySelector("#ta12").classList.add("flash01");
+  document.querySelector("#chi11").classList.add("flash01");
+  document.querySelector("#chi12").classList.add("flash01");
+  document.querySelector("#chi13").classList.add("flash01");
+  document.querySelector("#chi14").classList.add("flash01");
+  document.querySelector("#chi15").classList.add("flash01");
+  document.querySelector("#chi16").classList.add("flash01");
+  document.querySelector("#chi17").classList.add("flash01");
+  document.querySelector("#chi18").classList.add("flash01");
+  document.querySelector("#chi19").classList.add("flash01");
+  document.querySelector("#chi20").classList.add("flash01");
+  document.querySelector("#chi21").classList.add("flash01");
+  document.querySelector("#chi22").classList.add("flash01");
+  document.querySelector("#chi23").classList.add("flash01");
+  document.querySelector("#chi24").classList.add("flash01");
 }
 
 audio06.onpause = function(){
@@ -192,4 +208,21 @@ audio06.onpause = function(){
   document.querySelector("#do12").classList.remove("flash01");
   document.querySelector("#do13").classList.remove("flash01");
   document.querySelector("#do14").classList.remove("flash01");
+  document.querySelector("#ta11").classList.remove("flash01");
+  document.querySelector("#ta12").classList.remove("flash01");
+  document.querySelector("#chi11").classList.remove("flash01");
+  document.querySelector("#chi12").classList.remove("flash01");
+  document.querySelector("#chi13").classList.remove("flash01");
+  document.querySelector("#chi14").classList.remove("flash01");
+  document.querySelector("#chi15").classList.remove("flash01");
+  document.querySelector("#chi16").classList.remove("flash01");
+  document.querySelector("#chi17").classList.remove("flash01");
+  document.querySelector("#chi18").classList.remove("flash01");
+  document.querySelector("#chi19").classList.remove("flash01");
+  document.querySelector("#chi20").classList.remove("flash01");
+  document.querySelector("#chi21").classList.remove("flash01");
+  document.querySelector("#chi22").classList.remove("flash01");
+  document.querySelector("#chi23").classList.remove("flash01");
+  document.querySelector("#chi24").classList.remove("flash01");
+
 }
