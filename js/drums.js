@@ -173,6 +173,10 @@ audio06.onplay = function(){
   document.querySelector("#snare05").classList.add("play");
   document.querySelector("#snare05-shell").classList.add("play");
   document.querySelector("#hat05-top").classList.add("play");
+  document.querySelector("#do11").classList.add("flash01");
+  document.querySelector("#do12").classList.add("flash01");
+  document.querySelector("#do13").classList.add("flash01");
+  document.querySelector("#do14").classList.add("flash01");
 }
 
 audio06.onpause = function(){
@@ -184,4 +188,8 @@ audio06.onpause = function(){
   document.querySelector("#snare05").classList.remove("play");
   document.querySelector("#snare05-shell").classList.remove("play");
   document.querySelector("#hat05-top").classList.remove("play");
+  document.querySelector("#do11").classList.remove("flash01");
+  document.querySelector("#do12").classList.remove("flash01");
+  document.querySelector("#do13").classList.remove("flash01");
+  document.querySelector("#do14").classList.remove("flash01");
 }

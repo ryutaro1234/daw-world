@@ -633,10 +633,12 @@ article{
   opacity: .9;
 }
 
-#double-stroke01 .st0{fill:#FF5656;stroke:#000000;stroke-miterlimit:10;}
-#double-stroke01 .st1{fill:#CCCCCC;stroke:#000000;stroke-miterlimit:10;}
-#double-stroke01 .st2{fill:#EEEEEE;stroke:#000000;stroke-miterlimit:10;}
-#double-stroke01 .st3{fill:#FFD79F;stroke:#000000;stroke-miterlimit:10;}
+#double-stroke01 {
+  .st0{fill:#FF5656;stroke:#000000;stroke-miterlimit:10;}
+  .st1{fill:#CCCCCC;stroke:#000000;stroke-miterlimit:10;}
+  .st2{fill:#EEEEEE;stroke:#000000;stroke-miterlimit:10;}
+  .st3{fill:#FFD79F;stroke:#000000;stroke-miterlimit:10;}
+}
 
 #audio04{
   display: none;
@@ -1099,8 +1101,31 @@ animation: snare04playshell 10s forwards;
   60%{fill: $flash;}
 }
 
+#beat16score{
+  overflow-x: scroll;
+  margin: 0 2rem;
 
-#drums06{margin: 0 auto;}
+  svg{
+    width: 360%;
+    height: auto;
+
+      .st0{fill:none;stroke:#000000;stroke-width:0.5;}
+      .st3{fill:#000;stroke:none;}
+  }
+}
+
+
+#do13{animation-delay: .4s}
+#do12{animation-delay: .8s}
+#do11{animation-delay: 1.4s}
+
+.flash01{
+  animation: flash01 .5s forwards;
+}
+@keyframes flash01 {
+  from{fill:$flash;}
+  to{fill:#000;}
+}
 
 @media screen and (min-width: 600px) {
 
