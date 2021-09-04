@@ -57,6 +57,46 @@ h3{
   padding-left: 3rem;
 }
 
+#audio01{display: none;}
+#candgbuttom01.click{display: none;}
+#candgbuttom02{display: none;}
+#candgbuttom02.click{
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  background: $pink;
+  @include button-shadow-click;
+}
+
+.score{fill:#000;stroke:#none;}
+
+#svg02{
+  .st0{fill:none;stroke:#000000;stroke-width:0.5;}
+  .st1{fill:none;stroke:#16A2C8;stroke-width:0.5;}
+  .st2{fill:none;stroke:#000000;stroke-width:0.75;}
+  .st3{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+  .st4{fill:none;stroke:#F98A10;stroke-width:0.5;stroke-miterlimit:10;}
+
+  #g{fill:#000;stroke:#none; animation-delay: 4s;}
+  #c{fill:#000;stroke:#none;}
+}
+
+.play01{
+  animation: score01 10s forwards;
+}
+@keyframes score01 {
+  0%{fill:$flash;}
+  3%{fill:#000;}
+
+  5%{fill:#000;}
+  6%{fill:$flash;}
+  9%{fill:#000;}
+
+  11%{fill:#000;}
+  12%{fill:$flash;}
+  23%{fill:#000;}
+}
+
 @media screen and (min-width: 600px) {
 }
 @media screen and (min-width: 1025px) {
