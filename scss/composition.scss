@@ -1,3 +1,5 @@
+@import 'parts/colors';
+
 .glass{
   height: 400px;
 }
@@ -11,7 +13,7 @@ p{
 }
 
 .blue-ribbon{
-  border-left: 80px solid #4c4cff;
+  border-left: 80px solid $blue;
   border-bottom: 80px solid transparent;
   opacity: .9;
   mix-blend-mode: multiply;
@@ -20,16 +22,43 @@ p{
   left: 0;
 }
 
+.pink-ribbon{
+  border-left: 80px solid $pink;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#melody{
+  h2{
+    a{
+      color: $pink;
+    }//a
+  }//h2
+
+  #piano02{
+    padding-top: 2rem;
+    stroke: $pink;
+
+    g path{
+      fill: $pink;
+    }//g path
+  }//#piano02
+}//#melody
+
 .basic h2 a{
-  color: #4c4cff;
+  color: $blue;
 }
 
 #piano01{
   padding-top: 2rem;
-  stroke: #4c4cff;
+  stroke: $blue;
 }
 #piano01 g path{
-  fill: #4c4cff;
+  fill: $blue;
 }
 
 @media screen and (min-width: 600px) {

@@ -224,5 +224,34 @@ audio06.onpause = function(){
   document.querySelector("#chi22").classList.remove("flash01");
   document.querySelector("#chi23").classList.remove("flash01");
   document.querySelector("#chi24").classList.remove("flash01");
-
 }
+
+$(function(){
+
+  var bg01 = $('#position01').offset();
+  var bg02 = $('#position02').offset();
+  var bg03 = $('#position03').offset();
+  var bg04 = $('#position04').offset();
+
+  $(window).on('scroll',function(){
+    var scrollY = $(this).scrollTop();
+
+    $('#position01').css({
+      'top': bg01.top + scrollY / -8,
+      'left': bg01.left + scrollY / -10,
+    });
+
+    $('#position02').css({
+      'top': bg02.top + scrollY / 8,
+      'left': bg02.left + scrollY / -10,
+    });
+
+    $('#position03').css({
+      'top': bg03.top + scrollY / -15,
+    });
+
+    $('#position04').css({
+      'top': bg04.top + scrollY / 10,
+    });
+  });
+});
