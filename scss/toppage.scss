@@ -336,6 +336,12 @@ p{
   text-align: center;
 }
 
+#basic{
+  .btn-next{
+    background: $blue;
+  }
+}
+
 #piano01{
   width: 195%;
   stroke: #4c4cff;
@@ -378,6 +384,12 @@ p{
   }
   100%{
     fill: #fff;
+  }
+}
+
+#drums{
+  .btn-next{
+    background: $red;
   }
 }
 

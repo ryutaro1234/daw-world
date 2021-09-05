@@ -1,3 +1,5 @@
+@import 'parts/colors';
+
 .glass{
   height: 400px;
   text-align: center;
@@ -21,9 +23,16 @@ p{
   left: 0;
 }
 
-.red h2 a{
-  color: #ff5656;
+#drums{
+  h2 a{
+    color: #ff5656;
+  }
+
+  .btn-next{
+    background: $red;
+  }
 }
+
 
 
 .drums{

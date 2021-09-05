@@ -340,6 +340,36 @@ audio{
   }
 }
 
+.btn-next {
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #aaa;
+  @include button-shadow;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn-next span{
+  color: #FFF;
+  position: relative;
+  padding-right: 20px;
+}
+.btn-next span::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  margin-top: -5px;
+}
+
 .next{
   display: flex;
   justify-content: space-around;

@@ -34,8 +34,10 @@ article{
   position: relative;
   right: -10%;
 
-  path{stroke:$pink;}
-  g{fill:$pink;}
+  svg{
+    .st0, .st1, .st2, .st3, .st4{fill:none;stroke:$pink;stroke-width:0.5;}
+    .st5{fill:$pink;stroke:#none;}
+  }//svg
 }
 
 #top002{
@@ -68,7 +70,7 @@ h3{
   @include button-shadow-click;
 }
 
-.score{fill:#000;stroke:#none;}
+
 
 #svg02{
   .st0{fill:none;stroke:#000000;stroke-width:0.5;}
@@ -76,6 +78,7 @@ h3{
   .st2{fill:none;stroke:#000000;stroke-width:0.75;}
   .st3{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
   .st4{fill:none;stroke:#F98A10;stroke-width:0.5;stroke-miterlimit:10;}
+  .st5{fill:#000;stroke:#none;}
 
   #g{fill:#000;stroke:#none; animation-delay: 4s;}
   #c{fill:#000;stroke:#none;}

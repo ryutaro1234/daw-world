@@ -32,6 +32,24 @@ p{
   left: 0;
 }
 
+#basic{
+  h2 a{
+    color: $blue;
+  }
+
+  #piano01{
+    padding-top: 2rem;
+    stroke: $blue;
+  }
+  #piano01 g path{
+    fill: $blue;
+  }
+
+  .btn-next{
+    background: $blue;
+  }
+}
+
 #melody{
   h2{
     a{
@@ -39,27 +57,16 @@ p{
     }//a
   }//h2
 
-  #piano02{
-    padding-top: 2rem;
-    stroke: $pink;
+  .btn-next{
+    background: $pink;
+  }
 
-    g path{
-      fill: $pink;
-    }//g path
-  }//#piano02
+  svg{
+    width: 150%;
+    .st0, .st1, .st2, .st3, .st4{fill:none;stroke:$pink;stroke-width:0.5;}
+    .st5{fill:$pink;stroke:#none;}
+  }//svg
 }//#melody
-
-.basic h2 a{
-  color: $blue;
-}
-
-#piano01{
-  padding-top: 2rem;
-  stroke: $blue;
-}
-#piano01 g path{
-  fill: $blue;
-}
 
 @media screen and (min-width: 600px) {
 
