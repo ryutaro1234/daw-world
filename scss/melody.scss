@@ -88,9 +88,8 @@ h3{
   animation: score01 .5s forwards 3;
 }
 @keyframes score01 {
-  0%{fill:$flash;}
-  80%{fill:$flash;}
-  100%{fill:#000;}
+  from{fill:$flash;}
+  to{fill:#000;}
 }
 
 @media screen and (min-width: 600px) {
