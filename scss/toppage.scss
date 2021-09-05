@@ -225,7 +225,8 @@ article{
   display: block;
   opacity: 1;
   transform: translate(0, 0);
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 @keyframes animmain01 {
@@ -610,8 +611,11 @@ p{
   }
 
   #main-image{
-      width: 120%;
-      height: auto;
+    width: 120%;
+    height: auto;
+  }
+  #main-image.active{
+    width: 50%;
   }
 
   .pc-top02{
@@ -678,6 +682,9 @@ p{
   #main-image{
     width: 120%;
     height: auto;
+  }
+  #main-image.active{
+    width: 30%;
   }
 
   .pc-top02 article{
