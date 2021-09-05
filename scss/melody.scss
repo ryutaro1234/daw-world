@@ -85,19 +85,12 @@ h3{
 }
 
 .play01{
-  animation: score01 10s forwards;
+  animation: score01 .5s forwards 3;
 }
 @keyframes score01 {
   0%{fill:$flash;}
-  3%{fill:#000;}
-
-  5%{fill:#000;}
-  6%{fill:$flash;}
-  9%{fill:#000;}
-
-  11%{fill:#000;}
-  12%{fill:$flash;}
-  23%{fill:#000;}
+  80%{fill:$flash;}
+  100%{fill:#000;}
 }
 
 @media screen and (min-width: 600px) {
