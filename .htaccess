@@ -3,9 +3,5 @@ RewriteEngine on
 ErrorDocument 404 /404
 
 RewriteBase /
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.+)$ $1\.php
-
-RewriteBase /
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.+)$ $1\.html
