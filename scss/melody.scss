@@ -93,6 +93,28 @@ h3{
   to{fill:#000;}
 }
 
+#audio02{display: none;}
+#melody01buttom01.click{display: none;}
+#melody01buttom02{display: none;}
+#melody01buttom02.click{
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  background: $pink;
+  @include button-shadow-click;
+}
+
+#audio03{display: none;}
+#melody02buttom01.click{display: none;}
+#melody02buttom02{display: none;}
+#melody02buttom02.click{
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  background: $pink;
+  @include button-shadow-click;
+}
+
 @media screen and (min-width: 600px) {
 }
 @media screen and (min-width: 1025px) {
