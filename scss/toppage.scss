@@ -38,6 +38,16 @@ article{
   left: 0;
 }
 
+.ribbon-pink{
+  border-left: 80px solid $pink;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .pc-top01{
   width: 100%;
   height: 100vh;
@@ -73,6 +83,7 @@ article{
   opacity: .8;
 }
 
+/*
 #bg01 {
   overflow: hidden;
   width: 200px;
@@ -141,7 +152,7 @@ article{
   position: absolute;
   top: 0;
   left: 0;
-}
+}*/
 
 #title01{
   display: flex;
@@ -241,6 +252,7 @@ article{
   to{transform: translateX(-10%);}
 }
 
+/*
 #bg03 {
   overflow: hidden;
   width: 200px;
@@ -282,7 +294,7 @@ article{
   height: 18px;
   top: 0;
   left: 7px;
-}
+}*/
 
 #bg04 {
   animation: animmain01 25s infinite;
@@ -313,6 +325,7 @@ article{
   top: 0;
   left: 0;
 }
+
 .scrolldown1{
   height: 50px;
   position: absolute;
@@ -357,18 +370,31 @@ article{
   }
 }
 
-.pc-top02 article{
-  overflow: hidden;
-  margin-top: 2rem;
-  text-align: center;
+.pc-top02{
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  article{
+    width: 40%;
+    height: 150px;
+    overflow: hidden;
+    margin: .5rem;
+    text-align: center;
+  }
 }
 
 h2{
-  padding: 30px 0;
+  padding: 30px 30px 10px;
 }
 
 p{
   text-align: center;
+}
+
+.btn-next{
+  margin: 1.5rem auto .5rem;
+  box-shadow: none;
 }
 
 #basic{
@@ -384,6 +410,7 @@ p{
 #piano01 g path{
   fill: #4c4cff;
 }
+/*
 .show01{
   animation: basic-01 1s forwards;
 }
@@ -420,6 +447,20 @@ p{
   100%{
     fill: #fff;
   }
+}*/
+
+#melody{
+  .btn-next{
+    width: 6rem;
+    background: $pink;
+  }
+
+  svg{
+    width: 150%;
+    padding-left: 2rem;
+    .st0, .st1, .st2, .st3, .st4{fill:none;stroke:$pink;stroke-width:0.5;}
+    .st5{fill:$pink;stroke:#none;}
+  }//svg
 }
 
 #drums{
@@ -460,7 +501,7 @@ p{
 .hat .st3, .clash .st3, .ride{
   fill: #ffff33;
 }
-
+/*
 #clash01-l.active{
   animation: clash01-l 5s infinite;
 }
@@ -471,7 +512,7 @@ p{
   25%{
     transform: scaleY(1);
   }
-}
+}*/
 
 #clash01-r.active{
   animation: clash01-r 10s infinite;
@@ -565,10 +606,38 @@ p{
 }
 
 #profile{
-  width: 120%;
-  height: auto;
-  opacity: .7;
-  animation: profile 5s alternate infinite;
+  .btn-next{
+    width: 9rem;
+    background: #ffbc7a;
+  }
+}
+
+.pc-top03{
+
+  article{
+    width: 95%;
+    height: 100px;
+    overflow: hidden;
+    margin-top: .5rem;
+    text-align: center;
+
+    section{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+
+      .btn-next{
+        margin-top: 40px;
+      }
+    }
+
+    #profile-image{
+      width: 50%;
+      height: auto;
+      opacity: .7;
+      animation: profile 5s alternate infinite;
+    }
+  }//article
 }
 @keyframes profile {
   from{
@@ -601,9 +670,9 @@ p{
     left: -5%;
   }
 
-  #bg03{
+  /*#bg03{
     left: 40%;
-  }
+  }*/
 
   #bg04{
     left: 45%;
@@ -623,17 +692,11 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  .pc-top02 article{
-    margin-top: 2rem;
-    width: 48%;
-    height: 500px;
-  }
-  .pc-top02:after {
-    content: "";
-    display: block;
-    width: 50%;
-    height: 0;
+
+    article{
+      margin-top: 2rem;
+      height: 250px;
+    }
   }
 
 }
@@ -658,7 +721,7 @@ p{
     margin: -8px 0 8px ;
   }
 
-  #bg01{
+  /*#bg01{
     right: 20%;
   }
 
@@ -671,7 +734,7 @@ p{
     line-height: 130px;
     top: -50px;
     left: 5%;
-  }
+  }*/
 
   #title01{
     transform: translateX(-83%);
@@ -687,8 +750,12 @@ p{
   }
 
   .pc-top02 article{
-    max-width: 45%;
-    height: 600px;
+    max-width: 300px;
+    height: 300px;
+  }
+
+  #profile-image{
+    margin-top: -4rem;
   }
 
 }

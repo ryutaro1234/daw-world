@@ -1,0 +1,29 @@
+@import 'parts/colors';
+
+article{
+  padding: 1rem;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+
+  p{
+    text-align: center;
+  }
+
+}
+
+#profile-image{
+  width: 50%;
+  height: auto;
+  opacity: .7;
+  animation: profile 5s alternate infinite;
+}
+
+@keyframes profile {
+  from{
+    transform: rotate(-10deg);
+  }
+  to{
+    transform: rotate(10deg);
+  }
+}
