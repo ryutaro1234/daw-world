@@ -1,7 +1,27 @@
 @import 'parts/colors';
 
+main{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main:after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 0;
+}
+
 .glass{
-  height: 400px;
+  height: 120px;
+  text-align: center;
+  width: 40%;
+}
+
+.btn-next{
+  margin: 1.5rem auto .5rem;
+  box-shadow: none;
 }
 
 h2{
@@ -37,20 +57,22 @@ p{
     color: $blue;
   }
 
-  #piano01{
-    padding-top: 2rem;
+    #piano01{
+    width: 120%;
     stroke: $blue;
-  }
-  #piano01 g path{
-    fill: $blue;
-  }
 
-  .btn-next{
-    background: $blue;
-  }
+      g path{
+        fill: $blue;
+      }
+    }//piano01
+
+    .btn-next{
+      background: $blue;
+    }
 }
 
 #melody{
+
   h2{
     a{
       color: $pink;
@@ -62,7 +84,8 @@ p{
   }
 
   svg{
-    width: 150%;
+    margin-left: 1rem;
+    width: 140%;
     .st0, .st1, .st2, .st3, .st4{fill:none;stroke:$pink;stroke-width:0.5;}
     .st5{fill:$pink;stroke:#none;}
   }//svg
@@ -80,6 +103,7 @@ p{
 
   .glass{
     width: 45%;
+    height: 300px;
     margin: 4rem 0;
   }
   main:after {

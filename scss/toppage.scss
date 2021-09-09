@@ -373,7 +373,7 @@ article{
 .pc-top02{
   display: flex;
   overflow-x: auto;
-  white-space: nowrap;
+  flex-wrap: nowrap;
 
   article{
     width: 40%;

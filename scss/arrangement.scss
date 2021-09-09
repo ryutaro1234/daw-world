@@ -1,8 +1,27 @@
 @import 'parts/colors';
 
+main{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main:after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 0;
+}
+
 .glass{
-  height: 400px;
+  height: 120px;
   text-align: center;
+  width: 40%;
+}
+
+.btn-next{
+  margin: 1.5rem auto .5rem;
+  box-shadow: none;
 }
 
 h2{
@@ -180,7 +199,6 @@ p{
 
   .glass{
     width: 32%;
-    height: 450px;
   }
   main:after {
     content: "";
