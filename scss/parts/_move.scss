@@ -31,7 +31,7 @@
   background-image: linear-gradient(-90deg, #ff5656 20%,#ff5656 40%, #6ee66e 40%,#6ee66e 60%, #4c4cff 60%,#4c4cff 80%, #fff 80%);
   bottom:0;
   left:-50%;
-  opacity:.4;
+  opacity:.6;
   position:fixed;
   right:-50%;
   top:0;
@@ -61,52 +61,64 @@
   opacity: 0;
   visibility: hidden;
   transition: 1s;
+  transition-timing-function:
+    transition-timing-function: ease-in;
   transform: translateY(100px);
 }
 .scroll-up-l{
   opacity: 0;
   visibility: hidden;
   transition: 1s;
-  animation-timing-function: ease-out;
+  transition-timing-function:
+    transition-timing-function: ease-in;
   transform: translateX(100px) translateY(100px);
 }
 .scroll-up-r{
   opacity: 0;
   visibility: hidden;
   transition: 1s;
-  animation-timing-function: ease-out;
+  transition-timing-function:
+    transition-timing-function: ease-in;
   transform: translateX(-100px) translateY(100px);
 }
 .scroll-down{
   opacity: 0;
   visibility: hidden;
   transition: 1s;
+  transition-timing-function:
+    transition-timing-function: ease-in;
   transform: translateY(-100px);
 }
 .scroll-down-l{
   opacity: 0;
   visibility: hidden;
   transition: 1s;
-  animation-timing-function: ease-out;
+  transition-timing-function:
+    transition-timing-function: ease-in;
   transform: translateX(100px) translateY(-100px);
 }
 .scroll-down-r{
   opacity: 0;
   visibility: hidden;
   transition: 1s;
-  animation-timing-function: ease-out;
+  transition-timing-function:
+    transition-timing-function: ease-in;
   transform: translateX(-100px) translateY(-100px);
 }
 .scroll-slide-l{
   opacity: 0;
   visibility: hidden;
   transition: 1s;
+  transition-timing-function:
+    transition-timing-function: ease-in;
   transform: translateX(100px);
 }
 .scroll-slide-r{
   opacity: 0;
   visibility: hidden;
   transition: 1s;
+  transition-timing-function:
+    transition-timing-function: ease-in;
   transform: translateX(-100px);
 }
 .active{
