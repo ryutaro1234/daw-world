@@ -60,65 +60,49 @@
 .scroll-up{
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
-  transition-timing-function:
-    transition-timing-function: ease-in;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateY(100px);
 }
 .scroll-up-l{
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
-  transition-timing-function:
-    transition-timing-function: ease-in;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateX(100px) translateY(100px);
 }
 .scroll-up-r{
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
-  transition-timing-function:
-    transition-timing-function: ease-in;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateX(-100px) translateY(100px);
 }
 .scroll-down{
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
-  transition-timing-function:
-    transition-timing-function: ease-in;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateY(-100px);
 }
 .scroll-down-l{
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
-  transition-timing-function:
-    transition-timing-function: ease-in;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateX(100px) translateY(-100px);
 }
 .scroll-down-r{
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
-  transition-timing-function:
-    transition-timing-function: ease-in;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateX(-100px) translateY(-100px);
 }
 .scroll-slide-l{
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
-  transition-timing-function:
-    transition-timing-function: ease-in;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateX(100px);
 }
 .scroll-slide-r{
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
-  transition-timing-function:
-    transition-timing-function: ease-in;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateX(-100px);
 }
 .active{

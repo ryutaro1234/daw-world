@@ -637,18 +637,18 @@ p{
       width: 50%;
       height: auto;
       opacity: .7;
-      animation: profile 5s alternate infinite;
+      //animation: profile 5s alternate infinite;
     }
   }//article
 }
-@keyframes profile {
+/*@keyframes profile {
   from{
     transform: rotate(-10deg);
   }
   to{
     transform: rotate(10deg);
   }
-}
+}*/
 
 .profile-ribbon{
   border-left: 80px solid #ffbc7a;
