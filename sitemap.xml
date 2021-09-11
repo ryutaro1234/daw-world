@@ -9,34 +9,48 @@
 
 <url>
   <loc>https://www.daw-world.net/</loc>
-  <lastmod>2021-09-05T06:17:19+00:00</lastmod>
+  <lastmod>2021-09-11T02:23:32+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.daw-world.net/composition</loc>
-  <lastmod>2021-09-05T06:17:19+00:00</lastmod>
+  <lastmod>2021-09-11T02:23:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.daw-world.net/arrangement</loc>
-  <lastmod>2021-09-05T06:17:19+00:00</lastmod>
+  <lastmod>2021-09-11T02:23:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.daw-world.net/composition/basic</loc>
-  <lastmod>2021-09-05T06:17:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.daw-world.net/arrangement/drums</loc>
-  <lastmod>2021-09-05T06:17:19+00:00</lastmod>
+  <lastmod>2021-09-11T02:23:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.daw-world.net/composition/melody</loc>
-  <lastmod>2021-09-05T06:17:19+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2021-09-11T02:23:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://www.daw-world.net/composition/chord-progression</loc>
+  <lastmod>2021-09-11T02:23:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.daw-world.net/arrangement/drums</loc>
+  <lastmod>2021-09-11T02:23:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.daw-world.net/arrangement/strings</loc>
+  <lastmod>2021-09-11T02:23:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.daw-world.net/about/manager</loc>
+  <lastmod>2021-09-11T02:23:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
