@@ -31,11 +31,25 @@ function melody01buttom02(){
 var audio02 = document.querySelector("#audio02");
 audio02.onplay = function(){
   document.querySelector("#melody01buttom02").classList.add("click");
+  document.querySelector("#do01").classList.add("play02");
+  document.querySelector("#do02").classList.add("play02");
+  document.querySelector("#do03").classList.add("play02");
+  document.querySelector("#so01").classList.add("play02");
+  document.querySelector("#so02").classList.add("play02");
+  document.querySelector("#so03").classList.add("play02");
+  document.querySelector("#so04").classList.add("play02");
 }
 audio02.onpause = function(){
   audio02.currentTime = 0;
   document.querySelector("#melody01buttom02").classList.remove("click");
   document.querySelector("#melody01buttom01").classList.remove("click");
+  document.querySelector("#do01").classList.remove("play02");
+  document.querySelector("#do02").classList.remove("play02");
+  document.querySelector("#do03").classList.remove("play02");
+  document.querySelector("#so01").classList.remove("play02");
+  document.querySelector("#so02").classList.remove("play02");
+  document.querySelector("#so03").classList.remove("play02");
+  document.querySelector("#so04").classList.remove("play02");
 }
 
 function melody02buttom01(){
@@ -49,9 +63,23 @@ function melody02buttom02(){
 var audio03 = document.querySelector("#audio03");
 audio03.onplay = function(){
   document.querySelector("#melody02buttom02").classList.add("click");
+  document.querySelector("#do11").classList.add("play02");
+  document.querySelector("#do12").classList.add("play02");
+  document.querySelector("#do13").classList.add("play02");
+  document.querySelector("#so11").classList.add("play02");
+  document.querySelector("#so12").classList.add("play02");
+  document.querySelector("#so13").classList.add("play02");
+  document.querySelector("#so14").classList.add("play02");
 }
 audio03.onpause = function(){
   audio03.currentTime = 0;
   document.querySelector("#melody02buttom02").classList.remove("click");
   document.querySelector("#melody02buttom01").classList.remove("click");
+  document.querySelector("#do11").classList.remove("play02");
+  document.querySelector("#do12").classList.remove("play02");
+  document.querySelector("#do13").classList.remove("play02");
+  document.querySelector("#so11").classList.remove("play02");
+  document.querySelector("#so12").classList.remove("play02");
+  document.querySelector("#so13").classList.remove("play02");
+  document.querySelector("#so14").classList.remove("play02");
 }

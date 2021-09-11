@@ -74,10 +74,10 @@ h3{
 
 #svg02{
   .st0{fill:none;stroke:#000000;stroke-width:0.5;}
-  .st1{fill:none;stroke:#16A2C8;stroke-width:0.5;}
+  .st1{fill:none;stroke:#16A2C8;stroke-width:1;}
   .st2{fill:none;stroke:#000000;stroke-width:0.75;}
   .st3{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
-  .st4{fill:none;stroke:#F98A10;stroke-width:0.5;stroke-miterlimit:10;}
+  .st4{fill:none;stroke:#F98A10;stroke-width:1;stroke-miterlimit:10;}
   .st5{fill:#000;stroke:#none;}
 
   #g{fill:#000;stroke:#none; animation-delay: 4s;}
@@ -85,12 +85,12 @@ h3{
 }
 
 .play01{
-  animation: score01 .5s forwards 3;
+  animation: score01 .5s 3;
 }
 @keyframes score01 {
-  from{fill:$flash;}
-  85%{fill:$flash;}
-  to{fill:#000;}
+  from{fill:000;}
+  30%{fill:$flash;}
+  to{fill:$flash;}
 }
 
 #audio02{display: none;}
@@ -103,6 +103,45 @@ h3{
   background: $pink;
   @include button-shadow-click;
 }
+
+#svg03{
+  fill: #000;
+  stroke: none;
+  .st0{fill:#16A2C8;}
+  .st1{fill:#F98A10;}
+}
+
+.play02{
+  animation: play02 .5s;
+}
+@keyframes play02 {
+  from{fill:000;}
+  1%{fill:$flash;}
+  to{fill:$flash;}
+}
+#do02{animation-delay: .3s}
+#so01{animation-delay: .6s}
+#so02{animation-delay: .9s}
+#so03{animation-delay: 1.2s}
+#so04{animation-delay: 1.5s}
+#do03{animation-delay: 1.8s}
+
+
+
+#svg04{
+  fill: #000;
+  stroke: none;
+  .st0{fill:#16A2C8;}
+  .st1{fill:#F98A10;}
+}
+
+#do12{animation-delay: .3s}
+#so11{animation-delay: .6s}
+#so12{animation-delay: .9s}
+#so13{animation-delay: 1.2s}
+#so14{animation-delay: 1.5s}
+#do13{animation-delay: 1.8s}
+
 
 #audio03{display: none;}
 #melody02buttom01.click{display: none;}
