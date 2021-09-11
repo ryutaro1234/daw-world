@@ -115,8 +115,7 @@ h3{
   animation: play02 .5s;
 }
 @keyframes play02 {
-  from{fill:000;}
-  1%{fill:$flash;}
+  from{fill:$flash;}
   to{fill:$flash;}
 }
 #do02{animation-delay: .3s}
