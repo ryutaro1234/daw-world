@@ -9,8 +9,12 @@ main{
 main:after {
   content: "";
   display: block;
-  width: 40%;
+  width: 50%;
   height: 0;
+}
+
+article{
+  margin: .5rem auto;
 }
 
 .glass{
@@ -34,6 +38,16 @@ p{
 
 .red-ribbon{
   border-left: 80px solid #ff5656;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.orange-ribbon{
+  border-left: 80px solid $orange;
   border-bottom: 80px solid transparent;
   opacity: .9;
   mix-blend-mode: multiply;
@@ -171,6 +185,22 @@ p{
   }
 }
 
+#strings{
+  .btn-next{
+    width: 8rem;
+    background: $orange;
+  }
+
+  svg{
+    padding-left: 2rem;
+    width: 120%;
+    stroke: $orange;;
+    g{
+      fill: $orange;
+    }//g
+  }//svg
+}
+
 @media screen and (min-width: 600px) {
 
   main{
@@ -184,12 +214,12 @@ p{
   .glass{
     width: 45%;
     height: 300px;
-    margin: 4rem 0;
+    margin: 1rem auto;
   }
   main:after {
     content: "";
     display: block;
-    width: 45%;
+    width: 50%;
     height: 0;
   }
 
@@ -203,7 +233,7 @@ p{
   main:after {
     content: "";
     display: block;
-    width: 32%;
+    width: 33%;
     height: 0;
   }
 

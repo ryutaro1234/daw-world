@@ -48,6 +48,17 @@ article{
   left: 0;
 }
 
+.orange-ribbon{
+  border-left: 80px solid $orange;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
 .pc-top01{
   width: 100%;
   height: 100vh;
@@ -372,11 +383,12 @@ article{
 
 .pc-top02{
   display: flex;
-  overflow-x: auto;
   flex-wrap: nowrap;
+  overflow-x: scroll;
 
   article{
-    width: 40%;
+    display: inline-block;
+    min-width: 40%;
     height: 150px;
     overflow: hidden;
     margin: .5rem;
@@ -463,6 +475,23 @@ p{
     .st5{fill:$pink;stroke:#none;}
   }//svg
 }
+
+#chord-progression{
+  .btn-next{
+    width: 8rem;
+    background: $green;
+  }
+
+  svg{
+    padding-left: 2rem;
+    width: 120%;
+    stroke: $green;
+    g{
+      fill: $green;
+    }//g
+  }//svg
+}
+
 
 #drums{
   .btn-next{
@@ -564,7 +593,7 @@ p{
     transform: scaleY(1) translateX(0);
   }
 }
-
+/*
 #trumpet01{
   width: 200%;
   height: auto;
@@ -584,6 +613,22 @@ p{
 }
 #trumpet01 g path, #trumpet01 g rect{
   fill: #d7c447;
+}*/
+
+#strings{
+  .btn-next{
+    width: 8rem;
+    background: $orange;
+  }
+
+  svg{
+    padding-left: 2rem;
+    width: 120%;
+    stroke: $orange;
+    g{
+      fill: $orange;
+    }//g
+  }//svg
 }
 
 .blue-ribbon{
@@ -606,12 +651,34 @@ p{
   left: 0;
 }
 
+.green-ribbon{
+  border-left: 80px solid $green;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.orange-ribbon{
+  border-left: 80px solid #ffbc7a;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #profile{
   .btn-next{
     width: 9rem;
     background: #ffbc7a;
   }
 }
+
+
 
 .pc-top03{
 

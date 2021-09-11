@@ -9,14 +9,16 @@ main{
 main:after {
   content: "";
   display: block;
-  width: 40%;
+  width: 50%;
   height: 0;
 }
+
 
 .glass{
   height: 120px;
   text-align: center;
   width: 40%;
+  margin: 1rem auto;
 }
 
 .btn-next{
@@ -52,6 +54,17 @@ p{
   left: 0;
 }
 
+.green-ribbon{
+  border-left: 80px solid $green;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
 #basic{
   h2 a{
     color: $blue;
@@ -72,7 +85,6 @@ p{
 }
 
 #melody{
-
   h2{
     a{
       color: $pink;
@@ -91,6 +103,21 @@ p{
   }//svg
 }//#melody
 
+#chord-progression{
+  .btn-next{
+    width: 8rem;
+    background: $green;
+  }
+
+  svg{
+    padding-left: 2rem;
+    width: 120%;
+    stroke: $green;
+    g{
+      fill: $green;
+    }//g
+  }//svg
+}
 @media screen and (min-width: 600px) {
 
   main{
@@ -109,7 +136,7 @@ p{
   main:after {
     content: "";
     display: block;
-    width: 45%;
+    width: 50%;
     height: 0;
   }
 
@@ -123,7 +150,7 @@ p{
   main:after {
     content: "";
     display: block;
-    width: 32%;
+    width: 33%;
     height: 0;
   }
 
