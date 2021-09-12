@@ -8,8 +8,8 @@ article{
   position: relative;
 }
 
-.ribbon-red{
-  border-left: 80px solid #ff5656;
+.red-ribbon{
+  border-left: 80px solid $red;
   border-bottom: 80px solid transparent;
   opacity: .9;
   mix-blend-mode: multiply;
@@ -18,18 +18,8 @@ article{
   left: 0;
 }
 
-.ribbon-blue{
-  border-left: 80px solid #4c4cff;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.ribbon-gold{
-  border-left: 80px solid #d7c447;
+.blue-ribbon{
+  border-left: 80px solid $blue;
   border-bottom: 80px solid transparent;
   opacity: .9;
   mix-blend-mode: multiply;
@@ -58,6 +48,25 @@ article{
   left: 0;
 }
 
+.gold-ribbon{
+  border-left: 80px solid $gold;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.green-ribbon{
+  border-left: 80px solid $green;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .pc-top01{
   width: 100%;
@@ -74,7 +83,7 @@ article{
   position: relative;
   z-index: 996;
 }
-
+/*
 #type01{
   overflow: hidden;
   font-size: 70px;
@@ -94,7 +103,7 @@ article{
   opacity: .8;
 }
 
-/*
+
 #bg01 {
   overflow: hidden;
   width: 200px;
@@ -630,46 +639,6 @@ p{
       fill: $orange;
     }//g
   }//svg
-}
-
-.blue-ribbon{
-  border-left: 80px solid #4c4cff;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.gold-ribbon{
-  border-left: 80px solid #d7c447;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.green-ribbon{
-  border-left: 80px solid $green;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.orange-ribbon{
-  border-left: 80px solid #ffbc7a;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 #profile{
