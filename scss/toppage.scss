@@ -799,4 +799,36 @@ p{
     }
   }
 
+  .pc-top03{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    article{
+      width: 45%;
+      height: 100px;
+      overflow: hidden;
+      margin-top: .5rem;
+      text-align: center;
+
+      section{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+        .btn-next{
+          margin-top: 40px;
+        }
+      }//section
+    }//article
+
+    &:after{
+      content: "";
+      display: block;
+      width: 50%;
+      height: 0;
+    }
+  }//pc-top03
+  
 }
