@@ -233,6 +233,7 @@ audio{
   text-align: center;
   line-height: 40px;
   background: #aaa;
+  border: 1px solid #fff;
   @include button-shadow;
   text-decoration: none;
   border-radius: 5px;
