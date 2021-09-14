@@ -391,18 +391,27 @@ article{
 }
 
 .pc-top02{
+  width: 90%;
+  margin: 0 auto;
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   article{
     display: inline-block;
-    width: 40%;
-    min-width: 40%;
+    width: 45%;
+    min-width: 45%;
     height: 150px;
     overflow: hidden;
     margin: .5rem;
     text-align: center;
+  }
+
+  &:after{
+    content: "";
+    display: block;
+    width: 45%;
+    height: 0;
   }
 }
 
@@ -793,6 +802,13 @@ p{
       width: 200px;
       min-width: 200px;
       height: 200px;
+    }
+
+    &:after{
+      content: "";
+      display: block;
+      width: 200px;
+      height: 0;
     }
   }
 
