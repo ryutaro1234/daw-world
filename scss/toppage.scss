@@ -643,7 +643,7 @@ p{
 
 #strings{
   .btn-next{
-    width: 8rem;
+    width: 9rem;
     background: $orange;
   }
 
@@ -659,8 +659,8 @@ p{
 
 #profile{
   .btn-next{
-    width: 9rem;
-    background: #ffbc7a;
+    width: 10rem;
+    background: $orange;
   }
 }
 
@@ -699,6 +699,7 @@ p{
     }//article
     #profile{
       .btn-next{
+        width: 11rem;
         background: $orange;
       }
 
@@ -838,6 +839,12 @@ p{
     }
   }
 
+  #melody{
+    .btn-next{
+      width: 7rem;
+    }
+  }
+
   .pc-top03{
     display: flex;
     justify-content: space-between;
@@ -869,5 +876,4 @@ p{
       height: 0;
     }
   }//pc-top03
-
 }
