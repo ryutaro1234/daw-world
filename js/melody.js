@@ -83,3 +83,23 @@ audio03.onpause = function(){
   document.querySelector("#so13").classList.remove("play02");
   document.querySelector("#so14").classList.remove("play02");
 }
+
+$(function(){
+
+  var bg01 = $('#position01').offset();
+  var bg02 = $('#position02').offset();
+
+  $(window).on('scroll',function(){
+    var scrollY = $(this).scrollTop();
+
+    $('#position01').css({
+      'top': bg01.top + scrollY / -8,
+      'left': bg01.left + scrollY / -10,
+    });
+
+    $('#position02').css({
+      'top': bg02.top + scrollY / 8,
+      'left': bg02.left + scrollY / -10,
+    });
+  });
+});
