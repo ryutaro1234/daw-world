@@ -32,10 +32,11 @@ article{
 #top001{
   text-align: right;
   position: relative;
+  top: 50px;
   right: -10%;
-  stroke: $green;
-  g{
+  #svg01{
     fill: $green;
+    width: 200%;
   }
 }
 
@@ -46,7 +47,7 @@ article{
   width: 70%;
   border-radius: 10px;
   position: relative;
-  top: -50px;
+  top: 0;
 }
 #top002 p{
   margin: 1rem;
@@ -58,6 +59,36 @@ article{
 h3{
   padding-left: 3rem;
 }
+
+#svg02{
+  fill: #000;
+  .st0{fill:#16A2C8;}
+  .st1{fill:#F98A10;}
+}
+
+#audio01{display: none;}
+#c01btn02{display: none;}
+#c01btn01.click{display: none;}
+#c01btn02.click{
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  background: $green;
+  @include button-shadow-click;
+}
+
+.play01{
+  animation: play01 1s;
+}
+@keyframes play01 {
+  from{fill: $flash;}
+  50%{fill: $flash;}
+  to{fill: #000;}
+}
+
+#e-01.play01{animation-delay: .2s;}
+#g-01.play01{animation-delay: .8s;}
+#cchord.play01{animation-delay: 2.2s;}
 
 @media screen and (min-width: 600px) {
 }
