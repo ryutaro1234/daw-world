@@ -90,6 +90,26 @@ h3{
 #g-01.play01{animation-delay: .8s;}
 #cchord.play01{animation-delay: 2.2s;}
 
+#svg03{
+  fill:#000;
+  .st0{fill:$score-c;}
+  .st1{fill:$score-g;}
+}
+
+#audio02{display: none;}
+#chord01btn02{display: none;}
+#chord01btn01.click{display: none;}
+#chord01btn02.click{
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  background: $green;
+  @include button-shadow-click;
+}
+
+#chord02.play01{animation-delay: .8s;}
+#chord03.play01{animation-delay: 1.6s;}
+
 @media screen and (min-width: 600px) {
 }
 @media screen and (min-width: 1025px) {

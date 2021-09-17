@@ -23,3 +23,28 @@ audio01.onpause = function(){
   document.querySelector("#g-01").classList.remove("play01");
   document.querySelector("#cchord").classList.remove("play01");
 }
+
+function chord01btn01(){
+  document.querySelector("#chord01btn01").classList.add("click");
+  document.querySelector("#audio02").play();
+}
+function chord01btn02(){
+  document.querySelector("#audio02").pause();
+}
+
+var audio02 = document.querySelector("#audio02");
+audio02.onplay = function(){
+  document.querySelector("#chord01btn02").classList.add("click");
+  document.querySelector("#chord01").classList.add("play01");
+  document.querySelector("#chord02").classList.add("play01");
+  document.querySelector("#chord03").classList.add("play01");
+}
+
+audio02.onpause = function(){
+  audio02.currentTime = 0;
+  document.querySelector("#chord01btn02").classList.remove("click");
+  document.querySelector("#chord01btn01").classList.remove("click");
+  document.querySelector("#chord01").classList.remove("play01");
+  document.querySelector("#chord02").classList.remove("play01");
+  document.querySelector("#chord03").classList.remove("play01");
+}
