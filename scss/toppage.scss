@@ -649,11 +649,17 @@ p{
 
   svg{
     padding-left: 2rem;
-    width: 120%;
     stroke: $orange;
-    g{
-      fill: $orange;
-    }//g
+    width: 60%;
+    transform: rotate(30deg);
+    fill: none;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    position: absolute;
+    top: -37px;
+    right: 10%;
   }//svg
 }
 
