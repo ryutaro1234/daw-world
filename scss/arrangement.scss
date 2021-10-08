@@ -66,17 +66,19 @@ p{
   }
 }
 
-
-
 .drums{
   padding-left: 2rem;
   width: 100%;
   height: auto;
-  stroke: $red;
   stroke-miterlimit:10;
+  stroke: $red;
+
+  #shell01{
+    fill: $red;
+  }
 
   g{
-    fill: $red;
+    fill: $background;
   }
 }
 
