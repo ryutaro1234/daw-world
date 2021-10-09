@@ -750,22 +750,22 @@ p{
       height: 200px;
     }
 
-    &:after{
+    /*&:after{
       content: "";
       display: block;
       width: 25%;
       height: 0;
-    }
+    }*/
   }
 
-  #arrangement{
+  /*#arrangement{
     &:after{
       content: "";
       display: block;
       width: 50%;
       height: 0;
     }
-  }
+  }*/
 
   #melody{
     .btn-next{
@@ -803,5 +803,13 @@ p{
       width: 50%;
       height: 0;
     }
+
+    #profile{
+      #profile-image{
+        width: 35%;
+        height: auto;
+        padding-left: 3rem;
+      }
+    }//#profile
   }//pc-top03
 }
