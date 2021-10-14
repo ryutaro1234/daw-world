@@ -184,22 +184,32 @@ function semi02(){
 var audio03 = document.getElementById("audio03");
 audio03.onplay = function(){
   document.getElementById("f-01").classList.add("show02-01");
+  document.getElementById("gb-01").classList.add("show05-02");
   document.getElementById("g-01").classList.add("show03-01");
+  document.getElementById("ab-01").classList.add("show05-02");
   document.getElementById("a-01").classList.add("show03-01");
   document.getElementById("bb-01").classList.add("show04-02");
+  document.getElementById("b-01").classList.add("show05-01");
   document.getElementById("c-02").classList.add("show03-01");
+  document.getElementById("db-02").classList.add("show05-02");
   document.getElementById("d-02").classList.add("show03-01");
+  document.getElementById("eb-02").classList.add("show05-02");
   document.getElementById("e-02").classList.add("show03-01");
   document.getElementById("f-02").classList.add("show04-01");
 };
 
 audio03.onpause = function(){
   document.getElementById("f-01").classList.remove("show02-01");
+  document.getElementById("gb-01").classList.remove("show05-02");
   document.getElementById("g-01").classList.remove("show03-01");
+  document.getElementById("ab-01").classList.remove("show05-02");
   document.getElementById("a-01").classList.remove("show03-01");
   document.getElementById("bb-01").classList.remove("show04-02");
+  document.getElementById("b-01").classList.remove("show05-01");
   document.getElementById("c-02").classList.remove("show03-01");
+  document.getElementById("db-02").classList.remove("show05-02");
   document.getElementById("d-02").classList.remove("show03-01");
+  document.getElementById("eb-02").classList.remove("show05-02");
   document.getElementById("e-02").classList.remove("show03-01");
   document.getElementById("f-02").classList.remove("show04-01");
   audio03.currentTime = 0;
@@ -208,22 +218,32 @@ audio03.onpause = function(){
 var audio04 = document.getElementById("audio04");
 audio04.onplay = function(){
   document.getElementById("db-03").classList.add("show02-02");
+  document.getElementById("d-03").classList.add("show05-01");
   document.getElementById("eb-03").classList.add("show03-02");
+  document.getElementById("e-03").classList.add("show05-01");
   document.getElementById("f-03").classList.add("show03-01");
   document.getElementById("gb-03").classList.add("show04-02");
+  document.getElementById("g-03").classList.add("show05-01");
   document.getElementById("ab-03").classList.add("show03-02");
+  document.getElementById("a-03").classList.add("show05-01");
   document.getElementById("bb-03").classList.add("show03-02");
+  document.getElementById("b-03").classList.add("show05-01");
   document.getElementById("c-04").classList.add("show03-01");
   document.getElementById("db-04").classList.add("show04-02");
 };
 
 audio04.onpause = function(){
   document.getElementById("db-03").classList.remove("show02-02");
+  document.getElementById("d-03").classList.remove("show05-01");
   document.getElementById("eb-03").classList.remove("show03-02");
+  document.getElementById("e-03").classList.remove("show05-01");
   document.getElementById("f-03").classList.remove("show03-01");
   document.getElementById("gb-03").classList.remove("show04-02");
+  document.getElementById("g-03").classList.remove("show05-01");
   document.getElementById("ab-03").classList.remove("show03-02");
+  document.getElementById("a-03").classList.remove("show05-01");
   document.getElementById("bb-03").classList.remove("show03-02");
+  document.getElementById("b-03").classList.remove("show05-01");
   document.getElementById("c-04").classList.remove("show03-01");
   document.getElementById("db-04").classList.remove("show04-02");
   audio04.currentTime = 0;
