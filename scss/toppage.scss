@@ -231,9 +231,9 @@ article{
   transform: translate(100px, 100px);
   transition: all .8s;
 
-  .st0{fill:#AAAAAA;}
+  .st0{fill:$pink;}
   .st1{fill:$blue;}
-  .st2{fill:#333333;}
+  .st2{fill:#333;}
 
   #main01{
   animation: animmain01 30s infinite;
@@ -337,7 +337,37 @@ article{
   display: block;
   width: 100%;
   height: 100%;
-  background: #333;
+  background: $red;
+  transform: translate(100%, 0);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) .6s;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#bg05 {
+  animation: animmain01 15s infinite;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  mix-blend-mode: multiply;
+  opacity: .6;
+  position: absolute;
+  left: 20%;
+  bottom: 200px;
+  z-index: 15;
+}
+#bg05.-visible:before {
+  transition-delay: .3s;
+  transform: translate(0, 0);
+}
+#bg05:before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: $green;
   transform: translate(100%, 0);
   transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) .6s;
   content: '';
@@ -674,6 +704,10 @@ p{
     left: 45%;
   }
 
+  #bg05 {
+    left: 30%;
+  }
+
   #main-image{
     width: 120%;
     height: auto;
@@ -739,6 +773,11 @@ p{
   }
   #main-image.active{
     width: 30%;
+  }
+
+  #bg05 {
+    left: 35%;
+    bottom: 180px;
   }
 
   .pc-top02{

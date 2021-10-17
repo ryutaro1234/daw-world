@@ -26,6 +26,11 @@ window.addEventListener("load", () => {
   document.getElementById("bg04").classList.add("-visible");
 });
 
+window.addEventListener("load", () => {
+  document.getElementById("bg05").classList.add("-visible");
+});
+
+
 $(function(){
   $(window).on('scroll',function (){
     $('.bg05').each(function(){
