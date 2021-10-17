@@ -38,7 +38,16 @@ article{
   text-align: right;
   position: relative;
   right: -10%;
-}
+  #svg01{
+    stroke: $red;
+    #shell01{
+      fill: $red;
+    }
+    g{
+      fill: $background;
+    }//g
+  }//#svg01
+}//#top001
 
 #top002{
   background: #ff5656;
@@ -640,9 +649,7 @@ article{
   .st3{fill:#FFD79F;stroke:#000000;stroke-miterlimit:10;}
 }
 
-#audio04{
-  display: none;
-}
+#audio04{display: none;}
 #doublestroke01{width: 10rem;}
 #doublestroke01.click{
   font-weight: bold;
@@ -650,6 +657,18 @@ article{
   @include button-shadow-click;
   background: $red;
 }
+#doublestroke02{display: none; width: 10rem;}
+/*
+#doublestroke01{width: 10rem;}
+#doublestroke01.click{display: none}
+#doublestroke02{display: none; width: 10rem;}
+#doublestroke02.click{
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  @include button-shadow-click;
+  background: $red;
+}*/
 
 #stick01.double{
   animation: stick01double 1s backwards;

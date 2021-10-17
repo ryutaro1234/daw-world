@@ -99,14 +99,21 @@ function score01(){
 };
 
 function doublestroke01(){
+  audio04.currentTime = 0;
   document.querySelector("#doublestroke01").classList.add("click");
+  //document.querySelector("#doublestroke02").classList.add("click");
   document.querySelector("#stick01").classList.add("double");
   document.querySelector("#audio04").play();
+}
+function doublestroke02(){
+  document.querySelector("#audio04").pause();
+  audio04.currentTime = 0;
 }
 
 var audio04 = document.querySelector("#audio04");
 audio04.onpause = function(){
   document.querySelector("#doublestroke01").classList.remove("click");
+  //document.querySelector("#doublestroke02").classList.rmeove("click");
   document.querySelector("#stick01").classList.remove("double");
   audio04.currentTime = 0;
 };

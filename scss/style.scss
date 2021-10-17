@@ -311,6 +311,18 @@ audio{
   width: 4rem;
 }
 
+.numbering{
+  float: right;
+  margin: 1rem 1rem 0;
+  p{
+    font-size: 78%;
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    border: 1.5px solid #333;
+    border-radius: 10px;
+  }
+}
+
 @import 'parts/footer';
 
 @media screen and (min-width: 600px) {
@@ -436,5 +448,11 @@ audio{
   }
   .flex-margin{
     margin: auto;
+  }
+
+  .numbering{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
   }
 }
