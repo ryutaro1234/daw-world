@@ -36,7 +36,7 @@ article{
   right: -10%;
   #svg01{
     fill: $green;
-    width: 170%;
+    width: 250%;
   }
 }
 
@@ -110,6 +110,94 @@ h3{
 #chord02.play01{animation-delay: .8s;}
 #chord03.play01{animation-delay: 1.6s;}
 
+.tdsd-01{display: block;}
+.tonic01{display: none;}
+.dominant01{display: none;}
+.subdominant01{display: none;}
+
+.tdsd-02{display: block;}
+.tonic02{display: none;}
+.dominant02{display: none;}
+.subdominant02{display: none;}
+
+.tdsd-01.click{display: none;}
+.tonic01.click{display: block;}
+.dominant01.click{display: block;}
+.subdominant01.click{display: block;}
+
+.tdsd-02.click{display: none;}
+.tonic02.click{display: block;}
+.dominant02.click{display: block;}
+.subdominant02.click{display: block;}
+
+#svg02{
+  width: 100%;
+  .st0{fill:#1B99D7;}
+  .st1{fill:#E99B18;}
+  .st2{font-family:'RoundedMplus1c-Regular';}
+  .st3{font-size:10px;}
+
+  #layer2{opacity: .5}
+}
+
+#c{fill: #000;}
+#d{fill: #000;}
+#e{fill: #000;}
+#f{fill: #000;}
+#g{fill: #000;}
+#a{fill: #000;}
+#b{fill: #000;}
+
+#c.click01{fill: $green;}
+#d.click01{fill: $blue;}
+#e.click01{fill: $green;}
+#f.click01{fill: $blue;}
+#g.click01{fill: $pink;}
+#a.click01{fill: $green;}
+#b.click01{fill: $pink;}
+
+#c.click02{fill: #aaa;}
+#d.click02{fill: #aaa;}
+#e.click02{fill: #aaa;}
+#f.click02{fill: #aaa;}
+#g.click02{fill: #aaa;}
+#a.click02{fill: #aaa;}
+#b.click02{fill: #aaa;}
+
+#tdsd{
+  p{
+    width: 3rem;
+  }
+}
+
+#t1.click{display: none;}
+#t2.click{display: block;}
+#t2{
+  display: none;
+  color: #fff;
+  background-color: $green;
+  @include button-shadow-click;
+}
+
+#d1.click{display: none;}
+#d2.click{display: block;}
+#d2{
+  display: none;
+  color: #fff;
+  background-color: $pink;
+  @include button-shadow-click;
+}
+
+#sd1.click{display: none;}
+#sd2.click{display: block;}
+#sd2{
+  display: none;
+  color: #fff;
+  background-color: $blue;
+  @include button-shadow-click;
+}
+
+
 @media screen and (min-width: 600px) {
 }
 @media screen and (min-width: 1025px) {
@@ -117,4 +205,12 @@ h3{
   #pc01{
     padding-top: 100px;
   }
+}
+
+@media screen and (min-width: 1025px) {
+  #svg01{
+    width: 170%;
+  }
+
+  #top002{width: 50%;}
 }

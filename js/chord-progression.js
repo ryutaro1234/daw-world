@@ -48,3 +48,217 @@ audio02.onpause = function(){
   document.querySelector("#chord02").classList.remove("play01");
   document.querySelector("#chord03").classList.remove("play01");
 }
+
+function t1(){
+  document.querySelector("#c").classList.remove("click01");
+  document.querySelector("#d").classList.remove("click01");
+  document.querySelector("#e").classList.remove("click01");
+  document.querySelector("#f").classList.remove("click01");
+  document.querySelector("#g").classList.remove("click01");
+  document.querySelector("#a").classList.remove("click01");
+  document.querySelector("#b").classList.remove("click01");
+
+  document.querySelector("#c").classList.remove("click02");
+  document.querySelector("#d").classList.remove("click02");
+  document.querySelector("#e").classList.remove("click02");
+  document.querySelector("#f").classList.remove("click02");
+  document.querySelector("#g").classList.remove("click02");
+  document.querySelector("#a").classList.remove("click02");
+  document.querySelector("#b").classList.remove("click02");
+
+  document.querySelector("#c").classList.add("click01");
+  document.querySelector("#d").classList.add("click02")
+  document.querySelector("#e").classList.add("click01");
+  document.querySelector("#f").classList.add("click02")
+  document.querySelector("#g").classList.add("click02")
+  document.querySelector("#a").classList.add("click01");
+  document.querySelector("#b").classList.add("click02")
+
+  document.querySelector(".tdsd-01").classList.add("click");
+  document.querySelector(".tdsd-02").classList.add("click");
+  document.querySelector(".tonic01").classList.add("click");
+  document.querySelector(".tonic02").classList.add("click");
+  document.querySelector(".dominant01").classList.remove("click");
+  document.querySelector(".dominant02").classList.remove("click");
+  document.querySelector(".subdominant01").classList.remove("click");
+  document.querySelector(".subdominant02").classList.remove("click");
+
+  document.querySelector("#t1").classList.add("click");
+  document.querySelector("#t2").classList.add("click");
+  document.querySelector("#d1").classList.remove("click");
+  document.querySelector("#d2").classList.remove("click");
+  document.querySelector("#sd1").classList.remove("click");
+  document.querySelector("#sd2").classList.remove("click");
+}
+function t2(){
+  document.querySelector("#c").classList.remove("click01");
+  document.querySelector("#d").classList.remove("click01");
+  document.querySelector("#e").classList.remove("click01");
+  document.querySelector("#f").classList.remove("click01");
+  document.querySelector("#g").classList.remove("click01");
+  document.querySelector("#a").classList.remove("click01");
+  document.querySelector("#b").classList.remove("click01");
+
+  document.querySelector("#c").classList.remove("click02");
+  document.querySelector("#d").classList.remove("click02");
+  document.querySelector("#e").classList.remove("click02");
+  document.querySelector("#f").classList.remove("click02");
+  document.querySelector("#g").classList.remove("click02");
+  document.querySelector("#a").classList.remove("click02");
+  document.querySelector("#b").classList.remove("click02");
+
+  document.querySelector(".tdsd-01").classList.remove("click");
+  document.querySelector(".tdsd-02").classList.remove("click");
+  document.querySelector(".tonic01").classList.remove("click");
+  document.querySelector(".tonic02").classList.remove("click");
+  document.querySelector(".dominant01").classList.remove("click");
+  document.querySelector(".dominant02").classList.remove("click");
+  document.querySelector(".subdominant01").classList.remove("click");
+  document.querySelector(".subdominant02").classList.remove("click");
+
+  document.querySelector("#t1").classList.remove("click");
+  document.querySelector("#t2").classList.remove("click");
+}
+
+function d1(){
+  document.querySelector("#c").classList.remove("click01");
+  document.querySelector("#d").classList.remove("click01");
+  document.querySelector("#e").classList.remove("click01");
+  document.querySelector("#f").classList.remove("click01");
+  document.querySelector("#g").classList.remove("click01");
+  document.querySelector("#a").classList.remove("click01");
+  document.querySelector("#b").classList.remove("click01");
+
+  document.querySelector("#c").classList.remove("click02");
+  document.querySelector("#d").classList.remove("click02");
+  document.querySelector("#e").classList.remove("click02");
+  document.querySelector("#f").classList.remove("click02");
+  document.querySelector("#g").classList.remove("click02");
+  document.querySelector("#a").classList.remove("click02");
+  document.querySelector("#b").classList.remove("click02");
+
+  document.querySelector("#c").classList.add("click02");
+  document.querySelector("#d").classList.add("click02");
+  document.querySelector("#e").classList.add("click02");
+  document.querySelector("#f").classList.add("click02");
+  document.querySelector("#g").classList.add("click01");
+  document.querySelector("#a").classList.add("click02");
+  document.querySelector("#b").classList.add("click01");
+
+  document.querySelector(".tdsd-01").classList.add("click");
+  document.querySelector(".tdsd-02").classList.add("click");
+  document.querySelector(".tonic01").classList.remove("click");
+  document.querySelector(".tonic02").classList.remove("click");
+  document.querySelector(".dominant01").classList.add("click");
+  document.querySelector(".dominant02").classList.add("click");
+  document.querySelector(".subdominant01").classList.remove("click");
+  document.querySelector(".subdominant02").classList.remove("click");
+
+  document.querySelector("#t1").classList.remove("click");
+  document.querySelector("#t2").classList.remove("click");
+  document.querySelector("#d1").classList.add("click");
+  document.querySelector("#d2").classList.add("click");
+  document.querySelector("#sd1").classList.remove("click");
+  document.querySelector("#sd2").classList.remove("click");
+}
+function d2(){
+  document.querySelector("#c").classList.remove("click01");
+  document.querySelector("#d").classList.remove("click01");
+  document.querySelector("#e").classList.remove("click01");
+  document.querySelector("#f").classList.remove("click01");
+  document.querySelector("#g").classList.remove("click01");
+  document.querySelector("#a").classList.remove("click01");
+  document.querySelector("#b").classList.remove("click01");
+
+  document.querySelector("#c").classList.remove("click02");
+  document.querySelector("#d").classList.remove("click02");
+  document.querySelector("#e").classList.remove("click02");
+  document.querySelector("#f").classList.remove("click02");
+  document.querySelector("#g").classList.remove("click02");
+  document.querySelector("#a").classList.remove("click02");
+  document.querySelector("#b").classList.remove("click02");
+
+  document.querySelector(".tdsd-01").classList.remove("click");
+  document.querySelector(".tdsd-02").classList.remove("click");
+  document.querySelector(".tonic01").classList.remove("click");
+  document.querySelector(".tonic02").classList.remove("click");
+  document.querySelector(".dominant01").classList.remove("click");
+  document.querySelector(".dominant02").classList.remove("click");
+  document.querySelector(".subdominant01").classList.remove("click");
+  document.querySelector(".subdominant02").classList.remove("click");
+
+  document.querySelector("#d1").classList.remove("click");
+  document.querySelector("#d2").classList.remove("click");
+}
+
+function sd1(){
+  document.querySelector("#c").classList.remove("click01");
+  document.querySelector("#d").classList.remove("click01");
+  document.querySelector("#e").classList.remove("click01");
+  document.querySelector("#f").classList.remove("click01");
+  document.querySelector("#g").classList.remove("click01");
+  document.querySelector("#a").classList.remove("click01");
+  document.querySelector("#b").classList.remove("click01");
+
+  document.querySelector("#c").classList.remove("click02");
+  document.querySelector("#d").classList.remove("click02");
+  document.querySelector("#e").classList.remove("click02");
+  document.querySelector("#f").classList.remove("click02");
+  document.querySelector("#g").classList.remove("click02");
+  document.querySelector("#a").classList.remove("click02");
+  document.querySelector("#b").classList.remove("click02");
+
+  document.querySelector("#c").classList.add("click02");
+  document.querySelector("#d").classList.add("click01");
+  document.querySelector("#e").classList.add("click02");
+  document.querySelector("#f").classList.add("click01");
+  document.querySelector("#g").classList.add("click02");
+  document.querySelector("#a").classList.add("click02");
+  document.querySelector("#b").classList.add("click02");
+
+  document.querySelector(".tdsd-01").classList.add("click");
+  document.querySelector(".tdsd-02").classList.add("click");
+  document.querySelector(".tonic01").classList.remove("click");
+  document.querySelector(".tonic02").classList.remove("click");
+  document.querySelector(".dominant01").classList.remove("click");
+  document.querySelector(".dominant02").classList.remove("click");
+  document.querySelector(".subdominant01").classList.add("click");
+  document.querySelector(".subdominant02").classList.add("click");
+
+  document.querySelector("#t1").classList.remove("click");
+  document.querySelector("#t2").classList.remove("click");
+  document.querySelector("#d1").classList.remove("click");
+  document.querySelector("#d2").classList.remove("click");
+  document.querySelector("#sd1").classList.add("click");
+  document.querySelector("#sd2").classList.add("click");
+}
+function sd2(){
+  document.querySelector("#c").classList.remove("click01");
+  document.querySelector("#d").classList.remove("click01");
+  document.querySelector("#e").classList.remove("click01");
+  document.querySelector("#f").classList.remove("click01");
+  document.querySelector("#g").classList.remove("click01");
+  document.querySelector("#a").classList.remove("click01");
+  document.querySelector("#b").classList.remove("click01");
+
+  document.querySelector("#c").classList.remove("click02");
+  document.querySelector("#d").classList.remove("click02");
+  document.querySelector("#e").classList.remove("click02");
+  document.querySelector("#f").classList.remove("click02");
+  document.querySelector("#g").classList.remove("click02");
+  document.querySelector("#a").classList.remove("click02");
+  document.querySelector("#b").classList.remove("click02");
+
+  document.querySelector(".tdsd-01").classList.remove("click");
+  document.querySelector(".tdsd-02").classList.remove("click");
+  document.querySelector(".tonic01").classList.remove("click");
+  document.querySelector(".tonic02").classList.remove("click");
+  document.querySelector(".dominant01").classList.remove("click");
+  document.querySelector(".dominant02").classList.remove("click");
+  document.querySelector(".subdominant01").classList.remove("click");
+  document.querySelector(".subdominant02").classList.remove("click");
+
+  document.querySelector(".tdsd-01").classList.remove("click");
+  document.querySelector("#sd1").classList.remove("click");
+  document.querySelector("#sd2").classList.remove("click");
+}
