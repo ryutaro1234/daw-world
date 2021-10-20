@@ -178,6 +178,7 @@ h3{
 #t2.click{display: block;}
 #t2{
   display: none;
+  font-weight: bold;
   color: #fff;
   background-color: $green;
   @include button-shadow-click;
@@ -187,6 +188,7 @@ h3{
 #d2.click{display: block;}
 #d2{
   display: none;
+  font-weight: bold;
   color: #fff;
   background-color: $pink;
   @include button-shadow-click;
@@ -196,6 +198,7 @@ h3{
 #sd2.click{display: block;}
 #sd2{
   display: none;
+  font-weight: bold;
   color: #fff;
   background-color: $blue;
   @include button-shadow-click;
