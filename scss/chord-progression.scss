@@ -110,6 +110,10 @@ h3{
 #chord02.play01{animation-delay: .8s;}
 #chord03.play01{animation-delay: 1.6s;}
 
+#t-d-sd{
+  section{min-height: 300px;}
+}
+
 .tdsd-01{display: block;}
 .tonic01{display: none;}
 .dominant01{display: none;}
@@ -132,10 +136,10 @@ h3{
 
 #svg02{
   width: 100%;
+  fill: #000;
+
   .st0{fill:#1B99D7;}
   .st1{fill:#E99B18;}
-  .st2{font-family:'RoundedMplus1c-Regular';}
-  .st3{font-size:10px;}
 
   #layer2{opacity: .5}
 }
