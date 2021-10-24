@@ -5,12 +5,6 @@ https://www.daw-world.net
 It's composition teaching site.<br />
 The concept is visually easy to understand.
 
-## 📚 Physics
-### Future plan
-Sound is physics in origin. Bringing physics into an intangible event, such as sound, makes it easier to think about.<br />
-I wondered why this had not been done before, although it is just converting something intangible into a mathematical formula. <br />
-I aldo provide content created by this perspective. 
-
 ## 🎓 About graduation art work
 It's graduation work by Ryutaro Matsumoto.<br />
 Currently the mainstream teaching materials are images or videos.<br />
@@ -30,11 +24,6 @@ https://www.daw-world.net
 
 ## 🤔 DAW Worldとは
 視覚的にわかりやすく、をコンセプトにした作曲教材サイト。
-
-## 📚 音楽と物理学
-### 予定
-音は、元を辿ると物理学です。音といった想像のつかない事象に対し、物理学を持ち込む事により考えやすくなる。<br />
-実態の掴めない物から数式への変換をするだけ、なのになぜやらないのか不思議でした。そういった観点でのコンテンツも掲載しています。
 
 ## 🎓 卒業制作について
 DAW Worldは、松本龍太郎による卒業制作作品です。<br />
