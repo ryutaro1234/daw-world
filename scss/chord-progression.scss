@@ -61,6 +61,7 @@ h3{
 }
 
 #svg02{
+  width: 100%;
   fill: #000;
   .st0{fill:#16A2C8;}
   .st1{fill:#F98A10;}
@@ -91,6 +92,7 @@ h3{
 #cchord.play01{animation-delay: 2.2s;}
 
 #svg03{
+  width: 100%;
   fill:#000;
   .st0{fill:$score-c;}
   .st1{fill:$score-g;}
@@ -134,7 +136,7 @@ h3{
 .dominant02.click{display: block;}
 .subdominant02.click{display: block;}
 
-#svg02{
+#svg04{
   width: 100%;
   fill: #000;
 
