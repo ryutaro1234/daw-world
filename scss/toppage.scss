@@ -385,7 +385,7 @@ article{
 }
 .scrolldown1 span{
   width: 100px;
-  color: #eee;
+  color: #333;
   font-size: .7rem;
   letter-spacing: .05em;
   position: absolute;
@@ -396,7 +396,7 @@ article{
   content: "";
   width: 1px;
   height: 30px;
-  background: #eee;
+  background: #333;
   opacity: 0;
   animation: pathmove 2.4s ease-in-out infinite;
   position: absolute;
