@@ -452,22 +452,31 @@ article{
 #box1_1.active, #box1_2.active, #box1_3.active{
   font-weight: bold;
   color: #fff;
-  background-color: #ff8cce;
+  background-color: $pink;
   border: none;
+}
+#box1_1.play, #box1_2.play, #box1_3.play{
+  animation: flash 1.8s linear infinite;
 }
 
 #box2_1.active, #box2_2.active, #box2_3.active{
   font-weight: bold;
   color: #fff;
-  background-color: #7ad599;
+  background-color: $green;
   border: none;
+}
+#box2_1.play, #box2_2.play, #box2_3.play{
+  animation: flash 1.8s linear infinite;
 }
 
 #box3_1.active, #box3_2.active, #box3_3.active{
   font-weight: bold;
   color: #fff;
-  background-color: #ff8787;
+  background-color: $red;
   border: none;
+}
+#box3_1.play, #box3_2.play, #box3_3.play{
+  animation: flash 1.8s linear infinite;
 }
 
 #play01{
@@ -483,6 +492,12 @@ article{
   font-weight: bold;
   color: #fff;
   border: none;
+}
+
+@keyframes flash {
+  0% {opacity: 1;}
+  50% {opacity: .3;}
+  100% {opacity: 1;}
 }
 
 
