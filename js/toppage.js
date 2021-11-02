@@ -574,7 +574,7 @@ document.querySelector("#audio1_2_1").addEventListener('ended', function() {
     play01.innerHTML = "▶︎再生";
     $("#box1_1").removeClass("play");
     $("#box2_2").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box3_1").removeClass("play");
 });
 
 document.querySelector("#audio1_2_2").addEventListener('ended', function() {
