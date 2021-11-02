@@ -450,139 +450,140 @@ $(function() {
   });
 });
 
+var play01 = document.querySelector("#play01");
 document.querySelector("#audio1_1_1").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio1_1_2").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio1_1_3").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio1_2_1").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio1_2_2").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio1_2_3").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio1_3_1").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio1_3_2").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio1_3_3").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 
 document.querySelector("#audio2_1_1").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio2_1_2").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio2_1_3").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio2_2_1").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio2_2_2").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio2_2_3").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio2_3_1").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio2_3_2").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio2_3_3").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 
 document.querySelector("#audio3_1_1").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio3_1_2").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio3_1_3").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio3_2_1").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio3_2_2").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio3_2_3").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio3_3_1").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio3_3_2").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
 
 document.querySelector("#audio3_3_3").addEventListener('ended', function() {
-    document.querySelector("#play01").classList.remove("active");
-    document.querySelector("#play01").innerHTML = "▶︎再生";
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
 });
