@@ -64,7 +64,6 @@ $(function() {
 });
 
 
-
 $(function() {
   $("#box2_1").click(function(){
     if ($(this).hasClass("active")) {}
