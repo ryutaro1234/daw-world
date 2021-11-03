@@ -33,10 +33,17 @@ article{
   text-align: right;
   position: relative;
   top: 50px;
-  right: -10%;
+  right: -20%;
   #svg01{
     fill: $green;
     width: 250%;
+    #music1{
+      stroke: $green;
+      fill: none;
+    }
+    #music2{
+      stroke: $green;
+    }
   }
 }
 
@@ -140,8 +147,8 @@ h3{
   width: 100%;
   fill: #000;
 
-  .st0{fill:#1B99D7;}
-  .st1{fill:#E99B18;}
+  .st0{fill:$score-c;}
+  .st1{fill:$score-g;}
 
   #layer2{opacity: .5}
 }
@@ -155,12 +162,12 @@ h3{
 #b{fill: #000;}
 
 #c.click01{fill: $green;}
-#d.click01{fill: $blue;}
+#d.click01{fill: #ffb649;}
 #e.click01{fill: $green;}
-#f.click01{fill: $blue;}
-#g.click01{fill: $pink;}
+#f.click01{fill: #ffb649;}
+#g.click01{fill: #e169ff;}
 #a.click01{fill: $green;}
-#b.click01{fill: $pink;}
+#b.click01{fill: #e169ff;}
 
 #c.click02{fill: #aaa;}
 #d.click02{fill: #aaa;}
@@ -192,7 +199,7 @@ h3{
   display: none;
   font-weight: bold;
   color: #fff;
-  background-color: $pink;
+  background-color: #e169ff;
   @include button-shadow-click;
 }
 
@@ -202,23 +209,30 @@ h3{
   display: none;
   font-weight: bold;
   color: #fff;
-  background-color: $blue;
+  background-color: #ffb649;
   @include button-shadow-click;
 }
 
 
 @media screen and (min-width: 600px) {
+
+  #top001{
+    #svg01{
+      width: 80%;
+    }
+  }
+
 }
 @media screen and (min-width: 1025px) {
 
   #pc01{
     padding-top: 100px;
   }
-}
 
-@media screen and (min-width: 1025px) {
-  #svg01{
-    width: 170%;
+  #top001{
+    #svg01{
+      width: 100%;
+    }
   }
 
   #top002{width: 50%;}

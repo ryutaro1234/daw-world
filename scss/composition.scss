@@ -111,11 +111,9 @@ p{
 
   svg{
     padding-left: 2rem;
-    width: 500%;
+    width: 200%;
     stroke: none;
-    g{
-      fill: $green;
-    }//g
+    fill: $green;
   }//svg
 }
 @media screen and (min-width: 600px) {
