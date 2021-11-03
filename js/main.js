@@ -29,6 +29,9 @@ $(function(){
       if (scroll + 100 > target - height){
         $(this).addClass('active');
       }
+      else {
+        $(this).removeClass('active');
+      }
     });
   });
 });
@@ -41,6 +44,9 @@ $(function(){
       if (scroll > target - height){
         $(this).addClass('active');
       }
+      else {
+        $(this).removeClass('active');
+      }
     });
   });
 });
@@ -52,6 +58,9 @@ $(function(){
       var height = $(window).height();
       if (scroll > target - height){
         $(this).addClass('active');
+      }
+      else {
+        $(this).removeClass('active');
       }
     });
   });
@@ -66,6 +75,9 @@ $(function(){
       if (scroll > target - height){
         $(this).addClass('active');
       }
+      else {
+        $(this).removeClass('active');
+      }
     });
   });
 });
@@ -78,6 +90,9 @@ $(function(){
       if (scroll > target - height){
         $(this).addClass('active');
       }
+      else {
+        $(this).removeClass('active');
+      }
     });
   });
 });
@@ -89,6 +104,9 @@ $(function(){
       var height = $(window).height();
       if (scroll > target - height){
         $(this).addClass('active');
+      }
+      else {
+        $(this).removeClass('active');
       }
     });
   });
@@ -103,6 +121,9 @@ $(function(){
       if (scroll > target - height){
         $(this).addClass('active');
       }
+      else {
+        $(this).removeClass('active');
+      }
     });
   });
 });
@@ -114,6 +135,9 @@ $(function(){
       var height = $(window).height();
       if (scroll > target - height){
         $(this).addClass('active');
+      }
+      else {
+        $(this).removeClass('active');
       }
     });
   });
