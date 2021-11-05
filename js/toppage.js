@@ -761,3 +761,23 @@ document.querySelector("#audio3_3_3").addEventListener('ended', function() {
     $("#box2_3").removeClass("play");
     $("#box3_3").removeClass("play");
 });
+
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+      $('#main-image').addClass('add');
+    } else {
+      $('#main-image').removeClass('add');
+    }
+  });
+});
+
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 500) {
+      $('#dot_box').addClass('active');
+    } else {
+      $('#dot_box').removeClass('active');
+    }
+  });
+});
