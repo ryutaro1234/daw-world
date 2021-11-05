@@ -1,5 +1,5 @@
 ## 🎵 Hello DAW World
-https://www.daw-world.net
+https://daw-world.net
 
 ## 🤔 What's DAW World
 It's composition teaching site.<br />
@@ -20,7 +20,7 @@ https://ryukochan.com/zotan2021/
 
 # JP ver.
 ## 🎵 Hello DAW World
-https://www.daw-world.net
+https://daw-world.net
 
 ## 🤔 DAW Worldとは
 視覚的にわかりやすく、をコンセプトにした作曲教材サイト。
