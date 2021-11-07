@@ -83,6 +83,10 @@ article{
   position: relative;
   z-index: 996;
 }
+
+h2{
+  text-align: center;
+}
 /*
 #type01{
   overflow: hidden;
@@ -446,7 +450,6 @@ article{
   text-align: center;
   padding: 2rem 0 4rem;
   @include button-shadow;
-  background: none;
 
   #box_p{
     margin: 1rem 0;
@@ -536,8 +539,7 @@ article{
     overflow: hidden;
     margin: .5rem;
     text-align: center;
-    @include button-shadow;
-    background: none;
+    @include box-shadow;
 
     a{
       width: 100%;
@@ -736,8 +738,7 @@ p{
       overflow: hidden;
       margin-top: .5rem;
       text-align: center;
-      @include button-shadow;
-      background: none;
+      @include box-shadow;
 
       a{
         width: 100%;
