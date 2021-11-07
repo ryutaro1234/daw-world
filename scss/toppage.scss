@@ -445,6 +445,8 @@ article{
 #box{
   text-align: center;
   padding: 2rem 0 4rem;
+  @include button-shadow;
+  background: none;
 
   #box_p{
     margin: 1rem 0;
@@ -534,6 +536,8 @@ article{
     overflow: hidden;
     margin: .5rem;
     text-align: center;
+    @include button-shadow;
+    background: none;
 
     a{
       width: 100%;
@@ -732,6 +736,8 @@ p{
       overflow: hidden;
       margin-top: .5rem;
       text-align: center;
+      @include button-shadow;
+      background: none;
 
       a{
         width: 100%;

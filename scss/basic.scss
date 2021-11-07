@@ -97,6 +97,7 @@ svg g path{
 .whole-tone{
   background: linear-gradient(transparent 0%, transparent 70%,#bc7aff 70%, #bc7aff 80%,transparent 80%);
   font-weight: bold;
+  display: inline-block;
 }
 #whole.whole-bottom, #whole02.whole-bottom{
   color: #fff;
@@ -124,6 +125,7 @@ svg g path{
 .semi-tone{
   background: linear-gradient(transparent 0%,transparent 70%, #7abcff 70%, #7abcff 80%,transparent 80%);
   font-weight: bold;
+  display: inline-block;
 }
 #semi.semi-bottom, #semi02.semi-bottom{
   color: #fff;
