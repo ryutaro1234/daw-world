@@ -206,6 +206,22 @@ h3{
   @include button-shadow-click;
 }
 
+#position01{
+  stroke: $green;
+  position: absolute;
+  top: 500px;
+  left: 0;
+  z-index: -900;
+}
+
+#position02{
+  stroke: $green;
+  position: absolute;
+  top: 1300px;
+  left: 0;
+  z-index: -900;
+}
+
 
 @media screen and (min-width: 600px) {
 
@@ -213,6 +229,16 @@ h3{
     #svg01{
       width: 80%;
     }
+  }
+
+  #position01{
+    width: 50%;
+    height: auto;
+  }
+
+  #position02{
+    width: 50%;
+    height: auto;
   }
 
 }
@@ -229,4 +255,15 @@ h3{
   }
 
   #top002{width: 50%;}
+
+  #position01{
+    width: 30%;
+    height: auto;
+  }
+
+  #position02{
+    width: 30%;
+    height: auto;
+    left: 40%;
+  }
 }

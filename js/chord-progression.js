@@ -262,3 +262,23 @@ function sd2(){
   document.querySelector("#sd1").classList.remove("click");
   document.querySelector("#sd2").classList.remove("click");
 }
+
+$(function(){
+
+  var bg01 = $('#position01').offset();
+  var bg02 = $('#position02').offset();
+
+  $(window).on('scroll',function(){
+    var scrollY = $(this).scrollTop();
+
+    $('#position01').css({
+      'top': bg01.top + scrollY / -8,
+      'left': bg01.left + scrollY / -10,
+    });
+
+    $('#position02').css({
+      'top': bg02.top + scrollY / 8,
+      'left': bg02.left + scrollY / -10,
+    });
+  });
+});
