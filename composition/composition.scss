@@ -1,4 +1,4 @@
-@import 'parts/colors';
+@import '../scss/parts/colors';
 
 main{
   display: flex;
@@ -13,14 +13,12 @@ main:after {
   height: 0;
 }
 
-article{
-  margin: .5rem auto;
-}
 
 .glass{
   height: 120px;
   text-align: center;
   width: 40%;
+  margin: 1rem auto;
 }
 
 .btn-next{
@@ -36,8 +34,8 @@ p{
   text-align: center;
 }
 
-.red-ribbon{
-  border-left: 80px solid #ff5656;
+.blue-ribbon{
+  border-left: 80px solid $blue;
   border-bottom: 80px solid transparent;
   opacity: .9;
   mix-blend-mode: multiply;
@@ -46,8 +44,8 @@ p{
   left: 0;
 }
 
-.orange-ribbon{
-  border-left: 80px solid $orange;
+.pink-ribbon{
+  border-left: 80px solid $pink;
   border-bottom: 80px solid transparent;
   opacity: .9;
   mix-blend-mode: multiply;
@@ -56,7 +54,51 @@ p{
   left: 0;
 }
 
-#drums{
+.green-ribbon{
+  border-left: 80px solid $green;
+  border-bottom: 80px solid transparent;
+  opacity: .9;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#basic{
+  h2 a{
+    color: $blue;
+  }
+
+  a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 995;
+  }
+
+    #piano01{
+    width: 120%;
+    stroke: $blue;
+
+      g path{
+        fill: $blue;
+      }
+    }//piano01
+
+    .btn-next{
+      background: $blue;
+    }
+}
+
+#melody{
+  h2{
+    a{
+      color: $pink;
+    }//a
+  }//h2
+
   a{
     width: 100%;
     height: 100%;
@@ -67,44 +109,39 @@ p{
   }
 
   .btn-next{
-    background: $red;
-    color: #fff;
-  }
-}
-
-.drums{
-  padding-left: 2rem;
-  width: 100%;
-  height: auto;
-  stroke-miterlimit:10;
-  stroke: $red;
-
-  #shell01{
-    fill: $red;
+    background: $pink;
   }
 
-  g{
-    fill: $background;
-  }
-}
+  svg{
+    margin-left: 1rem;
+    width: 140%;
+    .st0, .st1, .st2, .st3, .st4{fill:none;stroke:$pink;stroke-width:0.5;}
+    .st5{fill:$pink;stroke:#none;}
+  }//svg
+}//#melody
 
-
-#strings{
+#chord-progression{
   .btn-next{
     width: 8rem;
-    background: $orange;
+    background: $green;
+  }
+
+  a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 995;
   }
 
   svg{
     padding-left: 2rem;
-    width: 120%;
-    stroke: $orange;;
-    g{
-      fill: $orange;
-    }//g
+    width: 200%;
+    stroke: none;
+    fill: $green;
   }//svg
 }
-
 @media screen and (min-width: 600px) {
 
   main{
@@ -118,7 +155,7 @@ p{
   .glass{
     width: 45%;
     height: 300px;
-    margin: 1rem auto;
+    margin: 4rem 0;
   }
   main:after {
     content: "";
