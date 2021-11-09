@@ -1,4 +1,4 @@
-@import 'parts/colors';
+@import '../../scss/parts/colors';
 
 #background{
   width: 100%;
@@ -51,6 +51,13 @@ svg g path{
 }
 #basic002 span{
   color: #fff;
+}
+
+#audio01{display: none;}
+#audio01buttom.active{
+  background: $blue;
+  color: #fff;
+  font-weight: bold;
 }
 
 .show01{
@@ -165,6 +172,13 @@ svg g path{
   width: 70%;
 }
 
+#audio02{display: none;}
+#audio02buttom.active{
+  background: $blue;
+  color: #fff;
+  font-weight: bold;
+}
+
 .show02-01{
   animation: basic-02 1.5s forwards;
 }
@@ -215,6 +229,12 @@ svg g path{
   }
 }
 
+#audio03{display: none;}
+#audio03buttom.active{
+  background: $blue;
+  color: #fff;
+  font-weight: bold;
+}
 
 .show03-01{
   animation: show-03-01 1.5s forwards;
@@ -249,6 +269,12 @@ svg g path{
   }
 }
 
+#audio04{display: none;}
+#audio04buttom.active{
+  background: $blue;
+  color: #fff;
+  font-weight: bold;
+}
 
 .show04-01{
   animation: show-03-03 1.5s forwards;
@@ -283,6 +309,12 @@ svg g path{
   }
 }
 
+#audio05{display: none;}
+#audio05buttom.active{
+  background: $blue;
+  color: #fff;
+  font-weight: bold;
+}
 
 
 .show05-01{

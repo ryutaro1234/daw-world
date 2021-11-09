@@ -20,6 +20,9 @@ audio01.onplay = function(){
 };
 
 audio01.onpause = function(){
+  document.querySelector("#audio01buttom").classList.remove("active");
+  document.querySelector("#audio01buttom").innerHTML = "▶︎再生";
+
   document.getElementById("basic-c01").classList.remove("show01");
   document.getElementById("basic-d01").classList.remove("show02");
   document.getElementById("basic-e01").classList.remove("show03");
@@ -39,6 +42,21 @@ audio01.onpause = function(){
   document.getElementById("table01-c02").classList.remove("show08");
   audio01.currentTime = 0;
 };
+
+$(function() {
+  $("#audio01buttom").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎再生");
+      $("#audio01")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■停止");
+      $("#audio01")[0].play();
+    };
+  });
+});
 
 var audio02 = document.getElementById("audio02");
 audio02.onplay = function(){
@@ -71,6 +89,9 @@ audio02.onplay = function(){
 };
 
 audio02.onpause = function(){
+  document.querySelector("#audio02buttom").classList.remove("active");
+  document.querySelector("#audio02buttom").innerHTML = "▶︎再生";
+
   document.getElementById("basic-c03").classList.remove("show01");
   document.getElementById("basic-d03").classList.remove("show02");
   document.getElementById("basic-e03").classList.remove("show03");
@@ -99,6 +120,21 @@ audio02.onpause = function(){
   document.getElementById("table03-c04").classList.remove("show08");
   audio02.currentTime = 0;
 };
+
+$(function() {
+  $("#audio02buttom").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎再生");
+      $("#audio02")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■停止");
+      $("#audio02")[0].play();
+    };
+  });
+});
 
 function whole(){
   document.getElementById("whole").classList.toggle("whole-bottom");
@@ -199,6 +235,9 @@ audio03.onplay = function(){
 };
 
 audio03.onpause = function(){
+  document.querySelector("#audio03buttom").classList.remove("active");
+  document.querySelector("#audio03buttom").innerHTML = "▶︎再生";
+
   document.getElementById("f-01").classList.remove("show02-01");
   document.getElementById("gb-01").classList.remove("show05-02");
   document.getElementById("g-01").classList.remove("show03-01");
@@ -214,6 +253,21 @@ audio03.onpause = function(){
   document.getElementById("f-02").classList.remove("show04-01");
   audio03.currentTime = 0;
 };
+
+$(function() {
+  $("#audio03buttom").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎再生");
+      $("#audio03")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■停止");
+      $("#audio03")[0].play();
+    };
+  });
+});
 
 var audio04 = document.getElementById("audio04");
 audio04.onplay = function(){
@@ -233,6 +287,9 @@ audio04.onplay = function(){
 };
 
 audio04.onpause = function(){
+  document.querySelector("#audio04buttom").classList.remove("active");
+  document.querySelector("#audio04buttom").innerHTML = "▶︎再生";
+
   document.getElementById("db-03").classList.remove("show02-02");
   document.getElementById("d-03").classList.remove("show05-01");
   document.getElementById("eb-03").classList.remove("show03-02");
@@ -249,6 +306,21 @@ audio04.onpause = function(){
   audio04.currentTime = 0;
 };
 
+$(function() {
+  $("#audio04buttom").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎再生");
+      $("#audio04")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■停止");
+      $("#audio04")[0].play();
+    };
+  });
+});
+
 var audio05 = document.getElementById("audio05");
 audio05.onplay = function(){
   document.getElementById("a-05").classList.add("show02-01");
@@ -262,6 +334,9 @@ audio05.onplay = function(){
 };
 
 audio05.onpause = function(){
+  document.querySelector("#audio05buttom").classList.remove("active");
+  document.querySelector("#audio05buttom").innerHTML = "▶︎再生";
+
   document.getElementById("a-05").classList.remove("show02-01");
   document.getElementById("b-05").classList.remove("show03-01");
   document.getElementById("c-06").classList.remove("show04-01");
@@ -272,6 +347,21 @@ audio05.onpause = function(){
   document.getElementById("a-06").classList.remove("show03-01");
   audio05.currentTime = 0;
 };
+
+$(function() {
+  $("#audio05buttom").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎再生");
+      $("#audio05")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■停止");
+      $("#audio05")[0].play();
+    };
+  });
+});
 
 function maj01(){
   document.getElementById("maj01").classList.toggle("active");
