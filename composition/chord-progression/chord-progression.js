@@ -263,6 +263,106 @@ function sd2(){
   document.querySelector("#sd2").classList.remove("click");
 }
 
+$(function() {
+  $("#c_05").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎C");
+      $("#audioC")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■C");
+      $("#audioC")[0].currentTime = 0;
+      $("#audioC")[0].play();
+    };
+  });
+});
+document.querySelector("#audioC").onpause = function(){
+  document.querySelector("#c_05").classList.remove("active");
+  document.querySelector("#c_05").innerHTML = "▶︎C";
+};
+
+$(function() {
+  $("#cm").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎Cm");
+      $("#audioCm")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■Cm");
+      $("#audioCm")[0].currentTime = 0;
+      $("#audioCm")[0].play();
+    };
+  });
+});
+document.querySelector("#audioCm").onpause = function(){
+  document.querySelector("#cm").classList.remove("active");
+  document.querySelector("#cm").innerHTML = "▶︎Cm";
+};
+
+$(function() {
+  $("#cadd9").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎Cadd9");
+      $("#audioCadd9")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■Cadd9");
+      $("#audioCadd9")[0].currentTime = 0;
+      $("#audioCadd9")[0].play();
+    };
+  });
+});
+document.querySelector("#audioCadd9").onpause = function(){
+  document.querySelector("#cadd9").classList.remove("active");
+  document.querySelector("#cadd9").innerHTML = "▶︎Cadd9";
+};
+
+$(function() {
+  $("#csus2").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎Csus2");
+      $("#audioCsus2")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■Csus2");
+      $("#audioCsus2")[0].currentTime = 0;
+      $("#audioCsus2")[0].play();
+    };
+  });
+});
+document.querySelector("#audioCsus2").onpause = function(){
+  document.querySelector("#csus2").classList.remove("active");
+  document.querySelector("#csus2").innerHTML = "▶︎Csus2";
+};
+
+$(function() {
+  $("#csus4").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎Csus4");
+      $("#audioCsus4")[0].pause();
+
+    }else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■Csus4");
+      $("#audioCsus4")[0].currentTime = 0;
+      $("#audioCsus4")[0].play();
+    };
+  });
+});
+document.querySelector("#audioCsus4").onpause = function(){
+  document.querySelector("#csus4").classList.remove("active");
+  document.querySelector("#csus4").innerHTML = "▶︎Csus4";
+};
+
 $(function(){
 
   var bg01 = $('#position01').offset();

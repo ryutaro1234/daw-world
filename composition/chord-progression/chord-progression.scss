@@ -206,6 +206,13 @@ h3{
   @include button-shadow-click;
 }
 
+audio{display: none;}
+#c_05.active, #cm.active, #cadd9.active, #csus2.active, #csus4.active,{
+  background: $green;
+  color: #fff;
+  font-weight: bold;
+}
+
 #position01{
   stroke: $green;
   position: absolute;
@@ -220,6 +227,10 @@ h3{
   top: 1300px;
   left: 0;
   z-index: -900;
+}
+
+#pc02{
+  padding-top: 30px;
 }
 
 
@@ -244,10 +255,6 @@ h3{
 }
 @media screen and (min-width: 1025px) {
 
-  #pc01{
-    padding-top: 100px;
-  }
-
   #top001{
     #svg01{
       width: 100%;
@@ -265,5 +272,13 @@ h3{
     width: 30%;
     height: auto;
     left: 40%;
+  }
+
+  #pc01{
+    padding-top: 100px;
+  }
+
+  #pc02{
+    padding-top: 60px;
   }
 }
