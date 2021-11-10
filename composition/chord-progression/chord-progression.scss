@@ -63,8 +63,8 @@ h3{
 #svg02{
   width: 100%;
   fill: #000;
-  .st0{fill:#16A2C8;}
-  .st1{fill:#F98A10;}
+  .st0{fill:$score-g;}
+  .st1{fill:$score-c;}
 }
 
 #audio01{display: none;}
@@ -94,8 +94,8 @@ h3{
 #svg03{
   width: 100%;
   fill:#000;
-  .st0{fill:$score-c;}
-  .st1{fill:$score-g;}
+  .st0{fill:$score-g;}
+  .st1{fill:$score-c;}
 }
 
 #audio02{display: none;}
@@ -140,8 +140,8 @@ h3{
   width: 100%;
   fill: #000;
 
-  .st0{fill:$score-c;}
-  .st1{fill:$score-g;}
+  .st0{fill:$score-g;}
+  .st1{fill:$score-c;}
 
   #layer2{opacity: .5}
 }
@@ -212,6 +212,86 @@ audio{display: none;}
   color: #fff;
   font-weight: bold;
 }
+
+.play1{animation: play1 1s forwards;}
+@keyframes play1 {
+  0%{
+    fill: $flash;
+    animation-timing-function: ease-in;
+  }
+  50%{
+    fill: $flash;
+    animation-timing-function: ease-out;
+  }
+  100%{
+    fill: #000;
+  }
+}
+
+#svg05{
+  .st0{fill:none;stroke:#000000;}
+  .st1{fill:none;stroke:$score-g;}
+  .st2{fill:none;stroke:#000000;}
+  .st3{fill:none;stroke:#000000;}
+  .st4{fill:#000000;}
+  .st5{fill:$score-c;}
+  width: 100%;
+}
+#c_10e{animation-delay: .5s}
+#c_10g{animation-delay: 1s}
+#c_10_1, #c_10_2, #c_10_3, #c_10_4,{animation-delay: 2.5s}
+
+#svg06{
+  .st0{fill:none;stroke:#000000;}
+  .st1{fill:none;stroke:$score-g;}
+  .st2{fill:none;stroke:#000000;}
+  .st3{fill:none;stroke:#000000;}
+  .st4{fill:#000000;}
+  .st5{fill:$score-c;}
+  width: 100%;
+}
+#meb1, #meb2{animation-delay: .5s}
+#mg{animation-delay: 1s}
+#m1, #m2, #m3, #m4, #m5{animation-delay: 2.5s}
+
+#svg07{
+  .st0{fill:none;stroke:#000000;}
+  .st1{fill:none;stroke:$score-g;}
+  .st2{fill:none;stroke:#000000;}
+  .st3{fill:none;stroke:#000000;}
+  .st4{fill:#000000;}
+  .st5{fill:$score-c;}
+  width: 100%;
+}
+#add9d{animation-delay: .5s}
+#add9e{animation-delay: 1s}
+#add9g{animation-delay: 1.5s}
+#add9_1, #add9_2, #add9_3, #add9_4, #add9_5,{animation-delay: 2.5s}
+
+#svg08{
+  .st0{fill:none;stroke:#000000;}
+  .st1{fill:none;stroke:$score-g;}
+  .st2{fill:none;stroke:#000000;}
+  .st3{fill:none;stroke:#000000;}
+  .st4{fill:#000000;}
+  .st5{fill:$score-c;}
+  width: 100%;
+}
+#sus2d{animation-delay: .5s}
+#sus2g{animation-delay: 1s}
+#sus2_1, #sus2_2, #sus2_3, #sus2_4,{animation-delay: 2.5s}
+
+#svg09{
+  .st0{fill:none;stroke:#000000;}
+  .st1{fill:none;stroke:$score-g}
+  .st2{fill:none;stroke:#000000;}
+  .st3{fill:none;stroke:#000000;}
+  .st4{fill:#000000;}
+  .st5{fill:$score-c}
+}
+#sus4f{animation-delay: .5s}
+#sus4g{animation-delay: 1s}
+#sus4_1, #sus4_2, #sus4_3, #sus4_4,{animation-delay: 2.5s}
 
 #position01{
   stroke: $green;

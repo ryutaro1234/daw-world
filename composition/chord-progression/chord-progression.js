@@ -275,12 +275,28 @@ $(function() {
       $(this).text("■C");
       $("#audioC")[0].currentTime = 0;
       $("#audioC")[0].play();
+      $("#c_10c1").addClass("play1");
+      $("#c_10c2").addClass("play1");
+      $("#c_10e").addClass("play1");
+      $("#c_10g").addClass("play1");
+      $("#c_10_1").addClass("play1");
+      $("#c_10_2").addClass("play1");
+      $("#c_10_3").addClass("play1");
+      $("#c_10_4").addClass("play1");
     };
   });
 });
 document.querySelector("#audioC").onpause = function(){
   document.querySelector("#c_05").classList.remove("active");
   document.querySelector("#c_05").innerHTML = "▶︎C";
+  $("#c_10c1").removeClass("play1");
+  $("#c_10c2").removeClass("play1");
+  $("#c_10e").removeClass("play1");
+  $("#c_10g").removeClass("play1");
+  $("#c_10_1").removeClass("play1");
+  $("#c_10_2").removeClass("play1");
+  $("#c_10_3").removeClass("play1");
+  $("#c_10_4").removeClass("play1");
 };
 
 $(function() {
@@ -295,12 +311,32 @@ $(function() {
       $(this).text("■Cm");
       $("#audioCm")[0].currentTime = 0;
       $("#audioCm")[0].play();
+      $("#mc1").addClass("play1");
+      $("#mc2").addClass("play1");
+      $("#meb1").addClass("play1");
+      $("#meb2").addClass("play1");
+      $("#mg").addClass("play1");
+      $("#m1").addClass("play1");
+      $("#m2").addClass("play1");
+      $("#m3").addClass("play1");
+      $("#m4").addClass("play1");
+      $("#m5").addClass("play1");
     };
   });
 });
 document.querySelector("#audioCm").onpause = function(){
   document.querySelector("#cm").classList.remove("active");
   document.querySelector("#cm").innerHTML = "▶︎Cm";
+  $("#mc1").removeClass("play1");
+  $("#mc2").removeClass("play1");
+  $("#meb1").removeClass("play1");
+  $("#meb2").removeClass("play1");
+  $("#mg").removeClass("play1");
+  $("#m1").removeClass("play1");
+  $("#m2").removeClass("play1");
+  $("#m3").removeClass("play1");
+  $("#m4").removeClass("play1");
+  $("#m5").removeClass("play1");
 };
 
 $(function() {
@@ -315,12 +351,32 @@ $(function() {
       $(this).text("■Cadd9");
       $("#audioCadd9")[0].currentTime = 0;
       $("#audioCadd9")[0].play();
+      $("#add9c_1").addClass("play1");
+      $("#add9c_2").addClass("play1");
+      $("#add9d").addClass("play1");
+      $("#add9e").addClass("play1");
+      $("#add9g").addClass("play1");
+      $("#add9_1").addClass("play1");
+      $("#add9_2").addClass("play1");
+      $("#add9_3").addClass("play1");
+      $("#add9_4").addClass("play1");
+      $("#add9_5").addClass("play1");
     };
   });
 });
 document.querySelector("#audioCadd9").onpause = function(){
   document.querySelector("#cadd9").classList.remove("active");
   document.querySelector("#cadd9").innerHTML = "▶︎Cadd9";
+  $("#add9c_1").removeClass("play1");
+  $("#add9c_2").removeClass("play1");
+  $("#add9d").removeClass("play1");
+  $("#add9e").removeClass("play1");
+  $("#add9g").removeClass("play1");
+  $("#add9_1").removeClass("play1");
+  $("#add9_2").removeClass("play1");
+  $("#add9_3").removeClass("play1");
+  $("#add9_4").removeClass("play1");
+  $("#add9_5").removeClass("play1");
 };
 
 $(function() {
@@ -335,12 +391,28 @@ $(function() {
       $(this).text("■Csus2");
       $("#audioCsus2")[0].currentTime = 0;
       $("#audioCsus2")[0].play();
+      $("#sus2c_1").addClass("play1");
+      $("#sus2c_2").addClass("play1");
+      $("#sus2d").addClass("play1");
+      $("#sus2g").addClass("play1");
+      $("#sus2_1").addClass("play1");
+      $("#sus2_2").addClass("play1");
+      $("#sus2_3").addClass("play1");
+      $("#sus2_4").addClass("play1");
     };
   });
 });
 document.querySelector("#audioCsus2").onpause = function(){
   document.querySelector("#csus2").classList.remove("active");
   document.querySelector("#csus2").innerHTML = "▶︎Csus2";
+  $("#sus2c_1").removeClass("play1");
+  $("#sus2c_2").removeClass("play1");
+  $("#sus2d").removeClass("play1");
+  $("#sus2g").removeClass("play1");
+  $("#sus2_1").removeClass("play1");
+  $("#sus2_2").removeClass("play1");
+  $("#sus2_3").removeClass("play1");
+  $("#sus2_4").removeClass("play1");
 };
 
 $(function() {
@@ -355,12 +427,28 @@ $(function() {
       $(this).text("■Csus4");
       $("#audioCsus4")[0].currentTime = 0;
       $("#audioCsus4")[0].play();
+      $("#sus4c_1").addClass("play1");
+      $("#sus4c_2").addClass("play1");
+      $("#sus4f").addClass("play1");
+      $("#sus4g").addClass("play1");
+      $("#sus4_1").addClass("play1");
+      $("#sus4_2").addClass("play1");
+      $("#sus4_3").addClass("play1");
+      $("#sus4_4").addClass("play1");
     };
   });
 });
 document.querySelector("#audioCsus4").onpause = function(){
   document.querySelector("#csus4").classList.remove("active");
   document.querySelector("#csus4").innerHTML = "▶︎Csus4";
+  $("#sus4c_1").removeClass("play1");
+  $("#sus4c_2").removeClass("play1");
+  $("#sus4f").removeClass("play1");
+  $("#sus4g").removeClass("play1");
+  $("#sus4_1").removeClass("play1");
+  $("#sus4_2").removeClass("play1");
+  $("#sus4_3").removeClass("play1");
+  $("#sus4_4").removeClass("play1");
 };
 
 $(function(){
