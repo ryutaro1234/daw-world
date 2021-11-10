@@ -8,9 +8,9 @@
   text-decoration: none;
 }
 
-@import '../scss/parts/colors';
+@import 'parts/colors';
 
-@import '../scss/parts/move';
+@import 'parts/move';
 
 ::selection{
   background-color: rgba(127,191,255,.4);
@@ -26,7 +26,7 @@ body {
   background: #f7f7f7;
 }
 
-@import '../scss/parts/header';
+@import 'parts/header';
 
 main{
   overflow: hidden;
@@ -324,7 +324,7 @@ audio{
   }
 }
 
-@import '../scss/parts/footer';
+@import 'parts/footer';
 
 @media screen and (min-width: 600px) {
 
