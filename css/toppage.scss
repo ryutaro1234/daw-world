@@ -79,104 +79,9 @@ article{
   padding-top: 100px;
 }
 
-.hello01 h1 p b{
-  position: relative;
-  z-index: 996;
-}
-
 h2{
   text-align: center;
 }
-/*
-#type01{
-  overflow: hidden;
-  font-size: 70px;
-  line-height: 64px;
-  color: #6ee66e;
-  opacity: 0;
-  mix-blend-mode: multiply;
-  position: absolute;
-  left: -5%;
-  z-index: 10;
-  transition: 1s;
-  transform: translateY(100%);
-}
-#type01.active{
-  transition-delay: .2s;
-  transform: translateY(0) rotate(-15deg);
-  opacity: .8;
-}
-
-
-#bg01 {
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -10;
-}
-.bg01 {
-  overflow: hidden;
-  display: inline-block;
-  position: relative;
-  width: 18px;
-  height: 18px;
-  margin: 0 5px;
-}
-.bg01.-visible:before, .bg01.-visible:after {
-  transition-delay: 2s;
-  transform: translate(0, 0);
-}
-.bg01:before, .bg01:after {
-  transform: translate(100%, 100%);
-  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) .6s;
-  display: block;
-  content: '';
-  background: #ff7a7a;
-  border-radius: 10px;
-  position: absolute;
-  width: 18px;
-  height: 5px;
-  top: 7px;
-  left: 0;
-}
-.bg01:before {
-  width: 5px;
-  height: 18px;
-  top: 0;
-  left: 7px;
-}
-
-#bg02 {
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: -25px;
-  right: 10%;
-  z-index: -5;
-}
-#bg02.-visible:before {
-  transition-delay: .5s;
-  transform: translate(0, 0);
-}
-#bg02:before {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: rgba( 255, 255, 255, .35 );
-  backdrop-filter: blur( 15px );
-  -webkit-backdrop-filter: blur( 15px );
-  border: 1px solid rgba( 255, 255, 255, .2 );
-  transform: translate(0, 100%);
-  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) .6s;
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-}*/
 
 #title01{
   display: flex;
@@ -296,110 +201,6 @@ h2{
 @keyframes animmain03 {
   from{transform: translateX(50%);}
   to{transform: translateX(-10%);}
-}
-
-/*
-#bg03 {
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  mix-blend-mode: multiply;
-  opacity: .6;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: 10;
-}
-.bg03 {
-  overflow: hidden;
-  display: inline-block;
-  position: relative;
-  width: 18px;
-  height: 18px;
-  margin: 0 5px;
-}
-.bg03.-visible:before, .bg03.-visible:after {
-  transition-delay: 1.5s;
-  transform: translate(0, 0);
-}
-.bg03:before, .bg03:after {
-  transform: translate(100%, 100%);
-  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) .6s;
-  display: block;
-  content: '';
-  background: #6ee66e;
-  border-radius: 10px;
-  position: absolute;
-  width: 18px;
-  height: 5px;
-  top: 7px;
-  left: 0;
-}
-.bg03:before {
-  width: 5px;
-  height: 18px;
-  top: 0;
-  left: 7px;
-}*/
-
-#bg04 {
-  animation: animmain01 25s infinite;
-  overflow: hidden;
-  width: 100px;
-  height: 100px;
-  border-radius: 10%;
-  mix-blend-mode: multiply;
-  opacity: .6;
-  position: absolute;
-  left: 37%;
-  bottom: 120px;
-  z-index: 15;
-}
-#bg04.-visible:before {
-  transition-delay: .7s;
-  transform: translate(0, 0);
-}
-#bg04:before {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: $red;
-  transform: translate(100%, 0);
-  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) .6s;
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#bg05 {
-  animation: animmain01 15s infinite;
-  overflow: hidden;
-  width: 100px;
-  height: 100px;
-  border-radius: 10%;
-  mix-blend-mode: multiply;
-  opacity: .6;
-  position: absolute;
-  left: 20%;
-  bottom: 200px;
-  z-index: 15;
-}
-#bg05.-visible:before {
-  transition-delay: .3s;
-  transform: translate(0, 0);
-}
-#bg05:before {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: $green;
-  transform: translate(100%, 0);
-  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) .6s;
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .scrolldown1{
@@ -586,44 +387,6 @@ p{
 #piano01 g path{
   fill: #4c4cff;
 }
-/*
-.show01{
-  animation: basic-01 1s forwards;
-}
-.show02{
-  animation: basic-01 1s forwards .5s;
-}
-.show03{
-  animation: basic-01 1s forwards 1s;
-}
-.show04{
-  animation: basic-01 1s forwards 1.5s;
-}
-.show05{
-  animation: basic-01 1s forwards 2s;
-}
-.show06{
-  animation: basic-01 1s forwards 2.5s;
-}
-.show07{
-  animation: basic-01 1s forwards 3s;
-}
-.show08{
-  animation: basic-01 1s forwards 3.5s;
-}
-@keyframes basic-01 {
-  0%{
-    fill: #ffff7f;
-    animation-timing-function: ease-in;
-  }
-  50%{
-    fill: #ffff7f;
-    animation-timing-function: ease-out;
-  }
-  100%{
-    fill: #fff;
-  }
-}*/
 
 #melody{
   .btn-next{
@@ -676,28 +439,6 @@ p{
   }
 }//.drums
 
-/*
-#trumpet01{
-  width: 200%;
-  height: auto;
-  margin-top: 2rem;
-  stroke: #d7c447;
-  position: relative;
-  right: 90%;
-  animation: trumpet01 5s alternate infinite;
-}
-@keyframes trumpet01 {
-  from{
-    transform: rotate(5deg);
-  }
-  to{
-    transform: rotate(-5deg);
-  }
-}
-#trumpet01 g path, #trumpet01 g rect{
-  fill: #d7c447;
-}*/
-
 #strings{
   .btn-next{
     width: 9rem;
@@ -730,8 +471,6 @@ p{
 
 
 .pc-top03{
-
-
     article{
       width: 95%;
       height: 100px;
@@ -759,31 +498,8 @@ p{
           margin-top: 40px;
         }
       }//section
-
     }//article
-    #profile{
-      .btn-next{
-        width: 10rem;
-        background: $orange;
-      }
-
-      #profile-image{
-        width: 50%;
-        height: auto;
-        opacity: .7;
-        //animation: profile 5s alternate infinite;
-      }
-  }//#profile
-
-}
-/*@keyframes profile {
-  from{
-    transform: rotate(-10deg);
-  }
-  to{
-    transform: rotate(10deg);
-  }
-}*/
+}//pc-top3
 
 .right{
   float: right;
@@ -800,18 +516,6 @@ p{
     font-size: 100px;
     line-height: 90px;
     left: -5%;
-  }
-
-  /*#bg03{
-    left: 40%;
-  }*/
-
-  #bg04{
-    left: 45%;
-  }
-
-  #bg05 {
-    left: 30%;
   }
 
   #main-image{
@@ -854,21 +558,6 @@ p{
     margin: -8px 0 8px ;
   }
 
-  /*#bg01{
-    right: 20%;
-  }
-
-  #bg02{
-    right: 25%;
-  }
-
-  #type01{
-    font-size: 150px;
-    line-height: 130px;
-    top: -50px;
-    left: 5%;
-  }*/
-
   #title01{
     transform: translateX(-83%);
     left:54%;
@@ -908,14 +597,6 @@ p{
     }*/
   }
 
-  /*#arrangement{
-    &:after{
-      content: "";
-      display: block;
-      width: 50%;
-      height: 0;
-    }
-  }*/
 
   #melody{
     .btn-next{
@@ -953,13 +634,5 @@ p{
       width: 50%;
       height: 0;
     }
-
-    #profile{
-      #profile-image{
-        width: 35%;
-        height: auto;
-        padding-left: 3rem;
-      }
-    }//#profile
   }//pc-top03
 }
