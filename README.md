@@ -11,11 +11,6 @@ Currently the mainstream teaching materials are images or videos.<br />
 However, it is difficult to understand with images. For videos, the amount of data traffic is large.<br />
 In DAW World, all animations works JavaScript. That's why it's small.
 
-### Process
-https://ryukochan.com/zotan2021/
-* JP ONLY
-
-
 ***
 
 # JP ver.
@@ -31,6 +26,3 @@ DAW Worldは、松本龍太郎による卒業制作作品です。<br />
 そのためDAW Worldでは、全てのアニメーションをプログラムで表現し、いつでもどこでもを実現しています。<br />
 作編曲の裾野を広げたい。そうすることで、将来的には音楽業界の発展につながる。<br />
 皆様の作曲のインプットのお手伝いをします。
-
-### 卒業制作過程
-https://ryukochan.com/zotan2021/
