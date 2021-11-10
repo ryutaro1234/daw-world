@@ -250,7 +250,7 @@ h2{
 #box{
   text-align: center;
   padding: 2rem 0 4rem;
-  @include button-shadow;
+  @include box-shadow;
 
   #box_p{
     margin: 1rem 0;
@@ -326,6 +326,9 @@ h2{
   100% {opacity: 1;}
 }
 
+#recommend{
+  margin: 0 auto 1rem;
+}
 
 .pc-top02{
   display: flex;
