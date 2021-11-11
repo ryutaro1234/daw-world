@@ -247,13 +247,9 @@ h2{
   }
 }
 
-#box{
-  text-align: center;
-  padding: 2rem 0 4rem;
-  @include box-shadow;
-
-  #box_p{
-    margin: 1rem 0;
+#try{
+  h3{
+    text-align: center;
   }
 }
 
@@ -310,7 +306,6 @@ h2{
   margin: 1rem auto 2rem;
   padding: .2rem 0;
   text-align: center;
-  border: 1px solid #333;
   border-radius: 10px;
 }
 #play01.active{
@@ -318,6 +313,7 @@ h2{
   font-weight: bold;
   color: #fff;
   border: none;
+  @include button-shadow-click;
 }
 
 @keyframes flash {
