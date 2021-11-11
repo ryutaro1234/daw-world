@@ -247,10 +247,14 @@ h2{
   }
 }
 
-#try{
-  h3{
-    text-align: center;
-  }
+#box{
+   text-align: center;
+   padding: 2rem 0 4rem;
+   @include box-shadow;
+
+   #box_p{
+     margin: 1rem 0;
+   }
 }
 
 .box_btn{
