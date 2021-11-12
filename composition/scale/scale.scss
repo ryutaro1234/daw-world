@@ -166,6 +166,7 @@ svg g path{
   background-color: #eee;
   @include button-shadow;
   transition: 1s ease-out;
+  border: solid 1px #ddd;
 }
 
 #tone-table{
