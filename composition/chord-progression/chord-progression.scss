@@ -294,6 +294,79 @@ audio{display: none;}
 #sus4g{animation-delay: 1s}
 #sus4_1, #sus4_2, #sus4_3, #sus4_4,{animation-delay: 2.5s}
 
+#try{
+  h2{
+    text-align: center;
+    padding: 0;
+    margin: 2rem 0 0;
+  }
+  p{
+    text-align: center;
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+.box_btn{
+  width: 312px;
+  margin: 0 auto;
+  display: flex;
+}
+.box_btn a{
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  color: #999;
+  line-height: 36px;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 10px;
+  border: .5px solid #ddd;
+  cursor: pointer;
+}
+
+#box1_1{width: 308px;}
+#box1_1.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: #ffcffa;
+}
+#box2_1.active, #box2_2.active, #box2_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $green;
+}
+#box3_1{width: 308px;}
+#box3_1.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: #ffc3c3;
+}
+#box1_1.play,
+#box2_1.play, #box2_2.play, #box2_3.play,
+#box3_1.play,{
+  animation: mbflash 1.8s linear infinite;
+}
+@keyframes mbflash {
+  0% {opacity: 1;}
+  50% {opacity: .3;}
+  100% {opacity: 1;}
+}
+#play01{
+  width: 4rem;
+  margin: 1rem auto 2rem;
+  padding: .2rem 0;
+  text-align: center;
+  border-radius: 10px;
+}
+#play01.active{
+  background: #333;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  @include button-shadow-click;
+}
+
+
 #position01{
   stroke: $green;
   position: absolute;
