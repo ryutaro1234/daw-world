@@ -165,16 +165,16 @@ h3{
     margin: 1rem 0 1.5rem;
   }
 }
-#box1_1.active, #box2_2.active, #box2_3.active{
+#box1_1.active, #box1_2.active, #box1_3.active{
   font-weight: bold;
   color: #fff;
-  background-color: #ffcffa;
+  background-color: $pink;
 }
 #box2_1{width: 308px;}
 #box2_1.active{
   font-weight: bold;
   color: #fff;
-  background-color: $green;
+  background-color: #a9d999;
 }
 #box3_1{width: 308px;}
 #box3_1.active{
