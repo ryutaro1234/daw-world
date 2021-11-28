@@ -313,6 +313,24 @@ audio{
   width: 4rem;
 }
 
+.box_btn{
+  width: 312px;
+  margin: 0 auto;
+  display: flex;
+}
+.box_btn a{
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  color: #999;
+  line-height: 36px;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 10px;
+  border: .5px solid #ddd;
+  cursor: pointer;
+}
+
 .numbering{
   float: right;
   margin: 1rem 1rem 0;

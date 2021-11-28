@@ -84,6 +84,292 @@ audio03.onpause = function(){
   document.querySelector("#so14").classList.remove("play02");
 }
 
+
+$(function() {
+  $("#box1_1").click(function(){
+    if ($(this).hasClass("active")) {}
+    else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $("#box1_2").removeClass("active");
+      $("#box1_3").removeClass("active");
+    }
+  });
+});
+$(function() {
+  $("#box1_2").click(function(){
+    if ($(this).hasClass("active")) {}
+    else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $("#box1_1").removeClass("active");
+      $("#box1_3").removeClass("active");
+    }
+  });
+});
+$(function() {
+  $("#box1_3").click(function(){
+    if ($(this).hasClass("active")) {}
+    else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $("#box1_1").removeClass("active");
+      $("#box1_2").removeClass("active");
+    }
+  });
+});
+
+$(function() {
+  $("#box2_1").click(function(){
+    if ($(this).hasClass("active")) {
+      $("#box2_1").removeClass("active");
+    }
+    else if (!$(this).hasClass("active")) {
+      $("#box2_1").addClass("active")
+    }
+  });
+});
+
+$(function() {
+  $("#box3_1").click(function(){
+    if ($(this).hasClass("active")) {
+      $("#box3_1").removeClass("active");
+    }
+    else if (!$(this).hasClass("active")) {
+      $("#box3_1").addClass("active")
+    }
+  });
+});
+
+$(function() {
+  $("#play01").click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).text("▶︎再生");
+
+      $('#audio1_0_0')[0].pause();
+      $('#audio2_0_0')[0].pause();
+      $('#audio3_0_0')[0].pause();
+
+      $('#audio1_1_0')[0].pause();
+      $('#audio2_1_0')[0].pause();
+      $('#audio3_1_0')[0].pause();
+
+      $('#audio1_0_1')[0].pause();
+      $('#audio2_0_1')[0].pause();
+      $('#audio3_0_1')[0].pause();
+
+      $('#audio1_1_1')[0].pause();
+      $('#audio2_1_1')[0].pause();
+      $('#audio3_1_1')[0].pause();
+
+
+      $('#audio1_0_0')[0].currentTime = 0;
+      $('#audio2_0_0')[0].currentTime = 0;
+      $('#audio3_0_0')[0].currentTime = 0;
+
+      $('#audio1_1_0')[0].currentTime = 0;
+      $('#audio2_1_0')[0].currentTime = 0;
+      $('#audio3_1_0')[0].currentTime = 0;
+
+      $('#audio1_0_1')[0].currentTime = 0;
+      $('#audio2_0_1')[0].currentTime = 0;
+      $('#audio3_0_1')[0].currentTime = 0;
+
+      $('#audio1_1_1')[0].currentTime = 0;
+      $('#audio2_1_1')[0].currentTime = 0;
+      $('#audio3_1_1')[0].currentTime = 0;
+
+
+      $("#box2_1").removeClass("play");
+
+      $("#box3_1").removeClass("play");
+
+      $("#box1_1").removeClass("play");
+      $("#box1_2").removeClass("play");
+      $("#box1_3").removeClass("play");
+    }//if
+
+    else if (!$(this).hasClass("active")) {
+      $(this).addClass("active");
+      $(this).text("■停止");
+
+      if ($("#box2_1").hasClass("active")) {
+        if ($("#box3_1").hasClass("active")) {
+          if ($("#box1_1").hasClass("active")) {
+            $("#audio1_1_1")[0].play();
+            $("#box2_1").addClass("play");
+            $("#box3_1").addClass("play");
+            $("#box1_1").addClass("play");
+          }else {};
+        }else {
+            if ($("#box1_1").hasClass("active")) {
+              $("#audio1_1_0")[0].play();
+              $("#box2_1").addClass("play");
+              $("#box1_1").addClass("play");
+            }else {};
+          };
+        }else {
+          if ($("#box3_1").hasClass("active")) {
+            if ($("#box1_1").hasClass("active")) {
+              $("#audio1_0_1")[0].play();
+              $("#box3_1").addClass("play");
+              $("#box1_1").addClass("play");
+          }else {};
+        }else {
+          if ($("#box1_1").hasClass("active")) {
+            $("#audio1_0_0")[0].play();
+            $("#box1_1").addClass("play");
+          }else {};
+        };
+      };
+
+      if ($("#box2_1").hasClass("active")) {
+        if ($("#box3_1").hasClass("active")) {
+          if ($("#box1_2").hasClass("active")) {
+            $("#audio2_1_1")[0].play();
+            $("#box2_1").addClass("play");
+            $("#box3_1").addClass("play");
+            $("#box1_2").addClass("play");
+          }else {};
+        }else {
+            if ($("#box1_2").hasClass("active")) {
+              $("#audio2_1_0")[0].play();
+              $("#box2_1").addClass("play");
+              $("#box1_2").addClass("play");
+            }else {};
+          };
+        }else {
+          if ($("#box3_1").hasClass("active")) {
+            if ($("#box1_2").hasClass("active")) {
+              $("#audio2_0_1")[0].play();
+              $("#box3_1").addClass("play");
+              $("#box1_2").addClass("play");
+          }else {};
+        }else {
+          if ($("#box1_2").hasClass("active")) {
+            $("#audio2_0_0")[0].play();
+            $("#box1_2").addClass("play");
+          }else {};
+        };
+      };
+
+      if ($("#box2_1").hasClass("active")) {
+        if ($("#box3_1").hasClass("active")) {
+          if ($("#box1_3").hasClass("active")) {
+            $("#audio3_1_1")[0].play();
+            $("#box2_1").addClass("play");
+            $("#box3_1").addClass("play");
+            $("#box1_3").addClass("play");
+          }else {};
+        }else {
+            if ($("#box1_3").hasClass("active")) {
+              $("#audio3_1_0")[0].play();
+              $("#box2_1").addClass("play");
+              $("#box1_3").addClass("play");
+            }else {};
+          };
+        }else {
+          if ($("#box3_1").hasClass("active")) {
+            if ($("#box1_3").hasClass("active")) {
+              $("#audio3_0_1")[0].play();
+              $("#box3_1").addClass("play");
+              $("#box1_3").addClass("play");
+          }else {};
+        }else {
+          if ($("#box1_3").hasClass("active")) {
+            $("#audio3_0_0")[0].play();
+            $("#box1_3").addClass("play");
+          }else {};
+        };
+      };
+
+    }//if
+  });
+});
+
+var play01 = document.querySelector("#play01");
+document.querySelector("#audio1_0_0").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box1_1").removeClass("play");
+});
+
+document.querySelector("#audio2_0_0").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box1_2").removeClass("play");
+});
+
+document.querySelector("#audio3_0_0").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box1_3").removeClass("play");
+});
+
+document.querySelector("#audio1_1_0").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box1_1").removeClass("play");
+    $("#box3_1").removeClass("play");
+});
+
+document.querySelector("#audio2_1_0").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box1_2").removeClass("play");
+    $("#box3_1").removeClass("play");
+});
+
+document.querySelector("#audio3_1_0").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box1_3").removeClass("play");
+    $("#box3_1").removeClass("play");
+});
+
+document.querySelector("#audio1_0_1").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box2_1").removeClass("play");
+    $("#box1_1").removeClass("play");
+});
+
+document.querySelector("#audio2_0_1").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box2_1").removeClass("play");
+    $("#box1_2").removeClass("play");
+});
+
+document.querySelector("#audio3_0_1").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box2_1").removeClass("play");
+    $("#box1_3").removeClass("play");
+});
+
+document.querySelector("#audio1_1_1").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box2_1").removeClass("play");
+    $("#box1_1").removeClass("play");
+    $("#box3_1").removeClass("play");
+});
+
+document.querySelector("#audio2_1_1").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box2_1").removeClass("play");
+    $("#box2_2").removeClass("play");
+    $("#box3_1").removeClass("play");
+});
+
+document.querySelector("#audio3_1_1").addEventListener('ended', function() {
+    play01.classList.remove("active");
+    play01.innerHTML = "▶︎再生";
+    $("#box2_1").removeClass("play");
+    $("#box2_3").removeClass("play");
+    $("#box3_1").removeClass("play");
+});
+
 $(function(){
 
   var bg01 = $('#position01').offset();
