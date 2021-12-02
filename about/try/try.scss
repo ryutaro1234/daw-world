@@ -1,0 +1,114 @@
+@import '../../css/parts/colors';
+
+#background{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(150deg, transparent 80%, $pink 80%);
+  position: fixed;
+  top: 0;
+  z-index: -9999;
+}
+
+article{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.color-style{
+  color: $pink;
+}
+.color-style b{
+  color: $pink;
+}
+.color-style a{
+  color: $pink;
+}
+
+.contents-table{
+  margin: 50px auto 100px;
+}
+
+.musicBox{
+   text-align: center;
+   padding: 0 0 5rem;
+   @include box-shadow;
+
+   h2{
+     padding: 2rem;
+   }
+}
+
+.box_btn{
+  width: 312px;
+  margin: 0 auto;
+  display: flex;
+}
+.box_btn a{
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  color: #999;
+  line-height: 36px;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 10px;
+  border: .5px solid #ddd;
+  cursor: pointer;
+}
+
+#box1_1.active, #box1_2.active, #box1_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $pink;
+  border: none;
+}
+#box1_1.play, #box1_2.play, #box1_3.play{
+  animation: flash 1.8s linear infinite;
+}
+
+#box2_1.active, #box2_2.active, #box2_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $green;
+  border: none;
+}
+#box2_1.play, #box2_2.play, #box2_3.play{
+  animation: flash 1.8s linear infinite;
+}
+
+#box3_1.active, #box3_2.active, #box3_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $red;
+  border: none;
+}
+#box3_1.play, #box3_2.play, #box3_3.play{
+  animation: flash 1.8s linear infinite;
+}
+
+#play01{
+  width: 4rem;
+  margin: 1rem auto 2rem;
+  padding: .2rem 0;
+  text-align: center;
+  border-radius: 10px;
+}
+#play01.active{
+  background: #333;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  @include button-shadow-click;
+}
+
+@keyframes flash {
+  0% {opacity: 1;}
+  50% {opacity: .3;}
+  100% {opacity: 1;}
+}
+
+@media screen and (min-width: 600px) {
+}
+@media screen and (min-width: 1025px) {
+}
