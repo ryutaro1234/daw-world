@@ -3,7 +3,7 @@
 #background{
   width: 100%;
   height: 100vh;
-  background: linear-gradient(150deg, transparent 80%, $pink 80%);
+  background: linear-gradient(150deg, transparent 80%, #333 80%);
   position: fixed;
   top: 0;
   z-index: -9999;
@@ -16,13 +16,13 @@ article{
 }
 
 .color-style{
-  color: $pink;
+  color: #333;
 }
 .color-style b{
-  color: $pink;
+  color: #333;
 }
 .color-style a{
-  color: $pink;
+  color: #333;
 }
 
 .contents-table{
@@ -107,6 +107,51 @@ article{
   100% {opacity: 1;}
 }
 
+
+#box2_1_1.active, #box2_1_2.active, #box2_1_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $pink;
+  border: none;
+}
+#box2_1_1.play, #box2_1_2.play, #box2_1_3.play{
+  animation: flash 1.8s linear infinite;
+}
+
+#box2_2_1.active, #box2_2_2.active, #box2_2_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $green;
+  border: none;
+}
+#box2_2_1.play, #box2_2_2.play, #box2_2_3.play{
+  animation: flash 1.8s linear infinite;
+}
+
+#box2_3_1.active, #box2_3_2.active, #box2_3_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $red;
+  border: none;
+}
+#box2_3_1.play, #box2_3_2.play, #box2_3_3.play{
+  animation: flash 1.8s linear infinite;
+}
+
+#play2{
+  width: 4rem;
+  margin: 1rem auto 2rem;
+  padding: .2rem 0;
+  text-align: center;
+  border-radius: 10px;
+}
+#play2.active{
+  background: #333;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  @include button-shadow-click;
+}
 @media screen and (min-width: 600px) {
 }
 @media screen and (min-width: 1025px) {
