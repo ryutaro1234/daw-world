@@ -1250,218 +1250,218 @@ var play2 = document.querySelector("#play2");
 document.querySelector("#audio2_1_1_1").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box2_1_1").removeClass("play");
-    $("#box2_2_1").removeClass("play");
-    $("#box2_3_1").removeClass("play");
+    $("#box2_2_1_1").removeClass("play");
+    $("#box2_2_2_1").removeClass("play");
+    $("#box2_2_3_1").removeClass("play");
 });
 
 document.querySelector("#audio2_1_1_2").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_1").removeClass("play");
-    $("#box2_1").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box2_1_1").removeClass("play");
+    $("#box2_2_1").removeClass("play");
+    $("#box2_3_2").removeClass("play");
 });
 
 document.querySelector("#audio2_1_1_3").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_1").removeClass("play");
-    $("#box2_1").removeClass("play");
-    $("#box3_3").removeClass("play");
+    $("#box2_1_1").removeClass("play");
+    $("#box2_2_1").removeClass("play");
+    $("#box2_3_3").removeClass("play");
 });
 
 document.querySelector("#audio2_1_2_1").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_1").removeClass("play");
-    $("#box2_2").removeClass("play");
-    $("#box3_1").removeClass("play");
+    $("#box2_1_1").removeClass("play");
+    $("#box2_2_2").removeClass("play");
+    $("#box2_3_1").removeClass("play");
 });
 
 document.querySelector("#audio2_1_2_2").addEventListener('ended', function() {
     pla2.classList.remove("active");
     pla2.innerHTML = "▶︎再生";
-    $("#box1_1").removeClass("play");
-    $("#box2_2").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box2_1_1").removeClass("play");
+    $("#box2_2_2").removeClass("play");
+    $("#box2_3_2").removeClass("play");
 });
 
 document.querySelector("#audio2_1_2_3").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_1").removeClass("play");
-    $("#box2_2").removeClass("play");
-    $("#box3_3").removeClass("play");
+    $("#box2_1_1").removeClass("play");
+    $("#box2_2_2").removeClass("play");
+    $("#box2_3_3").removeClass("play");
 });
 
 document.querySelector("#audio2_1_3_1").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_1").removeClass("play");
-    $("#box2_3").removeClass("play");
-    $("#box3_1").removeClass("play");
+    $("#box2_1_1").removeClass("play");
+    $("#box2_2_3").removeClass("play");
+    $("#box2_3_1").removeClass("play");
 });
 
 document.querySelector("#audio2_1_3_2").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_1").removeClass("play");
-    $("#box2_3").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box2_1_1").removeClass("play");
+    $("#box2_2_3").removeClass("play");
+    $("#box2_3_2").removeClass("play");
 });
 
 document.querySelector("#audio2_1_3_3").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_1").removeClass("play");
-    $("#box2_3").removeClass("play");
-    $("#box3_3").removeClass("play");
+    $("#box2_1_1").removeClass("play");
+    $("#box2_2_3").removeClass("play");
+    $("#box2_3_3").removeClass("play");
 });
 
 
 document.querySelector("#audio2_2_1_1").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_2").removeClass("play");
-    $("#box2_1").removeClass("play");
-    $("#box3_1").removeClass("play");
+    $("#box2_1_2").removeClass("play");
+    $("#box2_2_1").removeClass("play");
+    $("#box2_3_1").removeClass("play");
 });
 
 document.querySelector("#audio2_2_1_2").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_2").removeClass("play");
-    $("#box2_1").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box2_1_2").removeClass("play");
+    $("#box2_2_1").removeClass("play");
+    $("#box2_3_2").removeClass("play");
 });
 
 document.querySelector("#audio2_2_1_3").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_2").removeClass("play");
-    $("#box2_1").removeClass("play");
-    $("#box3_3").removeClass("play");
+    $("#box2_1_2").removeClass("play");
+    $("#box2_2_1").removeClass("play");
+    $("#box2_3_3").removeClass("play");
 });
 
 document.querySelector("#audio2_2_2_1").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_2").removeClass("play");
-    $("#box2_2").removeClass("play");
-    $("#box3_1").removeClass("play");
+    $("#box2_1_2").removeClass("play");
+    $("#box2_2_2").removeClass("play");
+    $("#box2_3_1").removeClass("play");
 });
 
 document.querySelector("#audio2_2_2_2").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_2").removeClass("play");
-    $("#box2_2").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box2_1_2").removeClass("play");
+    $("#box2_2_2").removeClass("play");
+    $("#box2_3_2").removeClass("play");
 });
 
 document.querySelector("#audio2_2_2_3").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_2").removeClass("play");
-    $("#box2_2").removeClass("play");
-    $("#box3_3").removeClass("play");
+    $("#box2_1_2").removeClass("play");
+    $("#box2_2_2").removeClass("play");
+    $("#box2_3_3").removeClass("play");
 });
 
 document.querySelector("#audio2_2_3_1").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_2").removeClass("play");
-    $("#box2_3").removeClass("play");
-    $("#box3_1").removeClass("play");
+    $("#box2_1_2").removeClass("play");
+    $("#box2_2_3").removeClass("play");
+    $("#box2_3_1").removeClass("play");
 });
 
 document.querySelector("#audio2_2_3_2").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_2").removeClass("play");
-    $("#box2_3").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box2_1_2").removeClass("play");
+    $("#box2_2_3").removeClass("play");
+    $("#box2_3_2").removeClass("play");
 });
 
 document.querySelector("#audio2_2_3_3").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_2").removeClass("play");
-    $("#box2_3").removeClass("play");
-    $("#box3_3").removeClass("play");
+    $("#box2_1_2").removeClass("play");
+    $("#box2_2_3").removeClass("play");
+    $("#box2_3_3").removeClass("play");
 });
 
 
 document.querySelector("#audio2_3_1_1").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_3").removeClass("play");
-    $("#box2_1").removeClass("play");
-    $("#box3_1").removeClass("play");
+    $("#box2_1_3").removeClass("play");
+    $("#box2_2_1").removeClass("play");
+    $("#box2_3_1").removeClass("play");
 });
 
 document.querySelector("#audio2_3_1_2").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_3").removeClass("play");
-    $("#box2_1").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box2_1_3").removeClass("play");
+    $("#box2_2_1").removeClass("play");
+    $("#box2_3_2").removeClass("play");
 });
 
 document.querySelector("#audio2_3_1_3").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_3").removeClass("play");
-    $("#box2_1").removeClass("play");
-    $("#box3_3").removeClass("play");
+    $("#box2_1_3").removeClass("play");
+    $("#box2_2_1").removeClass("play");
+    $("#box2_3_3").removeClass("play");
 });
 
 document.querySelector("#audio2_3_2_1").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_3").removeClass("play");
-    $("#box2_2").removeClass("play");
-    $("#box3_1").removeClass("play");
+    $("#box2_1_3").removeClass("play");
+    $("#box2_2_2").removeClass("play");
+    $("#box2_3_1").removeClass("play");
 });
 
 document.querySelector("#audio2_3_2_2").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_3").removeClass("play");
-    $("#box2_2").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box2_1_3").removeClass("play");
+    $("#box2_2_2").removeClass("play");
+    $("#box2_3_2").removeClass("play");
 });
 
 document.querySelector("#audio2_3_2_3").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_3").removeClass("play");
-    $("#box2_2").removeClass("play");
-    $("#box3_3").removeClass("play");
+    $("#box2_1_3").removeClass("play");
+    $("#box2_2_2").removeClass("play");
+    $("#box2_3_3").removeClass("play");
 });
 
 document.querySelector("#audio2_3_3_1").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_3").removeClass("play");
-    $("#box2_3").removeClass("play");
-    $("#box3_1").removeClass("play");
+    $("#box2_1_3").removeClass("play");
+    $("#box2_2_3").removeClass("play");
+    $("#box2_3_1").removeClass("play");
 });
 
 document.querySelector("#audio2_3_3_2").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_3").removeClass("play");
-    $("#box2_3").removeClass("play");
-    $("#box3_2").removeClass("play");
+    $("#box2_1_3").removeClass("play");
+    $("#box2_2_3").removeClass("play");
+    $("#box2_3_2").removeClass("play");
 });
 
 document.querySelector("#audio2_3_3_3").addEventListener('ended', function() {
     play2.classList.remove("active");
     play2.innerHTML = "▶︎再生";
-    $("#box1_3").removeClass("play");
-    $("#box2_3").removeClass("play");
-    $("#box3_3").removeClass("play");
+    $("#box2_1_3").removeClass("play");
+    $("#box2_2_3").removeClass("play");
+    $("#box2_3_3").removeClass("play");
 });
 åå
