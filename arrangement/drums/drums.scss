@@ -1239,6 +1239,10 @@ animation: snare04playshell 10s forwards;
   @include button-shadow-click;
 }
 
+.enter{
+    text-align: center;
+}
+
 #svg07{
   width: 100%;
   .st0{fill:#ccc;stroke:#000000;}
