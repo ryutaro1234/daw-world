@@ -1239,6 +1239,81 @@ animation: snare04playshell 10s forwards;
   @include button-shadow-click;
 }
 
+#svg07{
+  width: 100%;
+  .st0{fill:#ccc;stroke:#000000;}
+  .st1{fill:#fff;stroke:#000000;}
+  .st2{fill:#ccc;stroke:#000000;}
+  .st3{fill:#ccc;stroke:#000000;}
+  .st4{fill:$yellow;stroke:#000000;}
+}
+#PC-drums path{fill:#000;}
+#low10-shell,#mid10-shell,#hi10-shell{fill:$red;}
+#snare10-shell{
+  fill:Crimson;
+  transition: none;
+}
+#bass10-shell{fill:#333;}
+#PC-drums{display: none;}
+
+
+#bass10.active{
+  transform-origin: center;
+  transform-box: fill-box;
+  transform: scale(1.05);
+}
+#bass10-shell.active{fill:$flash;}
+
+#snare10.active{
+  transform-origin: bottom;
+  transform-box: fill-box;
+  transform: scaleY(.9) translateY(10%);
+}
+#snare10-shell.active{fill:$flash;}
+
+#hat10.active{
+  transform-origin: bottom;
+  transform-box: fill-box;
+  transform: scaleY(.9) translateY(10%);
+}
+#hat10-top.active{fill:$flash;stroke:$flash;}
+
+#ride10.active{
+  transform-origin: bottom;
+  transform-box: fill-box;
+  transform: scaleY(.9) translateY(10%);
+  fill:$flash;
+  stroke:$flash;
+}
+
+#clash10-r,#clash10-l{
+  &.active{
+    transform-origin: bottom;
+    transform-box: fill-box;
+    transform: scaleY(.9) translateY(10%);
+    fill:$flash;
+    stroke:$flash;
+  }
+}
+
+
+#low10-tam,#mid10-tam,#hi10-tam{
+  &.active{
+    transform-origin: bottom;
+    transform-box: fill-box;
+    transform: scaleY(.9) translateY(10%);
+    fill:$flash;
+    stroke:$flash;
+  }
+
+  #low10-shell,#mid10-shell,#hi10-shell{
+    transition: none;
+    &.active{
+      fill:$flash;
+    }
+  }
+}
+
 
 .position{
   opacity: .6;
