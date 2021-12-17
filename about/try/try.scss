@@ -152,6 +152,52 @@ article{
   border: none;
   @include button-shadow-click;
 }
+
+#box3_1_1.active, #box3_1_2.active, #box3_1_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $pink;
+  border: none;
+}
+#box3_1_1.play, #box3_1_2.play, #box3_1_3.play{
+  animation: flash 1.8s linear infinite;
+}
+
+#box3_2_1.active, #box3_2_2.active, #box3_2_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $green;
+  border: none;
+}
+#box3_2_1.play, #box3_2_2.play, #box3_2_3.play{
+  animation: flash 1.8s linear infinite;
+}
+
+#box3_3_1.active, #box3_3_2.active, #box3_3_3.active{
+  font-weight: bold;
+  color: #fff;
+  background-color: $red;
+  border: none;
+}
+#box3_3_1.play, #box3_3_2.play, #box3_3_3.play{
+  animation: flash 1.8s linear infinite;
+}
+
+#play3{
+  width: 4rem;
+  margin: 1rem auto 2rem;
+  padding: .2rem 0;
+  text-align: center;
+  border-radius: 10px;
+}
+#play3.active{
+  background: #333;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  @include button-shadow-click;
+}
+
 @media screen and (min-width: 600px) {
 }
 @media screen and (min-width: 1025px) {
