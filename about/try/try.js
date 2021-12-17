@@ -1981,8 +1981,8 @@ $(function() {
   });
 });
 
-var play2 = document.querySelector("#play2");
-document.querySelector("#audio2_1_1_1").addEventListener('ended', function() {
+var play3 = document.querySelector("#play3");
+document.querySelector("#audio3_1_1_1").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_2_1_1").removeClass("play");
@@ -1990,7 +1990,7 @@ document.querySelector("#audio2_1_1_1").addEventListener('ended', function() {
     $("#box3_2_3_1").removeClass("play");
 });
 
-document.querySelector("#audio2_1_1_2").addEventListener('ended', function() {
+document.querySelector("#audio3_1_1_2").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_1").removeClass("play");
@@ -1998,7 +1998,7 @@ document.querySelector("#audio2_1_1_2").addEventListener('ended', function() {
     $("#box3_3_2").removeClass("play");
 });
 
-document.querySelector("#audio2_1_1_3").addEventListener('ended', function() {
+document.querySelector("#audio3_1_1_3").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_1").removeClass("play");
@@ -2006,7 +2006,7 @@ document.querySelector("#audio2_1_1_3").addEventListener('ended', function() {
     $("#box3_3_3").removeClass("play");
 });
 
-document.querySelector("#audio2_1_2_1").addEventListener('ended', function() {
+document.querySelector("#audio3_1_2_1").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_1").removeClass("play");
@@ -2014,23 +2014,23 @@ document.querySelector("#audio2_1_2_1").addEventListener('ended', function() {
     $("#box3_3_1").removeClass("play");
 });
 
-document.querySelector("#audio2_1_2_2").addEventListener('ended', function() {
-    pla3.classList.remove("active");
-    pla3.innerHTML = "▶︎再生";
-    $("#box3_1_1").removeClass("play");
-    $("#box3_2_2").removeClass("play");
-    $("#box3_3_2").removeClass("play");
-});
-
-document.querySelector("#audio2_1_2_3").addEventListener('ended', function() {
+document.querySelector("#audio3_1_2_2").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_1").removeClass("play");
     $("#box3_2_2").removeClass("play");
+    $("#box3_3_2").removeClass("play");
+});
+
+document.querySelector("#audio3_1_2_3").addEventListener('ended', function() {
+    play3.classList.remove("active");
+    play3.innerHTML = "▶︎再生";
+    $("#box3_1_1").removeClass("play");
+    $("#box3_2_2").removeClass("play");
     $("#box3_3_3").removeClass("play");
 });
 
-document.querySelector("#audio2_1_3_1").addEventListener('ended', function() {
+document.querySelector("#audio3_1_3_1").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_1").removeClass("play");
@@ -2038,7 +2038,7 @@ document.querySelector("#audio2_1_3_1").addEventListener('ended', function() {
     $("#box3_3_1").removeClass("play");
 });
 
-document.querySelector("#audio2_1_3_2").addEventListener('ended', function() {
+document.querySelector("#audio3_1_3_2").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_1").removeClass("play");
@@ -2046,7 +2046,7 @@ document.querySelector("#audio2_1_3_2").addEventListener('ended', function() {
     $("#box3_3_2").removeClass("play");
 });
 
-document.querySelector("#audio2_1_3_3").addEventListener('ended', function() {
+document.querySelector("#audio3_1_3_3").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_1").removeClass("play");
@@ -2055,7 +2055,7 @@ document.querySelector("#audio2_1_3_3").addEventListener('ended', function() {
 });
 
 
-document.querySelector("#audio2_2_1_1").addEventListener('ended', function() {
+document.querySelector("#audio3_2_1_1").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_2").removeClass("play");
@@ -2063,7 +2063,7 @@ document.querySelector("#audio2_2_1_1").addEventListener('ended', function() {
     $("#box3_3_1").removeClass("play");
 });
 
-document.querySelector("#audio2_2_1_2").addEventListener('ended', function() {
+document.querySelector("#audio3_2_1_2").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_2").removeClass("play");
@@ -2071,7 +2071,7 @@ document.querySelector("#audio2_2_1_2").addEventListener('ended', function() {
     $("#box3_3_2").removeClass("play");
 });
 
-document.querySelector("#audio2_2_1_3").addEventListener('ended', function() {
+document.querySelector("#audio3_2_1_3").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_2").removeClass("play");
@@ -2079,7 +2079,7 @@ document.querySelector("#audio2_2_1_3").addEventListener('ended', function() {
     $("#box3_3_3").removeClass("play");
 });
 
-document.querySelector("#audio2_2_2_1").addEventListener('ended', function() {
+document.querySelector("#audio3_2_2_1").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_2").removeClass("play");
@@ -2087,7 +2087,7 @@ document.querySelector("#audio2_2_2_1").addEventListener('ended', function() {
     $("#box3_3_1").removeClass("play");
 });
 
-document.querySelector("#audio2_2_2_2").addEventListener('ended', function() {
+document.querySelector("#audio3_2_2_2").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_2").removeClass("play");
@@ -2095,7 +2095,7 @@ document.querySelector("#audio2_2_2_2").addEventListener('ended', function() {
     $("#box3_3_2").removeClass("play");
 });
 
-document.querySelector("#audio2_2_2_3").addEventListener('ended', function() {
+document.querySelector("#audio3_2_2_3").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_2").removeClass("play");
@@ -2103,7 +2103,7 @@ document.querySelector("#audio2_2_2_3").addEventListener('ended', function() {
     $("#box3_3_3").removeClass("play");
 });
 
-document.querySelector("#audio2_2_3_1").addEventListener('ended', function() {
+document.querySelector("#audio3_2_3_1").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_2").removeClass("play");
@@ -2111,7 +2111,7 @@ document.querySelector("#audio2_2_3_1").addEventListener('ended', function() {
     $("#box3_3_1").removeClass("play");
 });
 
-document.querySelector("#audio2_2_3_2").addEventListener('ended', function() {
+document.querySelector("#audio3_2_3_2").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_2").removeClass("play");
@@ -2119,7 +2119,7 @@ document.querySelector("#audio2_2_3_2").addEventListener('ended', function() {
     $("#box3_3_2").removeClass("play");
 });
 
-document.querySelector("#audio2_2_3_3").addEventListener('ended', function() {
+document.querySelector("#audio3_2_3_3").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_2").removeClass("play");
@@ -2128,7 +2128,7 @@ document.querySelector("#audio2_2_3_3").addEventListener('ended', function() {
 });
 
 
-document.querySelector("#audio2_3_1_1").addEventListener('ended', function() {
+document.querySelector("#audio3_3_1_1").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_3").removeClass("play");
@@ -2136,7 +2136,7 @@ document.querySelector("#audio2_3_1_1").addEventListener('ended', function() {
     $("#box3_3_1").removeClass("play");
 });
 
-document.querySelector("#audio2_3_1_2").addEventListener('ended', function() {
+document.querySelector("#audio3_3_1_2").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_3").removeClass("play");
@@ -2144,7 +2144,7 @@ document.querySelector("#audio2_3_1_2").addEventListener('ended', function() {
     $("#box3_3_2").removeClass("play");
 });
 
-document.querySelector("#audio2_3_1_3").addEventListener('ended', function() {
+document.querySelector("#audio3_3_1_3").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_3").removeClass("play");
@@ -2152,7 +2152,7 @@ document.querySelector("#audio2_3_1_3").addEventListener('ended', function() {
     $("#box3_3_3").removeClass("play");
 });
 
-document.querySelector("#audio2_3_2_1").addEventListener('ended', function() {
+document.querySelector("#audio3_3_2_1").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_3").removeClass("play");
@@ -2160,7 +2160,7 @@ document.querySelector("#audio2_3_2_1").addEventListener('ended', function() {
     $("#box3_3_1").removeClass("play");
 });
 
-document.querySelector("#audio2_3_2_2").addEventListener('ended', function() {
+document.querySelector("#audio3_3_2_2").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_3").removeClass("play");
@@ -2168,7 +2168,7 @@ document.querySelector("#audio2_3_2_2").addEventListener('ended', function() {
     $("#box3_3_2").removeClass("play");
 });
 
-document.querySelector("#audio2_3_2_3").addEventListener('ended', function() {
+document.querySelector("#audio3_3_2_3").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_3").removeClass("play");
@@ -2176,7 +2176,7 @@ document.querySelector("#audio2_3_2_3").addEventListener('ended', function() {
     $("#box3_3_3").removeClass("play");
 });
 
-document.querySelector("#audio2_3_3_1").addEventListener('ended', function() {
+document.querySelector("#audio3_3_3_1").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_3").removeClass("play");
@@ -2184,7 +2184,7 @@ document.querySelector("#audio2_3_3_1").addEventListener('ended', function() {
     $("#box3_3_1").removeClass("play");
 });
 
-document.querySelector("#audio2_3_3_2").addEventListener('ended', function() {
+document.querySelector("#audio3_3_3_2").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_3").removeClass("play");
@@ -2192,7 +2192,7 @@ document.querySelector("#audio2_3_3_2").addEventListener('ended', function() {
     $("#box3_3_2").removeClass("play");
 });
 
-document.querySelector("#audio2_3_3_3").addEventListener('ended', function() {
+document.querySelector("#audio3_3_3_3").addEventListener('ended', function() {
     play3.classList.remove("active");
     play3.innerHTML = "▶︎再生";
     $("#box3_1_3").removeClass("play");
