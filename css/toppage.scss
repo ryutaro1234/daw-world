@@ -249,7 +249,7 @@ h2{
 
 #box{
    text-align: center;
-   padding: 0 0 5rem;
+   padding: 0 0 7rem;
    @include box-shadow;
 
    #box_p{
@@ -324,6 +324,13 @@ h2{
   0% {opacity: 1;}
   50% {opacity: .3;}
   100% {opacity: 1;}
+}
+
+#mbMore{
+  position: relative;
+  right: -7rem;
+  bottom: 3rem;
+  background: #333;
 }
 
 #recommend{
@@ -521,6 +528,11 @@ p{
     left: -5%;
   }
 
+  #mbMore{
+    width: 7rem;
+    right: -15rem;
+  }
+
   #main-image{
     width: 120%;
     height: auto;
@@ -595,6 +607,11 @@ p{
     }*/
   }
 
+  #mbMore{
+    width: 8rem;
+    bottom: 5rem;
+    right: -20rem;
+  }
 
   #melody{
     .btn-next{
