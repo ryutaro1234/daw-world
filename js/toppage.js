@@ -163,78 +163,98 @@ $(function() {
             $("#box2_1").addClass("play");
             $("#box3_1").addClass("play");
           }else {
-            $("#audio1_1_0")[0].play();
-            $("#box1_1").addClass("play");
-            $("#box2_1").addClass("play");
+            if ($("#box3_2").hasClass("active")) {
+              $("#audio1_1_2")[0].play();
+              $("#box1_1").addClass("play");
+              $("#box2_1").addClass("play");
+              $("#box3_2").addClass("play");
+            }else {
+              $("#audio1_1_0")[0].play();
+              $("#box1_1").addClass("play");
+              $("#box2_1").addClass("play");
+            };
           };
         }else {
-          if (!$("#box3_1").hasClass("active")) {
-            $("#audio1_0_0")[0].play();
-            $("#box1_1").addClass("play");
+          if ($("#box2_2").hasClass("active")) {
+            if ($("#box3_1").hasClass("active")) {
+              $("#audio1_2_1")[0].play();
+              $("#box1_1").addClass("play");
+              $("#box2_2").addClass("play");
+              $("#box3_1").addClass("play");
+            }else {
+              if ($("#box3_2").hasClass("active")) {
+                $("#audio1_2_2")[0].play();
+                $("#box1_1").addClass("play");
+                $("#box2_2").addClass("play");
+                $("#box3_2").addClass("play");
+              }else {
+                $("#audio1_2_0")[0].play();
+                $("#box1_1").addClass("play");
+                $("#box2_2").addClass("play");
+              };
+            };
           }else {
-            $("#audio1_0_1")[0].play();
-            $("#box1_1").addClass("play");
-            $("#box3_1").addClass("play");
+            if ($("#box3_1").hasClass("active")) {
+              $("#audio1_0_1")[0].play();
+              $("#box1_1").addClass("play");
+              $("#box3_1").addClass("play");
+            }else {
+              if ($("#box3_2").hasClass("active")) {
+                $("#audio1_0_2")[0].play();
+                $("#box1_1").addClass("play");
+                $("#box3_2").addClass("play");
+              }else {
+                $("#audio1_0_0")[0].play();
+                $("#box1_1").addClass("play");
+              };
+            };
           };
         };
       }else {
         if ($("#box2_1").hasClass("active")) {
           if ($("#box3_1").hasClass("active")) {
-            $("#audio0_1_1")[0].play();
+            $("#audio0_1_1")[0].play()
             $("#box2_1").addClass("play");
             $("#box3_1").addClass("play");
           }else {
-            $("#audio0_1_0")[0].play();
-            $("#box2_1").addClass("play");
+            if ($("#box3_2").hasClass("active")) {
+              $("#audio0_1_2")[0].play();
+              $("#box2_1").addClass("play");
+              $("#box3_2").addClass("play");
+            }else {
+              $("#audio0_1_0")[0].play();
+              $("#box2_1").addClass("play");
+            };
           };
         }else {
-          if ($("#box3_1").hasClass("active")) {
-            $("#audio0_0_1")[0].play();
-            $("#box3_1").addClass("play");
-          }else {};
+          if ($("#box2_2").hasClass("active")) {
+            if ($("#box3_1").hasClass("active")) {
+              $("#audio0_2_1")[0].play();
+              $("#box2_2").addClass("play");
+              $("#box3_1").addClass("play");
+            }else {
+              if ($("#box3_2").hasClass("active")) {
+                $("#audio0_2_2")[0].play();
+                $("#box2_2").addClass("play");
+                $("#box3_2").addClass("play");
+              }else {
+                $("#audio0_2_0")[0].play();
+                $("#box2_2").addClass("play");
+              };
+            };
+          }else {
+            if ($("#box3_1").hasClass("active")) {
+              $("#audio0_0_1")[0].play();
+              $("#box3_1").addClass("play");
+            }else {
+              if ($("#box3_2").hasClass("active")) {
+                $("#audio0_0_2")[0].play();
+                $("#box3_2").addClass("play");
+              }else {};
+            };
+          };
         };
       };
-
-      if ($("#box1_1").hasClass("active")) {
-        if ($("#box2_2").hasClass("active")) {
-          if ($("#box3_2").hasClass("active")) {
-            $("#audio1_2_2")[0].play();
-            $("#box1_1").addClass("play");
-            $("#box2_2").addClass("play");
-            $("#box3_2").addClass("play");
-          }else {
-            $("#audio1_2_0")[0].play();
-            $("#box1_1").addClass("play");
-            $("#box2_2").addClass("play");
-          };
-        }else {
-          if (!$("#box3_2").hasClass("active")) {
-            $("#audio1_0_0")[0].play();
-            $("#box1_1").addClass("play");
-          }else {
-            $("#audio1_0_2")[0].play();
-            $("#box1_1").addClass("play");
-            $("#box3_2").addClass("play");
-          };
-        };
-      }else {
-        if ($("#box2_2").hasClass("active")) {
-          if ($("#box3_2").hasClass("active")) {
-            $("#audio0_2_2")[0].play();
-            $("#box2_2").addClass("play");
-            $("#box3_2").addClass("play");
-          }else {
-            $("#audio0_2_0")[0].play();
-            $("#box2_2").addClass("play");
-          };
-        }else {
-          if ($("#box3_2").hasClass("active")) {
-            $("#audio0_0_2")[0].play();
-            $("#box3_2").addClass("play");
-          }else {};
-        };
-      };
-
     }//if
   });
 });
