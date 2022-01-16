@@ -357,16 +357,16 @@ document.querySelector("#audio1_1_1").addEventListener('ended', function() {
 document.querySelector("#audio2_1_1").addEventListener('ended', function() {
     play01.classList.remove("active");
     play01.innerHTML = "▶︎再生";
+    $("#box1_2").removeClass("play");
     $("#box2_1").removeClass("play");
-    $("#box2_2").removeClass("play");
     $("#box3_1").removeClass("play");
 });
 
 document.querySelector("#audio3_1_1").addEventListener('ended', function() {
     play01.classList.remove("active");
     play01.innerHTML = "▶︎再生";
+    $("#box1_3").removeClass("play");
     $("#box2_1").removeClass("play");
-    $("#box2_3").removeClass("play");
     $("#box3_1").removeClass("play");
 });
 
