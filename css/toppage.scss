@@ -4,215 +4,30 @@ article{
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 500px;
   position: relative;
-}
-
-.red-ribbon{
-  border-left: 80px solid $red;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.blue-ribbon{
-  border-left: 80px solid $blue;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.ribbon-pink{
-  border-left: 80px solid $pink;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.orange-ribbon{
-  border-left: 80px solid $orange;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.gold-ribbon{
-  border-left: 80px solid $gold;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.green-ribbon{
-  border-left: 80px solid $green;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.pc-top01{
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
-}
-
-.hello01{
-  padding-top: 100px;
 }
 
 h2{
   text-align: center;
-}
-
-#title01{
-  display: flex;
-  overflow: hidden;
-  font-size: 32px;
-  line-height: 35px;
-  letter-spacing: 8px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-60%);
-  z-index: 5;
-}
-#title01 span {
-  font-weight: normal;
-  display: block;
-  transform: translate(0, 105%);
-  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
-}
-#title01.-visible span {
-  transform: translate(0, 0);
-}
-#title01 span:nth-child(2) {
-  transition-delay: 0.06s;
-}
-#title01 span:nth-child(3) {
-  transition-delay: 0.12s;
-}
-#title01 span:nth-child(4) {
-  transition-delay: 0.18s;
-}
-#title01 span:nth-child(5) {
-  transition-delay: 0.24s;
-}
-#title01 span:nth-child(6) {
-  transition-delay: 0.30s;
-}
-#title01 span:nth-child(7) {
-  transition-delay: 0.36s;
-}
-#title01 span:nth-child(8) {
-  transition-delay: 0.42s;
-}
-#title01 span:nth-child(9) {
-  transition-delay: 0.48s;
-}
-
-#text01{
-  transition-delay: .3s;
-}
-
-#dot_box {
-   width: 100%;
-   height: 100vh;
-   opacity: 0;
-   transition: 2s;
-   background-color: transparent;
-   background-image: radial-gradient(#999999 3%, transparent 6%),
-                     radial-gradient(#999999 3%, transparent 6%);
-   background-position: 0 0, 10px 10px;
-   background-size: 20px 20px;
-   position: fixed;
-   top: 0;
-   left: 0;
-}
-#dot_box.active{
-  opacity: .7
+  padding: 2rem 0 2rem;
+  font-weight: bold;
 }
 
 #main-image{
-  width: 80%;
+  width: 100%;
   height: auto;
-  opacity: 0;
-  transition: all .8s;
-  position: fixed;
-  left: 50%;
-  transform: translate(-50%, 0px);
-
-  .st0{fill:#aaa;}
-  .st1{fill:$blue;}
-  .st2{fill:#333;}
-
-  #main01{
-  animation: animmain01 30s infinite;
-  transform-origin: center;
-  transform-box: fill-box;
-  }
-
-  #main02{
-    animation: animmain02 40s -3s infinite;
-    transform-origin: center;
-    transform-box: fill-box;
-    mix-blend-mode: multiply;
-    opacity: .8;
-  }
-
-  circle{animation: animmain03 10s alternate infinite;}
-}
-#main-image.active{
-  display: block;
-  opacity: 1;
-  width: 80%;
-  margin: 0 auto;
-}
-#main-image.add{
-  opacity: .3;
-}
-
-@keyframes animmain01 {
-  from{transform: rotate(0deg);}
-  to{transform: rotate(360deg);}
-}
-@keyframes animmain02 {
-  from{transform: rotate(0deg);}
-  to{transform: rotate(-360deg);}
-}
-@keyframes animmain03 {
-  from{transform: translateX(50%);}
-  to{transform: translateX(-10%);}
 }
 
 .scrolldown1{
   height: 50px;
   position: absolute;
   left: 50%;
-  bottom: 130px;
+  bottom: 50px;
   z-index: 997;
 }
 .scrolldown1 span{
   width: 100px;
-  color: #333;
+  color: $semiWhite;
   font-size: .7rem;
   letter-spacing: .05em;
   position: absolute;
@@ -223,7 +38,7 @@ h2{
   content: "";
   width: 1px;
   height: 30px;
-  background: #333;
+  background: $semiWhite;
   opacity: 0;
   animation: pathmove 2.4s ease-in-out infinite;
   position: absolute;
@@ -247,14 +62,113 @@ h2{
   }
 }
 
+p{
+  text-align: center;
+}
+
+#top1{
+  margin: -3.5rem 0 0;
+  padding: 3rem 0 4.5rem;
+
+  section{
+    height: 50vh;
+  }
+
+  #main-image{
+    opacity: 0;
+    transition: 3.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  #main-image.active{
+    opacity: 1;
+  }
+
+  h1{
+    color: $gold02;
+    font-weight: bold;
+    transition-delay: .2s;
+  }
+}
+
+#top2{
+
+  section:nth-child(2){transition-delay: .1s;}
+  section:nth-child(3){transition-delay: .2s;}
+
+  img{
+    width: 50%;
+    height: auto;
+  }
+}
+
+#top3{
+  padding: 0 0 3rem;
+
+  div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap : wrap;
+    margin: 0 auto;
+
+    article{
+      margin: 1rem auto;
+      width: 180px;
+      height: 180px;
+      section{padding: 1rem 0 0;}
+    }
+    #melody{transition-delay: .2s;}
+    #chord-progression{transition-delay: .4s;}
+    #drums{transition-delay: .6s;}
+  }
+}
+
+#basic{
+  background-image: url("../images/icons/piano_square_blue.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .btn-next{
+    width: 7rem;
+    background: linear-gradient(25deg, $blue, $semi-blue);
+  }
+}
+
+
+#melody{
+  background-image: url("../images/icons/melody_square_pink.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .btn-next{
+    width: 6rem;
+    background: linear-gradient(25deg, $pink, $semiPink);
+  }
+}
+
+#chord-progression{
+  background-image: url("../images/icons/melody_square_green.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .btn-next{
+    width: 8rem;
+    background: linear-gradient(25deg, $green02, $green);
+  }
+}
+
+
+#drums{
+  background-image: url("../images/icons/drums_square_red.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .btn-next{
+    background: linear-gradient(25deg, $red, $semiRed);
+  }
+}
+
+
 #box{
    text-align: center;
-   padding: 0 0 7rem;
-   @include box-shadow;
-
-   #box_p{
-     margin: 1rem 0;
-   }
 }
 
 .box_btn{
@@ -281,8 +195,8 @@ h2{
 #box1_1.active{
   font-weight: bold;
   color: #fff;
-  background-color: $pink;
-  border: none;
+  background: linear-gradient(25deg, $pink, $semiPink);
+  border: .5px solid #333;
 }
 #box1_1.play{
   animation: flash 1.8s linear infinite;
@@ -294,8 +208,8 @@ h2{
 #box2_1.active, #box2_2.active{
   font-weight: bold;
   color: #fff;
-  background-color: $green;
-  border: none;
+  background: linear-gradient(25deg, $green02, $green);
+  border: .5px solid #333;
 }
 #box2_1.play, #box2_2.play{
   animation: flash 1.8s linear infinite;
@@ -307,8 +221,8 @@ h2{
 #box3_1.active, #box3_2.active{
   font-weight: bold;
   color: #fff;
-  background-color: $red;
-  border: none;
+  background: linear-gradient(25deg, $red, $semiRed);
+  border: .5px solid #333;
 }
 #box3_1.play, #box3_2.play{
   animation: flash 1.8s linear infinite;
@@ -320,11 +234,13 @@ h2{
   padding: .2rem 0;
   text-align: center;
   border-radius: 10px;
+  color: #333;
+  @include button-shadow;
 }
 #play01.active{
   background: #333;
   font-weight: bold;
-  color: #fff;
+  color: $semiWhite;
   border: none;
   @include button-shadow-click;
 }
@@ -335,291 +251,53 @@ h2{
   100% {opacity: 1;}
 }
 
-#mbMore{
-  position: relative;
-  right: -7rem;
-  bottom: 3rem;
-  background: #333;
-}
-
-#recommend{
-  margin: 0 auto 1rem;
-}
-
-.pc-top02{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  article{
-    display: inline-block;
-    width: 45%;
-    min-width: 45%;
-    height: 150px;
-    overflow: hidden;
-    margin: .5rem;
-    text-align: center;
-    @include box-shadow;
-
-    a{
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 995;
-    }//a
-  }//article
-
-  &:after{
-    content: "";
-    display: block;
-    width: 45%;
-    height: 0;
-  }
-}
-
-h2{
-  padding: 0 30px 10px;
-  margin-top: 30px;
-}
-
-p{
-  text-align: center;
-}
-
-.btn-next{
-  margin: 1.5rem auto .5rem;
-  box-shadow: none;
-}
-
-#basic{
-  .btn-next{
-    background: $blue;
-  }
-}
-
-#piano01{
-  width: 195%;
-  stroke: #4c4cff;
-}
-#piano01 g path{
-  fill: #4c4cff;
-}
-
-#melody{
-  .btn-next{
-    width: 6rem;
-    background: $pink;
-  }
-
-  svg{
-    width: 150%;
-    padding-left: 2rem;
-    .st0, .st1, .st2, .st3, .st4{fill:none;stroke:$pink;stroke-width:0.5;}
-    .st5{fill:$pink;stroke:#none;}
-  }//svg
-}
-
-#chord-progression{
-  .btn-next{
-    width: 8rem;
-    background: $green;
-  }
-
-  svg{
-    padding-left: 2rem;
-    width: 200%;
-    stroke: none;
-    fill: $green;
-  }//svg
-}
-
-
-#drums{
-  .btn-next{
-    background: $red;
-  }
-}
-
-.drums{
-  padding-left: 2rem;
-  width: 100%;
-  height: auto;
-  stroke-miterlimit:10;
-  stroke: $red;
-
-  #shell01{
-    fill: $red;
-  }
-
-  g{
-    fill: $background;
-  }
-}//.drums
-
-#strings{
-  .btn-next{
-    width: 9rem;
-    background: $orange;
-  }
-
-  svg{
-    padding-left: 2rem;
-    stroke: $orange;
-    width: 60%;
-    transform: rotate(30deg);
-    fill: none;
-    stroke-width: 5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
-    position: absolute;
-    top: -37px;
-    right: 10%;
-  }//svg
-}
-
-#profile{
-  .btn-next{
-    width: 10rem;
-    background: $orange;
-  }
-}
-
-
-
-.pc-top03{
-    article{
-      width: 95%;
-      height: 100px;
-      overflow: hidden;
-      margin-top: .5rem;
-      text-align: center;
-      @include box-shadow;
-
-      a{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 995;
-      }
-
-      section{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-
-        .btn-next{
-          margin-top: 40px;
-        }
-      }//section
-    }//article
-}//pc-top3
-
 .right{
   float: right;
   margin-right: 1rem;
 }
 
 @media screen and (min-width: 600px) {
-
-  .pc-top01{
-    height: 700px;
-  }
-
-  #type01{
-    font-size: 100px;
-    line-height: 90px;
-    left: -5%;
-  }
-
-  #mbMore{
-    width: 7rem;
-    right: -15rem;
-  }
-
-  #main-image{
-    width: 120%;
-    height: auto;
-    transform: translate(-50%, -50px);
-  }
-  #main-image.active{
-    width: 50%;
-  }
-
-  .pc-top02{
-    padding-left: 1.5%;
-
-    article{
-      height: 250px;
+  #top1{
+    h1{
+      font-size: 50px;
+      letter-spacing: 15px;
+      padding: 3rem 0;
     }
   }
 
+  #top2{
+    div{
+      display: flex;
+
+      img{
+        width: 65%;
+      }
+    }
+  }
 }
 @media screen and (min-width: 1025px) {
-
-  .hello01{
-    padding-top: 8rem;
-  }
 
   h1{
     font-size: 32px;
     letter-spacing: 2px;
-    margin-bottom: 1rem;
   }
 
   h2{
     font-size: 26px;
     letter-spacing: 3px;
-    padding: 30px 30px 10px;
   }
 
-  p{
-    margin: -8px 0 8px ;
+  #top2{
+    img{
+      width: 80%;
+    }
   }
 
-  #title01{
-    transform: translateX(-75%);
-    left:54%;
-  }
-
-  #main-image{
-    width: 120%;
-    height: auto;
-  }
-  #main-image.active{
-    width: 30%;
-  }
-
-  #box{
-    padding: 0 0 7rem;
-  }
-
-  .pc-top02{
-    padding-left: 2%;
-
+  #top3{
     article{
       width: 200px;
-      min-width: 200px;
       height: 200px;
     }
-
-    /*&:after{
-      content: "";
-      display: block;
-      width: 25%;
-      height: 0;
-    }*/
-  }
-
-  #mbMore{
-    width: 8rem;
-    bottom: 5rem;
-    right: -20rem;
   }
 
   #melody{
@@ -627,36 +305,4 @@ p{
       width: 7rem;
     }
   }
-
-  .pc-top03{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    article{
-      width: 45%;
-      height: 100px;
-      overflow: hidden;
-      margin-top: .5rem;
-      text-align: center;
-
-      section{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-
-        .btn-next{
-          margin-top: 40px;
-        }
-      }//section
-    }//article
-
-    &:after{
-      content: "";
-      display: block;
-      width: 50%;
-      height: 0;
-    }
-  }//pc-top03
 }

@@ -142,3 +142,18 @@ $(function(){
     });
   });
 });
+$(function(){
+  $(window).on('load scroll',function (){
+    $('.fade-in').each(function(){
+      var target = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var height = $(window).height();
+      if (scroll > target - height){
+        $(this).addClass('active');
+      }
+      else {
+        $(this).removeClass('active');
+      }
+    });
+  });
+});

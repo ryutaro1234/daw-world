@@ -1,14 +1,14 @@
+@import 'parts/colors';
+
 *{
   margin: 0;
   padding: 0;
-  color: #333;
+  color: $semiWhite;
   line-height: 1.6rem;
   font-weight: 300;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: sans-serif;
   text-decoration: none;
 }
-
-@import 'parts/colors';
 
 @import 'parts/move';
 
@@ -23,13 +23,14 @@ html{
 
 body {
   overflow: hidden;
-  background: #f7f7f7;
+  background: $semiBlack;
 }
 
 @import 'parts/header';
 
 main{
   overflow: hidden;
+  margin: .5rem;
   padding-top: 3.5rem;
 }
 
@@ -138,11 +139,7 @@ ul, ol {
   width: 70%;
   margin: 0 auto;
   padding-top: 10px;
-  background: rgba( 255, 255, 255, .8);
-  backdrop-filter: blur( 10px );
-  -webkit-backdrop-filter: blur( 10px );
   border-radius: 10px;
-  border: 1px solid rgba( 100, 100, 100, .2 );
 }
 .contents-table div{
   margin: .5rem;
@@ -153,11 +150,7 @@ ul, ol {
   margin: 4rem auto;
   width: 96%;
   padding-bottom: 1rem;
-  background: rgba( 255, 255, 255, .8);
-  backdrop-filter: blur( 10px );
-  -webkit-backdrop-filter: blur( 10px );
   border-radius: 10px;
-  border: 1px solid rgba( 100, 100, 100, .2 );
   position: relative;
 }
 
@@ -206,6 +199,7 @@ audio{
     @include button-shadow;
     transition: 1s ease-out;
     border: 1px solid #ddd;
+    color: #333;
   }
 }
 
@@ -224,7 +218,12 @@ audio{
     @include button-shadow;
     transition: 1s ease-out;
     border: 1px solid #ddd;
+    color: #333;
   }
+}
+
+.audio_btn{
+  color: #333;
 }
 
 .btn-next {
@@ -239,6 +238,7 @@ audio{
   @include button-shadow;
   text-decoration: none;
   border-radius: 5px;
+  box-shadow: none;
 }
 .btn-next span{
   color: #FFF;
@@ -394,6 +394,11 @@ audio{
     margin: 1rem auto;
   }
 
+  .triangle{
+    width: 100%;
+    margin: -2px 0 0;
+  }
+
   .twitter-share-button{
     margin: 0 .5rem;
   }
@@ -417,11 +422,8 @@ audio{
   }
 
   h1{
-    margin: 4rem 0 -2rem;
     font-size: 38px;
     letter-spacing: 10px;
-    text-align: left;
-    padding-left: 10%;
   }
 
   h3{

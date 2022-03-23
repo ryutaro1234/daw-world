@@ -1,33 +1,5 @@
 window.addEventListener("load", () => {
-  document.getElementById("type01").classList.add("active");
-});
-
-$(window).on('load',function (){
-  $('.bg01').addClass('-visible');
-});
-
-window.addEventListener("load", () => {
-  document.getElementById("bg02").classList.add("-visible");
-});
-
-window.addEventListener("load", () => {
-  document.getElementById("title01").classList.add("-visible");
-});
-
-window.addEventListener("load", () => {
   document.getElementById("main-image").classList.add("active");
-});
-
-$(window).on('load',function (){
-  $('.bg03').addClass('-visible');
-});
-
-window.addEventListener("load", () => {
-  document.getElementById("bg04").classList.add("-visible");
-});
-
-window.addEventListener("load", () => {
-  document.getElementById("bg05").classList.add("-visible");
 });
 
 $(function() {
