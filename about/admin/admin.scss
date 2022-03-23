@@ -1,4 +1,4 @@
-@import '../../scss/parts/colors';
+@import '../../css/parts/colors';
 
 article{
   padding: 1rem 0;
@@ -8,6 +8,14 @@ article{
 
   p{
     text-align: center;
+  }
+
+  h2{
+    color: $gold02;
+  }
+
+  #mail{
+    color: $gold02;
   }
 
 }
