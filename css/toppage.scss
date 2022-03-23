@@ -130,6 +130,12 @@ p{
     width: 7rem;
     background: linear-gradient(25deg, $blue, $semi-blue);
   }
+
+  &:hover{
+    .btn-next{
+      background: linear-gradient(-25deg, $gold, $gold02);
+    }
+  }
 }
 
 
@@ -142,6 +148,12 @@ p{
     width: 6rem;
     background: linear-gradient(25deg, $pink, $semiPink);
   }
+
+  &:hover{
+    .btn-next{
+      background: linear-gradient(-25deg, $gold, $gold02);
+    }
+  }
 }
 
 #chord-progression{
@@ -153,6 +165,12 @@ p{
     width: 8rem;
     background: linear-gradient(25deg, $green02, $green);
   }
+
+  &:hover{
+    .btn-next{
+      background: linear-gradient(-25deg, $gold, $gold02);
+    }
+  }
 }
 
 
@@ -163,6 +181,12 @@ p{
 
   .btn-next{
     background: linear-gradient(25deg, $red, $semiRed);
+  }
+
+  &:hover{
+    .btn-next{
+      background: linear-gradient(-25deg, $gold, $gold02);
+    }
   }
 }
 
