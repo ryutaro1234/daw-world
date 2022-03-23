@@ -22,12 +22,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/css/style.min.css" />
+  <link rel="stylesheet" href="../css/style.min.css" />
   <link rel="stylesheet" href="composition.min.css" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
-  <script src="/js/main.js"></script>
+  <script src="../js/main.js"></script>
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.daw-world.net/images/logo01.png" />
 
@@ -49,15 +48,8 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div id="loading">
-    <h1>DAW World</h1>
-    <div class="bg"></div>
-    <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
-  </div>
-
   <header>
-    <h1><a href="/">DAW World</a></h1>
+    <a href="/"><h1>DAW World</h1></a>
 
     <div id="nav">
       <span id="nav_toggle" onclick="nav_toggle()">
@@ -89,143 +81,21 @@
     <main>
       <p class="search-style">作曲講座一覧</p>
 
-      <article class="glass" id="basic">
-        <section>
-          <div class="blue-ribbon scroll-down"></div>
-          <!--<h2 class="scroll-up"><a href="composition/basic.html">基本編</a></h2>
+      <a href="scale/">
+        <article id="basic" class="fade-in">
+          <section>
+            <p class="btn-next"><span class="scroll-slide-r">スケール</span></p>
+          </section>
+        </article>
+      </a>
 
-          <p class="scroll-slide-l">
-            作曲を始める前の基本編です<br />
-            基礎知識を簡単に説明します
-          </p>-->
-          <a href="scale/"></a>
-          <p class="btn-next"><span class="scroll-slide-r">基本編</span></p>
-
-          <div id="piano01">
-            <svg version="1.1" id="svg01" class="scroll-up-l svg-size" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-1 -1 304 155" xml:space="preserve">
-              <path id="basic-c02" d="M299,150h-30c-1.7,0-3-1.3-3-3V3c0-1.7,1.3-3,3-3h30c1.7,0,3,1.3,3,3v144C302,148.7,300.7,150,299,150z"/>
-              <path id="basic-b01" d="M261,150h-30c-1.7,0-3-1.3-3-3V3c0-1.7,1.3-3,3-3h30c1.7,0,3,1.3,3,3v144C264,148.7,262.7,150,261,150z"/>
-              <path id="basic-a01" d="M223,150h-30c-1.7,0-3-1.3-3-3V3c0-1.7,1.3-3,3-3h30c1.7,0,3,1.3,3,3v144C226,148.7,224.7,150,223,150z"/>
-              <path id="basic-g01" d="M185,150h-30c-1.7,0-3-1.3-3-3V3c0-1.7,1.3-3,3-3h30c1.7,0,3,1.3,3,3v144C188,148.7,186.7,150,185,150z"/>
-              <path id="basic-f01" d="M147,150h-30c-1.7,0-3-1.3-3-3V3c0-1.7,1.3-3,3-3h30c1.7,0,3,1.3,3,3v144C150,148.7,148.7,150,147,150z"/>
-              <path id="basic-e01" d="M109,150H79c-1.7,0-3-1.3-3-3V3c0-1.7,1.3-3,3-3h30c1.7,0,3,1.3,3,3v144C112,148.7,110.7,150,109,150z"/>
-              <path id="basic-d01" d="M71,150H41c-1.7,0-3-1.3-3-3V3c0-1.7,1.3-3,3-3h30c1.7,0,3,1.3,3,3v144C74,148.7,72.7,150,71,150z"/>
-              <path id="basic-c01" d="M33,150H3c-1.7,0-3-1.3-3-3V3c0-1.7,1.3-3,3-3h30c1.7,0,3,1.3,3,3v144C36,148.7,34.7,150,33,150z"/>
-              <g>
-                <path d="M235.5,80h-17c-1.7,0-3-1.3-3-3V0h23v77C238.5,78.7,237.2,80,235.5,80z"/>
-                <path d="M197.4,80h-17c-1.7,0-3-1.3-3-3V0h23v77C200.4,78.7,199,80,197.4,80z"/>
-                <path d="M159.6,80h-17c-1.7,0-3-1.3-3-3V0h23v77C162.6,78.7,161.3,80,159.6,80z"/>
-                <path d="M83.5,80h-17c-1.7,0-3-1.3-3-3V0h23v77C86.5,78.7,85.2,80,83.5,80z"/>
-                <path d="M45.7,80h-17c-1.7,0-3-1.3-3-3V0h23v77C48.7,78.7,47.4,80,45.7,80z"/>
-              </g>
-            </svg>
-          </div>
-        </section>
-      </article>
-
-      <article class="glass" id="melody">
-        <section>
-          <div class="pink-ribbon scroll-down"></div>
-          <!--<h2 class="scroll-up"><a href="composition/melody">メロディ</a></h2>
-
-          <p class="scroll-slide-l">
-            簡単なメロディの作り方<br />
-            そこからの広げ方を説明します
-          </p>-->
-
-          <a href="melody/"></a>
-          <p class="btn-next"><span class="scroll-slide-r">メロディ</span></p>
-
-          <div id="melody01" class="scroll-up-l">
-            <svg version="1.1" id="svg02" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               viewBox="0 0 154.1 54.4" style="enable-background:new 0 0 154.1 54.4;" xml:space="preserve">
-            <g>
-              <g>
-                <g>
-                  <path class="st0" d="M153.1,41.9"/>
-                  <path class="st0" d="M1.7,41.9"/>
-                  <path class="st0" d="M152.4,82.5"/>
-                  <path class="st0" d="M1,82.5"/>
-                  <path class="st0" d="M153.1,19"/>
-                  <path class="st0" d="M1.7,19"/>
-                  <path class="st0" d="M153.1,26.7"/>
-                  <path class="st0" d="M1.7,26.7"/>
-                  <path class="st0" d="M153.1,34.3"/>
-                  <path class="st0" d="M1.7,34.3"/>
-                </g>
-                <g>
-                  <line class="st0" x1="1.7" y1="41.9" x2="153.1" y2="41.9"/>
-                  <line class="st0" x1="1.7" y1="11.4" x2="153.1" y2="11.4"/>
-                  <line class="st0" x1="1.7" y1="19" x2="153.1" y2="19"/>
-                  <line class="st0" x1="1.7" y1="26.7" x2="153.1" y2="26.7"/>
-                  <line class="st1" x1="1.7" y1="34.3" x2="153.1" y2="34.3"/>
-                </g>
-                <g>
-                  <line class="st2" x1="1.7" y1="11.4" x2="1.7" y2="41.9"/>
-                  <line class="st3" x1="153.1" y1="11.4" x2="153.1" y2="42.1"/>
-                </g>
-                <g class="st5">
-                  <path d="M15.1,49c0,1.4-1.2,2.6-2.6,2.6S9.9,50.5,9.9,49c0-1.4,1.2-2.6,2.6-2.6S15.1,47.6,15.1,49z"/>
-                  <path d="M10.1,50.1c0.8,2,3,3.4,5.7,3.1c4.3-0.5,5.9-4.7,5.2-9.8c-0.4-3-4-26.3-4.3-30.1c-0.5-6,7.1-13.1,7.1-8
-                    c0,2.7-1.8,7.2-6,10.9c-3,2.6-10,7.7-10,16.8c0,5.1,4.2,9.1,9.5,9.1c4.7,0,9.5-3.1,9.5-7.9c0-6.2-4.2-8-8-7.7
-                    c-4.4,0.3-5.7,3.9-5.6,5.9c0.1,1.9,1.5,3.2,2.5,3.9c-1.4-2.5-0.7-6.7,3.2-6.9c3-0.1,5,1.4,5,4.8c0,3.5-2,6.7-6.6,6.7
-                    c-5.3,0-7.6-4.1-7.6-7.5c0-7.2,7.3-11.7,10.6-15c3.5-3.5,4.3-8.1,4.2-11.9C24.5-4,15,2,15.5,11.9c0.2,4.5,3.9,23.5,4.5,32.1
-                    c0.1,1.6,0.3,7.9-4.6,8.2c-2,0.1-3.8-1.1-2.9-2.9"/>
-                </g>
-              </g>
-              <g>
-                <path class="st5" d="M107.6,30.6c1.2,1.5,0.6,4-1.4,5.6c-2,1.6-4.6,1.8-5.8,0.3c-1.2-1.5-0.6-4,1.4-5.6C103.8,29.3,106.4,29.1,107.6,30.6z"/>
-                <rect class="st5" x="107.5" y="7.3" width="0.8" height="25.2"/>
-              </g>
-              <line class="st4" x1="54.7" y1="49" x2="39.6" y2="49"/>
-              <g>
-                <path class="st5" d="M50.7,45.7c1.2,1.5,0.6,4-1.4,5.6c-2,1.6-4.6,1.8-5.8,0.3c-1.2-1.5-0.6-4,1.4-5.6C46.9,44.4,49.5,44.3,50.7,45.7z"/>
-                <rect class="st5" x="50.6" y="22.4" width="0.8" height="25.2"/>
-              </g>
-            </g>
-            </svg>
-          </div>
-        </section>
-      </article>
-
-      <article class="glass" id="chord-progression">
-        <section>
-          <div class="green-ribbon scroll-down"></div>
-
-          <a href="chord-progression/"></a>
-          <p class="btn-next"><span class="scroll-slide-r">コード進行</span></p>
-
-          <div class="scroll-up-l">
-            <svg version="1.1" id="svg01" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               viewBox="0 0 222.1 69.7" style="enable-background:new 0 0 222.1 69.7;" xml:space="preserve">
-              <rect x="9.3" y="41.5" width="197.5" height="0.5"/>
-              <rect x="9.3" y="10.9" width="197.5" height="0.5"/>
-              <rect x="9.3" y="18.6" width="197.5" height="0.5"/>
-              <rect x="9.3" y="26.2" width="197.5" height="0.5"/>
-              <rect x="9.3" y="33.6" class="st0" width="197.5" height="1"/>
-              <rect x="9" y="10.9" width="0.4" height="31.1"/>
-              <path id="music2" d="M23.1,48.9c0,1.4-1.2,2.6-2.6,2.6c-1.4,0-2.6-1.2-2.6-2.6c0-1.4,1.2-2.6,2.6-2.6C22,46.3,23.1,47.4,23.1,48.9z"/>
-              <path id="music1" d="M18.2,49.9c0.8,2,3,3.4,5.7,3.1c4.3-0.5,5.9-4.7,5.2-9.8c-0.4-3-4-26.3-4.3-30.1c-0.5-6,7.1-13.1,7.1-8
-                c0,2.7-1.8,7.2-6,10.9c-3,2.6-10,7.7-10,16.8c0,5.1,4.2,9.1,9.5,9.1c4.7,0,9.5-3.1,9.5-7.9c0-6.2-4.2-8-8-7.7
-                c-4.4,0.3-5.7,3.9-5.6,5.9c0.1,1.9,1.5,3.2,2.5,3.9c-1.4-2.5-0.7-6.7,3.2-6.9c3-0.1,5,1.4,5,4.8c0,3.5-2,6.7-6.6,6.7
-                c-5.3,0-7.6-4.1-7.6-7.5c0-7.2,7.3-11.7,10.6-15c3.5-3.5,4.3-8.1,4.2-11.9c-0.2-10.5-9.7-4.5-9.2,5.4c0.2,4.5,3.9,23.5,4.5,32.1
-                c0.1,1.6,0.3,7.9-4.6,8.2c-2,0.1-3.8-1.1-2.9-2.9"/>
-              <rect x="54.4" y="48.3" class="st1" width="14.1" height="1"/>
-
-                <path d="M66.9,48.7c0-2-2.3-3.7-5-3.6c-2.7,0-5,1.7-4.9,3.7c0,2,2.3,3.7,5,3.6C64.7,52.4,66.9,50.8,66.9,48.7z M61.9,50.6
-                  c-2.4,0-4.3-0.8-4.3-1.8c0-1,1.9-1.8,4.3-1.9c2.4,0,4.3,0.8,4.3,1.8C66.2,49.7,64.3,50.6,61.9,50.6z"/>
-                <path d="M66.9,41.3c0-2-2.3-3.7-5-3.6c-2.7,0-5,1.7-4.9,3.7c0,2,2.3,3.7,5,3.6C64.7,45,66.9,43.4,66.9,41.3z M61.9,43.2
-                  c-2.4,0-4.3-0.8-4.3-1.8c0-1,1.9-1.8,4.3-1.9c2.4,0,4.3,0.8,4.3,1.8C66.2,42.4,64.3,43.2,61.9,43.2z"/>
-                <path d="M66.9,34c0-2-2.3-3.7-5-3.6c-2.7,0-5,1.7-4.9,3.7c0,2,2.3,3.7,5,3.6C64.7,37.7,66.9,36,66.9,34z M61.9,35.8
-                  c-2.4,0-4.3-0.8-4.3-1.8c0-1,1.9-1.8,4.3-1.9c2.4,0,4.3,0.8,4.3,1.8C66.2,35,64.3,35.8,61.9,35.8z"/>
-
-                  <path d="M62.2,65.3c-0.1,0.1-0.2,0.1-0.3,0.1s-0.2,0-0.3-0.1c-0.1-0.1-0.1-0.2-0.1-0.3v-6.4c0-0.1,0-0.2,0.1-0.3
-                    c0.1-0.1,0.2-0.1,0.3-0.1s0.2,0,0.3,0.1c0.1,0.1,0.1,0.2,0.1,0.3V65C62.4,65.1,62.3,65.2,62.2,65.3z"/>
-
-            </svg>
-          </div>
-        </section>
-      </article>
+      <!--<a href="chord-progression/">
+        <article id="chord-progression" class="fade-in">
+          <section>
+            <p class="btn-next"><span class="scroll-slide-r">コード進行</span></p>
+          </section>
+        </article>
+      </a>-->
     </main>
   </div>
 
@@ -292,7 +162,5 @@
 
     <p class="copy">&copy; 2021 Ryutaro Matsumoto</p>
   </footer>
-
-  <script src="/js/my-vivus.js"></script>
 </body>
 </html>

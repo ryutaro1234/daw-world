@@ -1,22 +1,18 @@
 @import '../../css/parts/colors';
 
-#background{
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(150deg, transparent 80%, $blue 80%);
-  position: fixed;
-  top: 0;
-  z-index: -999;
+h3{
+  color: $gold02;
+  border-bottom: 1px solid $gold02;
 }
 
 .color-blue{
-  color: #4c4cff;
+  color: $gold02;
 }
 .color-blue b{
-  color: #4c4cff;
+  color: $gold02;
 }
 .color-blue a{
-  color: #4c4cff;
+  color: $gold02;
 }
 
 .glass{
@@ -24,10 +20,11 @@
 }
 
 svg{
-  stroke: #4c4cff;
+  stroke: $gold02;
+  fill: #fff;
 }
 svg g path{
-  fill: #4c4cff;
+  fill: $gold02;
 }
 
 #basic001{
@@ -37,7 +34,7 @@ svg g path{
 }
 
 #basic002{
-  background: #4c4cff;
+  background: linear-gradient(25deg, $blue, $semi-blue);
   margin-left: 1rem;
   padding: .5rem 0 .5rem 0;
   width: 70%;
@@ -55,7 +52,7 @@ svg g path{
 
 #audio01{display: none;}
 #audio01buttom.active{
-  background: $blue;
+  background: linear-gradient(25deg, $blue, $semi-blue);
   color: #fff;
   font-weight: bold;
   @include button-shadow-click;
@@ -88,35 +85,37 @@ svg g path{
 @keyframes basic-01 {
   0%{
     fill: #ffff7f;
-    background: #ffff7f;
+    background: linear-gradient(25deg, $yellow, $flash);
+    color: #333;
     animation-timing-function: ease-in;
   }
   50%{
     fill: #ffff7f;
-    background: #ffff7f;
+    background: linear-gradient(25deg, $yellow, $flash);
+    color: #333;
     animation-timing-function: ease-out;
   }
   100%{
-    fill: transparent;
+    fill: #fff;
     background: transparent;
   }
 }
 
 .whole-tone{
-  background: linear-gradient(transparent 0%, transparent 70%,#bc7aff 70%, #bc7aff 80%,transparent 80%);
+  background: linear-gradient(transparent 0%, transparent 70%,#bc7aff 70%, $semiPink 80%,transparent 80%);
   font-weight: bold;
   display: inline-block;
 }
 #whole.whole-bottom, #whole02.whole-bottom{
-  color: #fff;
+  color: #333;
   font-weight: bold;
-  background-color: $purple;
+  background: linear-gradient(25deg, $purple, $semiPink);
   @include button-shadow-click;
 }
 .whole-click{
   transition: all 1s ease-in;
-  background: $purple;
-  color: #fff;
+  background: linear-gradient(25deg, $purple, $semiPink);
+  color: #333;
   font-weight: bold;
 }
 .whole-fill{
@@ -131,20 +130,20 @@ svg g path{
 }
 
 .semi-tone{
-  background: linear-gradient(transparent 0%,transparent 70%, #7abcff 70%, #7abcff 80%,transparent 80%);
+  background: linear-gradient(transparent 0%,transparent 70%, #7abcff 70%, $light-blue 80%,transparent 80%);
   font-weight: bold;
   display: inline-block;
 }
 #semi.semi-bottom, #semi02.semi-bottom{
-  color: #fff;
+  color: #333;
   font-weight: bold;
-  background-color: #7abcff;
+  background: linear-gradient(25deg, #7abcff, $light-blue);
   @include button-shadow-click;
 }
 .semi-click{
   transition: all 1s ease-in;
-  background: #7abcff;
-  color: #fff;
+  background: linear-gradient(25deg, #7abcff, $light-blue);
+  color: #333;
   font-weight: bold;
 }
 .semi-fill{
@@ -176,7 +175,7 @@ svg g path{
 
 #audio02{display: none;}
 #audio02buttom.active{
-  background: $blue;
+  background: linear-gradient(25deg, $blue, $semi-blue);
   color: #fff;
   font-weight: bold;
   @include button-shadow-click;
@@ -212,7 +211,7 @@ svg g path{
     animation-timing-function: ease-out;
   }
   100%{
-    fill: #4c4cff;
+    fill: linear-gradient(25deg, $blue, $semi-blue);
   }
 }
 .show02-03{
@@ -234,7 +233,7 @@ svg g path{
 
 #audio03{display: none;}
 #audio03buttom.active{
-  background: $blue;
+  background: linear-gradient(25deg, $blue, $semi-blue);
   color: #fff;
   font-weight: bold;
   @include button-shadow-click;
@@ -275,7 +274,7 @@ svg g path{
 
 #audio04{display: none;}
 #audio04buttom.active{
-  background: $blue;
+  background: linear-gradient(25deg, $blue, $semi-blue);
   color: #fff;
   font-weight: bold;
   @include button-shadow-click;
@@ -310,13 +309,13 @@ svg g path{
     animation-timing-function: ease-out;
   }
   100%{
-    fill: $blue;
+    fill: linear-gradient(25deg, $blue, $semi-blue);
   }
 }
 
 #audio05{display: none;}
 #audio05buttom.active{
-  background: $blue;
+  background: linear-gradient(25deg, $blue, $semi-blue);
   color: #fff;
   font-weight: bold;
   @include button-shadow-click;
@@ -344,15 +343,15 @@ svg g path{
 }
 @keyframes show05-02 {
   0%{
-    fill: $blue;
+    fill: linear-gradient(25deg, $blue, $semi-blue);
     animation-timing-function: ease-in;
   }
   50%{
-    fill: $blue;
+    fill: linear-gradient(25deg, $blue, $semi-blue);
     animation-timing-function: ease-out;
   }
   100%{
-    fill: $blue;
+    fill: linear-gradient(25deg, $blue, $semi-blue);
   }
 }
 
@@ -408,77 +407,27 @@ svg g path{
 
 #maj01.active{
   font-weight: bold;
-  color: #fff;
-  background: #4c4cff;
+  color: #333;
+  background: linear-gradient(25deg, $blue, $semi-blue);
   @include button-shadow-click;
 }
 
 #min01.active{
   font-weight: bold;
-  color: #fff;
-  background: #7abcff;
+  color: #333;
+  background: linear-gradient(25deg, $semi-blue, $light-blue);
   @include button-shadow-click;
 }
 
 .maj.active{
   font-weight: bold;
-  color: #fff;
-  background: #4c4cff;
+  color: #333;
+  background: linear-gradient(25deg, $blue, $semi-blue);
 }
 .min.active02{
   font-weight: bold;
-  color: #fff;
-  background: #7abcff;
-}
-
-.square01{
-  stroke: #4c4cff;
-  opacity: .6;
-}
-
-.plus01{
-  stroke: #4c4cff;
-  opacity: .6;
-}
-
-#position01{
-  stroke: #4c4cff;
-  position: absolute;
-  top: 500px;
-  left: 0;
-  z-index: -900;
-}
-
-#position02{
-  stroke: #4c4cff;
-  position: absolute;
-  top: 1300px;
-  left: 0;
-  z-index: -900;
-}
-
-#position03{
-  stroke: #4c4cff;
-  position: absolute;
-  top: 2000px;
-  left: 0;
-  z-index: -900;
-}
-
-#position04{
-  stroke: #4c4cff;
-  position: absolute;
-  top: 3000px;
-  left: 0;
-  z-index: -900;
-}
-
-#position05{
-  stroke: #4c4cff;
-  position: absolute;
-  top: 5000px;
-  right: 0;
-  z-index: -900;
+  color: #333;
+  background: linear-gradient(25deg, $semi-blue, $light-blue);
 }
 
 @media screen and (min-width: 600px) {
@@ -529,22 +478,6 @@ svg g path{
     top: 170px;
     left: 70px;
     margin: 0 0 250px 4rem;
-  }
-
-  #position01,#position04,#position05{
-    width: 50%;
-    height: auto;
-  }
-
-  #position02{
-    width: 30%;
-    height: auto;
-    left: 40%;
-  }
-
-  #position03{
-    width: 30%;
-    height: auto;
   }
 
   #pc01{
