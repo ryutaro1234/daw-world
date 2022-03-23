@@ -194,7 +194,7 @@ svg g path{
     animation-timing-function: ease-out;
   }
   100%{
-    fill: transparent;
+    fill: #fff;
   }
 }
 
@@ -227,7 +227,7 @@ svg g path{
     animation-timing-function: ease-out;
   }
   100%{
-    background: transparent;
+    background: #fff;
   }
 }
 
@@ -252,7 +252,7 @@ svg g path{
     animation-timing-function: ease-out;
   }
   100%{
-    fill: transparent;
+    fill: #fff;
   }
 }
 .show03-02{
@@ -268,7 +268,7 @@ svg g path{
     animation-timing-function: ease-out;
   }
   100%{
-    fill: $blue;
+    fill: $gold02;
   }
 }
 
@@ -293,7 +293,7 @@ svg g path{
     animation-timing-function: ease-out;
   }
   100%{
-    fill: transparent;
+    fill: #fff;
   }
 }
 .show04-02{
@@ -327,15 +327,15 @@ svg g path{
 }
 @keyframes show-05-01 {
   0%{
-    fill: transparent;
+    fill: #fff;
     animation-timing-function: ease-in;
   }
   50%{
-    fill: transparent;
+    fill: #fff;
     animation-timing-function: ease-out;
   }
   100%{
-    fill: transparent;
+    fill: #fff;
   }
 }
 .show05-02{
