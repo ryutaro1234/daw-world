@@ -2,8 +2,19 @@
 
 main{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+
+  article{
+    margin: 1rem auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 1rem;
+
+    section{
+      padding: 1rem 0 0;
+    }
+  }
 }
 
 main:after {
@@ -11,21 +22,6 @@ main:after {
   display: block;
   width: 50%;
   height: 0;
-}
-
-article{
-  margin: .5rem auto;
-}
-
-.glass{
-  height: 120px;
-  text-align: center;
-  width: 40%;
-}
-
-.btn-next{
-  margin: 1.5rem auto .5rem;
-  box-shadow: none;
 }
 
 h2{
@@ -36,73 +32,19 @@ p{
   text-align: center;
 }
 
-.red-ribbon{
-  border-left: 80px solid #ff5656;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.orange-ribbon{
-  border-left: 80px solid $orange;
-  border-bottom: 80px solid transparent;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 #drums{
-  a{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 995;
+  background-image: url("../images/icons/drums_square_red.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  &:hover{
+    .btn-next{
+      background: linear-gradient(-25deg, $gold, $gold02);
+    }
   }
 
   .btn-next{
-    background: $red;
-    color: #fff;
+    background: linear-gradient(25deg, $red, $semiRed);
   }
-}
-
-.drums{
-  padding-left: 2rem;
-  width: 100%;
-  height: auto;
-  stroke-miterlimit:10;
-  stroke: $red;
-
-  #shell01{
-    fill: $red;
-  }
-
-  g{
-    fill: $background;
-  }
-}
-
-
-#strings{
-  .btn-next{
-    width: 8rem;
-    background: $orange;
-  }
-
-  svg{
-    padding-left: 2rem;
-    width: 120%;
-    stroke: $orange;;
-    g{
-      fill: $orange;
-    }//g
-  }//svg
 }
 
 @media screen and (min-width: 600px) {

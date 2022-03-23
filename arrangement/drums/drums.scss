@@ -1,17 +1,12 @@
 
 @mixin color{
-  color: #ff5656;
+  color: $gold02;
 }
 
 @import '../../css/parts/colors';
 
-#background{
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(150deg, transparent 80%, $red 80%);
-  position: fixed;
-  top: 0;
-  z-index: -9999;
+h3{
+  color: $gold02;
 }
 
 article{
@@ -43,14 +38,11 @@ article{
     #shell01{
       fill: $red;
     }
-    g{
-      fill: $background;
-    }//g
   }//#svg01
 }//#top001
 
 #top002{
-  background: #ff5656;
+  background: linear-gradient(25deg, $red, $semiRed);
   margin-left: 1rem;
   padding: .5rem 0 .5rem 0;
   width: 70%;
@@ -208,7 +200,7 @@ article{
   display: block;
   font-weight: bold;
   color: #fff;
-  background: #7abcff;
+  background: linear-gradient(25deg, #7abcff, $light-blue);
   @include button-shadow-click;
 }
 
@@ -218,7 +210,7 @@ article{
   display: block;
   font-weight: bold;
   color: #fff;
-  background: #ffaf1a;
+  background: linear-gradient(25deg, #ffaf1a, $flash);
   @include button-shadow-click;
 }
 
@@ -612,18 +604,19 @@ article{
   65%{fill: #ffff33;transform: scaleY(1) translateX(0);}
 }
 
-#drums03 .st0{fill:none;stroke:#000000;stroke-width:0.5;}
+#drums03 .st0{fill:none;stroke:$semiWhite;stroke-width:0.5;}
 #drums03 .st1{fill:none;stroke:#000000;stroke-width:0.5;}
 #drums03 .st2{fill:#FF5656;stroke:#000000;stroke-width:0.5;}
 #drums03 .st3{fill:#CCCCCC;stroke:#000000;stroke-width:0.5;}
 #drums03 .st4{fill:#EEEEEE;stroke:#000000;stroke-width:0.5;}
 #drums03 .st5{fill:#4D4D4D;stroke:#000000;stroke-width:0.5;}
-#drums03 .st6{fill:#333333;stroke:#000000;stroke-width:0.5;}
+#drums03 .st6{fill:#222222;;stroke:#000000;stroke-width:0.5;}
 #drums03 .st7{fill:#CCCCCC;stroke:#000000;stroke-width:0.5;}
 #drums03 .st8{fill:#FFFF33;stroke:#000000;stroke-width:0.5;}
 #drums03 .st9{fill:#222222;stroke:#000000;stroke-width:0.5;}
 #drums03 .st10{fill:none;stroke:#000000;stroke-width:0.5;}
-#notes01 path,#notes01 polygon {fill: #333333;}
+#drums03 .st11{fill:$gold02;stroke:#000000;stroke-width:0.5;}
+#notes01 path,#notes01 polygon {fill: $gold02;}
 #drums-notes{opacity: 0;transition: 1s;}
 
 #score02{
@@ -632,7 +625,7 @@ article{
   &.click{
     font-weight: bold;
     color: #fff;
-    background: #FF5656;
+    background: linear-gradient(25deg, $red, $semiRed);
     @include button-shadow-click;
   }
 }
@@ -655,20 +648,9 @@ article{
   font-weight: bold;
   color: #fff;
   @include button-shadow-click;
-  background: $red;
+  background: linear-gradient(25deg, $red, $semiRed);
 }
 #doublestroke02{display: none; width: 10rem;}
-/*
-#doublestroke01{width: 10rem;}
-#doublestroke01.click{display: none}
-#doublestroke02{display: none; width: 10rem;}
-#doublestroke02.click{
-  display: block;
-  font-weight: bold;
-  color: #fff;
-  @include button-shadow-click;
-  background: $red;
-}*/
 
 #stick01.double{
   animation: stick01double 1s backwards;
@@ -699,7 +681,7 @@ article{
   font-weight: bold;
   color: #fff;
   @include button-shadow-click;
-  background: $red;
+  background: linear-gradient(25deg, $red, $semiRed);
 }
 
 .play01{
@@ -707,21 +689,21 @@ article{
 }
 @keyframes play01 {
   1%{fill:$flash;}
-  5%{fill:#000;}
+  5%{fill:$gold02;}
 
-  22%{fill:#000;}
+  22%{fill:$gold02;}
   23%{fill:$flash;}
-  28%{fill:#000;}
+  28%{fill:$gold02;}
 
-  46%{fill:#000;}
+  46%{fill:$gold02;}
   47%{fill:$flash;}
-  52%{fill:#000;}
+  52%{fill:$gold02;}
 
-  70%{fill:#000;}
+  70%{fill:$gold02;}
   71%{fill:$flash;}
-  74%{fill:#000;}
+  74%{fill:$gold02;}
 
-  100%{fill:#000;}
+  100%{fill:$gold02;}
 }
 
 #drums04{
@@ -952,8 +934,8 @@ animation: snare04playshell 10s forwards;
 }
 
 #score01{
-    .st0{fill:none;stroke:#000;stroke-width:0.5;}
-    .st4{fill:#000;stroke:none;}
+    .st0{fill:none;stroke:$semiWhite;stroke-width:0.5;}
+    .st4{fill:$gold02;stroke:none;}
 
     #do02{animation-delay: .8s;}
     #do03{animation-delay: 1s;}
@@ -975,7 +957,7 @@ animation: snare04playshell 10s forwards;
   font-weight: bold;
   color: #fff;
   @include button-shadow-click;
-  background: $red;
+  background: linear-gradient(25deg, $red, $semiRed);
 }
 
 #snare05.play{
@@ -1201,18 +1183,18 @@ animation: snare04playshell 10s forwards;
 #box1_1.active{
   font-weight: bold;
   color: #fff;
-  background-color: #ffcffa;
+  background: linear-gradient(25deg, #ffcffa, $semiPink);
 }
 #box2_1{width: 308px;}
 #box2_1.active{
   font-weight: bold;
   color: #fff;
-  background-color: #b9e2c2;
+  background: linear-gradient(25deg, #b9e2c2, $flash);
 }
 #box3_1.active, #box3_2.active, #box3_3.active{
   font-weight: bold;
   color: #fff;
-  background-color: $red;
+  background: linear-gradient(25deg, $red, $semiRed);
 }
 #box1_1.play,
 #box2_1.play,
@@ -1232,7 +1214,7 @@ animation: snare04playshell 10s forwards;
   border-radius: 10px;
 }
 #play01.active{
-  background: #333;
+  background: linear-gradient(25deg, #333, $semiBlack2);
   font-weight: bold;
   color: #fff;
   border: none;
@@ -1370,23 +1352,6 @@ animation: snare04playshell 10s forwards;
     padding-left: 3rem;
   }
 
-  #position01{
-    width: 50%;
-    height: auto;
-  }
-
-  #position03{
-    width: 50%;
-    top: 3000px;
-    height: auto;
-  }
-
-  #position04{
-    top: 3500px;
-    width: 50%;
-    height: auto;
-  }
-
 }
 @media screen and (min-width: 1025px) {
 
@@ -1418,28 +1383,6 @@ animation: snare04playshell 10s forwards;
 
   #drums04{
     width: 100%;
-    height: auto;
-  }
-
-  #position01,#position04{
-    width: 30%;
-    height: auto;
-  }
-
-  #position02{
-    width: 30%;
-    height: auto;
-    left: 40%;
-  }
-
-  #position03{
-    width: 30%;
-    left: 300px;
-    height: auto;
-  }
-
-  #position04{
-    width: 30%;
     height: auto;
   }
 
