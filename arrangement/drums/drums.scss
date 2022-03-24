@@ -6,8 +6,11 @@
 @import '../../css/parts/colors';
 
 h3{
-  color: $gold02;
   border-bottom: 1px solid $gold02;
+  color: $gold02;
+  background: linear-gradient(25deg, $gold02, $flash);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 article{

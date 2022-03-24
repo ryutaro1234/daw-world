@@ -12,6 +12,9 @@ header{
     text-align: left;
     margin: 1rem 1.5rem;
     color: $gold02;
+    background: linear-gradient(25deg, $gold02, $flash);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 

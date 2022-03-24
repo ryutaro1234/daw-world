@@ -11,6 +11,9 @@ h2{
   text-align: center;
   padding: 2rem 0 2rem;
   font-weight: bold;
+  background: linear-gradient(25deg, $gold02, $flash);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #main-image{
@@ -84,6 +87,9 @@ p{
 
   h1{
     color: $gold02;
+    background: linear-gradient(25deg, $gold02, $flash);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
     transition-delay: .2s;
   }
