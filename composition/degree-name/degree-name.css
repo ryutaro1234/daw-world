@@ -4,12 +4,14 @@ article {
   position: relative
 }
 
-.color-blue, .color-blue b, .color-blue a {
+h1, h2, h3 {
   background: linear-gradient(25deg, #a89869, #ffffe6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
-
+h3{
+  border-bottom: 1px solid #a89869;
+}
 
 .contents-table {
   margin: 50px auto 100px

@@ -284,6 +284,8 @@ h1, h2, h3, h4, h5, h6, p, b, li, a, table, th, td, audio {
   z-index: 1
 }
 
+
+
 h1, h2, h3, h4, h5, h6, b{
   font-weight: bold;
 }
@@ -395,31 +397,12 @@ audio {
   margin: .5rem auto
 }
 
-.bottom {
+.bottom, .buttom, .button {
   display: flex;
   justify-content: space-around
 }
 
-.bottom p {
-  width: 5rem;
-  text-align: center;
-  font-size: 85%;
-  padding: 3px 15px;
-  border-radius: 6px;
-  font-weight: normal;
-  background-color: #eee;
-  box-shadow: 2px 2px 3px 3px rgba(100, 100, 100, 0.2), -2px -2px 3px 3px rgba(130, 130, 130, 0.3);
-  transition: 1s ease-out;
-  border: 1px solid #ddd;
-  color: #333
-}
-
-.buttom {
-  display: flex;
-  justify-content: space-around
-}
-
-.buttom p {
+.bottom p, .buttom p, .button p   {
   width: 5rem;
   text-align: center;
   font-size: 85%;
