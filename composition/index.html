@@ -10,20 +10,26 @@
   <title>Composition - DAW World</title>
 
   <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MTD74F8');</script>
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MTD74F8');
+  </script>
   <!-- End Google Tag Manager -->
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.min.css" />
-  <link rel="stylesheet" href="composition.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="composition.css" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="../js/main.js"></script>
@@ -44,12 +50,13 @@
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTD74F8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTD74F8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
   <header>
-    <a href="/"><h1>DAW World</h1></a>
+    <a href="/">
+      <h1>DAW World</h1>
+    </a>
 
     <div id="nav">
       <span id="nav_toggle" onclick="nav_toggle()">
@@ -82,7 +89,7 @@
       <p class="search-style">作曲講座一覧</p>
 
       <a href="scale/">
-        <article id="basic" class="fade-in">
+        <article id="basic">
           <section>
             <p class="btn-next"><span class="scroll-slide-r">スケール</span></p>
           </section>
@@ -90,7 +97,7 @@
       </a>
 
       <!--<a href="chord-progression/">
-        <article id="chord-progression" class="fade-in">
+        <article id="chord-progression">
           <section>
             <p class="btn-next"><span class="scroll-slide-r">コード進行</span></p>
           </section>
@@ -115,20 +122,22 @@
     </div>
 
     <div class="logo">
-      <a href="/"><p><b>DAW World</b></p></a>
+      <a href="/">
+        <p><b>DAW World</b></p>
+      </a>
     </div>
 
     <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
       <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <a itemprop="item" href="/">
-            <span itemprop="name">トップ</span>
+          <span itemprop="name">トップ</span>
         </a>
         <meta itemprop="position" content="1" />
       </li>
 
       <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <a itemprop="item" href="/composition/">
-            <span itemprop="name">作曲</span>
+          <span itemprop="name">作曲</span>
         </a>
         <meta itemprop="position" content="2" />
       </li>
@@ -163,4 +172,5 @@
     <p class="copy">&copy; 2021 Ryutaro Matsumoto</p>
   </footer>
 </body>
+
 </html>
