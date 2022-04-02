@@ -343,24 +343,3 @@ document.querySelector("#audio1_2_2").addEventListener('ended', function() {
     $("#box2_2").removeClass("play");
     $("#box3_2").removeClass("play");
 });
-
-
-$(function () {
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 300) {
-      $('#main-image').addClass('add');
-    } else {
-      $('#main-image').removeClass('add');
-    }
-  });
-});
-
-$(function () {
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 500) {
-      $('#dot_box').addClass('active');
-    } else {
-      $('#dot_box').removeClass('active');
-    }
-  });
-});
