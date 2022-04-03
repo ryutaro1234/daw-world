@@ -436,6 +436,8 @@ audio {
 }
 
 .btn-next span {
+  font-size: 90%;
+  font-weight: bold;
   color: #FFF;
   position: relative;
   padding-right: 20px
