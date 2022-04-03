@@ -154,15 +154,15 @@ p {
   background: linear-gradient(-25deg, #d7c447, #a89869)
 }
 
-#interval {
+#degreeName {
   background-image: url("../images/icons/notes_square_pink.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
-#interval .btn-next {
+#degreeName .btn-next {
   background: linear-gradient(25deg, #ff67b3, #ffe5ff)
 }
-#interval:hover .btn-next {
+#degreeName:hover .btn-next {
   background: linear-gradient(-25deg, #d7c447, #a89869)
 }
 
