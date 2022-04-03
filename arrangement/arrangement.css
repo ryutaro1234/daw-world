@@ -6,6 +6,7 @@ main{
 }
 
 article{
+  width: 170px;
   margin: .5rem auto;
   transition: all 1s;
   background: linear-gradient(25deg, #333, #cecece);
