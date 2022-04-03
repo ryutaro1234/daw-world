@@ -167,7 +167,7 @@ p {
 }
 
 #chord-progression {
-  background-image: url("../images/icons/melody_square_green.png");
+  background-image: url("../images/icons/notes_square_green.png");
   background-size: 100%;
   background-repeat: no-repeat
 }
@@ -235,7 +235,7 @@ p {
 #box2_1.active, #box2_2.active {
   font-weight: bold;
   color: #fff;
-  background: linear-gradient(25deg, #285b00, #66ba24);
+  background: linear-gradient(25deg, #66ba24, #b9e2c2);
   border: .5px solid #333
 }
 

@@ -739,22 +739,3 @@ document.querySelector("#audio1_3_1").addEventListener('ended', function() {
     $("#box2_3").removeClass("play");
     $("#box3_1").removeClass("play");
 });
-
-$(function(){
-  var bg01 = $('#position01').offset();
-  var bg02 = $('#position02').offset();
-
-  $(window).on('scroll',function(){
-    var scrollY = $(this).scrollTop();
-
-    $('#position01').css({
-      'top': bg01.top + scrollY / -8,
-      'left': bg01.left + scrollY / -10,
-    });
-
-    $('#position02').css({
-      'top': bg02.top + scrollY / 8,
-      'left': bg02.left + scrollY / -10,
-    });
-  });
-});
