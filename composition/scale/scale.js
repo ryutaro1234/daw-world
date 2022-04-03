@@ -43,20 +43,19 @@ audio01.onpause = function(){
   audio01.currentTime = 0;
 };
 
-$(function() {
-  $("#audio01buttom").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎再生");
-      $("#audio01")[0].pause();
 
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■停止");
-      $("#audio01")[0].play();
-    };
-  });
-});
+document.querySelector("#audio01buttom").onclick = function () {
+  if (this.classList.contains('active')) {
+    this.classList.remove('active');
+    this.textContent="▶︎再生";
+    document.querySelector('#audio01').pause();
+  }
+  else {
+    this.classList.add('active');
+    this.textContent="■停止";
+    document.querySelector('#audio01').play();
+  }
+};
 
 var audio02 = document.getElementById("audio02");
 audio02.onplay = function(){
@@ -121,100 +120,96 @@ audio02.onpause = function(){
   audio02.currentTime = 0;
 };
 
-$(function() {
-  $("#audio02buttom").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎再生");
-      $("#audio02")[0].pause();
-
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■停止");
-      $("#audio02")[0].play();
-    };
-  });
-});
+document.querySelector("#audio02buttom").onclick = function () {
+  if (this.classList.contains('active')) {
+    this.classList.remove('active');
+    this.textContent="▶︎再生";
+    document.querySelector('#audio02').pause();
+  }
+  else {
+    this.classList.add('active');
+    this.textContent="■停止";
+    document.querySelector('#audio02').play();
+  }
+};
 
 function whole(){
   document.getElementById("whole").classList.toggle("whole-bottom");
-
-  let whole01 = document.getElementsByClassName("whole01");
-  Array.prototype.forEach.call(whole01, function (whole01click) {
-    whole01click.classList.toggle("whole-fill");
-  });
+  const whole01 = document.getElementsByClassName("whole01");
+  for(var i = 0; i < whole01.length; i++){
+      whole01[i].classList.toggle("whole-fill");
+  };
   document.getElementById("basic-db05").classList.toggle("whole-fill02");
 };
 
 function semi(){
   document.getElementById("semi").classList.toggle("semi-bottom");
-
-  let semi01 = document.getElementsByClassName("semi01");
-  Array.prototype.forEach.call(semi01, function (semi01click) {
-    semi01click.classList.toggle("semi-fill");
-  });
+  const semi01 = document.getElementsByClassName("semi01");
+  for(var i = 0; i < semi01.length; i++){
+      semi01[i].classList.toggle("semi-fill");
+  };
 };
 
 function whole02(){
   document.getElementById("whole02").classList.toggle("whole-bottom");
 
-  let whole02 = document.getElementsByClassName("whole02");
-  Array.prototype.forEach.call(whole02, function (whole02click) {
-    whole02click.classList.toggle("whole-click");
-  });
+  const whole02 = document.getElementsByClassName("whole02");
+  for(var i = 0; i < whole02.length; i++){
+      whole02[i].classList.toggle("whole-click");
+  };
 
-  let whole02fill = document.getElementsByClassName("whole02-fill");
-  Array.prototype.forEach.call(whole02fill, function (whole02fillclick) {
-    whole02fillclick.classList.toggle("whole-fill");
-  });
+  const whole02fill = document.getElementsByClassName("whole02-fill");
+  for(var i = 0; i < whole02fill.length; i++){
+      whole02fill[i].classList.toggle("whole-fill");
+  };
 
-  let whole02fill02 = document.getElementsByClassName("whole02-fill02");
-  Array.prototype.forEach.call(whole02fill02, function (whole02fill02click) {
-    whole02fill02click.classList.toggle("whole-fill02");
-  });
+  const whole02fill02 = document.getElementsByClassName("whole02-fill02");
+  for(var i = 0; i < whole02fill02.length; i++){
+      whole02fill02[i].classList.toggle("whole-fill02");
+  };
 
   document.getElementById("semi02").classList.remove("semi-bottom");
 
-  let semi02 = document.getElementsByClassName("semi02");
-  Array.prototype.forEach.call(semi02, function (semi02click) {
-    semi02click.classList.remove("semi-click");
-  });
+  const semi02 = document.getElementsByClassName("semi02");
+  for(var i = 0; i < semi02.length; i++){
+    semi02[i].classList.remove("semi-click");
+  };
 
-  let semi02fill = document.getElementsByClassName("semi02-fill");
-  Array.prototype.forEach.call(semi02fill, function (semi02fillclick) {
-    semi02fillclick.classList.remove("semi-fill");
-  });
+  const semi02fill = document.getElementsByClassName("semi02-fill");
+  for(var i = 0; i < semi02fill.length; i++){
+    semi02fill[i].classList.remove("semi-fill");
+  };
 };
 
 function semi02(){
   document.getElementById("semi02").classList.toggle("semi-bottom");
 
-  let semi02 = document.getElementsByClassName("semi02");
-  Array.prototype.forEach.call(semi02, function (semi02click) {
-    semi02click.classList.toggle("semi-click");
-  });
+  const semi02 = document.getElementsByClassName("semi-buttom");
+  for(var i = 0; i < semi02.length; i++){
+    semi02[i].classList.toggle("semi-click");
+  };
 
-  let semi02fill = document.getElementsByClassName("semi02-fill");
-  Array.prototype.forEach.call(semi02fill, function (semi02fillclick) {
-    semi02fillclick.classList.toggle("semi-fill");
-  });
+  const semi02fill = document.getElementsByClassName("semi02-fill");
+  for(var i = 0; i < semi02fill.length; i++){
+    semi02fill[i].classList.toggle("semi-fill");
+  };
 
   document.getElementById("whole02").classList.remove("whole-bottom");
 
-  let whole02 = document.getElementsByClassName("whole02");
-  Array.prototype.forEach.call(whole02, function (whole02click) {
-    whole02click.classList.remove("whole-click");
-  });
+  const whole02 = document.getElementsByClassName("whole02");
+  for(var i = 0; i < whole02.length; i++){
+      whole02[i].classList.remove("whole-click");
+  };
 
-  let whole02fill = document.getElementsByClassName("whole02-fill");
-  Array.prototype.forEach.call(whole02fill, function (whole02fillclick) {
-    whole02fillclick.classList.remove("whole-fill");
-  });
+  const whole02fill = document.getElementsByClassName("whole02-fill");
+  for(var i = 0; i < whole02fill.length; i++){
+      whole02fill[i].classList.remove("whole-fill");
+  };
 
-  let whole02fill02 = document.getElementsByClassName("whole02-fill02");
-  Array.prototype.forEach.call(whole02fill02, function (whole02fill02click) {
-    whole02fill02click.classList.remove("whole-fill02");
-  });
+  const whole02fill02 = document.getElementsByClassName("whole02-fill02");
+  for(var i = 0; i < whole02fill02.length; i++){
+      whole02fill02[i].classList.remove("whole-fill02");
+  };
 };
 
 var audio03 = document.getElementById("audio03");
@@ -254,20 +249,18 @@ audio03.onpause = function(){
   audio03.currentTime = 0;
 };
 
-$(function() {
-  $("#audio03buttom").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎再生");
-      $("#audio03")[0].pause();
-
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■停止");
-      $("#audio03")[0].play();
-    };
-  });
-});
+document.querySelector("#audio03buttom").onclick = function () {
+  if (this.classList.contains('active')) {
+    this.classList.remove('active');
+    this.textContent="▶︎再生";
+    document.querySelector('#audio03').pause();
+  }
+  else {
+    this.classList.add('active');
+    this.textContent="■停止";
+    document.querySelector('#audio03').play();
+  }
+};
 
 var audio04 = document.getElementById("audio04");
 audio04.onplay = function(){
@@ -306,20 +299,18 @@ audio04.onpause = function(){
   audio04.currentTime = 0;
 };
 
-$(function() {
-  $("#audio04buttom").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎再生");
-      $("#audio04")[0].pause();
-
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■停止");
-      $("#audio04")[0].play();
-    };
-  });
-});
+document.querySelector("#audio04buttom").onclick = function () {
+  if (this.classList.contains('active')) {
+    this.classList.remove('active');
+    this.textContent="▶︎再生";
+    document.querySelector('#audio04').pause();
+  }
+  else {
+    this.classList.add('active');
+    this.textContent="■停止";
+    document.querySelector('#audio04').play();
+  }
+};
 
 var audio05 = document.getElementById("audio05");
 audio05.onplay = function(){
@@ -348,82 +339,44 @@ audio05.onpause = function(){
   audio05.currentTime = 0;
 };
 
-$(function() {
-  $("#audio05buttom").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎再生");
-      $("#audio05")[0].pause();
-
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■停止");
-      $("#audio05")[0].play();
-    };
-  });
-});
+document.querySelector("#audio05buttom").onclick = function () {
+  if (this.classList.contains('active')) {
+    this.classList.remove('active');
+    this.textContent="▶︎再生";
+    document.querySelector('#audio05').pause();
+  }
+  else {
+    this.classList.add('active');
+    this.textContent="■停止";
+    document.querySelector('#audio05').play();
+  }
+};
 
 function maj01(){
   document.getElementById("maj01").classList.toggle("active");
-
-  let maj = document.getElementsByClassName("maj");
-  Array.prototype.forEach.call(maj, function (majclick) {
-    majclick.classList.toggle("active");
-  });
+  const maj = document.getElementsByClassName("maj");
+  for(var i = 0; i < maj.length; i++){
+      maj[i].classList.toggle("active");
+  };
 
   document.getElementById("min01").classList.remove("active");
-  let min = document.getElementsByClassName("min");
-  Array.prototype.forEach.call(min, function (minclick) {
-    minclick.classList.remove("active02");
-  });
+  const min = document.getElementsByClassName("min");
+  for(var i = 0; i < min.length; i++){
+      min[i].classList.remove("active02");
+  };
+
 };
 
 function min01(){
   document.getElementById("min01").classList.toggle("active");
-
-  let min = document.getElementsByClassName("min");
-  Array.prototype.forEach.call(min, function (minclick) {
-    minclick.classList.toggle("active02");
-  });
+  const min = document.getElementsByClassName("min");
+  for(var i = 0; i < min.length; i++){
+      min[i].classList.toggle("active02");
+  };
 
   document.getElementById("maj01").classList.remove("active");
-  let maj = document.getElementsByClassName("maj");
-  Array.prototype.forEach.call(maj, function (majclick) {
-    majclick.classList.remove("active");
-  });
+  const maj = document.getElementsByClassName("maj");
+  for(var i = 0; i < maj.length; i++){
+      maj[i].classList.remove("active");
+  };
 };
-
-$(function(){
-
-  var bg01 = $('#position01').offset();
-  var bg02 = $('#position02').offset();
-  var bg03 = $('#position03').offset();
-  var bg04 = $('#position04').offset();
-  var bg05 = $('#position05').offset();
-
-  $(window).on('scroll',function(){
-    var scrollY = $(this).scrollTop();
-
-    $('#position01').css({
-      'top': bg01.top + scrollY / -8,
-      'left': bg01.left + scrollY / -10,
-    });
-
-    $('#position02').css({
-      'top': bg02.top + scrollY / 8,
-      'left': bg02.left + scrollY / -10,
-    });
-
-    $('#position03').css({
-      'top': bg03.top + scrollY / -15,
-    });
-
-    $('#position04').css({
-      'top': bg04.top + scrollY / 10,
-    });
-
-    $('#position05').css({
-      'top': bg05.top + scrollY / -10,
-    });
-  });
-});
