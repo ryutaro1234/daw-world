@@ -1,72 +1,52 @@
-xmain {
+main{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  margin: 0 auto
 }
 
-main article {
-  margin: 1rem auto;
-  width: 180px;
-  height: 180px;
-  border-radius: 1rem
+article{
+  margin: .5rem auto;
+  transition: all 1s;
+  background: linear-gradient(25deg, #333, #cecece);
+  box-shadow: 1px 1px 2px 2px rgba(100, 100, 100, 0.2);
+  border-radius: 6px;
 }
 
-main article section {
-  padding: 1rem 0 0
+article:hover{
+  background: linear-gradient(25deg, #a89869, #ffffe6);
+  box-shadow: 2px 2px 4px 4px rgba(255, 255, 255, 0.2);
+}
+
+article img {
+  border-radius: 6px 6px 0 0;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 170px;
+  height: 170px;
+}
+
+article p {
+  color: #cecece;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  height: 60px;
+  margin: 0 8px;
+  padding: 0 auto;
+}
+
+article p:after{
+  content: "＞";
+  color: #cecece;
+  font-weight: bold;
 }
 
 main:after {
   content: "";
   display: block;
-  width: 50%;
+  width: 180px;
   height: 0
-}
-
-h2 {
-  margin: 2rem 0 1rem 0
-}
-
-p {
-  text-align: center
-}
-
-#scale {
-  background-image: url("../images/icons/piano_square_blue.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-#scale:hover .btn-next {
-  background: linear-gradient(-25deg, #d7c447, #a89869);
-}
-#scale .btn-next {
-  transition: all 1s;
-  background: linear-gradient(25deg, #4c4cff, #7abcff);
-}
-
-#interval {
-  background-image: url("../images/icons/notes_square_pink.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-#interval:hover .btn-next {
-  background: linear-gradient(-25deg, #d7c447, #a89869);
-}
-#interval .btn-next {
-  transition: all 1s;
-  background: linear-gradient(25deg, #ff67b3, #ffe5ff);
-}
-
-#chord-progression {
-  background-image: url("../images/icons/notes_square_green.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-#chord-progression:hover .btn-next {
-  background: linear-gradient(-25deg, #d7c447, #a89869);
-}
-#chord-progression .btn-next {
-  transition: all 1s;
-  background: linear-gradient(25deg, #285b00, #66ba24);
 }
 
 @media screen and (min-width: 600px) {
@@ -77,30 +57,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-between
   }
-
-  .glass {
-    width: 45%;
-    height: 300px;
-    margin: 4rem 0
-  }
-
-  main:after {
-    content: "";
-    display: block;
-    width: 50%;
-    height: 0
-  }
 }
 
 @media screen and (min-width: 1025px) {
-  .glass {
-    width: 32%
-  }
-
-  main:after {
-    content: "";
-    display: block;
-    width: 33%;
-    height: 0
-  }
 }
