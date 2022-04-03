@@ -4,6 +4,10 @@ article {
   position: relative
 }
 
+a{
+  color: #a89869;
+}
+
 .color-style, .color-style b, .color-style a, h3 {
   color: #66ba24;
   background: linear-gradient(25deg, #66ba24, #bcffdd);
@@ -579,6 +583,10 @@ audio {
 
 #sus4_1, #sus4_2, #sus4_3, #sus4_4 {
   animation-delay: 2.5s
+}
+
+#make .button p{
+  width: 6rem;
 }
 
 #try h2 {

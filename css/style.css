@@ -738,12 +738,6 @@ footer p {
       margin: 0 auto
     }
 
-  #loading h1 {
-    font-size: 23px;
-    letter-spacing: 14px;
-    transform: translate(-65%, -50%)
-  }
-
   .contents-table div {
     margin: 2rem
   }
@@ -818,6 +812,7 @@ footer p {
   }
 
   h1 {
+    padding: 6px;
     font-size: 38px;
     letter-spacing: 10px
   }
