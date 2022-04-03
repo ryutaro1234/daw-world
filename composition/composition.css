@@ -1,4 +1,4 @@
-main {
+xmain {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap
@@ -57,7 +57,7 @@ p {
 }
 
 #chord-progression {
-  background-image: url("../images/icons/melody_square_green.png");
+  background-image: url("../images/icons/notes_square_green.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
