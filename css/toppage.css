@@ -132,46 +132,37 @@ p {
 #top3 div article section {
   padding: 1rem 0 0
 }
-
-#top3 div #melody {
+#top3 div #interval {
   transition-delay: .2s
 }
-
 #top3 div #chord-progression {
   transition-delay: .4s
 }
-
 #top3 div #drums {
   transition-delay: .6s
 }
 
-#basic {
+#scale {
   background-image: url("../images/icons/piano_square_blue.png");
   background-size: 100%;
   background-repeat: no-repeat
 }
-
-#basic .btn-next {
-  width: 7rem;
+#scale .btn-next {
   background: linear-gradient(25deg, #4c4cff, #7abcff)
 }
-
-#basic:hover .btn-next {
+#scale:hover .btn-next {
   background: linear-gradient(-25deg, #d7c447, #a89869)
 }
 
-#melody {
+#interval {
   background-image: url("../images/icons/melody_square_pink.png");
   background-size: 100%;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
-
-#melody .btn-next {
-  width: 6rem;
+#interval .btn-next {
   background: linear-gradient(25deg, #ff67b3, #ffe5ff)
 }
-
-#melody:hover .btn-next {
+#interval:hover .btn-next {
   background: linear-gradient(-25deg, #d7c447, #a89869)
 }
 
@@ -180,12 +171,9 @@ p {
   background-size: 100%;
   background-repeat: no-repeat
 }
-
 #chord-progression .btn-next {
-  width: 8rem;
   background: linear-gradient(25deg, #285b00, #66ba24)
 }
-
 #chord-progression:hover .btn-next {
   background: linear-gradient(-25deg, #d7c447, #a89869)
 }
@@ -195,11 +183,9 @@ p {
   background-size: 100%;
   background-repeat: no-repeat
 }
-
 #drums .btn-next {
   background: linear-gradient(25deg, #ff5656, #ffb2b2)
 }
-
 #drums:hover .btn-next {
   background: linear-gradient(-25deg, #d7c447, #a89869)
 }

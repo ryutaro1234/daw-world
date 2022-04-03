@@ -30,36 +30,43 @@ p {
   text-align: center
 }
 
-#basic {
+#scale {
   background-image: url("../images/icons/piano_square_blue.png");
   background-size: 100%;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
-
-#basic:hover .btn-next {
-  background: linear-gradient(-25deg, #d7c447, #a89869)
+#scale:hover .btn-next {
+  background: linear-gradient(-25deg, #d7c447, #a89869);
 }
-
-#basic .btn-next {
+#scale .btn-next {
   transition: all 1s;
-  width: 7rem;
-  background: linear-gradient(25deg, #4c4cff, #7abcff)
+  background: linear-gradient(25deg, #4c4cff, #7abcff);
+}
+
+#interval {
+  background-image: url("../images/icons/notes_square_pink.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#interval:hover .btn-next {
+  background: linear-gradient(-25deg, #d7c447, #a89869);
+}
+#interval .btn-next {
+  transition: all 1s;
+  background: linear-gradient(25deg, #ff67b3, #ffe5ff);
 }
 
 #chord-progression {
   background-image: url("../images/icons/melody_square_green.png");
   background-size: 100%;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
-
 #chord-progression:hover .btn-next {
-  background: linear-gradient(-25deg, #d7c447, #a89869)
+  background: linear-gradient(-25deg, #d7c447, #a89869);
 }
-
 #chord-progression .btn-next {
   transition: all 1s;
-  width: 8rem;
-  background: linear-gradient(25deg, #285b00, #66ba24)
+  background: linear-gradient(25deg, #285b00, #66ba24);
 }
 
 @media screen and (min-width: 600px) {
