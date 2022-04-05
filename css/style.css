@@ -307,7 +307,7 @@ h3 {
   text-align: left
 }
 
-p, blockquote, ul, ol, dl, li, table, pre {
+p, blockquote, ul, ol, dl, li, table, th, td, pre {
   margin: 5px 0;
   font-size: 85%;
   letter-spacing: 0.05rem;
