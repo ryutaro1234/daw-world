@@ -316,7 +316,7 @@ audio {
 }
 
 #c_05.active, #cm.active, #cadd9.active, #csus2.active, #csus4.active {
-  background: #66ba24;
+  background: linear-gradient(25deg, #66ba24, #b9e2c2);
   color: #fff;
   font-weight: bold
 }
@@ -598,6 +598,59 @@ audio {
 #try p {
   text-align: center;
   margin: 1rem 0 1.5rem
+}
+
+#piano1.active, #piano2.active, #piano3.active{
+  background: linear-gradient(25deg, #4c4cff, #7abcff);
+  color: #fff;
+}
+#arrange1.active, #arrange2.active, #arrange3.active{
+  background: linear-gradient(25deg, #FF8800, #ffff33);
+  color: #fff;
+}
+
+#table1_1.active {animation: flash 11s 2 forwards}
+#table1_2.active {animation: flash 11s 2 forwards 2.7s}
+#table1_3.active {animation: flash 11s 2 forwards 5.5s}
+#table1_4.active {animation: flash 11s 2 forwards 8.3s}
+@keyframes flash {
+  0% {
+    background: linear-gradient(25deg, #ff3, #ffffe6);
+    color: #333;
+    animation-timing-function: ease-in
+  }
+  26% {
+    background: linear-gradient(25deg, #ff3, #ffffe6);
+    color: #333;
+    animation-timing-function: ease-out
+  }
+
+  26% {
+    color: #fff;
+    background: transparent
+  }
+}
+
+#table1_1.active2 {animation: flash2 11s 2 forwards}
+#table1_2.active2 {animation: flash2 11s 2 forwards 2.7s}
+#table1_3.active2 {animation: flash2 11s 2 forwards 5.5s}
+#table1_4.active2 {animation: flash2 11s 2 forwards 8.3s}
+@keyframes flash2 {
+  0% {
+    background: linear-gradient(25deg, #ff3, #ffffe6);
+    color: #333;
+    animation-timing-function: ease-in
+  }
+  26% {
+    background: linear-gradient(25deg, #ff3, #ffffe6);
+    color: #333;
+    animation-timing-function: ease-out
+  }
+
+  26% {
+    color: #fff;
+    background: transparent
+  }
 }
 
 .box_btn {

@@ -4,7 +4,9 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
-
+a{
+  color: #a89869;
+}
 .color-blue, .color-blue b, .color-blue a {
   background: linear-gradient(25deg, #a89869, #ffffe6);
   -webkit-background-clip: text;

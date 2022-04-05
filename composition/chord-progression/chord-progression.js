@@ -263,192 +263,236 @@ function sd2(){
   document.querySelector("#sd2").classList.remove("click");
 }
 
-$(function() {
-  $("#c_05").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎C");
-      $("#audioC")[0].pause();
 
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■C");
-      $("#audioC")[0].currentTime = 0;
-      $("#audioC")[0].play();
-      $("#c_10c1").addClass("play1");
-      $("#c_10c2").addClass("play1");
-      $("#c_10e").addClass("play1");
-      $("#c_10g").addClass("play1");
-      $("#c_10_1").addClass("play1");
-      $("#c_10_2").addClass("play1");
-      $("#c_10_3").addClass("play1");
-      $("#c_10_4").addClass("play1");
-    };
-  });
-});
+document.querySelector("#c_05").onclick = function() {
+  if (this.classList.contains("active")) {
+    this.classList.remove("active");
+    this.innerHTML = "▶︎C";
+    document.querySelector("#audioC").pause();
+
+  }else {
+    this.classList.add("active");
+    this.innerHTML = "■C";
+    document.querySelector("#audioC").currentTime = 0;
+    document.querySelector("#audioC").play();
+    document.querySelector("#c_10c1").classList.add("play1");
+    document.querySelector("#c_10c2").classList.add("play1");
+    document.querySelector("#c_10e").classList.add("play1");
+    document.querySelector("#c_10g").classList.add("play1");
+    document.querySelector("#c_10_1").classList.add("play1");
+    document.querySelector("#c_10_2").classList.add("play1");
+    document.querySelector("#c_10_3").classList.add("play1");
+    document.querySelector("#c_10_4").classList.add("play1");
+  };
+};
+
 document.querySelector("#audioC").onpause = function(){
   document.querySelector("#c_05").classList.remove("active");
   document.querySelector("#c_05").innerHTML = "▶︎C";
-  $("#c_10c1").removeClass("play1");
-  $("#c_10c2").removeClass("play1");
-  $("#c_10e").removeClass("play1");
-  $("#c_10g").removeClass("play1");
-  $("#c_10_1").removeClass("play1");
-  $("#c_10_2").removeClass("play1");
-  $("#c_10_3").removeClass("play1");
-  $("#c_10_4").removeClass("play1");
+  document.querySelector("#c_10c1").classList.remove("play1");
+  document.querySelector("#c_10c2").classList.remove("play1");
+  document.querySelector("#c_10e").classList.remove("play1");
+  document.querySelector("#c_10g").classList.remove("play1");
+  document.querySelector("#c_10_1").classList.remove("play1");
+  document.querySelector("#c_10_2").classList.remove("play1");
+  document.querySelector("#c_10_3").classList.remove("play1");
+  document.querySelector("#c_10_4").classList.remove("play1");
 };
 
-$(function() {
-  $("#cm").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎Cm");
-      $("#audioCm")[0].pause();
+document.querySelector("#cm").onclick = function() {
+      if (this.classList.contains("active")) {
+      this.classList.remove("active");
+      this.innerHTML = "▶︎Cm";
+      document.querySelector("#audioCm").pause();
 
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■Cm");
-      $("#audioCm")[0].currentTime = 0;
-      $("#audioCm")[0].play();
-      $("#mc1").addClass("play1");
-      $("#mc2").addClass("play1");
-      $("#meb1").addClass("play1");
-      $("#meb2").addClass("play1");
-      $("#mg").addClass("play1");
-      $("#m1").addClass("play1");
-      $("#m2").addClass("play1");
-      $("#m3").addClass("play1");
-      $("#m4").addClass("play1");
-      $("#m5").addClass("play1");
+    }else {
+      this.classList.add("active");
+      this.innerHTML = "■Cm";
+      document.querySelector("#audioCm").currentTime = 0;
+      document.querySelector("#audioCm").play();
+      document.querySelector("#mc1").classList.add("play1");
+      document.querySelector("#mc2").classList.add("play1");
+      document.querySelector("#meb1").classList.add("play1");
+      document.querySelector("#meb2").classList.add("play1");
+      document.querySelector("#mg").classList.add("play1");
+      document.querySelector("#m1").classList.add("play1");
+      document.querySelector("#m2").classList.add("play1");
+      document.querySelector("#m3").classList.add("play1");
+      document.querySelector("#m4").classList.add("play1");
+      document.querySelector("#m5").classList.add("play1");
     };
-  });
-});
+  };
+
 document.querySelector("#audioCm").onpause = function(){
   document.querySelector("#cm").classList.remove("active");
   document.querySelector("#cm").innerHTML = "▶︎Cm";
-  $("#mc1").removeClass("play1");
-  $("#mc2").removeClass("play1");
-  $("#meb1").removeClass("play1");
-  $("#meb2").removeClass("play1");
-  $("#mg").removeClass("play1");
-  $("#m1").removeClass("play1");
-  $("#m2").removeClass("play1");
-  $("#m3").removeClass("play1");
-  $("#m4").removeClass("play1");
-  $("#m5").removeClass("play1");
+  document.querySelector("#mc1").classList.remove("play1");
+  document.querySelector("#mc2").classList.remove("play1");
+  document.querySelector("#meb1").classList.remove("play1");
+  document.querySelector("#meb2").classList.remove("play1");
+  document.querySelector("#mg").classList.remove("play1");
+  document.querySelector("#m1").classList.remove("play1");
+  document.querySelector("#m2").classList.remove("play1");
+  document.querySelector("#m3").classList.remove("play1");
+  document.querySelector("#m4").classList.remove("play1");
+  document.querySelector("#m5").classList.remove("play1");
 };
 
-$(function() {
-  $("#cadd9").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎Cadd9");
-      $("#audioCadd9")[0].pause();
+  document.querySelector("#cadd9").onclick = function () {
+    if (this.classList.contains("active")) {
+      this.classList.remove("active");
+      this.textContent = "▶︎Cadd9";
+      document.querySelector("#audioCadd9").pause();
 
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■Cadd9");
-      $("#audioCadd9")[0].currentTime = 0;
-      $("#audioCadd9")[0].play();
-      $("#add9c_1").addClass("play1");
-      $("#add9c_2").addClass("play1");
-      $("#add9d").addClass("play1");
-      $("#add9e").addClass("play1");
-      $("#add9g").addClass("play1");
-      $("#add9_1").addClass("play1");
-      $("#add9_2").addClass("play1");
-      $("#add9_3").addClass("play1");
-      $("#add9_4").addClass("play1");
-      $("#add9_5").addClass("play1");
+    }else{
+      this.classList.add("active");
+      this.textContent = "■Cadd9";
+      document.querySelector("#audioCadd9").currentTime = 0;
+      document.querySelector("#audioCadd9").play();
+      document.querySelector("#add9c_1").classList.add("play1");
+      document.querySelector("#add9c_2").classList.add("play1");
+      document.querySelector("#add9d").classList.add("play1");
+      document.querySelector("#add9e").classList.add("play1");
+      document.querySelector("#add9g").classList.add("play1");
+      document.querySelector("#add9_1").classList.add("play1");
+      document.querySelector("#add9_2").classList.add("play1");
+      document.querySelector("#add9_3").classList.add("play1");
+      document.querySelector("#add9_4").classList.add("play1");
+      document.querySelector("#add9_5").classList.add("play1");
     };
-  });
-});
+  };
 document.querySelector("#audioCadd9").onpause = function(){
   document.querySelector("#cadd9").classList.remove("active");
   document.querySelector("#cadd9").innerHTML = "▶︎Cadd9";
-  $("#add9c_1").removeClass("play1");
-  $("#add9c_2").removeClass("play1");
-  $("#add9d").removeClass("play1");
-  $("#add9e").removeClass("play1");
-  $("#add9g").removeClass("play1");
-  $("#add9_1").removeClass("play1");
-  $("#add9_2").removeClass("play1");
-  $("#add9_3").removeClass("play1");
-  $("#add9_4").removeClass("play1");
-  $("#add9_5").removeClass("play1");
+  document.querySelector("#add9c_1").classList.remove("play1");
+  document.querySelector("#add9c_2").classList.remove("play1");
+  document.querySelector("#add9d").classList.remove("play1");
+  document.querySelector("#add9e").classList.remove("play1");
+  document.querySelector("#add9g").classList.remove("play1");
+  document.querySelector("#add9_1").classList.remove("play1");
+  document.querySelector("#add9_2").classList.remove("play1");
+  document.querySelector("#add9_3").classList.remove("play1");
+  document.querySelector("#add9_4").classList.remove("play1");
+  document.querySelector("#add9_5").classList.remove("play1");
 };
 
-$(function() {
-  $("#csus2").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎Csus2");
-      $("#audioCsus2")[0].pause();
+document.querySelector("#csus2").onclick = function () {
+  if (this.classList.contains("active")) {
+    this.classList.remove("active");
+    this.textContent = "▶︎Csus2";
+    document.querySelector("#audioCsus2").pause();
 
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■Csus2");
-      $("#audioCsus2")[0].currentTime = 0;
-      $("#audioCsus2")[0].play();
-      $("#sus2c_1").addClass("play1");
-      $("#sus2c_2").addClass("play1");
-      $("#sus2d").addClass("play1");
-      $("#sus2g").addClass("play1");
-      $("#sus2_1").addClass("play1");
-      $("#sus2_2").addClass("play1");
-      $("#sus2_3").addClass("play1");
-      $("#sus2_4").addClass("play1");
-    };
-  });
-});
+  }else {
+    this.classList.add("active");
+    this.textContent = "■Csus2";
+    document.querySelector("#audioCsus2").currentTime = 0;
+    document.querySelector("#audioCsus2").play();
+    document.querySelector("#sus2c_1").classList.add("play1");
+    document.querySelector("#sus2c_2").classList.add("play1");
+    document.querySelector("#sus2d").classList.add("play1");
+    document.querySelector("#sus2g").classList.add("play1");
+    document.querySelector("#sus2_1").classList.add("play1");
+    document.querySelector("#sus2_2").classList.add("play1");
+    document.querySelector("#sus2_3").classList.add("play1");
+    document.querySelector("#sus2_4").classList.add("play1");
+  };
+};
+
 document.querySelector("#audioCsus2").onpause = function(){
   document.querySelector("#csus2").classList.remove("active");
   document.querySelector("#csus2").innerHTML = "▶︎Csus2";
-  $("#sus2c_1").removeClass("play1");
-  $("#sus2c_2").removeClass("play1");
-  $("#sus2d").removeClass("play1");
-  $("#sus2g").removeClass("play1");
-  $("#sus2_1").removeClass("play1");
-  $("#sus2_2").removeClass("play1");
-  $("#sus2_3").removeClass("play1");
-  $("#sus2_4").removeClass("play1");
+  document.querySelector("#sus2c_1").classList.remove("play1");
+  document.querySelector("#sus2c_2").classList.remove("play1");
+  document.querySelector("#sus2d").classList.remove("play1");
+  document.querySelector("#sus2g").classList.remove("play1");
+  document.querySelector("#sus2_1").classList.remove("play1");
+  document.querySelector("#sus2_2").classList.remove("play1");
+  document.querySelector("#sus2_3").classList.remove("play1");
+  document.querySelector("#sus2_4").classList.remove("play1");
 };
 
-$(function() {
-  $("#csus4").click(function(){
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      $(this).text("▶︎Csus4");
-      $("#audioCsus4")[0].pause();
+document.querySelector("#csus4").onclick = function () {
+  if (this.classList.contains("active")) {
+    this.classList.remove("active");
+    this.textContent = "▶︎Csus4";
+    document.querySelector("#audioCsus4").pause();
 
-    }else if (!$(this).hasClass("active")) {
-      $(this).addClass("active");
-      $(this).text("■Csus4");
-      $("#audioCsus4")[0].currentTime = 0;
-      $("#audioCsus4")[0].play();
-      $("#sus4c_1").addClass("play1");
-      $("#sus4c_2").addClass("play1");
-      $("#sus4f").addClass("play1");
-      $("#sus4g").addClass("play1");
-      $("#sus4_1").addClass("play1");
-      $("#sus4_2").addClass("play1");
-      $("#sus4_3").addClass("play1");
-      $("#sus4_4").addClass("play1");
-    };
-  });
-});
+  }else {
+    this.classList.add("active");
+    this.textContent = "■Csus4";
+    document.querySelector("#audioCsus4").currentTime = 0;
+    document.querySelector("#audioCsus4").play();
+    document.querySelector("#sus4c_1").classList.add("play1");
+    document.querySelector("#sus4c_2").classList.add("play1");
+    document.querySelector("#sus4f").classList.add("play1");
+    document.querySelector("#sus4g").classList.add("play1");
+    document.querySelector("#sus4_1").classList.add("play1");
+    document.querySelector("#sus4_2").classList.add("play1");
+    document.querySelector("#sus4_3").classList.add("play1");
+    document.querySelector("#sus4_4").classList.add("play1");
+  };
+};
+
 document.querySelector("#audioCsus4").onpause = function(){
   document.querySelector("#csus4").classList.remove("active");
   document.querySelector("#csus4").innerHTML = "▶︎Csus4";
-  $("#sus4c_1").removeClass("play1");
-  $("#sus4c_2").removeClass("play1");
-  $("#sus4f").removeClass("play1");
-  $("#sus4g").removeClass("play1");
-  $("#sus4_1").removeClass("play1");
-  $("#sus4_2").removeClass("play1");
-  $("#sus4_3").removeClass("play1");
-  $("#sus4_4").removeClass("play1");
+  document.querySelector("#sus4c_1").classList.remove("play1");
+  document.querySelector("#sus4c_2").classList.remove("play1");
+  document.querySelector("#sus4f").classList.remove("play1");
+  document.querySelector("#sus4g").classList.remove("play1");
+  document.querySelector("#sus4_1").classList.remove("play1");
+  document.querySelector("#sus4_2").classList.remove("play1");
+  document.querySelector("#sus4_3").classList.remove("play1");
+  document.querySelector("#sus4_4").classList.remove("play1");
+};
+
+document.querySelector("#piano1").onclick = function(){
+  this.classList.toggle("active");
+  document.querySelector("#arrange1465").pause();
+  document.querySelector("#arrange1").classList.remove("active");
+  document.querySelector("#table1_1").classList.remove("active2");
+  document.querySelector("#table1_2").classList.remove("active2");
+  document.querySelector("#table1_3").classList.remove("active2");
+  document.querySelector("#table1_4").classList.remove("active2");
+
+  if (this.classList.contains("active")) {
+    document.querySelector("#piano1465").currentTime = 0;
+    document.querySelector("#piano1465").play();
+    document.querySelector("#table1_1").classList.add("active");
+    document.querySelector("#table1_2").classList.add("active");
+    document.querySelector("#table1_3").classList.add("active");
+    document.querySelector("#table1_4").classList.add("active");
+  }else {
+    document.querySelector("#piano1465").pause();
+    document.querySelector("#table1_1").classList.remove("active");
+    document.querySelector("#table1_2").classList.remove("active");
+    document.querySelector("#table1_3").classList.remove("active");
+    document.querySelector("#table1_4").classList.remove("active");
+  }
+};
+document.querySelector("#arrange1").onclick = function(){
+  this.classList.toggle("active");
+  document.querySelector("#piano1465").pause();
+  document.querySelector("#piano1").classList.remove("active");
+  document.querySelector("#table1_1").classList.remove("active");
+  document.querySelector("#table1_2").classList.remove("active");
+  document.querySelector("#table1_3").classList.remove("active");
+  document.querySelector("#table1_4").classList.remove("active");
+
+  if (this.classList.contains("active")) {
+    document.querySelector("#arrange1465").currentTime = 0;
+    document.querySelector("#arrange1465").play();
+    document.querySelector("#table1_1").classList.add("active2");
+    document.querySelector("#table1_2").classList.add("active2");
+    document.querySelector("#table1_3").classList.add("active2");
+    document.querySelector("#table1_4").classList.add("active2");
+  }else {
+    document.querySelector("#arrange1465").pause();
+    document.querySelector("#table1_1").classList.remove("active2");
+    document.querySelector("#table1_2").classList.remove("active2");
+    document.querySelector("#table1_3").classList.remove("active2");
+    document.querySelector("#table1_4").classList.remove("active2");
+  }
 };
 
 $(function() {
