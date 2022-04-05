@@ -458,18 +458,29 @@ document.querySelector("#piano1").onclick = function(){
   if (this.classList.contains("active")) {
     document.querySelector("#piano1465").currentTime = 0;
     document.querySelector("#piano1465").play();
+    document.querySelector("#piano1").innerHTML = "■ピアノ";
     document.querySelector("#table1_1").classList.add("active");
     document.querySelector("#table1_2").classList.add("active");
     document.querySelector("#table1_3").classList.add("active");
     document.querySelector("#table1_4").classList.add("active");
   }else {
     document.querySelector("#piano1465").pause();
+    document.querySelector("#piano1").innerHTML = "▶︎ピアノ";
     document.querySelector("#table1_1").classList.remove("active");
     document.querySelector("#table1_2").classList.remove("active");
     document.querySelector("#table1_3").classList.remove("active");
     document.querySelector("#table1_4").classList.remove("active");
   }
 };
+document.querySelector("#piano1465").addEventListener('ended', function() {
+    document.querySelector("#piano1").classList.remove("active");
+    document.querySelector("#piano1").innerHTML = "▶︎ピアノ";
+    document.querySelector("#table1_1").classList.remove("active");
+    document.querySelector("#table1_2").classList.remove("active");
+    document.querySelector("#table1_3").classList.remove("active");
+    document.querySelector("#table1_4").classList.remove("active");
+});
+
 document.querySelector("#arrange1").onclick = function(){
   this.classList.toggle("active");
   document.querySelector("#piano1465").pause();
@@ -482,18 +493,137 @@ document.querySelector("#arrange1").onclick = function(){
   if (this.classList.contains("active")) {
     document.querySelector("#arrange1465").currentTime = 0;
     document.querySelector("#arrange1465").play();
+    document.querySelector("#arrange1").innerHTML = "■アレンジ";
     document.querySelector("#table1_1").classList.add("active2");
     document.querySelector("#table1_2").classList.add("active2");
     document.querySelector("#table1_3").classList.add("active2");
     document.querySelector("#table1_4").classList.add("active2");
   }else {
     document.querySelector("#arrange1465").pause();
+    document.querySelector("#arrange1").innerHTML = "▶︎アレンジ";
     document.querySelector("#table1_1").classList.remove("active2");
     document.querySelector("#table1_2").classList.remove("active2");
     document.querySelector("#table1_3").classList.remove("active2");
     document.querySelector("#table1_4").classList.remove("active2");
   }
 };
+document.querySelector("#arrange1465").addEventListener('ended', function() {
+    document.querySelector("#arrange1").classList.remove("active");
+    document.querySelector("#arrange1").innerHTML = "▶︎アレンジ";
+    document.querySelector("#table1_1").classList.remove("active2");
+    document.querySelector("#table1_2").classList.remove("active2");
+    document.querySelector("#table1_3").classList.remove("active2");
+    document.querySelector("#table1_4").classList.remove("active2");
+});
+
+
+document.querySelector("#piano2").onclick = function(){
+  this.classList.toggle("active");
+  document.querySelector("#pianoAnimeSong").pause();
+  document.querySelector("#arrangeAnimeSong").classList.remove("active");
+  document.querySelector("#table2_1").classList.remove("active2");
+  document.querySelector("#table2_2").classList.remove("active2");
+  document.querySelector("#table2_3").classList.remove("active2");
+  document.querySelector("#table2_4").classList.remove("active2");
+  document.querySelector("#table2_5").classList.remove("active2");
+  document.querySelector("#table2_6").classList.remove("active2");
+  document.querySelector("#table2_7").classList.remove("active2");
+  document.querySelector("#table2_8").classList.remove("active2");
+  document.querySelector("#table2_9").classList.remove("active2");
+  if (this.classList.contains("active")) {
+    document.querySelector("#pianoAnimeSong").currentTime = 0;
+    document.querySelector("#pianoAnimeSong").play();
+    document.querySelector("#piano2").innerHTML = "■ピアノ";
+    document.querySelector("#table2_1").classList.add("active");
+    document.querySelector("#table2_2").classList.add("active");
+    document.querySelector("#table2_3").classList.add("active");
+    document.querySelector("#table2_4").classList.add("active");
+    document.querySelector("#table2_5").classList.add("active");
+    document.querySelector("#table2_6").classList.add("active");
+    document.querySelector("#table2_7").classList.add("active");
+    document.querySelector("#table2_8").classList.add("active");
+    document.querySelector("#table2_9").classList.add("active");
+  }else {
+    document.querySelector("#pianoAnimeSong").pause();
+    document.querySelector("#piano2").innerHTML = "▶︎ピアノ";
+    document.querySelector("#table2_1").classList.remove("active");
+    document.querySelector("#table2_2").classList.remove("active");
+    document.querySelector("#table2_3").classList.remove("active");
+    document.querySelector("#table2_4").classList.remove("active");
+    document.querySelector("#table2_5").classList.remove("active");
+    document.querySelector("#table2_6").classList.remove("active");
+    document.querySelector("#table2_7").classList.remove("active");
+    document.querySelector("#table2_8").classList.remove("active");
+    document.querySelector("#table2_9").classList.remove("active");
+  }
+};
+document.querySelector("#pianoAnimeSong").addEventListener('ended', function() {
+    document.querySelector("#piano2").classList.remove("active");
+    document.querySelector("#piano2").innerHTML = "▶︎ピアノ";
+    document.querySelector("#table2_1").classList.remove("active");
+    document.querySelector("#table2_2").classList.remove("active");
+    document.querySelector("#table2_3").classList.remove("active");
+    document.querySelector("#table2_4").classList.remove("active");
+    document.querySelector("#table2_5").classList.remove("active");
+    document.querySelector("#table2_6").classList.remove("active");
+    document.querySelector("#table2_7").classList.remove("active");
+    document.querySelector("#table2_8").classList.remove("active");
+    document.querySelector("#table2_9").classList.remove("active");
+});
+
+document.querySelector("#arrange2").onclick = function(){
+  this.classList.toggle("active");
+  document.querySelector("#arrangeAnimeSong").pause();
+  document.querySelector("#pianoAnimeSong").classList.remove("active");
+  document.querySelector("#table2_1").classList.remove("active");
+  document.querySelector("#table2_2").classList.remove("active");
+  document.querySelector("#table2_3").classList.remove("active");
+  document.querySelector("#table2_4").classList.remove("active");
+  document.querySelector("#table2_5").classList.remove("active");
+  document.querySelector("#table2_6").classList.remove("active");
+  document.querySelector("#table2_7").classList.remove("active");
+  document.querySelector("#table2_8").classList.remove("active");
+  document.querySelector("#table2_9").classList.remove("active");
+  if (this.classList.contains("active")) {
+    document.querySelector("#arrangeAnimeSong").currentTime = 0;
+    document.querySelector("#arrangeAnimeSong").play();
+    document.querySelector("#arrange2").innerHTML = "■アレンジ";
+    document.querySelector("#table2_1").classList.add("active2");
+    document.querySelector("#table2_2").classList.add("active2");
+    document.querySelector("#table2_3").classList.add("active2");
+    document.querySelector("#table2_4").classList.add("active2");
+    document.querySelector("#table2_5").classList.add("active2");
+    document.querySelector("#table2_6").classList.add("active2");
+    document.querySelector("#table2_7").classList.add("active2");
+    document.querySelector("#table2_8").classList.add("active2");
+    document.querySelector("#table2_9").classList.add("active2");
+  }else {
+    document.querySelector("#arrangeAnimeSong").pause();
+    document.querySelector("#arrange2").innerHTML = "▶︎アレンジ";
+    document.querySelector("#table2_1").classList.remove("active2");
+    document.querySelector("#table2_2").classList.remove("active2");
+    document.querySelector("#table2_3").classList.remove("active2");
+    document.querySelector("#table2_4").classList.remove("active2");
+    document.querySelector("#table2_5").classList.remove("active2");
+    document.querySelector("#table2_6").classList.remove("active2");
+    document.querySelector("#table2_7").classList.remove("active2");
+    document.querySelector("#table2_8").classList.remove("active2");
+    document.querySelector("#table2_9").classList.remove("active2");
+  }
+};
+document.querySelector("#arrangeAnimeSong").addEventListener('ended', function() {
+    document.querySelector("#arrange2").classList.remove("active");
+    document.querySelector("#arrange2").innerHTML = "▶︎アレンジ";
+    document.querySelector("#table2_1").classList.remove("active2");
+    document.querySelector("#table2_2").classList.remove("active2");
+    document.querySelector("#table2_3").classList.remove("active2");
+    document.querySelector("#table2_4").classList.remove("active2");
+    document.querySelector("#table2_5").classList.remove("active2");
+    document.querySelector("#table2_6").classList.remove("active2");
+    document.querySelector("#table2_7").classList.remove("active2");
+    document.querySelector("#table2_8").classList.remove("active2");
+    document.querySelector("#table2_9").classList.remove("active2");
+});
 
 $(function() {
   $("#box1_1").click(function(){
