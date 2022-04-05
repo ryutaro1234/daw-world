@@ -519,8 +519,9 @@ document.querySelector("#arrange1465").addEventListener('ended', function() {
 
 document.querySelector("#piano2").onclick = function(){
   this.classList.toggle("active");
-  document.querySelector("#pianoAnimeSong").pause();
-  document.querySelector("#arrangeAnimeSong").classList.remove("active");
+  document.querySelector("#arrangeAnimeSong").pause();
+  document.querySelector("#arrange2").innerHTML = "▶︎アレンジ";
+  document.querySelector("#arrange2").classList.remove("active");
   document.querySelector("#table2_1").classList.remove("active2");
   document.querySelector("#table2_2").classList.remove("active2");
   document.querySelector("#table2_3").classList.remove("active2");
@@ -573,8 +574,9 @@ document.querySelector("#pianoAnimeSong").addEventListener('ended', function() {
 
 document.querySelector("#arrange2").onclick = function(){
   this.classList.toggle("active");
-  document.querySelector("#arrangeAnimeSong").pause();
-  document.querySelector("#pianoAnimeSong").classList.remove("active");
+  document.querySelector("#pianoAnimeSong").pause();
+  document.querySelector("#piano2").innerHTML = "▶︎ピアノ";
+  document.querySelector("#piano2").classList.remove("active");
   document.querySelector("#table2_1").classList.remove("active");
   document.querySelector("#table2_2").classList.remove("active");
   document.querySelector("#table2_3").classList.remove("active");

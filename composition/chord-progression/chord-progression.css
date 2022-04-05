@@ -697,16 +697,16 @@ audio {
   }
 }
 
-#table2_1.active2 {animation: flash3 10.5s 2 forwards 1.5s}
-#table2_2.active2 {animation: flash3 10.5s 2 forwards 2.5s}
-#table2_3.active2 {animation: flash3 10.5s 2 forwards 4s}
-#table2_4.active2 {animation: flash4 10.5s 2 forwards 5.2s}
-#table2_5.active2 {animation: flash4 10.5s 2 forwards 6s}
-#table2_6.active2 {animation: flash3 10.5s 2 forwards 6.7s}
-#table2_7.active2 {animation: flash3 10.5s 2 forwards 8s}
-#table2_8.active2 {animation: flash3 10.5s 2 forwards 9.5s}
-#table2_9.active2 {animation: flash3 10.5s 2 forwards 10.5s}
-@keyframes flash3 {
+#table2_1.active2 {animation: flash5 10.5s 2 forwards 1.5s}
+#table2_2.active2 {animation: flash5 10.5s 2 forwards 2.5s}
+#table2_3.active2 {animation: flash5 10.5s 2 forwards 4s}
+#table2_4.active2 {animation: flash6 10.5s 2 forwards 5.2s}
+#table2_5.active2 {animation: flash6 10.5s 2 forwards 6s}
+#table2_6.active2 {animation: flash5 10.5s 2 forwards 6.7s}
+#table2_7.active2 {animation: flash5 10.5s 2 forwards 8s}
+#table2_8.active2 {animation: flash5 10.5s 2 forwards 9.5s}
+#table2_9.active2 {animation: flash5 10.5s 2 forwards 10.5s}
+@keyframes flash5 {
   0% {
     background: linear-gradient(25deg, #ff3, #ffffe6);
     color: #333;
@@ -723,7 +723,7 @@ audio {
     background: transparent
   }
 }
-@keyframes flash4 {
+@keyframes flash6 {
   0% {
     background: linear-gradient(25deg, #ff3, #ffffe6);
     color: #333;
