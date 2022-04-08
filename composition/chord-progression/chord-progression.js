@@ -648,7 +648,6 @@ document.querySelector("#box2_1").onclick = function() {
     document.querySelector("#box2_3").classList.remove("active");
   }
 };
-
 document.querySelector("#box2_2").onclick = function() {
   if (this.classList.contains("active")) {
   } else {
@@ -657,7 +656,6 @@ document.querySelector("#box2_2").onclick = function() {
     document.querySelector("#box2_3").classList.remove("active");
   }
 };
-
 document.querySelector("#box2_3").onclick = function() {
   if (this.classList.contains("active")) {
   } else {
