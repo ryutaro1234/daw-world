@@ -165,7 +165,7 @@ document.querySelector("#play01").onclick = function() {
       }else {
         if (document.querySelector("#box2_1").classList.contains("active")) {
           if (document.querySelector("#box3_1").classList.contains("active")) {
-            document.querySelector("#audio0_1_1").play()
+            document.querySelector("#audio0_1_1").play();
             document.querySelector("#box2_1").classList.add("play");
             document.querySelector("#box3_1").classList.add("play");
           }else {
