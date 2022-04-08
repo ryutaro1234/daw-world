@@ -642,7 +642,6 @@ document.querySelector("#box1_1").onclick = function() {
 
 document.querySelector("#box2_1").onclick = function() {
   if (this.classList.contains("active")) {
-    this.classList.remove("active")
   } else {
     this.classList.add("active");
     document.querySelector("#box2_2").classList.remove("active");
@@ -652,7 +651,6 @@ document.querySelector("#box2_1").onclick = function() {
 
 document.querySelector("#box2_2").onclick = function() {
   if (this.classList.contains("active")) {
-    this.classList.remove("active")
   } else {
     this.classList.add("active");
     document.querySelector("#box2_1").classList.remove("active");
@@ -662,7 +660,6 @@ document.querySelector("#box2_2").onclick = function() {
 
 document.querySelector("#box2_3").onclick = function() {
   if (this.classList.contains("active")) {
-    this.classList.remove("active")
   } else {
     this.classList.add("active");
     document.querySelector("#box2_1").classList.remove("active");
